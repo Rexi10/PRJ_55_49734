@@ -1,0 +1,22 @@
+Tabela de Requisitos/Funcionalidades do Sistema
+Número	Requisito/Funcionalidade	Categoria	Descrição
+1	Realizar login de usuário	Visível	Permitir que policiais autentiquem no sistema com nome de usuário e senha.
+2	Validar credenciais de login	Invisível	Verificar se as credenciais fornecidas são válidas e correspondem a um usuário autorizado.
+3	Buscar informações em casos antigos	Visível	Permitir que o usuário insira uma consulta e receba resultados relevantes.
+4	Realizar busca semântica	Invisível	Usar técnicas de processamento de linguagem natural (NLP) para entender o contexto da consulta.
+5	Recuperar documentos relevantes	Invisível	Acessar o banco de dados externo para encontrar documentos relacionados à consulta.
+6	Gerar respostas resumidas	Invisível	Usar modelos de geração de texto para criar respostas concisas com base nos documentos.
+7	Exibir resultados da busca	Visível	Mostrar os resultados da busca (documentos e respostas geradas) de forma clara e organizada.
+8	Permitir feedback sobre os resultados	Visível	Permitir que o usuário avalie a relevância e precisão dos resultados.
+9	Atualizar base de conhecimento	Invisível	Adicionar novos casos ou corrigir informações existentes na base de dados.
+10	Monitorar desempenho do sistema	Invisível	Coletar métricas sobre tempo de resposta, precisão e uso do sistema.
+11	Gerenciar níveis de acesso	Invisível	Controlar quais usuários têm acesso a quais informações (ex: restrição por nível hierárquico).
+12	Registrar logs de atividades	Invisível	Manter um registro de todas as buscas e acessos para auditoria e segurança.
+13	Recuperar senha	Visível	Permitir que usuários redefinam suas senhas em caso de esquecimento.
+14	Notificar tempo de sessão expirada	Visível	Alertar o usuário quando a sessão estiver prestes a expirar.
+15	Integrar com diretórios corporativos (LDAP/AD)	Invisível	Sincronizar usuários e permissões com sistemas de autenticação corporativos.
+16	Classificar documentos por relevância	Invisível	Ordenar os resultados da busca com base na relevância semântica.
+17	Oferecer sugestões de consulta	Visível	Sugerir termos ou frases de busca com base em consultas anteriores.
+18	Exportar resultados da busca	Visível	Permitir que o usuário exporte os resultados para PDF, CSV ou outros formatos.
+19	Garantir criptografia de dados	Invisível	Proteger dados sensíveis com criptografia durante transmissão e armazenamento.
+20	Fornecer dashboard de métricas	Visível	Exibir estatísticas de uso e desempenho para administradores.
