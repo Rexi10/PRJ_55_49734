@@ -1,4 +1,3 @@
-# Ficheiro: DocsParser.py
 import logging
 import re
 from typing import Dict, Optional

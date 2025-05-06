@@ -6275,3 +6275,93 @@ Name: Violent Retaliation_ Red Wolves Slaughter Business Owners Refusing to Pay 
 Name: Cartel War_ Rivals Caught in Crossfire of Nightshade Cartel Drug War.txt, Similarity: 0.48448431491851807, Location: ./documents\incident_reports\Cartel War_ Rivals Caught in Crossfire of Nightshade Cartel Drug War.txt
 Name: TARtrabalho2v1.pdf, Similarity: 0.4802667498588562, Location: ./documents\pdfs\TARtrabalho2v1.pdf
 2025-05-05 01:06:18,465 INFO: 127.0.0.1 - - [05/May/2025 01:06:18] "POST /query HTTP/1.1" 200 -
+2025-05-06 16:03:01,294 INFO: Starting Flask application
+2025-05-06 16:03:02,582 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-06 16:03:02,582 INFO: [33mPress CTRL+C to quit[0m
+2025-05-06 16:03:12,329 INFO: Serving React frontend
+2025-05-06 16:03:12,350 INFO: 127.0.0.1 - - [06/May/2025 16:03:12] "GET / HTTP/1.1" 200 -
+2025-05-06 16:03:12,710 INFO: Received startup request
+2025-05-06 16:03:12,710 INFO: Starting up: processing all documents
+2025-05-06 16:03:12,710 INFO: Processing documents from all subfolders
+2025-05-06 16:03:12,710 INFO: Resetting FAISS index
+2025-05-06 16:03:12,710 INFO: Fetching documents from all subfolders
+2025-05-06 16:03:12,710 INFO: Reading documents from ./documents and its subfolders
+2025-05-06 16:03:12,711 INFO: Found 111 supported files in ./documents
+2025-05-06 16:03:14,201 INFO: Fetched 111 documents
+2025-05-06 16:03:19,620 INFO: Processed 111 documents with embeddings
+2025-05-06 16:03:19,620 INFO: Startup completed: processed 111 documents
+2025-05-06 16:03:19,620 INFO: Startup response: {'message': 'Processed 111 documents'}
+2025-05-06 16:03:19,620 INFO: 127.0.0.1 - - [06/May/2025 16:03:19] "GET /startup HTTP/1.1" 200 -
+2025-05-06 16:03:27,034 INFO: Received query request
+2025-05-06 16:03:27,034 INFO: Processing query: armed crime with k=3
+2025-05-06 16:03:27,140 INFO: Query returned 3 results
+2025-05-06 16:03:27,140 INFO: Query response:
+Name: Gun-Running Operation Exposed_ Silver Fangs Use Firepower to Protect Black Market.txt, Similarity: 0.6751248836517334, Location: ./documents\incident_reports\Gun-Running Operation Exposed_ Silver Fangs Use Firepower to Protect Black Market.txt
+Name: Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt, Similarity: 0.6657546758651733, Location: ./documents\incident_reports\Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt
+Name: Armed and Dangerous_ Crimson Talons Target Corporate Security with Heavy Firepower.txt, Similarity: 0.661278486251831, Location: ./documents\incident_reports\Armed and Dangerous_ Crimson Talons Target Corporate Security with Heavy Firepower.txt
+2025-05-06 16:03:27,141 INFO: 127.0.0.1 - - [06/May/2025 16:03:27] "POST /query HTTP/1.1" 200 -
+2025-05-06 16:03:29,572 INFO: Received download request for Gun-Running Operation Exposed_ Silver Fangs Use Firepower to Protect Black Market.txt
+2025-05-06 16:03:29,574 INFO: Sending file: C:\Users\tange\Desktop\PRJ_55_49734\03_Implementacao\SemanticSearch\documents\incident_reports\Gun-Running Operation Exposed_ Silver Fangs Use Firepower to Protect Black Market.txt
+2025-05-06 16:03:29,621 INFO: 127.0.0.1 - - [06/May/2025 16:03:29] "GET /download/Gun-Running%20Operation%20Exposed_%20Silver%20Fangs%20Use%20Firepower%20to%20Protect%20Black%20Market.txt HTTP/1.1" 200 -
+2025-05-06 16:04:17,835 INFO: Received query request
+2025-05-06 16:04:17,835 INFO: Processing query: snowman with k=3
+2025-05-06 16:04:17,853 INFO: Query returned 3 results
+2025-05-06 16:04:17,854 INFO: Query response:
+Name: Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Similarity: 0.4400636851787567, Location: ./documents\incident_reports\Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt
+Name: Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt, Similarity: 0.43523406982421875, Location: ./documents\incident_reports\Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt
+Name: Hostage Situation Ends in Bloodshed as Red Wolves Defy Authorities.txt, Similarity: 0.43052154779434204, Location: ./documents\incident_reports\Hostage Situation Ends in Bloodshed as Red Wolves Defy Authorities.txt
+2025-05-06 16:04:17,854 INFO: 127.0.0.1 - - [06/May/2025 16:04:17] "POST /query HTTP/1.1" 200 -
+2025-05-06 16:04:26,463 INFO: Received download request for Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt
+2025-05-06 16:04:26,464 INFO: Sending file: C:\Users\tange\Desktop\PRJ_55_49734\03_Implementacao\SemanticSearch\documents\incident_reports\Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt
+2025-05-06 16:04:26,465 INFO: 127.0.0.1 - - [06/May/2025 16:04:26] "GET /download/Art%20Theft%20Gone%20Wrong_%20Ghost%20Shadows%20Kill%20Guards%20to%20Escape%20With%20Priceless%20Painting.txt HTTP/1.1" 200 -
+2025-05-06 16:05:42,629 INFO: Received query request
+2025-05-06 16:05:42,629 INFO: Processing query: armed robbery at medical center with k=3
+2025-05-06 16:05:42,651 INFO: Query returned 3 results
+2025-05-06 16:05:42,651 INFO: Query response:
+Name: Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt, Similarity: 0.6148306131362915, Location: ./documents\incident_reports\Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt
+Name: Armed and Dangerous_ Crimson Talons Target Corporate Security with Heavy Firepower.txt, Similarity: 0.6079468727111816, Location: ./documents\incident_reports\Armed and Dangerous_ Crimson Talons Target Corporate Security with Heavy Firepower.txt
+Name: Corporate Espionage Turns Deadly_ Crimson Talons Use Firearms in Data Theft.txt, Similarity: 0.6025848984718323, Location: ./documents\incident_reports\Corporate Espionage Turns Deadly_ Crimson Talons Use Firearms in Data Theft.txt
+2025-05-06 16:05:42,651 INFO: 127.0.0.1 - - [06/May/2025 16:05:42] "POST /query HTTP/1.1" 200 -
+2025-05-06 16:05:46,390 INFO: Received download request for Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt
+2025-05-06 16:05:46,391 INFO: Sending file: C:\Users\tange\Desktop\PRJ_55_49734\03_Implementacao\SemanticSearch\documents\incident_reports\Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt
+2025-05-06 16:05:46,392 INFO: 127.0.0.1 - - [06/May/2025 16:05:46] "GET /download/Tech%20Crime%20Escalates_%20Crimson%20Talons%20Use%20Guns%20to%20Cover%20Their%20Tracks.txt HTTP/1.1" 200 -
+2025-05-06 16:06:58,627 INFO: Received query request
+2025-05-06 16:06:58,628 INFO: Processing query: pineapple with k=3
+2025-05-06 16:06:58,645 INFO: Query returned 3 results
+2025-05-06 16:06:58,645 INFO: Query response:
+Name: TARtrabalho2v1.pdf, Similarity: 0.4052606523036957, Location: ./documents\pdfs\TARtrabalho2v1.pdf
+Name: TARtp2_49734.pdf, Similarity: 0.38414260745048523, Location: ./documents\pdfs\TARtp2_49734.pdf
+Name: Violent Retaliation_ Red Wolves Slaughter Business Owners Refusing to Pay Protection.txt, Similarity: 0.37599360942840576, Location: ./documents\incident_reports\Violent Retaliation_ Red Wolves Slaughter Business Owners Refusing to Pay Protection.txt
+2025-05-06 16:06:58,646 INFO: 127.0.0.1 - - [06/May/2025 16:06:58] "POST /query HTTP/1.1" 200 -
+2025-05-06 16:07:12,304 INFO: Received download request for TARtrabalho2v1.pdf
+2025-05-06 16:07:12,304 WARNING: Invalid file type for TARtrabalho2v1.pdf
+2025-05-06 16:07:12,305 INFO: 127.0.0.1 - - [06/May/2025 16:07:12] "[31m[1mGET /download/TARtrabalho2v1.pdf HTTP/1.1[0m" 400 -
+2025-05-06 16:15:11,009 INFO: Starting Flask application
+2025-05-06 16:15:12,286 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-06 16:15:12,286 INFO: [33mPress CTRL+C to quit[0m
+2025-05-06 16:15:33,718 INFO: Starting Flask application
+2025-05-06 16:15:35,000 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-06 16:15:35,000 INFO: [33mPress CTRL+C to quit[0m
+2025-05-06 16:15:37,628 INFO: Serving React frontend
+2025-05-06 16:15:37,628 INFO: 127.0.0.1 - - [06/May/2025 16:15:37] "GET / HTTP/1.1" 200 -
+2025-05-06 16:15:37,944 INFO: Received startup request
+2025-05-06 16:15:37,944 INFO: Starting up: processing all documents
+2025-05-06 16:15:37,944 INFO: Processing documents from all subfolders
+2025-05-06 16:15:37,944 INFO: Resetting FAISS index
+2025-05-06 16:15:37,944 INFO: Fetching documents from all subfolders
+2025-05-06 16:15:37,945 INFO: Reading documents from ./documents and its subfolders
+2025-05-06 16:15:37,945 INFO: Found 111 supported files in ./documents
+2025-05-06 16:15:38,274 INFO: Fetched 111 documents
+2025-05-06 16:15:42,854 INFO: Processed 111 documents with embeddings
+2025-05-06 16:15:42,854 INFO: Startup completed: processed 111 documents
+2025-05-06 16:15:42,854 INFO: Startup response: {'message': 'Processed 111 documents'}
+2025-05-06 16:15:42,854 INFO: 127.0.0.1 - - [06/May/2025 16:15:42] "GET /startup HTTP/1.1" 200 -
