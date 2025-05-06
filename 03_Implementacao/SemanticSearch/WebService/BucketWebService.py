@@ -97,7 +97,7 @@ def download(filename):
     # Decode URL-encoded filename
     filename = unquote(filename)
     
-    # Validate filename
+    # valida o do nome do arquivo
     if not filename.endswith(".txt"):
         logger.warning(f"Invalid file type for {filename}")
         return jsonify({"error": "Only .txt files can be downloaded"}), 400
@@ -105,15 +105,15 @@ def download(filename):
         logger.warning(f"Invalid filename: {filename}")
         return jsonify({"error": "Invalid filename"}), 400
     
-    # Use absolute path for base directory
+    # caminho absoluto para o diretório de documentos
     base_dir = Path("./documents").resolve()
     logger.debug(f"Base directory resolved to: {base_dir}")
     
-    # Extract filename from path
+    # extração do nome do arquivo
     filename_base = os.path.basename(filename)
     logger.debug(f"Searching for filename: {filename_base}")
     
-    # Search for the file in ./documents and its subfolders
+    # procura os documentos em ./documents and its subfolders
     file_path = None
     for root, _, files in os.walk(base_dir):
         if filename_base in files:
@@ -121,9 +121,9 @@ def download(filename):
             logger.debug(f"Found file at: {file_path}")
             break
     
-    # Also try the relative path directly (e.g., incident_reports/file.txt)
+    # tambem tenta o caminho relativo (e.g., incident_reports/file.txt)
     if not file_path:
-        relative_path = Path(filename).as_posix()  # Normalize to forward slashes
+        relative_path = Path(filename).as_posix()  # normaliza o caminho
         full_path = base_dir / relative_path
         if full_path.exists() and full_path.is_file():
             file_path = full_path

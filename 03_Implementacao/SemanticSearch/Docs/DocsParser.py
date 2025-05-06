@@ -1,4 +1,4 @@
-# File: DocsParser.py
+# Ficheiro: DocsParser.py
 import logging
 import re
 from typing import Dict, Optional
@@ -11,43 +11,43 @@ import markdown
 logger = logging.getLogger(__name__)
 
 class DocsParser:
-    """Parses document content and extracts metadata from various file formats."""
+    """Analisa o conteúdo de documentos e extrai metadados de vários formatos de ficheiro."""
 
     @staticmethod
     def parse_content(file_path: str) -> Dict[str, Optional[str]]:
         """
-        Parse content and metadata from a file.
+        Analisa o conteúdo e metadados de um ficheiro.
 
         Args:
-            file_path (str): Path to the document file.
+            file_path (str): Caminho para o ficheiro do documento.
 
         Returns:
-            Dict[str, Optional[str]]: Dictionary containing 'content' and metadata
-                                      (e.g., 'title', 'created_date').
+            Dict[str, Optional[str]]: Dicionário contendo 'content' e metadados
+                                      (por exemplo, 'title', 'created_date').
         """
-        logger.debug(f"Parsing file: {file_path}")
+        logger.debug(f"A analisar ficheiro: {file_path}")
         file_extension = Path(file_path).suffix.lower()
         try:
             content, metadata = DocsParser._parse_by_extension(file_path, file_extension)
             cleaned_content = DocsParser._clean_content(content)
             metadata["content"] = cleaned_content
-            logger.debug(f"Successfully parsed {file_path}")
+            logger.debug(f"Ficheiro {file_path} analisado com sucesso")
             return metadata
         except Exception as e:
-            logger.error(f"Failed to parse {file_path}: {str(e)}")
+            logger.error(f"Falha ao analisar {file_path}: {str(e)}")
             return {"content": None, "error": str(e)}
 
     @staticmethod
     def _parse_by_extension(file_path: str, extension: str) -> tuple[str, Dict[str, Optional[str]]]:
         """
-        Parse file based on its extension.
+        Analisa o ficheiro com base na sua extensão.
 
         Args:
-            file_path (str): Path to the file.
-            extension (str): File extension (e.g., '.txt', '.pdf').
+            file_path (str): Caminho para o ficheiro.
+            extension (str): Extensão do ficheiro (por exemplo, '.txt', '.pdf').
 
         Returns:
-            tuple[str, Dict[str, Optional[str]]]: Raw content and metadata.
+            tuple[str, Dict[str, Optional[str]]]: Conteúdo bruto e metadados.
         """
         metadata = {
             "title": Path(file_path).stem,
@@ -75,53 +75,53 @@ class DocsParser:
         elif extension == ".md":
             with open(file_path, "r", encoding="utf-8") as f:
                 content = f.read()
-            # Convert Markdown to plain text
+            # Converte Markdown para texto simples
             html = markdown.markdown(content)
-            # Simple HTML-to-text conversion 
+            # Conversão simples de HTML para texto
             content = re.sub(r"<[^>]+>", "", html)
             return content, metadata
 
         else:
-            logger.warning(f"Unsupported file extension: {extension}")
-            return "", {"error": f"Unsupported file extension: {extension}"}
+            logger.warning(f"Extensão de ficheiro não suportada: {extension}")
+            return "", {"error": f"Extensão de ficheiro não suportada: {extension}"}
 
     @staticmethod
     def _clean_content(content: str) -> str:
         """
-        Clean and normalize text content.
+        Limpa e normaliza o conteúdo de texto.
 
         Args:
-            content (str): Raw document content.
+            content (str): Conteúdo bruto do documento.
 
         Returns:
-            str: Cleaned and normalized content.
+            str: Conteúdo limpo e normalizado.
         """
         if not content:
             return ""
 
-        # Remove excessive whitespace and newlines
+        # Remove espaços em branco e quebras de linha excessivas
         content = re.sub(r"\s+", " ", content.strip())
-        # Remove non-printable characters
+        # Remove caracteres não imprimíveis
         content = re.sub(r"[^\x20-\x7E\n\t]", "", content)
-        # Normalize quotes and dashes
+        # Normaliza aspas e traços
         content = content.replace("’", "'").replace("'", "'").replace("–", "-")
         return content
 
     @staticmethod
     def _get_file_creation_date(file_path: str) -> Optional[str]:
         """
-        Get file creation date.
+        Obtém a data de criação do ficheiro.
 
         Args:
-            file_path (str): Path to the file.
+            file_path (str): Caminho para o ficheiro.
 
         Returns:
-            Optional[str]: Creation date as string or None if unavailable.
+            Optional[str]: Data de criação como string ou None se indisponível.
         """
         try:
             stat = os.stat(file_path)
             import datetime
             return datetime.datetime.fromtimestamp(stat.st_ctime).isoformat()
         except Exception as e:
-            logger.warning(f"Could not get creation date for {file_path}: {str(e)}")
+            logger.warning(f"Não foi possível obter a data de criação para {file_path}: {str(e)}")
             return None

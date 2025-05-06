@@ -1,12 +1,12 @@
 from WebService.BucketWebService import app
 import logging
 
-# Configure logging to file and console
+# Configura o logging na consola
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s %(levelname)s: %(message)s',
     handlers=[
-        logging.FileHandler('flask.log'),
+        logging.FileHandler('flask.log'), # Log para um ficheiro caso seja necessário
         logging.StreamHandler()
     ]
 )

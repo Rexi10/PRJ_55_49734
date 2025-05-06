@@ -9,12 +9,14 @@ logger = logging.getLogger(__name__)
 class EmbeddingManager:
     def __init__(self):
         logger.debug("Initializing EmbeddingManager")
+        
         self.doc_repo = DocsRepo()
         self.embedding_repo = EmbeddingRepo()
         self.embedder = Embedder()
 
     def process_documents(self) -> List[Doc]:
         logger.info("Processing documents from all subfolders")
+        
         self.embedding_repo.reset()
         docs = self.doc_repo.fetch_documents()
         for doc in docs:
