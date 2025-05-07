@@ -1,0 +1,9 @@
+flask==2.3.3
+pyPDF2==3.0.1
+python-docx==1.1.2
+markdown==3.6
+numpy==1.26.4
+faiss-cpu==1.8.0
+ollama==0.3.2
+packaging==24.1
+requests==2.32.3

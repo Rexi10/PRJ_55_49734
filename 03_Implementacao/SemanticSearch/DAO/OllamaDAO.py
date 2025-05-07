@@ -1,12 +1,16 @@
 import logging
 import numpy as np
 import ollama
+import os
 
 logger = logging.getLogger(__name__)
 
 class OllamaDAO:
     def __init__(self):
         self.model = "nomic-embed-text"
+        ollama_host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
+        # Set the OLLAMA_HOST environment variable for the ollama client
+        os.environ["OLLAMA_HOST"] = ollama_host
         try:
             ollama.list()  # Check if Ollama is running
             logger.info(f"Ollama service initialized with model {self.model}")

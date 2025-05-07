@@ -1,0 +1,15 @@
+services:
+  interface:
+    build:
+      context: ..
+      dockerfile: Docker/Dockerfile.interface
+    ports:
+      - "5000:5000"
+    volumes:
+      - ../templates:/app/templates
+      - db_data:/app/buckets/bucket1
+    environment:
+      - FLASK_ENV=production
+
+volumes:
+  db_data:

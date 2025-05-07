@@ -1,0 +1,15 @@
+services:
+  bucket2:
+    build:
+      context: .
+      dockerfile: Dockerfile.bucket
+    ports:
+      - "5002:5000"
+    volumes:
+      - ./buckets/bucket2:/app/buckets/bucket2
+    environment:
+      - BUCKET_NAME=bucket2
+      - BUCKET_FOLDER=/app/buckets/bucket2
+      - AI_NODE_URL=http://192.168.1.100:5000/ai-node
+      - BUCKET_URL=http://192.168.1.102:5002
+      - OLLAMA_HOST=http://host.docker.internal:11434
