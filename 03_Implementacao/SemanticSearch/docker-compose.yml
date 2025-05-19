@@ -27,7 +27,6 @@ services:
       - BUCKET_URL=http://bucket1:5000
       - BUCKET_FOLDER=/app/buckets/bucket1
       - OLLAMA_HOST=http://host.docker.internal:11434
-
     networks:
       - app-network
 
@@ -46,7 +45,60 @@ services:
       - BUCKET_URL=http://bucket2:5000
       - BUCKET_FOLDER=/app/buckets/bucket2
       - OLLAMA_HOST=http://host.docker.internal:11434
+    networks:
+      - app-network
 
+  bucket3:
+    build:
+      context: ./bucket
+      dockerfile: Dockerfile
+    ports:
+      - "5003:5000"
+    volumes:
+      - ./bucket:/app
+      - ./bucket/buckets:/app/buckets
+    environment:
+      - FLASK_ENV=development
+      - BUCKET_NAME=bucket3
+      - BUCKET_URL=http://bucket3:5000
+      - BUCKET_FOLDER=/app/buckets/bucket3
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    networks:
+      - app-network
+
+  bucket4:
+    build:
+      context: ./bucket
+      dockerfile: Dockerfile
+    ports:
+      - "5004:5000"
+    volumes:
+      - ./bucket:/app
+      - ./bucket/buckets:/app/buckets
+    environment:
+      - FLASK_ENV=development
+      - BUCKET_NAME=bucket4
+      - BUCKET_URL=http://bucket4:5000
+      - BUCKET_FOLDER=/app/buckets/bucket4
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    networks:
+      - app-network
+
+  bucket5:
+    build:
+      context: ./bucket
+      dockerfile: Dockerfile
+    ports:
+      - "5005:5000"
+    volumes:
+      - ./bucket:/app
+      - ./bucket/buckets:/app/buckets
+    environment:
+      - FLASK_ENV=development
+      - BUCKET_NAME=bucket5
+      - BUCKET_URL=http://bucket5:5000
+      - BUCKET_FOLDER=/app/buckets/bucket5
+      - OLLAMA_HOST=http://host.docker.internal:11434
     networks:
       - app-network
 

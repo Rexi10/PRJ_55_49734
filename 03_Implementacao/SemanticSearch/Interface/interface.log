@@ -48562,3 +48562,180 @@ For more information check: https://httpstatuses.com/400
 2025-05-19 16:11:34,283 INFO: 172.19.0.1 - - [19/May/2025 16:11:34] "GET /startup HTTP/1.1" 200 -
 2025-05-19 16:11:34,285 INFO: 172.19.0.1 - - [19/May/2025 16:11:34] "GET /buckets HTTP/1.1" 200 -
 2025-05-19 16:11:34,290 INFO: 172.19.0.1 - - [19/May/2025 16:11:34] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:00:16,306 INFO: Starting InterfaceWebService initialization
+2025-05-19 20:00:16,307 INFO: InterfaceWebService initialization complete
+2025-05-19 20:00:16,307 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-19 20:00:16,308 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-19 20:00:16,308 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-19 20:00:17,237 INFO: Received bucket registration request
+2025-05-19 20:00:17,238 INFO: Received bucket registration request
+2025-05-19 20:00:17,238 INFO: Registered bucket bucket1 at http://bucket1:5000
+2025-05-19 20:00:17,238 INFO: Registered bucket bucket2 at http://bucket2:5000
+2025-05-19 20:00:17,238 INFO: Bucket bucket1 registered successfully
+2025-05-19 20:00:17,238 INFO: Bucket bucket2 registered successfully
+2025-05-19 20:00:17,239 INFO: 172.18.0.4 - - [19/May/2025 20:00:17] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 20:00:17,239 INFO: 172.18.0.3 - - [19/May/2025 20:00:17] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 20:00:19,378 INFO: Serving React frontend
+2025-05-19 20:00:19,381 INFO: 172.18.0.1 - - [19/May/2025 20:00:19] "GET / HTTP/1.1" 200 -
+2025-05-19 20:00:19,906 INFO: 172.18.0.1 - - [19/May/2025 20:00:19] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-19 20:00:20,880 INFO: 172.18.0.1 - - [19/May/2025 20:00:20] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:00:20,893 INFO: 172.18.0.1 - - [19/May/2025 20:00:20] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:04:44,489 INFO: Starting InterfaceWebService initialization
+2025-05-19 20:04:44,490 INFO: InterfaceWebService initialization complete
+2025-05-19 20:04:44,490 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-19 20:04:44,491 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-19 20:04:44,492 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-19 20:04:44,886 INFO: Received bucket registration request
+2025-05-19 20:04:44,887 INFO: Registered bucket bucket1 at http://bucket1:5000
+2025-05-19 20:04:44,887 INFO: Bucket bucket1 registered successfully
+2025-05-19 20:04:44,887 INFO: 172.18.0.3 - - [19/May/2025 20:04:44] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 20:04:44,973 INFO: Received bucket registration request
+2025-05-19 20:04:44,973 INFO: Registered bucket bucket2 at http://bucket2:5000
+2025-05-19 20:04:44,974 INFO: Bucket bucket2 registered successfully
+2025-05-19 20:04:44,974 INFO: 172.18.0.4 - - [19/May/2025 20:04:44] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 20:04:54,367 INFO: Serving React frontend
+2025-05-19 20:04:54,369 INFO: 172.18.0.1 - - [19/May/2025 20:04:54] "GET / HTTP/1.1" 200 -
+2025-05-19 20:04:54,695 INFO: 172.18.0.1 - - [19/May/2025 20:04:54] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-19 20:04:55,766 INFO: 172.18.0.1 - - [19/May/2025 20:04:55] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:04:55,777 INFO: 172.18.0.1 - - [19/May/2025 20:04:55] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:07:33,313 INFO: Starting InterfaceWebService initialization
+2025-05-19 20:07:33,313 INFO: InterfaceWebService initialization complete
+2025-05-19 20:07:33,313 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-19 20:07:33,314 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-19 20:07:33,314 INFO:  * Running on http://172.18.0.3:5000/ (Press CTRL+C to quit)
+2025-05-19 20:07:33,535 INFO: Received bucket registration request
+2025-05-19 20:07:33,536 INFO: Registered bucket bucket1 at http://bucket1:5000
+2025-05-19 20:07:33,536 INFO: Bucket bucket1 registered successfully
+2025-05-19 20:07:33,537 INFO: 172.18.0.2 - - [19/May/2025 20:07:33] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 20:07:33,700 INFO: Received bucket registration request
+2025-05-19 20:07:33,701 INFO: Registered bucket bucket2 at http://bucket2:5000
+2025-05-19 20:07:33,701 INFO: Bucket bucket2 registered successfully
+2025-05-19 20:07:33,702 INFO: 172.18.0.4 - - [19/May/2025 20:07:33] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 20:07:37,070 INFO: Serving React frontend
+2025-05-19 20:07:37,072 INFO: 172.18.0.1 - - [19/May/2025 20:07:37] "GET / HTTP/1.1" 200 -
+2025-05-19 20:07:37,495 INFO: 172.18.0.1 - - [19/May/2025 20:07:37] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-19 20:07:36,215 INFO: 172.18.0.1 - - [19/May/2025 20:07:36] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:07:36,227 INFO: 172.18.0.1 - - [19/May/2025 20:07:36] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:11:17,911 INFO: Starting InterfaceWebService initialization
+2025-05-19 20:11:17,911 INFO: InterfaceWebService initialization complete
+2025-05-19 20:11:17,911 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-19 20:11:17,922 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-19 20:11:17,928 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-19 20:11:18,370 INFO: Received bucket registration request
+2025-05-19 20:11:18,371 INFO: Received bucket registration request
+2025-05-19 20:11:18,371 INFO: Registered bucket bucket1 at http://bucket1:5000
+2025-05-19 20:11:18,372 INFO: Registered bucket bucket2 at http://bucket2:5000
+2025-05-19 20:11:18,372 INFO: Bucket bucket1 registered successfully
+2025-05-19 20:11:18,373 INFO: Bucket bucket2 registered successfully
+2025-05-19 20:11:18,374 INFO: 172.18.0.4 - - [19/May/2025 20:11:18] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 20:11:18,374 INFO: 172.18.0.3 - - [19/May/2025 20:11:18] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 20:11:19,740 INFO: Serving React frontend
+2025-05-19 20:11:19,743 INFO: 172.18.0.1 - - [19/May/2025 20:11:19] "GET / HTTP/1.1" 200 -
+2025-05-19 20:11:20,223 INFO: 172.18.0.1 - - [19/May/2025 20:11:20] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-19 20:11:20,685 INFO: 172.18.0.1 - - [19/May/2025 20:11:20] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:11:20,700 INFO: 172.18.0.1 - - [19/May/2025 20:11:20] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:14:04,669 INFO: Starting InterfaceWebService initialization
+2025-05-19 20:14:04,669 INFO: InterfaceWebService initialization complete
+2025-05-19 20:14:04,669 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-19 20:14:04,671 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-19 20:14:04,671 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-19 20:14:05,043 INFO: Received bucket registration request
+2025-05-19 20:14:05,043 INFO: Received bucket registration request
+2025-05-19 20:14:05,044 INFO: Registered bucket bucket2 at http://bucket2:5000
+2025-05-19 20:14:05,044 INFO: Registered bucket bucket1 at http://bucket1:5000
+2025-05-19 20:14:05,044 INFO: Bucket bucket2 registered successfully
+2025-05-19 20:14:05,044 INFO: Bucket bucket1 registered successfully
+2025-05-19 20:14:05,045 INFO: 172.18.0.3 - - [19/May/2025 20:14:05] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 20:14:05,045 INFO: 172.18.0.4 - - [19/May/2025 20:14:05] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 20:14:12,667 INFO: Serving React frontend
+2025-05-19 20:14:12,669 INFO: 172.18.0.1 - - [19/May/2025 20:14:12] "GET / HTTP/1.1" 200 -
+2025-05-19 20:14:13,215 INFO: 172.18.0.1 - - [19/May/2025 20:14:13] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-19 20:14:13,573 INFO: 172.18.0.1 - - [19/May/2025 20:14:13] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:14:13,588 INFO: 172.18.0.1 - - [19/May/2025 20:14:13] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:14:18,578 INFO: Serving React frontend
+2025-05-19 20:14:18,585 INFO: 172.18.0.1 - - [19/May/2025 20:14:18] "GET / HTTP/1.1" 200 -
+2025-05-19 20:14:18,746 INFO: 172.18.0.1 - - [19/May/2025 20:14:18] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-19 20:14:19,926 INFO: 172.18.0.1 - - [19/May/2025 20:14:19] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:14:19,939 INFO: 172.18.0.1 - - [19/May/2025 20:14:19] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:14:26,081 INFO: Received query request
+2025-05-19 20:14:26,155 INFO: Query returned results from 2 buckets
+2025-05-19 20:14:26,155 INFO: 172.18.0.1 - - [19/May/2025 20:14:26] "POST /query HTTP/1.1" 200 -
+2025-05-19 20:14:30,812 INFO: Received query request
+2025-05-19 20:14:30,853 INFO: Query returned results from 1 buckets
+2025-05-19 20:14:30,854 INFO: 172.18.0.1 - - [19/May/2025 20:14:30] "POST /query HTTP/1.1" 200 -
+2025-05-19 20:34:51,647 INFO: Serving React frontend
+2025-05-19 20:34:51,651 INFO: 172.18.0.1 - - [19/May/2025 20:34:51] "GET / HTTP/1.1" 200 -
+2025-05-19 20:34:52,355 INFO: 172.18.0.1 - - [19/May/2025 20:34:52] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-19 20:34:52,799 INFO: 172.18.0.1 - - [19/May/2025 20:34:52] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:34:52,808 INFO: 172.18.0.1 - - [19/May/2025 20:34:52] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 20:44:39,924 INFO: Received query request
+2025-05-19 20:44:40,557 INFO: Query returned results from 2 buckets
+2025-05-19 20:44:40,558 INFO: 172.18.0.1 - - [19/May/2025 20:44:40] "POST /query HTTP/1.1" 200 -
+2025-05-19 21:23:01,445 INFO: Starting InterfaceWebService initialization
+2025-05-19 21:23:01,446 INFO: InterfaceWebService initialization complete
+2025-05-19 21:23:01,446 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-19 21:23:01,448 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-19 21:23:01,450 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-19 21:23:01,931 INFO: Received bucket registration request
+2025-05-19 21:23:01,932 INFO: Registered bucket bucket3 at http://bucket3:5000
+2025-05-19 21:23:01,932 INFO: Received bucket registration request
+2025-05-19 21:23:01,932 INFO: Bucket bucket3 registered successfully
+2025-05-19 21:23:01,933 INFO: Received bucket registration request
+2025-05-19 21:23:01,933 INFO: Registered bucket bucket1 at http://bucket1:5000
+2025-05-19 21:23:01,934 INFO: Received bucket registration request
+2025-05-19 21:23:01,934 INFO: 172.18.0.7 - - [19/May/2025 21:23:01] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 21:23:01,934 INFO: Received bucket registration request
+2025-05-19 21:23:01,935 INFO: Registered bucket bucket5 at http://bucket5:5000
+2025-05-19 21:23:01,935 INFO: Bucket bucket1 registered successfully
+2025-05-19 21:23:01,935 INFO: Registered bucket bucket2 at http://bucket2:5000
+2025-05-19 21:23:01,936 INFO: Registered bucket bucket4 at http://bucket4:5000
+2025-05-19 21:23:01,936 INFO: Bucket bucket5 registered successfully
+2025-05-19 21:23:01,937 INFO: 172.18.0.5 - - [19/May/2025 21:23:01] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 21:23:01,937 INFO: Bucket bucket2 registered successfully
+2025-05-19 21:23:01,937 INFO: Bucket bucket4 registered successfully
+2025-05-19 21:23:01,938 INFO: 172.18.0.3 - - [19/May/2025 21:23:01] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 21:23:01,939 INFO: 172.18.0.4 - - [19/May/2025 21:23:01] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 21:23:01,939 INFO: 172.18.0.6 - - [19/May/2025 21:23:01] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 21:23:16,693 INFO: Serving React frontend
+2025-05-19 21:23:16,695 INFO: 172.18.0.1 - - [19/May/2025 21:23:16] "GET / HTTP/1.1" 200 -
+2025-05-19 21:23:17,150 INFO: 172.18.0.1 - - [19/May/2025 21:23:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-05-19 21:23:17,156 INFO: 172.18.0.1 - - [19/May/2025 21:23:17] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-19 21:23:17,485 INFO: 172.18.0.1 - - [19/May/2025 21:23:17] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 21:23:17,500 INFO: 172.18.0.1 - - [19/May/2025 21:23:17] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 21:26:16,929 INFO: Starting InterfaceWebService initialization
+2025-05-19 21:26:16,929 INFO: InterfaceWebService initialization complete
+2025-05-19 21:26:16,929 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-19 21:26:16,931 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-19 21:26:16,931 INFO:  * Running on http://172.18.0.6:5000/ (Press CTRL+C to quit)
+2025-05-19 21:26:17,035 INFO: Received bucket registration request
+2025-05-19 21:26:17,036 INFO: Received bucket registration request
+2025-05-19 21:26:17,036 INFO: Received bucket registration request
+2025-05-19 21:26:17,036 INFO: Registered bucket bucket4 at http://bucket4:5000
+2025-05-19 21:26:17,037 INFO: Received bucket registration request
+2025-05-19 21:26:17,037 INFO: Registered bucket bucket3 at http://bucket3:5000
+2025-05-19 21:26:17,038 INFO: Registered bucket bucket2 at http://bucket2:5000
+2025-05-19 21:26:17,038 INFO: Bucket bucket4 registered successfully
+2025-05-19 21:26:17,038 INFO: Registered bucket bucket5 at http://bucket5:5000
+2025-05-19 21:26:17,039 INFO: Bucket bucket3 registered successfully
+2025-05-19 21:26:17,039 INFO: Bucket bucket2 registered successfully
+2025-05-19 21:26:17,040 INFO: 172.18.0.4 - - [19/May/2025 21:26:17] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 21:26:17,040 INFO: Bucket bucket5 registered successfully
+2025-05-19 21:26:17,040 INFO: 172.18.0.5 - - [19/May/2025 21:26:17] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 21:26:17,041 INFO: 172.18.0.2 - - [19/May/2025 21:26:17] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 21:26:17,042 INFO: 172.18.0.3 - - [19/May/2025 21:26:17] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 21:26:17,176 INFO: Received bucket registration request
+2025-05-19 21:26:17,177 INFO: Registered bucket bucket1 at http://bucket1:5000
+2025-05-19 21:26:17,177 INFO: Bucket bucket1 registered successfully
+2025-05-19 21:26:17,177 INFO: 172.18.0.7 - - [19/May/2025 21:26:17] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-19 21:26:19,150 INFO: Serving React frontend
+2025-05-19 21:26:19,154 INFO: 172.18.0.1 - - [19/May/2025 21:26:19] "GET / HTTP/1.1" 200 -
+2025-05-19 21:26:19,995 INFO: 172.18.0.1 - - [19/May/2025 21:26:19] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-19 21:26:21,152 INFO: 172.18.0.1 - - [19/May/2025 21:26:21] "GET /buckets HTTP/1.1" 200 -
+2025-05-19 21:26:21,164 INFO: 172.18.0.1 - - [19/May/2025 21:26:21] "GET /buckets HTTP/1.1" 200 -

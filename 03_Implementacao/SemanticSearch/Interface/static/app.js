@@ -172,25 +172,39 @@ const ResultsDisplay = ({ results }) => {
     );
 };
 
-const RegisteredBuckets = ({ buckets }) => {
-    if (!buckets || buckets.length === 0) {
-        return <p className="text-gray-600 mt-4">No buckets registered.</p>;
-    }
+const MAX_VISIBLE = 5;
+
+const RegisteredBuckets = ({ buckets, selectedBuckets, handleBucketChange }) => {
+    const [expanded, setExpanded] = useState(false);
+
+    const visibleBuckets = expanded ? buckets : buckets.slice(0, MAX_VISIBLE);
+    const hiddenCount = buckets.length - MAX_VISIBLE;
 
     return (
-        <div className="mt-6">
-            <h3 className="text-lg font-semibold mb-4">Registered Buckets</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-4 max-w-5xl mx-auto">
-                {buckets.map((bucket, index) => (
-                    <div
-                        key={index}
-                        className="bg-white p-4 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow"
-                    >
-                        <p className="font-medium text-gray-800">{bucket.name}</p>
-                        <p className="text-sm text-gray-500 mt-1">URL: {bucket.url}</p>
-                    </div>
+        <div className="mb-4">
+            <h3 className="text-lg font-semibold mb-2">Registered Buckets</h3>
+            <ul className="bg-white border rounded shadow-sm divide-y">
+                {visibleBuckets.map((bucket) => (
+                    <li key={bucket.name} className="flex items-center px-4 py-2">
+                        <input
+                            type="checkbox"
+                            checked={selectedBuckets.includes(bucket.name)}
+                            onChange={() => handleBucketChange(bucket.name)}
+                            className="mr-2"
+                        />
+                        <span className="truncate" title={bucket.name}>{bucket.name}</span>
+                        <span className="ml-4 text-xs text-gray-500 truncate" title={bucket.url}>{bucket.url}</span>
+                    </li>
                 ))}
-            </div>
+            </ul>
+            {hiddenCount > 0 && (
+                <button
+                    className="mt-2 text-blue-600 hover:underline text-sm"
+                    onClick={() => setExpanded(!expanded)}
+                >
+                    {expanded ? "Show less" : `Show ${hiddenCount} more`}
+                </button>
+            )}
         </div>
     );
 };
@@ -266,32 +280,19 @@ const App = () => {
     return (
         <div className="max-w-5xl mx-auto p-6">
             <h1 className="text-3xl font-bold text-center mb-8">Semantic Search Interface</h1>
-            <RegisteredBuckets buckets={buckets} />
-            <div className="mb-4">
-                <div className="flex items-center mb-2">
-                    <button
-                        type="button"
-                        className="mr-2 px-2 py-1 bg-blue-500 text-white rounded"
-                        onClick={handleSelectAll}
-                    >
-                        {selectedBuckets.length === buckets.length ? 'Unselect All' : 'Select All'}
-                    </button>
-                    <span className="text-gray-700 font-semibold">Buckets:</span>
-                </div>
-                <div className="max-h-48 overflow-y-auto border rounded p-2 bg-white shadow-sm" style={{minWidth: 220}}>
-                    {buckets.map((bucket) => (
-                        <label key={bucket.name} className="flex items-center mb-1 cursor-pointer">
-                            <input
-                                type="checkbox"
-                                checked={selectedBuckets.includes(bucket.name)}
-                                onChange={() => handleBucketChange(bucket.name)}
-                                className="mr-2"
-                            />
-                            <span className="truncate" title={bucket.name}>{bucket.name}</span>
-                        </label>
-                    ))}
-                </div>
+            <div className="mb-2 flex justify-end">
+                <button
+                    className="px-3 py-1 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm"
+                    onClick={handleSelectAll}
+                >
+                    {selectedBuckets.length === buckets.length ? "Unselect All" : "Select All"}
+                </button>
             </div>
+            <RegisteredBuckets
+                buckets={buckets}
+                selectedBuckets={selectedBuckets}
+                handleBucketChange={handleBucketChange}
+            />
             <QueryForm onSearch={setResults} isStartupDone={isStartupDone} selectedBuckets={selectedBuckets} />
             {!isStartupDone && (
                 <div className="text-center text-yellow-700 bg-yellow-100 border border-yellow-300 rounded p-3 mt-4">
