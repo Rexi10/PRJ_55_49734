@@ -1,7 +1,8 @@
 import logging
 import os
 import asyncio
-from flask import Flask, request, jsonify, Response
+import requests
+from flask import Flask, request, jsonify, Response, send_file, send_from_directory, redirect
 from InterfaceWebService import InterfaceWebService
 
 
@@ -15,7 +16,9 @@ interface_service = InterfaceWebService()
 def index():
     logger.info("Serving React frontend")
     try:
-        with open(os.path.join("templates", "index.html"), "r", encoding="utf-8") as f:
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        template_path = os.path.join(base_dir, "templates", "index.html")
+        with open(template_path, "r", encoding="utf-8") as f:
             return Response(f.read(), mimetype="text/html")
     except FileNotFoundError:
         logger.error("index.html not found in templates folder")
@@ -26,9 +29,9 @@ def index():
 
 @app.route("/buckets", methods=["GET"])
 def get_buckets():
-    logger.info("Received request for bucket list")
     buckets = interface_service.ai_node.get_buckets()
-    return jsonify({"buckets": buckets})
+    all_ready = all(b.get('status', 'ready') == 'ready' for b in buckets)
+    return jsonify({"buckets": buckets, "all_ready": all_ready})
 
 @app.route("/query", methods=["POST"])
 def query():
@@ -39,6 +42,7 @@ def query():
         return jsonify({"error": "Query must be a non-empty string in the 'query' field", "results": []}), 400
     query_text = data.get("query", "")
     k = int(data.get("k", 3))
+    selected_buckets = data.get("buckets", None)
     if not query_text:
         logger.warning("Empty query received")
         return jsonify({"error": "Query must be a non-empty string in the 'query' field", "results": []}), 400
@@ -46,7 +50,7 @@ def query():
         logger.warning("Invalid k value")
         return jsonify({"error": "k must be a positive integer", "results": []}), 400
     try:
-        results = asyncio.run(interface_service.ai_node.forward_query(query_text, k))
+        results = asyncio.run(interface_service.ai_node.forward_query(query_text, k, selected_buckets))
         if not isinstance(results, dict):
             logger.error(f"Invalid results type from forward_query: {type(results)}, value: {results}")
             return jsonify({"error": "Invalid response from buckets", "results": []}), 500
@@ -101,6 +105,37 @@ def startup():
 @app.route("/favicon.ico")
 def favicon():
     return "", 204
+
+@app.route('/download/<path:filename>', methods=['GET'])
+def download(filename):
+    # Try to find which bucket has the file and redirect
+    for bucket in interface_service.ai_node.get_buckets():
+        # Assuming files are not stored locally, but on the bucket's server
+        # Redirect to the bucket's download endpoint
+        return redirect(f"{bucket['url']}/download/{filename}")
+    return jsonify({'error': 'File not found'}), 404
+
+@app.route('/download/<bucket>/<path:filename>', methods=['GET'])
+def proxy_download(bucket, filename):
+    buckets = interface_service.ai_node.get_buckets()
+    bucket_info = next((b for b in buckets if b['name'] == bucket), None)
+    if not bucket_info:
+        return jsonify({'error': 'Bucket not found'}), 404
+    bucket_url = bucket_info['url']
+    download_url = f"{bucket_url}/download/{filename}"
+    try:
+        r = requests.get(download_url, stream=True)
+        if r.status_code != 200:
+            return jsonify({'error': 'File not found in bucket'}), 404
+        return Response(
+            r.iter_content(chunk_size=8192),
+            headers={
+                "Content-Disposition": f"attachment; filename={filename.split('/')[-1]}"
+            },
+            content_type=r.headers.get('Content-Type', 'application/octet-stream')
+        )
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 # Configure logging
 logging.basicConfig(
