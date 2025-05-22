@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 class OllamaDAO:
     def __init__(self):
-        self.model = "nomic-embed-text"
+        self.model = "nomic-embed-text:v1.5"
         ollama_host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
         # Set the OLLAMA_HOST environment variable for the ollama client
         os.environ["OLLAMA_HOST"] = ollama_host
@@ -27,4 +27,4 @@ class OllamaDAO:
             return embedding
         except Exception as e:
             logger.error(f"Failed to generate embedding: {str(e)}")
-            raise
+            raise 

@@ -29,6 +29,8 @@ services:
       - OLLAMA_HOST=http://host.docker.internal:11434
     networks:
       - app-network
+    depends_on:
+      - interface
 
   bucket2:
     build:
@@ -47,6 +49,8 @@ services:
       - OLLAMA_HOST=http://host.docker.internal:11434
     networks:
       - app-network
+    depends_on:
+      - interface
 
   bucket3:
     build:
@@ -65,6 +69,28 @@ services:
       - OLLAMA_HOST=http://host.docker.internal:11434
     networks:
       - app-network
+    depends_on:
+      - interface
+
+  bucket4:
+    build:
+      context: ./bucket
+      dockerfile: Dockerfile
+    ports:
+      - "5004:5000"
+    volumes:
+      - ./bucket:/app
+      - ./bucket/buckets:/app/buckets
+    environment:
+      - FLASK_ENV=development
+      - BUCKET_NAME=Crime DataSet PT
+      - BUCKET_URL=http://bucket4:5000
+      - BUCKET_FOLDER=/app/buckets/bucket4
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    networks:
+      - app-network
+    depends_on:
+      - interface
 
 networks:
   app-network:

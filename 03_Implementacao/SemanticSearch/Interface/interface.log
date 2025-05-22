@@ -48875,3 +48875,752 @@ For more information check: https://httpstatuses.com/400
 2025-05-20 16:46:54,300 INFO: Received query request
 2025-05-20 16:46:54,529 INFO: Query returned results from 2 buckets
 2025-05-20 16:46:54,530 INFO: 172.18.0.1 - - [20/May/2025 16:46:54] "POST /query HTTP/1.1" 200 -
+2025-05-20 19:21:22,499 INFO: Serving React frontend
+2025-05-20 19:21:22,506 INFO: 172.18.0.1 - - [20/May/2025 19:21:22] "GET / HTTP/1.1" 200 -
+2025-05-20 19:21:23,837 INFO: 172.18.0.1 - - [20/May/2025 19:21:23] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-20 19:21:24,046 INFO: 172.18.0.1 - - [20/May/2025 19:21:24] "GET /buckets HTTP/1.1" 200 -
+2025-05-20 19:21:24,052 INFO: 172.18.0.1 - - [20/May/2025 19:21:24] "GET /buckets HTTP/1.1" 200 -
+2025-05-20 19:25:17,767 INFO: Received query request
+2025-05-20 19:25:18,493 INFO: Query returned results from 3 buckets
+2025-05-20 19:25:18,493 INFO: 172.18.0.1 - - [20/May/2025 19:25:18] "POST /query HTTP/1.1" 200 -
+2025-05-20 19:26:05,703 INFO: Received query request
+2025-05-20 19:26:05,957 INFO: Query returned results from 2 buckets
+2025-05-20 19:26:05,958 INFO: 172.18.0.1 - - [20/May/2025 19:26:05] "POST /query HTTP/1.1" 200 -
+2025-05-20 19:26:29,816 INFO: Received query request
+2025-05-20 19:26:29,935 INFO: Query returned results from 2 buckets
+2025-05-20 19:26:29,936 INFO: 172.18.0.1 - - [20/May/2025 19:26:29] "POST /query HTTP/1.1" 200 -
+2025-05-20 19:26:30,575 INFO: Received query request
+2025-05-20 19:26:30,715 INFO: Query returned results from 2 buckets
+2025-05-20 19:26:30,716 INFO: 172.18.0.1 - - [20/May/2025 19:26:30] "POST /query HTTP/1.1" 200 -
+2025-05-20 19:26:33,228 INFO: Received query request
+2025-05-20 19:26:33,364 INFO: Query returned results from 2 buckets
+2025-05-20 19:26:33,364 INFO: 172.18.0.1 - - [20/May/2025 19:26:33] "POST /query HTTP/1.1" 200 -
+2025-05-20 19:26:33,819 INFO: Received query request
+2025-05-20 19:26:33,991 INFO: Received query request
+2025-05-20 19:26:34,018 INFO: Query returned results from 2 buckets
+2025-05-20 19:26:34,018 INFO: 172.18.0.1 - - [20/May/2025 19:26:34] "POST /query HTTP/1.1" 200 -
+2025-05-20 19:26:34,125 INFO: Query returned results from 2 buckets
+2025-05-20 19:26:34,125 INFO: 172.18.0.1 - - [20/May/2025 19:26:34] "POST /query HTTP/1.1" 200 -
+2025-05-20 19:26:34,138 INFO: Received query request
+2025-05-20 19:26:34,198 INFO: Query returned results from 2 buckets
+2025-05-20 19:26:34,199 INFO: 172.18.0.1 - - [20/May/2025 19:26:34] "POST /query HTTP/1.1" 200 -
+2025-05-20 19:26:34,285 INFO: Received query request
+2025-05-20 19:26:34,335 INFO: Query returned results from 2 buckets
+2025-05-20 19:26:34,335 INFO: 172.18.0.1 - - [20/May/2025 19:26:34] "POST /query HTTP/1.1" 200 -
+2025-05-20 19:26:37,466 INFO: Received query request
+2025-05-20 19:26:37,558 INFO: Query returned results from 2 buckets
+2025-05-20 19:26:37,559 INFO: 172.18.0.1 - - [20/May/2025 19:26:37] "POST /query HTTP/1.1" 200 -
+2025-05-20 19:26:50,203 INFO: 172.18.0.1 - - [20/May/2025 19:26:50] "[32mGET /download/Medical%20DataSet%20(Consultations)/%2Fapp%2Fbuckets%2Fbucket2%2Ffolder_1%2F_Penile_Injury_.txt HTTP/1.1[0m" 308 -
+2025-05-20 19:26:50,225 INFO: 172.18.0.1 - - [20/May/2025 19:26:50] "GET /download/Medical%20DataSet%20%28Consultations%29/app/buckets/bucket2/folder_1/_Penile_Injury_.txt HTTP/1.1" 200 -
+2025-05-20 19:27:05,373 INFO: 172.18.0.1 - - [20/May/2025 19:27:05] "GET /download/Medical%20DataSet%20%28Consultations%29/app/buckets/bucket2/folder_1/_Penile_Injury_.txt HTTP/1.1" 200 -
+2025-05-21 16:55:59,578 INFO: Starting InterfaceWebService initialization
+2025-05-21 16:55:59,579 INFO: InterfaceWebService initialization complete
+2025-05-21 16:55:59,579 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 16:55:59,581 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 16:55:59,581 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 16:56:00,123 INFO: Received bucket registration request
+2025-05-21 16:56:00,124 INFO: Received bucket registration request
+2025-05-21 16:56:00,124 INFO: Received bucket registration request
+2025-05-21 16:56:00,124 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-21 16:56:00,124 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-21 16:56:00,124 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 16:56:00,125 INFO: Bucket BBC News DataSet registered successfully
+2025-05-21 16:56:00,125 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-21 16:56:00,125 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 16:56:00,125 INFO: 172.18.0.5 - - [21/May/2025 16:56:00] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 16:56:00,126 INFO: 172.18.0.3 - - [21/May/2025 16:56:00] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 16:56:00,126 INFO: 172.18.0.4 - - [21/May/2025 16:56:00] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 16:57:19,749 INFO: Serving React frontend
+2025-05-21 16:57:19,762 INFO: 172.18.0.1 - - [21/May/2025 16:57:19] "GET / HTTP/1.1" 200 -
+2025-05-21 16:57:20,164 INFO: 172.18.0.1 - - [21/May/2025 16:57:20] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 16:57:21,130 INFO: 172.18.0.1 - - [21/May/2025 16:57:21] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 16:57:21,141 INFO: 172.18.0.1 - - [21/May/2025 16:57:21] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 16:58:26,341 INFO: Received query request
+2025-05-21 16:58:26,399 INFO: Query returned results from 1 buckets
+2025-05-21 16:58:26,399 INFO: 172.18.0.1 - - [21/May/2025 16:58:26] "POST /query HTTP/1.1" 200 -
+2025-05-21 16:58:33,363 INFO: Received query request
+2025-05-21 16:58:33,466 INFO: Query returned results from 1 buckets
+2025-05-21 16:58:33,466 INFO: 172.18.0.1 - - [21/May/2025 16:58:33] "POST /query HTTP/1.1" 200 -
+2025-05-21 16:59:06,370 INFO: Received query request
+2025-05-21 16:59:06,455 INFO: Query returned results from 1 buckets
+2025-05-21 16:59:06,455 INFO: 172.18.0.1 - - [21/May/2025 16:59:06] "POST /query HTTP/1.1" 200 -
+2025-05-21 16:59:10,006 INFO: Received query request
+2025-05-21 16:59:10,059 INFO: Query returned results from 1 buckets
+2025-05-21 16:59:10,059 INFO: 172.18.0.1 - - [21/May/2025 16:59:10] "POST /query HTTP/1.1" 200 -
+2025-05-21 18:34:23,493 INFO: Received query request
+2025-05-21 18:34:24,069 INFO: Query returned results from 1 buckets
+2025-05-21 18:34:24,070 INFO: 172.18.0.1 - - [21/May/2025 18:34:24] "POST /query HTTP/1.1" 200 -
+2025-05-21 18:35:01,507 INFO: Received query request
+2025-05-21 18:35:01,595 INFO: Query returned results from 1 buckets
+2025-05-21 18:35:01,596 INFO: 172.18.0.1 - - [21/May/2025 18:35:01] "POST /query HTTP/1.1" 200 -
+2025-05-21 18:36:55,826 INFO: Starting InterfaceWebService initialization
+2025-05-21 18:36:55,826 INFO: InterfaceWebService initialization complete
+2025-05-21 18:36:55,827 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 18:36:55,828 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 18:36:55,828 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 18:36:56,288 INFO: Received bucket registration request
+2025-05-21 18:36:56,288 INFO: Received bucket registration request
+2025-05-21 18:36:56,288 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-21 18:36:56,289 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-21 18:36:56,289 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-21 18:36:56,289 INFO: Bucket BBC News DataSet registered successfully
+2025-05-21 18:36:56,289 INFO: 172.18.0.3 - - [21/May/2025 18:36:56] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:36:56,290 INFO: 172.18.0.4 - - [21/May/2025 18:36:56] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:36:56,328 INFO: Received bucket registration request
+2025-05-21 18:36:56,328 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 18:36:56,328 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 18:36:56,329 INFO: 172.18.0.5 - - [21/May/2025 18:36:56] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:37:35,982 INFO: Starting InterfaceWebService initialization
+2025-05-21 18:37:35,982 INFO: InterfaceWebService initialization complete
+2025-05-21 18:37:35,983 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 18:37:35,984 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 18:37:35,984 INFO:  * Running on http://172.18.0.4:5000/ (Press CTRL+C to quit)
+2025-05-21 18:37:36,122 INFO: Received bucket registration request
+2025-05-21 18:37:36,123 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 18:37:36,123 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 18:37:36,123 INFO: 172.18.0.3 - - [21/May/2025 18:37:36] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:37:36,254 INFO: Received bucket registration request
+2025-05-21 18:37:36,254 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-21 18:37:36,255 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-21 18:37:36,255 INFO: 172.18.0.5 - - [21/May/2025 18:37:36] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:37:36,341 INFO: Received bucket registration request
+2025-05-21 18:37:36,346 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-21 18:37:36,346 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-21 18:37:36,346 INFO: 172.18.0.6 - - [21/May/2025 18:37:36] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:40:19,654 INFO: Starting InterfaceWebService initialization
+2025-05-21 18:40:19,654 INFO: InterfaceWebService initialization complete
+2025-05-21 18:40:19,654 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 18:40:19,656 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 18:40:19,656 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 18:40:20,275 INFO: Received bucket registration request
+2025-05-21 18:40:20,276 INFO: Received bucket registration request
+2025-05-21 18:40:20,276 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-21 18:40:20,277 INFO: Received bucket registration request
+2025-05-21 18:40:20,277 INFO: Received bucket registration request
+2025-05-21 18:40:20,277 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-21 18:40:20,277 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-21 18:40:20,278 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 18:40:20,278 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-21 18:40:20,278 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-21 18:40:20,278 INFO: 172.18.0.6 - - [21/May/2025 18:40:20] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:40:20,278 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 18:40:20,279 INFO: Bucket BBC News DataSet registered successfully
+2025-05-21 18:40:20,279 INFO: 172.18.0.5 - - [21/May/2025 18:40:20] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:40:20,279 INFO: 172.18.0.3 - - [21/May/2025 18:40:20] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:40:20,280 INFO: 172.18.0.4 - - [21/May/2025 18:40:20] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:40:27,461 INFO: Serving React frontend
+2025-05-21 18:40:27,464 INFO: 172.18.0.1 - - [21/May/2025 18:40:27] "GET / HTTP/1.1" 200 -
+2025-05-21 18:40:27,916 INFO: 172.18.0.1 - - [21/May/2025 18:40:27] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 18:40:28,953 INFO: 172.18.0.1 - - [21/May/2025 18:40:28] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 18:40:28,965 INFO: 172.18.0.1 - - [21/May/2025 18:40:28] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 18:41:15,418 INFO: Received query request
+2025-05-21 18:41:15,499 INFO: Query returned results from 1 buckets
+2025-05-21 18:41:15,499 INFO: 172.18.0.1 - - [21/May/2025 18:41:15] "POST /query HTTP/1.1" 200 -
+2025-05-21 18:41:36,771 INFO: Received query request
+2025-05-21 18:41:36,847 INFO: Query returned results from 1 buckets
+2025-05-21 18:41:36,847 INFO: 172.18.0.1 - - [21/May/2025 18:41:36] "POST /query HTTP/1.1" 200 -
+2025-05-21 18:42:15,431 INFO: Received query request
+2025-05-21 18:42:15,505 INFO: Query returned results from 1 buckets
+2025-05-21 18:42:15,506 INFO: 172.18.0.1 - - [21/May/2025 18:42:15] "POST /query HTTP/1.1" 200 -
+2025-05-21 18:54:33,894 INFO: Starting InterfaceWebService initialization
+2025-05-21 18:54:33,894 INFO: InterfaceWebService initialization complete
+2025-05-21 18:54:33,894 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 18:54:33,895 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 18:54:33,896 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 18:54:37,118 INFO: Serving React frontend
+2025-05-21 18:54:37,120 INFO: 172.18.0.1 - - [21/May/2025 18:54:37] "GET / HTTP/1.1" 200 -
+2025-05-21 18:54:37,578 INFO: 172.18.0.1 - - [21/May/2025 18:54:37] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 18:54:38,516 INFO: 172.18.0.1 - - [21/May/2025 18:54:38] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 18:55:54,675 INFO: Starting InterfaceWebService initialization
+2025-05-21 18:55:54,675 INFO: InterfaceWebService initialization complete
+2025-05-21 18:55:54,675 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 18:55:54,676 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 18:55:54,676 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 18:55:55,292 INFO: Received bucket registration request
+2025-05-21 18:55:55,292 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-21 18:55:55,292 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-21 18:55:55,293 INFO: 172.18.0.3 - - [21/May/2025 18:55:55] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:55:55,346 INFO: Received bucket registration request
+2025-05-21 18:55:55,347 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-21 18:55:55,347 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-21 18:55:55,347 INFO: 172.18.0.4 - - [21/May/2025 18:55:55] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:55:55,387 INFO: Received bucket registration request
+2025-05-21 18:55:55,387 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 18:55:55,388 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 18:55:55,388 INFO: 172.18.0.5 - - [21/May/2025 18:55:55] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:55:55,440 INFO: Received bucket registration request
+2025-05-21 18:55:55,440 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-21 18:55:55,440 INFO: Bucket BBC News DataSet registered successfully
+2025-05-21 18:55:55,441 INFO: 172.18.0.6 - - [21/May/2025 18:55:55] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 18:56:13,130 INFO: Serving React frontend
+2025-05-21 18:56:13,133 INFO: 172.18.0.1 - - [21/May/2025 18:56:13] "GET / HTTP/1.1" 200 -
+2025-05-21 18:56:13,546 INFO: 172.18.0.1 - - [21/May/2025 18:56:13] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 18:56:14,523 INFO: 172.18.0.1 - - [21/May/2025 18:56:14] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 18:56:14,537 INFO: 172.18.0.1 - - [21/May/2025 18:56:14] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 18:57:54,642 INFO: Received query request
+2025-05-21 18:57:54,679 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 18:57:54,680 INFO: No results from any bucket
+2025-05-21 18:57:54,680 INFO: 172.18.0.1 - - [21/May/2025 18:57:54] "POST /query HTTP/1.1" 200 -
+2025-05-21 18:57:56,630 INFO: Received query request
+2025-05-21 18:57:56,652 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 18:57:56,652 INFO: No results from any bucket
+2025-05-21 18:57:56,653 INFO: 172.18.0.1 - - [21/May/2025 18:57:56] "POST /query HTTP/1.1" 200 -
+2025-05-21 18:58:28,590 INFO: Received query request
+2025-05-21 18:58:28,617 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 18:58:28,618 INFO: No results from any bucket
+2025-05-21 18:58:28,618 INFO: 172.18.0.1 - - [21/May/2025 18:58:28] "POST /query HTTP/1.1" 200 -
+2025-05-21 18:58:29,297 INFO: Received query request
+2025-05-21 18:58:29,320 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 18:58:29,321 INFO: No results from any bucket
+2025-05-21 18:58:29,321 INFO: 172.18.0.1 - - [21/May/2025 18:58:29] "POST /query HTTP/1.1" 200 -
+2025-05-21 18:58:36,977 INFO: Received query request
+2025-05-21 18:58:37,004 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 18:58:37,005 INFO: No results from any bucket
+2025-05-21 18:58:37,006 INFO: 172.18.0.1 - - [21/May/2025 18:58:37] "POST /query HTTP/1.1" 200 -
+2025-05-21 18:58:43,292 INFO: Received query request
+2025-05-21 18:58:43,325 WARNING: Bucket Crime DataSet PT returned status 500
+2025-05-21 18:58:43,334 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 18:58:43,335 INFO: No results from any bucket
+2025-05-21 18:58:43,335 INFO: 172.18.0.1 - - [21/May/2025 18:58:43] "POST /query HTTP/1.1" 200 -
+2025-05-21 18:59:40,688 INFO: Received query request
+2025-05-21 18:59:40,714 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 18:59:40,715 INFO: No results from any bucket
+2025-05-21 18:59:40,715 INFO: 172.18.0.1 - - [21/May/2025 18:59:40] "POST /query HTTP/1.1" 200 -
+2025-05-21 18:59:44,720 INFO: Received query request
+2025-05-21 18:59:44,745 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 18:59:44,745 INFO: No results from any bucket
+2025-05-21 18:59:44,746 INFO: 172.18.0.1 - - [21/May/2025 18:59:44] "POST /query HTTP/1.1" 200 -
+2025-05-21 19:01:21,883 INFO: Starting InterfaceWebService initialization
+2025-05-21 19:01:21,883 INFO: InterfaceWebService initialization complete
+2025-05-21 19:01:21,884 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 19:01:21,885 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 19:01:21,885 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 19:01:25,498 INFO: Serving React frontend
+2025-05-21 19:01:25,503 INFO: 172.18.0.1 - - [21/May/2025 19:01:25] "GET / HTTP/1.1" 200 -
+2025-05-21 19:01:26,106 INFO: 172.18.0.1 - - [21/May/2025 19:01:26] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 19:01:27,051 INFO: 172.18.0.1 - - [21/May/2025 19:01:27] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 19:10:26,915 INFO: Starting InterfaceWebService initialization
+2025-05-21 19:10:26,916 INFO: InterfaceWebService initialization complete
+2025-05-21 19:10:26,916 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 19:10:26,917 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 19:10:26,917 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 19:10:31,743 INFO: Serving React frontend
+2025-05-21 19:10:31,745 INFO: 172.18.0.1 - - [21/May/2025 19:10:31] "GET / HTTP/1.1" 200 -
+2025-05-21 19:10:32,173 INFO: 172.18.0.1 - - [21/May/2025 19:10:32] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 19:10:33,194 INFO: 172.18.0.1 - - [21/May/2025 19:10:33] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 19:13:03,741 INFO: Received bucket registration request
+2025-05-21 19:13:03,741 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-21 19:13:03,742 INFO: Bucket BBC News DataSet registered successfully
+2025-05-21 19:13:03,742 INFO: 172.18.0.3 - - [21/May/2025 19:13:03] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 19:13:05,277 INFO: Received bucket registration request
+2025-05-21 19:13:05,277 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 19:13:05,277 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 19:13:05,278 INFO: 172.18.0.5 - - [21/May/2025 19:13:05] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 19:13:06,906 INFO: Received bucket registration request
+2025-05-21 19:13:06,907 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-21 19:13:06,907 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-21 19:13:06,908 INFO: 172.18.0.6 - - [21/May/2025 19:13:06] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 19:13:07,131 INFO: Received bucket registration request
+2025-05-21 19:13:07,131 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-21 19:13:07,131 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-21 19:13:07,132 INFO: 172.18.0.4 - - [21/May/2025 19:13:07] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 19:24:34,287 INFO: Starting InterfaceWebService initialization
+2025-05-21 19:24:34,288 INFO: InterfaceWebService initialization complete
+2025-05-21 19:24:34,288 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 19:24:34,290 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 19:24:34,290 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 19:25:01,109 INFO: Serving React frontend
+2025-05-21 19:25:01,113 INFO: 172.18.0.1 - - [21/May/2025 19:25:01] "GET / HTTP/1.1" 200 -
+2025-05-21 19:25:01,635 INFO: 172.18.0.1 - - [21/May/2025 19:25:01] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 19:25:02,589 INFO: 172.18.0.1 - - [21/May/2025 19:25:02] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 19:35:47,251 INFO: Starting InterfaceWebService initialization
+2025-05-21 19:35:47,251 INFO: InterfaceWebService initialization complete
+2025-05-21 19:35:47,251 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 19:35:47,253 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 19:35:47,253 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 19:35:53,585 INFO: Serving React frontend
+2025-05-21 19:35:53,588 INFO: 172.18.0.1 - - [21/May/2025 19:35:53] "GET / HTTP/1.1" 200 -
+2025-05-21 19:35:54,317 INFO: 172.18.0.1 - - [21/May/2025 19:35:54] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 19:35:55,402 INFO: 172.18.0.1 - - [21/May/2025 19:35:55] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 19:36:35,535 INFO: Received bucket registration request
+2025-05-21 19:36:35,536 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 19:36:35,537 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 19:36:35,537 INFO: 172.18.0.3 - - [21/May/2025 19:36:35] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 19:53:21,217 INFO: Starting InterfaceWebService initialization
+2025-05-21 19:53:21,217 INFO: InterfaceWebService initialization complete
+2025-05-21 19:53:21,217 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 19:53:21,219 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 19:53:21,219 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 19:53:23,613 INFO: Received bucket registration request
+2025-05-21 19:53:23,614 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 19:53:23,614 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 19:53:23,614 INFO: 172.18.0.3 - - [21/May/2025 19:53:23] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 19:54:20,707 INFO: Serving React frontend
+2025-05-21 19:54:20,710 INFO: 172.18.0.1 - - [21/May/2025 19:54:20] "GET / HTTP/1.1" 200 -
+2025-05-21 19:54:21,125 INFO: 172.18.0.1 - - [21/May/2025 19:54:21] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 19:54:22,056 INFO: 172.18.0.1 - - [21/May/2025 19:54:22] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 19:54:22,061 INFO: 172.18.0.1 - - [21/May/2025 19:54:22] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 19:54:43,946 INFO: Received query request
+2025-05-21 19:54:44,006 INFO: Query returned results from 1 buckets
+2025-05-21 19:54:44,007 INFO: 172.18.0.1 - - [21/May/2025 19:54:44] "POST /query HTTP/1.1" 200 -
+2025-05-21 19:55:31,656 INFO: Received query request
+2025-05-21 19:55:31,699 INFO: Query returned results from 1 buckets
+2025-05-21 19:55:31,699 INFO: 172.18.0.1 - - [21/May/2025 19:55:31] "POST /query HTTP/1.1" 200 -
+2025-05-21 20:06:23,311 INFO: Starting InterfaceWebService initialization
+2025-05-21 20:06:23,311 INFO: InterfaceWebService initialization complete
+2025-05-21 20:06:23,312 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 20:06:23,313 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 20:06:23,314 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 20:19:13,986 INFO: Starting InterfaceWebService initialization
+2025-05-21 20:19:13,986 INFO: InterfaceWebService initialization complete
+2025-05-21 20:19:13,986 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 20:19:13,988 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 20:19:13,988 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 20:21:36,360 INFO: Received bucket registration request
+2025-05-21 20:21:36,361 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-21 20:21:36,361 INFO: Bucket BBC News DataSet registered successfully
+2025-05-21 20:21:36,362 INFO: 172.18.0.4 - - [21/May/2025 20:21:36] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 20:21:58,656 INFO: Received bucket registration request
+2025-05-21 20:21:58,656 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-21 20:21:58,657 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-21 20:21:58,657 INFO: 172.18.0.5 - - [21/May/2025 20:21:58] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 20:22:02,011 INFO: Received bucket registration request
+2025-05-21 20:22:02,011 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 20:22:02,012 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 20:22:02,012 INFO: 172.18.0.6 - - [21/May/2025 20:22:02] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 20:22:11,360 INFO: Received bucket registration request
+2025-05-21 20:22:11,361 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-21 20:22:11,361 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-21 20:22:11,362 INFO: 172.18.0.3 - - [21/May/2025 20:22:11] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 20:23:23,256 INFO: Serving React frontend
+2025-05-21 20:23:23,259 INFO: 172.18.0.1 - - [21/May/2025 20:23:23] "GET / HTTP/1.1" 200 -
+2025-05-21 20:23:23,792 INFO: 172.18.0.1 - - [21/May/2025 20:23:23] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 20:23:24,768 INFO: 172.18.0.1 - - [21/May/2025 20:23:24] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 20:23:24,780 INFO: 172.18.0.1 - - [21/May/2025 20:23:24] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 20:23:32,861 INFO: Received query request
+2025-05-21 20:23:32,940 WARNING: Bucket BBC News DataSet returned status 400
+2025-05-21 20:23:33,036 WARNING: Bucket Crime DataSet returned status 400
+2025-05-21 20:23:33,073 WARNING: Bucket Medical DataSet (Consultations) returned status 400
+2025-05-21 20:23:33,074 INFO: Query returned results from 1 buckets
+2025-05-21 20:23:33,074 INFO: 172.18.0.1 - - [21/May/2025 20:23:33] "POST /query HTTP/1.1" 200 -
+2025-05-21 20:23:42,603 INFO: Received query request
+2025-05-21 20:23:42,651 WARNING: Bucket Crime DataSet returned status 400
+2025-05-21 20:23:42,652 INFO: No results from any bucket
+2025-05-21 20:23:42,653 INFO: 172.18.0.1 - - [21/May/2025 20:23:42] "POST /query HTTP/1.1" 200 -
+2025-05-21 20:23:47,522 INFO: Received query request
+2025-05-21 20:23:47,583 INFO: Query returned results from 1 buckets
+2025-05-21 20:23:47,584 INFO: 172.18.0.1 - - [21/May/2025 20:23:47] "POST /query HTTP/1.1" 200 -
+2025-05-21 20:23:50,022 INFO: Received query request
+2025-05-21 20:23:50,066 WARNING: Bucket BBC News DataSet returned status 400
+2025-05-21 20:23:50,124 WARNING: Bucket Crime DataSet returned status 400
+2025-05-21 20:23:50,153 WARNING: Bucket Medical DataSet (Consultations) returned status 400
+2025-05-21 20:23:50,154 INFO: Query returned results from 1 buckets
+2025-05-21 20:23:50,154 INFO: 172.18.0.1 - - [21/May/2025 20:23:50] "POST /query HTTP/1.1" 200 -
+2025-05-21 20:23:53,892 INFO: Received query request
+2025-05-21 20:23:53,952 WARNING: Bucket BBC News DataSet returned status 400
+2025-05-21 20:23:54,012 WARNING: Bucket Crime DataSet returned status 400
+2025-05-21 20:23:54,035 WARNING: Bucket Medical DataSet (Consultations) returned status 400
+2025-05-21 20:23:54,036 INFO: Query returned results from 1 buckets
+2025-05-21 20:23:54,037 INFO: 172.18.0.1 - - [21/May/2025 20:23:54] "POST /query HTTP/1.1" 200 -
+2025-05-21 22:23:20,264 INFO: Serving React frontend
+2025-05-21 22:23:20,269 INFO: 172.18.0.1 - - [21/May/2025 22:23:20] "GET / HTTP/1.1" 200 -
+2025-05-21 22:23:20,636 INFO: 172.18.0.1 - - [21/May/2025 22:23:20] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 22:23:21,560 INFO: 172.18.0.1 - - [21/May/2025 22:23:21] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 22:23:21,571 INFO: 172.18.0.1 - - [21/May/2025 22:23:21] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 22:23:25,170 INFO: Received query request
+2025-05-21 22:23:25,222 WARNING: Bucket BBC News DataSet returned status 400
+2025-05-21 22:23:25,280 WARNING: Bucket Crime DataSet returned status 400
+2025-05-21 22:23:25,302 WARNING: Bucket Medical DataSet (Consultations) returned status 400
+2025-05-21 22:23:25,302 INFO: Query returned results from 1 buckets
+2025-05-21 22:23:25,303 INFO: 172.18.0.1 - - [21/May/2025 22:23:25] "POST /query HTTP/1.1" 200 -
+2025-05-21 22:45:58,036 INFO: Starting InterfaceWebService initialization
+2025-05-21 22:45:58,036 INFO: InterfaceWebService initialization complete
+2025-05-21 22:45:58,036 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 22:45:58,038 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 22:45:58,038 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 22:46:02,040 INFO: Received bucket registration request
+2025-05-21 22:46:02,041 INFO: Received bucket registration request
+2025-05-21 22:46:02,042 INFO: Received bucket registration request
+2025-05-21 22:46:02,042 INFO: Received bucket registration request
+2025-05-21 22:46:02,043 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-21 22:46:02,043 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-21 22:46:02,044 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 22:46:02,044 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-21 22:46:02,044 INFO: Bucket BBC News DataSet registered successfully
+2025-05-21 22:46:02,044 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-21 22:46:02,045 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 22:46:02,045 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-21 22:46:02,046 INFO: 172.18.0.4 - - [21/May/2025 22:46:02] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 22:46:02,046 INFO: 172.18.0.6 - - [21/May/2025 22:46:02] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 22:46:02,046 INFO: 172.18.0.3 - - [21/May/2025 22:46:02] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 22:46:02,047 INFO: 172.18.0.5 - - [21/May/2025 22:46:02] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 22:46:50,301 INFO: Serving React frontend
+2025-05-21 22:46:50,303 INFO: 172.18.0.1 - - [21/May/2025 22:46:50] "GET / HTTP/1.1" 200 -
+2025-05-21 22:46:50,648 INFO: 172.18.0.1 - - [21/May/2025 22:46:50] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 22:46:51,584 INFO: 172.18.0.1 - - [21/May/2025 22:46:51] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 22:46:51,593 INFO: 172.18.0.1 - - [21/May/2025 22:46:51] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 22:47:02,870 INFO: Received query request
+2025-05-21 22:47:02,906 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 22:47:02,907 INFO: No results from any bucket
+2025-05-21 22:47:02,907 INFO: 172.18.0.1 - - [21/May/2025 22:47:02] "POST /query HTTP/1.1" 200 -
+2025-05-21 22:47:03,642 INFO: Received query request
+2025-05-21 22:47:03,663 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 22:47:03,664 INFO: No results from any bucket
+2025-05-21 22:47:03,664 INFO: 172.18.0.1 - - [21/May/2025 22:47:03] "POST /query HTTP/1.1" 200 -
+2025-05-21 22:47:04,270 INFO: Received query request
+2025-05-21 22:47:04,293 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 22:47:04,294 INFO: No results from any bucket
+2025-05-21 22:47:04,294 INFO: 172.18.0.1 - - [21/May/2025 22:47:04] "POST /query HTTP/1.1" 200 -
+2025-05-21 22:47:04,435 INFO: Received query request
+2025-05-21 22:47:04,457 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 22:47:04,458 INFO: No results from any bucket
+2025-05-21 22:47:04,458 INFO: 172.18.0.1 - - [21/May/2025 22:47:04] "POST /query HTTP/1.1" 200 -
+2025-05-21 22:49:41,047 INFO: Starting InterfaceWebService initialization
+2025-05-21 22:49:41,048 INFO: InterfaceWebService initialization complete
+2025-05-21 22:49:41,048 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 22:49:41,049 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 22:49:41,050 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 22:49:43,855 INFO: Serving React frontend
+2025-05-21 22:49:43,858 INFO: 172.18.0.1 - - [21/May/2025 22:49:43] "GET / HTTP/1.1" 200 -
+2025-05-21 22:49:44,155 INFO: 172.18.0.1 - - [21/May/2025 22:49:44] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 22:49:45,172 INFO: 172.18.0.1 - - [21/May/2025 22:49:45] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 22:50:54,979 INFO: Starting InterfaceWebService initialization
+2025-05-21 22:50:54,979 INFO: InterfaceWebService initialization complete
+2025-05-21 22:50:54,980 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 22:50:54,981 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 22:50:54,981 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 22:50:57,872 INFO: Serving React frontend
+2025-05-21 22:50:57,875 INFO: 172.18.0.1 - - [21/May/2025 22:50:57] "GET / HTTP/1.1" 200 -
+2025-05-21 22:50:58,238 INFO: 172.18.0.1 - - [21/May/2025 22:50:58] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 22:50:58,741 INFO: Received bucket registration request
+2025-05-21 22:50:58,742 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-21 22:50:58,742 INFO: Received bucket registration request
+2025-05-21 22:50:58,743 INFO: Received bucket registration request
+2025-05-21 22:50:58,743 INFO: Bucket BBC News DataSet registered successfully
+2025-05-21 22:50:58,743 INFO: Received bucket registration request
+2025-05-21 22:50:58,743 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-21 22:50:58,743 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-21 22:50:58,744 INFO: 172.18.0.6 - - [21/May/2025 22:50:58] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 22:50:58,744 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 22:50:58,744 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-21 22:50:58,744 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-21 22:50:58,744 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 22:50:58,745 INFO: 172.18.0.4 - - [21/May/2025 22:50:58] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 22:50:58,745 INFO: 172.18.0.3 - - [21/May/2025 22:50:58] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 22:50:58,745 INFO: 172.18.0.5 - - [21/May/2025 22:50:58] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 22:50:59,280 INFO: 172.18.0.1 - - [21/May/2025 22:50:59] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 22:50:59,288 INFO: 172.18.0.1 - - [21/May/2025 22:50:59] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 22:54:16,115 INFO: Starting InterfaceWebService initialization
+2025-05-21 22:54:16,116 INFO: InterfaceWebService initialization complete
+2025-05-21 22:54:16,116 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 22:54:16,117 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 22:54:16,118 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 22:55:11,522 INFO: Serving React frontend
+2025-05-21 22:55:11,524 INFO: 172.18.0.1 - - [21/May/2025 22:55:11] "GET / HTTP/1.1" 200 -
+2025-05-21 22:55:12,004 INFO: 172.18.0.1 - - [21/May/2025 22:55:12] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 22:55:13,049 INFO: 172.18.0.1 - - [21/May/2025 22:55:13] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 23:00:53,426 INFO: Starting InterfaceWebService initialization
+2025-05-21 23:00:53,426 INFO: InterfaceWebService initialization complete
+2025-05-21 23:00:53,426 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 23:00:53,427 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 23:00:53,428 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 23:00:55,989 INFO: Received bucket registration request
+2025-05-21 23:00:55,990 INFO: Received bucket registration request
+2025-05-21 23:00:55,990 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-21 23:00:55,990 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-21 23:00:55,990 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-21 23:00:55,990 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-21 23:00:55,991 INFO: 172.18.0.4 - - [21/May/2025 23:00:55] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:00:55,991 INFO: 172.18.0.5 - - [21/May/2025 23:00:55] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:00:56,009 INFO: Received bucket registration request
+2025-05-21 23:00:56,010 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-21 23:00:56,010 INFO: Bucket BBC News DataSet registered successfully
+2025-05-21 23:00:56,010 INFO: 172.18.0.3 - - [21/May/2025 23:00:56] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:00:56,062 INFO: Received bucket registration request
+2025-05-21 23:00:56,063 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 23:00:56,063 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 23:00:56,063 INFO: 172.18.0.6 - - [21/May/2025 23:00:56] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:05:02,540 INFO: Starting InterfaceWebService initialization
+2025-05-21 23:05:02,540 INFO: InterfaceWebService initialization complete
+2025-05-21 23:05:02,540 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 23:05:02,542 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 23:05:02,542 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 23:05:05,578 INFO: Received bucket registration request
+2025-05-21 23:05:05,579 INFO: Received bucket registration request
+2025-05-21 23:05:05,579 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-21 23:05:05,579 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 23:05:05,580 INFO: Received bucket registration request
+2025-05-21 23:05:05,580 INFO: Received bucket registration request
+2025-05-21 23:05:05,580 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-21 23:05:05,581 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 23:05:05,581 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-21 23:05:05,581 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-21 23:05:05,582 INFO: 172.18.0.4 - - [21/May/2025 23:05:05] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:05:05,582 INFO: 172.18.0.5 - - [21/May/2025 23:05:05] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:05:05,583 INFO: Bucket BBC News DataSet registered successfully
+2025-05-21 23:05:05,583 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-21 23:05:05,584 INFO: 172.18.0.3 - - [21/May/2025 23:05:05] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:05:05,585 INFO: 172.18.0.6 - - [21/May/2025 23:05:05] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:05:13,643 INFO: Serving React frontend
+2025-05-21 23:05:13,646 INFO: 172.18.0.1 - - [21/May/2025 23:05:13] "GET / HTTP/1.1" 200 -
+2025-05-21 23:05:13,943 INFO: 172.18.0.1 - - [21/May/2025 23:05:13] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-21 23:05:15,026 INFO: 172.18.0.1 - - [21/May/2025 23:05:15] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 23:05:15,036 INFO: 172.18.0.1 - - [21/May/2025 23:05:15] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 23:09:16,984 INFO: Received query request
+2025-05-21 23:09:17,251 INFO: Query returned results from 4 buckets
+2025-05-21 23:09:17,252 INFO: 172.18.0.1 - - [21/May/2025 23:09:17] "POST /query HTTP/1.1" 200 -
+2025-05-21 23:09:24,632 INFO: Received query request
+2025-05-21 23:09:24,733 INFO: Query returned results from 1 buckets
+2025-05-21 23:09:24,734 INFO: 172.18.0.1 - - [21/May/2025 23:09:24] "POST /query HTTP/1.1" 200 -
+2025-05-21 23:09:25,485 INFO: Received query request
+2025-05-21 23:09:25,573 INFO: Query returned results from 1 buckets
+2025-05-21 23:09:25,577 INFO: 172.18.0.1 - - [21/May/2025 23:09:25] "POST /query HTTP/1.1" 200 -
+2025-05-21 23:12:26,151 INFO: Received query request
+2025-05-21 23:12:26,208 INFO: Query returned results from 1 buckets
+2025-05-21 23:12:26,208 INFO: 172.18.0.1 - - [21/May/2025 23:12:26] "POST /query HTTP/1.1" 200 -
+2025-05-21 23:12:45,042 INFO: Received query request
+2025-05-21 23:12:45,108 INFO: Query returned results from 1 buckets
+2025-05-21 23:12:45,109 INFO: 172.18.0.1 - - [21/May/2025 23:12:45] "POST /query HTTP/1.1" 200 -
+2025-05-21 23:16:38,917 INFO: Received query request
+2025-05-21 23:16:38,983 INFO: Query returned results from 1 buckets
+2025-05-21 23:16:38,984 INFO: 172.18.0.1 - - [21/May/2025 23:16:38] "POST /query HTTP/1.1" 200 -
+2025-05-21 23:17:18,804 INFO: Received query request
+2025-05-21 23:17:18,873 INFO: Query returned results from 1 buckets
+2025-05-21 23:17:18,873 INFO: 172.18.0.1 - - [21/May/2025 23:17:18] "POST /query HTTP/1.1" 200 -
+2025-05-21 23:17:47,090 INFO: Received query request
+2025-05-21 23:17:47,162 INFO: Query returned results from 1 buckets
+2025-05-21 23:17:47,163 INFO: 172.18.0.1 - - [21/May/2025 23:17:47] "POST /query HTTP/1.1" 200 -
+2025-05-21 23:23:07,849 INFO: Starting InterfaceWebService initialization
+2025-05-21 23:23:07,849 INFO: InterfaceWebService initialization complete
+2025-05-21 23:23:07,850 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 23:23:07,851 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 23:23:07,851 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 23:27:04,635 INFO: Starting InterfaceWebService initialization
+2025-05-21 23:27:04,636 INFO: InterfaceWebService initialization complete
+2025-05-21 23:27:04,636 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 23:27:04,637 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 23:27:04,638 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 23:29:37,645 INFO: Received bucket registration request
+2025-05-21 23:29:37,645 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-21 23:29:37,646 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-21 23:29:37,647 INFO: 172.18.0.4 - - [21/May/2025 23:29:37] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:29:38,143 INFO: Received bucket registration request
+2025-05-21 23:29:38,144 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-21 23:29:38,144 INFO: Bucket BBC News DataSet registered successfully
+2025-05-21 23:29:38,145 INFO: 172.18.0.6 - - [21/May/2025 23:29:38] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:30:02,827 INFO: Received bucket registration request
+2025-05-21 23:30:02,827 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 23:30:02,828 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 23:30:02,828 INFO: 172.18.0.5 - - [21/May/2025 23:30:02] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:30:05,943 INFO: Received bucket registration request
+2025-05-21 23:30:05,946 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-21 23:30:05,947 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-21 23:30:05,948 INFO: 172.18.0.3 - - [21/May/2025 23:30:05] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:53:58,472 INFO: Starting InterfaceWebService initialization
+2025-05-21 23:53:58,473 INFO: InterfaceWebService initialization complete
+2025-05-21 23:53:58,473 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-21 23:53:58,474 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-21 23:53:58,474 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-21 23:53:59,072 INFO: Received bucket registration request
+2025-05-21 23:53:59,072 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-21 23:53:59,073 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-21 23:53:59,073 INFO: 172.18.0.3 - - [21/May/2025 23:53:59] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:53:59,107 INFO: Received bucket registration request
+2025-05-21 23:53:59,107 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-21 23:53:59,108 INFO: Bucket Crime DataSet registered successfully
+2025-05-21 23:53:59,108 INFO: 172.18.0.4 - - [21/May/2025 23:53:59] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:53:59,122 INFO: Received bucket registration request
+2025-05-21 23:53:59,122 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-21 23:53:59,122 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-21 23:53:59,123 INFO: 172.18.0.5 - - [21/May/2025 23:53:59] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:53:59,207 INFO: Received bucket registration request
+2025-05-21 23:53:59,207 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-21 23:53:59,208 INFO: Bucket BBC News DataSet registered successfully
+2025-05-21 23:53:59,208 INFO: 172.18.0.6 - - [21/May/2025 23:53:59] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-21 23:54:51,250 INFO: Serving React frontend
+2025-05-21 23:54:51,253 INFO: 172.18.0.1 - - [21/May/2025 23:54:51] "GET / HTTP/1.1" 200 -
+2025-05-21 23:54:51,626 INFO: 172.18.0.1 - - [21/May/2025 23:54:51] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-21 23:54:52,568 INFO: 172.18.0.1 - - [21/May/2025 23:54:52] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 23:54:52,578 INFO: 172.18.0.1 - - [21/May/2025 23:54:52] "GET /buckets HTTP/1.1" 200 -
+2025-05-21 23:57:26,279 INFO: Received query request
+2025-05-21 23:57:26,340 WARNING: Bucket Medical DataSet (Consultations) returned status 500
+2025-05-21 23:57:26,424 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 23:57:26,463 WARNING: Bucket Crime DataSet PT returned status 500
+2025-05-21 23:57:26,508 WARNING: Bucket BBC News DataSet returned status 500
+2025-05-21 23:57:26,509 INFO: No results from any bucket
+2025-05-21 23:57:26,509 INFO: 172.18.0.1 - - [21/May/2025 23:57:26] "POST /query HTTP/1.1" 200 -
+2025-05-21 23:57:27,066 INFO: Received query request
+2025-05-21 23:57:27,125 WARNING: Bucket Medical DataSet (Consultations) returned status 500
+2025-05-21 23:57:27,177 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 23:57:27,213 WARNING: Bucket Crime DataSet PT returned status 500
+2025-05-21 23:57:27,237 INFO: Received query request
+2025-05-21 23:57:27,250 WARNING: Bucket BBC News DataSet returned status 500
+2025-05-21 23:57:27,251 INFO: No results from any bucket
+2025-05-21 23:57:27,252 INFO: 172.18.0.1 - - [21/May/2025 23:57:27] "POST /query HTTP/1.1" 200 -
+2025-05-21 23:57:27,393 WARNING: Bucket Medical DataSet (Consultations) returned status 500
+2025-05-21 23:57:27,457 WARNING: Bucket Crime DataSet returned status 500
+2025-05-21 23:57:27,511 WARNING: Bucket Crime DataSet PT returned status 500
+2025-05-21 23:57:27,547 WARNING: Bucket BBC News DataSet returned status 500
+2025-05-21 23:57:27,548 INFO: No results from any bucket
+2025-05-21 23:57:27,548 INFO: 172.18.0.1 - - [21/May/2025 23:57:27] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:04:31,059 INFO: Starting InterfaceWebService initialization
+2025-05-22 00:04:31,059 INFO: InterfaceWebService initialization complete
+2025-05-22 00:04:31,059 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-22 00:04:31,061 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-22 00:04:31,061 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-22 00:04:31,767 INFO: Received bucket registration request
+2025-05-22 00:04:31,768 INFO: Received bucket registration request
+2025-05-22 00:04:31,768 INFO: Received bucket registration request
+2025-05-22 00:04:31,768 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-22 00:04:31,769 INFO: Received bucket registration request
+2025-05-22 00:04:31,769 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-22 00:04:31,769 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-22 00:04:31,769 INFO: Bucket BBC News DataSet registered successfully
+2025-05-22 00:04:31,769 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-22 00:04:31,770 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-22 00:04:31,770 INFO: Bucket Crime DataSet registered successfully
+2025-05-22 00:04:31,770 INFO: 172.18.0.4 - - [22/May/2025 00:04:31] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-22 00:04:31,770 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-22 00:04:31,771 INFO: 172.18.0.3 - - [22/May/2025 00:04:31] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-22 00:04:31,771 INFO: 172.18.0.5 - - [22/May/2025 00:04:31] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-22 00:04:31,771 INFO: 172.18.0.6 - - [22/May/2025 00:04:31] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-22 00:04:34,673 INFO: Serving React frontend
+2025-05-22 00:04:34,675 INFO: 172.18.0.1 - - [22/May/2025 00:04:34] "GET / HTTP/1.1" 200 -
+2025-05-22 00:04:35,188 INFO: 172.18.0.1 - - [22/May/2025 00:04:35] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-22 00:04:36,096 INFO: 172.18.0.1 - - [22/May/2025 00:04:36] "GET /buckets HTTP/1.1" 200 -
+2025-05-22 00:04:36,102 INFO: 172.18.0.1 - - [22/May/2025 00:04:36] "GET /buckets HTTP/1.1" 200 -
+2025-05-22 00:04:39,676 INFO: Received query request
+2025-05-22 00:04:39,697 ERROR: Error querying bucket BBC News DataSet: All connection attempts failed
+2025-05-22 00:04:39,699 ERROR: Error querying bucket Crime DataSet PT: All connection attempts failed
+2025-05-22 00:04:39,701 ERROR: Error querying bucket Crime DataSet: All connection attempts failed
+2025-05-22 00:04:39,702 ERROR: Error querying bucket Medical DataSet (Consultations): All connection attempts failed
+2025-05-22 00:04:39,703 INFO: No results from any bucket
+2025-05-22 00:04:39,704 INFO: 172.18.0.1 - - [22/May/2025 00:04:39] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:04:41,293 INFO: Received query request
+2025-05-22 00:04:41,309 ERROR: Error querying bucket BBC News DataSet: All connection attempts failed
+2025-05-22 00:04:41,313 ERROR: Error querying bucket Crime DataSet PT: All connection attempts failed
+2025-05-22 00:04:41,314 ERROR: Error querying bucket Crime DataSet: All connection attempts failed
+2025-05-22 00:04:41,315 ERROR: Error querying bucket Medical DataSet (Consultations): All connection attempts failed
+2025-05-22 00:04:41,316 INFO: No results from any bucket
+2025-05-22 00:04:41,317 INFO: 172.18.0.1 - - [22/May/2025 00:04:41] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:04:41,415 INFO: Received query request
+2025-05-22 00:04:41,429 ERROR: Error querying bucket BBC News DataSet: All connection attempts failed
+2025-05-22 00:04:41,432 ERROR: Error querying bucket Crime DataSet PT: All connection attempts failed
+2025-05-22 00:04:41,436 ERROR: Error querying bucket Crime DataSet: All connection attempts failed
+2025-05-22 00:04:41,437 ERROR: Error querying bucket Medical DataSet (Consultations): All connection attempts failed
+2025-05-22 00:04:41,439 INFO: No results from any bucket
+2025-05-22 00:04:41,440 INFO: 172.18.0.1 - - [22/May/2025 00:04:41] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:04:57,482 INFO: Received query request
+2025-05-22 00:04:57,690 ERROR: Error querying bucket Medical DataSet (Consultations): All connection attempts failed
+2025-05-22 00:04:57,691 INFO: Query returned results from 3 buckets
+2025-05-22 00:04:57,691 INFO: 172.18.0.1 - - [22/May/2025 00:04:57] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:05:05,998 INFO: Received query request
+2025-05-22 00:05:06,450 INFO: Query returned results from 4 buckets
+2025-05-22 00:05:06,450 INFO: 172.18.0.1 - - [22/May/2025 00:05:06] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:08:40,084 INFO: Starting InterfaceWebService initialization
+2025-05-22 00:08:40,084 INFO: InterfaceWebService initialization complete
+2025-05-22 00:08:40,084 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-22 00:08:40,086 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-22 00:08:40,086 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-22 00:08:40,723 INFO: Received bucket registration request
+2025-05-22 00:08:40,724 INFO: Received bucket registration request
+2025-05-22 00:08:40,724 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-22 00:08:40,724 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-22 00:08:40,725 INFO: Received bucket registration request
+2025-05-22 00:08:40,725 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-22 00:08:40,725 INFO: Received bucket registration request
+2025-05-22 00:08:40,725 INFO: Bucket Crime DataSet registered successfully
+2025-05-22 00:08:40,726 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-22 00:08:40,726 INFO: 172.18.0.6 - - [22/May/2025 00:08:40] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-22 00:08:40,726 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-22 00:08:40,726 INFO: 172.18.0.3 - - [22/May/2025 00:08:40] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-22 00:08:40,727 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-22 00:08:40,727 INFO: Bucket BBC News DataSet registered successfully
+2025-05-22 00:08:40,727 INFO: 172.18.0.4 - - [22/May/2025 00:08:40] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-22 00:08:40,728 INFO: 172.18.0.5 - - [22/May/2025 00:08:40] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-22 00:08:43,177 INFO: Serving React frontend
+2025-05-22 00:08:43,180 INFO: 172.18.0.1 - - [22/May/2025 00:08:43] "GET / HTTP/1.1" 200 -
+2025-05-22 00:08:43,474 INFO: 172.18.0.1 - - [22/May/2025 00:08:43] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-22 00:08:44,388 INFO: 172.18.0.1 - - [22/May/2025 00:08:44] "GET /buckets HTTP/1.1" 200 -
+2025-05-22 00:08:44,395 INFO: 172.18.0.1 - - [22/May/2025 00:08:44] "GET /buckets HTTP/1.1" 200 -
+2025-05-22 00:21:39,089 INFO: Starting InterfaceWebService initialization
+2025-05-22 00:21:39,089 INFO: InterfaceWebService initialization complete
+2025-05-22 00:21:39,090 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-22 00:21:39,091 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-22 00:21:39,091 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-22 00:21:39,824 INFO: Received bucket registration request
+2025-05-22 00:21:39,825 INFO: Received bucket registration request
+2025-05-22 00:21:39,825 INFO: Received bucket registration request
+2025-05-22 00:21:39,825 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-22 00:21:39,826 INFO: Received bucket registration request
+2025-05-22 00:21:39,826 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-22 00:21:39,826 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-22 00:21:39,826 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-22 00:21:39,826 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-22 00:21:39,826 INFO: Bucket BBC News DataSet registered successfully
+2025-05-22 00:21:39,827 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-22 00:21:39,827 INFO: 172.18.0.4 - - [22/May/2025 00:21:39] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-22 00:21:39,827 INFO: Bucket Crime DataSet registered successfully
+2025-05-22 00:21:39,827 INFO: 172.18.0.3 - - [22/May/2025 00:21:39] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-22 00:21:39,828 INFO: 172.18.0.5 - - [22/May/2025 00:21:39] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-22 00:21:39,828 INFO: 172.18.0.6 - - [22/May/2025 00:21:39] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-22 00:22:45,678 INFO: Serving React frontend
+2025-05-22 00:22:45,680 INFO: 172.18.0.1 - - [22/May/2025 00:22:45] "GET / HTTP/1.1" 200 -
+2025-05-22 00:22:46,012 INFO: 172.18.0.1 - - [22/May/2025 00:22:46] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-22 00:22:46,861 INFO: 172.18.0.1 - - [22/May/2025 00:22:46] "GET /buckets HTTP/1.1" 200 -
+2025-05-22 00:22:46,869 INFO: 172.18.0.1 - - [22/May/2025 00:22:46] "GET /buckets HTTP/1.1" 200 -
+2025-05-22 00:23:15,304 INFO: Received query request
+2025-05-22 00:23:15,399 INFO: Query returned results from 1 buckets
+2025-05-22 00:23:15,399 INFO: 172.18.0.1 - - [22/May/2025 00:23:15] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:23:25,667 INFO: Received query request
+2025-05-22 00:23:25,731 INFO: Query returned results from 1 buckets
+2025-05-22 00:23:25,731 INFO: 172.18.0.1 - - [22/May/2025 00:23:25] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:23:36,235 INFO: Received query request
+2025-05-22 00:23:36,305 INFO: Query returned results from 1 buckets
+2025-05-22 00:23:36,306 INFO: 172.18.0.1 - - [22/May/2025 00:23:36] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:23:44,355 INFO: Received query request
+2025-05-22 00:23:44,424 INFO: Query returned results from 1 buckets
+2025-05-22 00:23:44,425 INFO: 172.18.0.1 - - [22/May/2025 00:23:44] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:24:03,538 INFO: Received query request
+2025-05-22 00:24:03,604 INFO: Query returned results from 1 buckets
+2025-05-22 00:24:03,604 INFO: 172.18.0.1 - - [22/May/2025 00:24:03] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:24:23,505 INFO: Received query request
+2025-05-22 00:24:23,569 INFO: Query returned results from 1 buckets
+2025-05-22 00:24:23,570 INFO: 172.18.0.1 - - [22/May/2025 00:24:23] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:24:56,359 INFO: Received query request
+2025-05-22 00:24:56,427 INFO: Query returned results from 1 buckets
+2025-05-22 00:24:56,427 INFO: 172.18.0.1 - - [22/May/2025 00:24:56] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:25:15,404 INFO: Received query request
+2025-05-22 00:25:15,473 INFO: Query returned results from 1 buckets
+2025-05-22 00:25:15,473 INFO: 172.18.0.1 - - [22/May/2025 00:25:15] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:25:43,079 INFO: Received query request
+2025-05-22 00:25:43,146 INFO: Query returned results from 1 buckets
+2025-05-22 00:25:43,146 INFO: 172.18.0.1 - - [22/May/2025 00:25:43] "POST /query HTTP/1.1" 200 -
+2025-05-22 00:25:45,320 INFO: Received query request
+2025-05-22 00:25:45,386 INFO: Query returned results from 1 buckets
+2025-05-22 00:25:45,387 INFO: 172.18.0.1 - - [22/May/2025 00:25:45] "POST /query HTTP/1.1" 200 -
