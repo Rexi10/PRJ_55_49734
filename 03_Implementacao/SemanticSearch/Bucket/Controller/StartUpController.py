@@ -1,5 +1,6 @@
 import logging
 import os
+import time
 from flask import current_app, jsonify
 from Manager.EmbeddingManager import EmbeddingManager
 
@@ -11,6 +12,7 @@ class StartUpController:
         self.embedding_manager = embedding_manager
 
     def startup(self):
+        start_time = time.time()
         logger.info(f"Scanning bucket folder: {os.getenv('BUCKET_FOLDER', './documents')}")
         supported_extensions = {'.txt', '.pdf', '.docx', '.md'}
         document_count = 0
@@ -23,19 +25,25 @@ class StartUpController:
                     return jsonify({'message': f'Bucket folder {bucket_folder} does not exist'}), 500
             logger.info(f"Starting recursive scan of {bucket_folder}")
             for root, _, files in os.walk(bucket_folder):
+                dir_start = time.time()
                 logger.info(f"Scanning directory: {root}")
                 for filename in files:
                     if os.path.splitext(filename)[1].lower() in supported_extensions:
                         logger.info(f"Processing file: {filename} in {root}")
                         file_path = os.path.join(root, filename)
                         try:
+                            file_start = time.time()
                             self.embedding_manager.process_document(file_path)
+                            file_time = time.time() - file_start
+                            logger.info(f"Processed file {filename} in {file_time:.2f} seconds")
                             document_count += 1
                         except Exception as e:
                             logger.error(f"Failed to process {filename} in {root}: {str(e)}")
-            logger.info(f"Processed {document_count} documents")
+                logger.info(f"Processed directory {root} in {time.time() - dir_start:.2f} seconds")
+            total_time = time.time() - start_time
+            logger.info(f"Total startup time: {total_time:.2f} seconds")
             with current_app.app_context():
-                return jsonify({'message': f'Processed {document_count} documents'})
+                return jsonify({'message': f'Processed {document_count} documents', 'startup_time': total_time})
         except Exception as e:
             logger.error(f"Startup failed: {str(e)}")
             with current_app.app_context():

@@ -1,4 +1,5 @@
 import logging
+import time
 from flask import request, jsonify
 from Manager import EmbeddingManager
 
@@ -11,6 +12,7 @@ class QueryController:
     def register_routes(self, app):
         @app.route("/query", methods=["POST"])
         def query_endpoint():
+            query_start = time.time()
             logger.info("Received query request")
             data = request.get_json()
             if not data or "query" not in data:
@@ -28,6 +30,8 @@ class QueryController:
                 logger.debug(f"Processing query: {query_text} with k={k}")
                 result = self.embedding_manager.process_query(query_text, k)
                 logger.debug(f"Query result: {result}")
+                query_time = time.time() - query_start
+                logger.info(f"Query processed in {query_time:.4f} seconds")
                 if not result["results"]:
                     logger.warning("No documents found for query")
                     return jsonify({"error": "No documents have been processed. Run /bucket-startup first."}), 400
@@ -54,7 +58,8 @@ class QueryController:
                 )
                 logger.info(f"Query response:\n{formatted_log}")
                 
-                return jsonify({"results": enhanced_results})
+                # Optionally include query time in response
+                return jsonify({"results": enhanced_results, "query_time": query_time})
             except Exception as e:
                 logger.error(f"Query failed: {str(e)}", exc_info=True)
                 return jsonify({"error": f"Query failed: {str(e)}"}), 500
