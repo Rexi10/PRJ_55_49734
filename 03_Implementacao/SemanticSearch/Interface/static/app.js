@@ -106,6 +106,7 @@ const ResultsDisplay = ({ results }) => {
         return <p className="text-gray-600 mt-4">No results found. Try a different query.</p>;
     }
 
+    // Group results by bucket name, ignore *_query_time keys
     const resultsByBucket = safeResults.reduce((acc, result) => {
         const bucketName = result.bucket_name || 'Unknown Bucket';
         if (!acc[bucketName]) {
@@ -118,11 +119,19 @@ const ResultsDisplay = ({ results }) => {
     return (
         <div className="mt-6">
             <h3 className="text-lg font-semibold mb-4">Search Results</h3>
-            {Object.entries(resultsByBucket).map(([bucketName, bucketResults]) => (
+            {Object.keys(resultsByBucket).map((bucketName) => (
                 <div key={bucketName} className="mb-6">
-                    <h4 className="text-md font-medium text-gray-800 mb-3">Results from {bucketName}</h4>
+                    <h4 className="text-md font-medium text-gray-800 mb-3">
+                        Results from {bucketName}
+                        {/* Show query time if available */}
+                        {results && results[`${bucketName}_query_time`] !== undefined && (
+                            <span className="ml-2 text-xs text-gray-500">
+                                (Query time: {results[`${bucketName}_query_time`].toFixed(3)}s)
+                            </span>
+                        )}
+                    </h4>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                        {bucketResults.map((result, index) => (
+                        {resultsByBucket[bucketName].map((result, index) => (
                             <div key={index} className="bg-white p-4 rounded-lg shadow-md">
                                 <div className="flex justify-between items-center mb-2">
                                     <div>
@@ -140,20 +149,24 @@ const ResultsDisplay = ({ results }) => {
                                     </a>
                                 </div>
                                 <div>
-                                    <p className="text-sm text-gray-600">
-                                        Matching Chunk:{' '}
-                                        {result.chunk ? (
-                                            expandedChunks[`${bucketName}-${index}`] ? (
-                                                result.chunk
+                                    {result.error ? (
+                                        <div className="text-red-600 font-semibold">{result.error}</div>
+                                    ) : (
+                                        <p className="text-sm text-gray-600">
+                                            Matching Chunk:{' '}
+                                            {result.chunk ? (
+                                                expandedChunks[`${bucketName}-${index}`] ? (
+                                                    result.chunk
+                                                ) : (
+                                                    result.chunk.length > 100
+                                                        ? `${result.chunk.substring(0, 100)}...`
+                                                        : result.chunk
+                                                )
                                             ) : (
-                                                result.chunk.length > 100
-                                                    ? `${result.chunk.substring(0, 100)}...`
-                                                    : result.chunk
-                                            )
-                                        ) : (
-                                            'No chunk available'
-                                        )}
-                                    </p>
+                                                'No chunk available'
+                                            )}
+                                        </p>
+                                    )}
                                     {result.chunk && result.chunk.length > 100 && (
                                         <button
                                             onClick={() => toggleChunk(`${bucketName}-${index}`)}
@@ -191,8 +204,16 @@ const RegisteredBuckets = ({ buckets, selectedBuckets, handleBucketChange }) => 
                             checked={selectedBuckets.includes(bucket.name)}
                             onChange={() => handleBucketChange(bucket.name)}
                             className="mr-2"
+                            disabled={!bucket.processing_complete || !bucket.alive}
                         />
-                        <span className="truncate" title={bucket.name}>{bucket.name}</span>
+                        <span>
+                            {bucket.name}
+                            {!bucket.alive
+                                ? " (Offline)"
+                                : !bucket.processing_complete
+                                    ? " (Processing)"
+                                    : ""}
+                        </span>
                         <span className="ml-4 text-xs text-gray-500 truncate" title={bucket.url}>{bucket.url}</span>
                     </li>
                 ))}
@@ -260,6 +281,19 @@ const App = () => {
                 setIsStartupDone(true);
             });
     }, [pollAttempts]);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            axios.get('/buckets')
+                .then((response) => {
+                    setBuckets(response.data.buckets);
+                })
+                .catch((err) => {
+                    // Optionally handle error
+                });
+        }, 5000); // every 5 seconds
+        return () => clearInterval(interval);
+    }, []);
 
     const handleBucketChange = (bucketName) => {
         setSelectedBuckets((prev) =>

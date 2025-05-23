@@ -4,9 +4,12 @@ import requests
 from Controller.StartUpController import StartUpController
 from Controller.QueryController import QueryController
 from Manager.EmbeddingManager import EmbeddingManager
-from flask import Flask
+from flask import Flask, jsonify
 
 logger = logging.getLogger(__name__)
+
+app = Flask(__name__)
+app.processing_complete = False  # Add this line!
 
 class BucketWebService:
     def __init__(self):
@@ -19,6 +22,10 @@ class BucketWebService:
         self.embedding_manager = EmbeddingManager()
         self.startup_controller = StartUpController(self.embedding_manager)
         self.query_controller = QueryController(self.embedding_manager)
+        self.processing_complete = False
+
+    def set_processing_complete(self, value: bool):
+        self.processing_complete = value
 
     def _register_with_ai_node(self, app):
         logger.info(f"Registering bucket {self.bucket_name} with AI Node at {self.ai_node_url}/register")
@@ -34,6 +41,8 @@ class BucketWebService:
                 result = self.startup_controller.startup()
             result_json = result.get_json()  # Parse Response to JSON
             logger.info(f"Automatic processing result: {result_json.get('message', 'No message')}")
+            self.set_processing_complete(True)
+            app.processing_complete = True  # <-- ADD THIS LINE
         except Exception as e:
             logger.error(f"Failed to register with AI Node: {str(e)}")
             raise
@@ -48,3 +57,11 @@ class BucketWebService:
         self.query_controller.register_routes(app)
         logger.info("QueryController routes registered")
         self._register_with_ai_node(app)
+        self.register_routes(app)
+
+    def register_routes(self, app):
+        @app.route("/status", methods=["GET"])
+        def status():
+            return jsonify({
+                "processing_complete": app.processing_complete  # This must be True after startup
+            })

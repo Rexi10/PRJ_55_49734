@@ -29,8 +29,7 @@ services:
       - OLLAMA_HOST=http://host.docker.internal:11434
     networks:
       - app-network
-    depends_on:
-      - interface
+
 
   bucket2:
     build:
@@ -49,8 +48,7 @@ services:
       - OLLAMA_HOST=http://host.docker.internal:11434
     networks:
       - app-network
-    depends_on:
-      - interface
+
 
   bucket3:
     build:
@@ -69,8 +67,6 @@ services:
       - OLLAMA_HOST=http://host.docker.internal:11434
     networks:
       - app-network
-    depends_on:
-      - interface
 
   bucket4:
     build:
@@ -89,8 +85,6 @@ services:
       - OLLAMA_HOST=http://host.docker.internal:11434
     networks:
       - app-network
-    depends_on:
-      - interface
 
 networks:
   app-network:

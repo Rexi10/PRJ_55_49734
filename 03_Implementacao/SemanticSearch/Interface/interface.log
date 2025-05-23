@@ -49624,3 +49624,1586 @@ For more information check: https://httpstatuses.com/400
 2025-05-22 00:25:45,320 INFO: Received query request
 2025-05-22 00:25:45,386 INFO: Query returned results from 1 buckets
 2025-05-22 00:25:45,387 INFO: 172.18.0.1 - - [22/May/2025 00:25:45] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:20:39,599 INFO: Starting InterfaceWebService initialization
+2025-05-23 17:20:39,599 INFO: InterfaceWebService initialization complete
+2025-05-23 17:20:39,599 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 17:20:39,600 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 17:20:39,600 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 17:20:40,487 INFO: Received bucket registration request
+2025-05-23 17:20:40,488 INFO: Received bucket registration request
+2025-05-23 17:20:40,489 INFO: Received bucket registration request
+2025-05-23 17:20:40,489 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 17:20:40,489 INFO: Received bucket registration request
+2025-05-23 17:20:40,489 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 17:20:40,489 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 17:20:40,490 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 17:20:40,490 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 17:20:40,490 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 17:20:40,490 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 17:20:40,491 INFO: 172.18.0.3 - - [23/May/2025 17:20:40] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:20:40,491 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 17:20:40,491 INFO: 172.18.0.4 - - [23/May/2025 17:20:40] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:20:40,491 INFO: 172.18.0.6 - - [23/May/2025 17:20:40] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:20:40,492 INFO: 172.18.0.5 - - [23/May/2025 17:20:40] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:21:00,251 INFO: Serving React frontend
+2025-05-23 17:21:00,267 INFO: 172.18.0.1 - - [23/May/2025 17:21:00] "GET / HTTP/1.1" 200 -
+2025-05-23 17:21:00,835 INFO: 172.18.0.1 - - [23/May/2025 17:21:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-05-23 17:21:00,851 INFO: 172.18.0.1 - - [23/May/2025 17:21:00] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 17:21:01,199 INFO: 172.18.0.1 - - [23/May/2025 17:21:01] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 17:21:01,208 INFO: 172.18.0.1 - - [23/May/2025 17:21:01] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 17:23:46,428 INFO: Received query request
+2025-05-23 17:23:46,631 INFO: Query returned results from 4 buckets
+2025-05-23 17:23:46,632 INFO: 172.18.0.1 - - [23/May/2025 17:23:46] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:33:58,661 INFO: Starting InterfaceWebService initialization
+2025-05-23 17:33:58,662 INFO: InterfaceWebService initialization complete
+2025-05-23 17:33:58,662 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 17:33:58,663 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 17:33:58,663 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 17:33:59,366 INFO: Received bucket registration request
+2025-05-23 17:33:59,366 INFO: Received bucket registration request
+2025-05-23 17:33:59,366 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 17:33:59,367 INFO: Received bucket registration request
+2025-05-23 17:33:59,367 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 17:33:59,367 INFO: Received bucket registration request
+2025-05-23 17:33:59,367 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 17:33:59,368 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 17:33:59,368 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 17:33:59,368 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 17:33:59,369 INFO: 172.18.0.6 - - [23/May/2025 17:33:59] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:33:59,369 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 17:33:59,369 INFO: 172.18.0.5 - - [23/May/2025 17:33:59] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:33:59,369 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 17:33:59,369 INFO: 172.18.0.4 - - [23/May/2025 17:33:59] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:33:59,370 INFO: 172.18.0.3 - - [23/May/2025 17:33:59] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:34:05,831 INFO: Serving React frontend
+2025-05-23 17:34:05,834 INFO: 172.18.0.1 - - [23/May/2025 17:34:05] "GET / HTTP/1.1" 200 -
+2025-05-23 17:34:06,877 INFO: 172.18.0.1 - - [23/May/2025 17:34:06] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 17:34:07,276 INFO: 172.18.0.1 - - [23/May/2025 17:34:07] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 17:34:07,288 INFO: 172.18.0.1 - - [23/May/2025 17:34:07] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 17:34:14,653 INFO: Received query request
+2025-05-23 17:34:14,747 INFO: Query returned results from 4 buckets
+2025-05-23 17:34:14,748 INFO: 172.18.0.1 - - [23/May/2025 17:34:14] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:34:15,216 INFO: Received query request
+2025-05-23 17:34:15,303 INFO: Query returned results from 4 buckets
+2025-05-23 17:34:15,304 INFO: 172.18.0.1 - - [23/May/2025 17:34:15] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:34:15,366 INFO: Received query request
+2025-05-23 17:34:15,468 INFO: Query returned results from 4 buckets
+2025-05-23 17:34:15,468 INFO: 172.18.0.1 - - [23/May/2025 17:34:15] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:48:33,419 INFO: Starting InterfaceWebService initialization
+2025-05-23 17:48:33,419 INFO: InterfaceWebService initialization complete
+2025-05-23 17:48:33,419 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 17:48:33,420 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 17:48:33,421 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 17:48:34,127 INFO: Received bucket registration request
+2025-05-23 17:48:34,127 INFO: Received bucket registration request
+2025-05-23 17:48:34,128 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 17:48:34,129 INFO: Received bucket registration request
+2025-05-23 17:48:34,129 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 17:48:34,129 INFO: Received bucket registration request
+2025-05-23 17:48:34,129 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 17:48:34,129 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 17:48:34,130 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 17:48:34,130 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 17:48:34,130 INFO: 172.18.0.4 - - [23/May/2025 17:48:34] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:48:34,130 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 17:48:34,131 INFO: 172.18.0.3 - - [23/May/2025 17:48:34] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:48:34,131 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 17:48:34,131 INFO: 172.18.0.6 - - [23/May/2025 17:48:34] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:48:34,132 INFO: 172.18.0.5 - - [23/May/2025 17:48:34] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:48:42,527 INFO: Serving React frontend
+2025-05-23 17:48:42,528 INFO: 172.18.0.1 - - [23/May/2025 17:48:42] "GET / HTTP/1.1" 200 -
+2025-05-23 17:48:42,927 INFO: 172.18.0.1 - - [23/May/2025 17:48:42] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-23 17:48:43,960 INFO: 172.18.0.1 - - [23/May/2025 17:48:43] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 17:48:43,970 INFO: 172.18.0.1 - - [23/May/2025 17:48:43] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 17:48:46,509 INFO: Received query request
+2025-05-23 17:48:46,510 ERROR: Query failed: a coroutine was expected, got {'Crime DataSet': [{'error': 'Bucket is still loading and not ready for queries.'}], 'Medical DataSet (Consultations)': [{'error': 'Bucket is still loading and not ready for queries.'}], 'Crime DataSet PT': [{'error': 'Bucket is still loading and not ready for queries.'}], 'BBC News DataSet': [{'error': 'Bucket is still loading and not ready for queries.'}]}
+Traceback (most recent call last):
+  File "/app/main_interface.py", line 53, in query
+    results = asyncio.run(interface_service.ai_node.forward_query(query_text, k, selected_buckets))
+  File "/usr/local/lib/python3.9/asyncio/runners.py", line 37, in run
+    raise ValueError("a coroutine was expected, got {!r}".format(main))
+ValueError: a coroutine was expected, got {'Crime DataSet': [{'error': 'Bucket is still loading and not ready for queries.'}], 'Medical DataSet (Consultations)': [{'error': 'Bucket is still loading and not ready for queries.'}], 'Crime DataSet PT': [{'error': 'Bucket is still loading and not ready for queries.'}], 'BBC News DataSet': [{'error': 'Bucket is still loading and not ready for queries.'}]}
+2025-05-23 17:48:46,518 INFO: 172.18.0.1 - - [23/May/2025 17:48:46] "[35m[1mPOST /query HTTP/1.1[0m" 500 -
+2025-05-23 17:48:54,489 INFO: Received query request
+2025-05-23 17:48:54,489 ERROR: Query failed: a coroutine was expected, got {'Crime DataSet': [{'error': 'Bucket is still loading and not ready for queries.'}], 'Medical DataSet (Consultations)': [{'error': 'Bucket is still loading and not ready for queries.'}], 'Crime DataSet PT': [{'error': 'Bucket is still loading and not ready for queries.'}], 'BBC News DataSet': [{'error': 'Bucket is still loading and not ready for queries.'}]}
+Traceback (most recent call last):
+  File "/app/main_interface.py", line 53, in query
+    results = asyncio.run(interface_service.ai_node.forward_query(query_text, k, selected_buckets))
+  File "/usr/local/lib/python3.9/asyncio/runners.py", line 37, in run
+    raise ValueError("a coroutine was expected, got {!r}".format(main))
+ValueError: a coroutine was expected, got {'Crime DataSet': [{'error': 'Bucket is still loading and not ready for queries.'}], 'Medical DataSet (Consultations)': [{'error': 'Bucket is still loading and not ready for queries.'}], 'Crime DataSet PT': [{'error': 'Bucket is still loading and not ready for queries.'}], 'BBC News DataSet': [{'error': 'Bucket is still loading and not ready for queries.'}]}
+2025-05-23 17:48:54,490 INFO: 172.18.0.1 - - [23/May/2025 17:48:54] "[35m[1mPOST /query HTTP/1.1[0m" 500 -
+2025-05-23 17:49:07,668 INFO: Received query request
+2025-05-23 17:49:07,668 ERROR: Query failed: a coroutine was expected, got {}
+Traceback (most recent call last):
+  File "/app/main_interface.py", line 53, in query
+    results = asyncio.run(interface_service.ai_node.forward_query(query_text, k, selected_buckets))
+  File "/usr/local/lib/python3.9/asyncio/runners.py", line 37, in run
+    raise ValueError("a coroutine was expected, got {!r}".format(main))
+ValueError: a coroutine was expected, got {}
+2025-05-23 17:49:07,669 INFO: 172.18.0.1 - - [23/May/2025 17:49:07] "[35m[1mPOST /query HTTP/1.1[0m" 500 -
+2025-05-23 17:49:13,521 INFO: Received query request
+2025-05-23 17:49:13,521 ERROR: Query failed: a coroutine was expected, got {}
+Traceback (most recent call last):
+  File "/app/main_interface.py", line 53, in query
+    results = asyncio.run(interface_service.ai_node.forward_query(query_text, k, selected_buckets))
+  File "/usr/local/lib/python3.9/asyncio/runners.py", line 37, in run
+    raise ValueError("a coroutine was expected, got {!r}".format(main))
+ValueError: a coroutine was expected, got {}
+2025-05-23 17:49:13,522 INFO: 172.18.0.1 - - [23/May/2025 17:49:13] "[35m[1mPOST /query HTTP/1.1[0m" 500 -
+2025-05-23 17:53:18,786 INFO: Received query request
+2025-05-23 17:53:18,787 ERROR: Query failed: a coroutine was expected, got {}
+Traceback (most recent call last):
+  File "/app/main_interface.py", line 53, in query
+    results = asyncio.run(interface_service.ai_node.forward_query(query_text, k, selected_buckets))
+  File "/usr/local/lib/python3.9/asyncio/runners.py", line 37, in run
+    raise ValueError("a coroutine was expected, got {!r}".format(main))
+ValueError: a coroutine was expected, got {}
+2025-05-23 17:53:18,787 INFO: 172.18.0.1 - - [23/May/2025 17:53:18] "[35m[1mPOST /query HTTP/1.1[0m" 500 -
+2025-05-23 17:54:18,488 INFO: Starting InterfaceWebService initialization
+2025-05-23 17:54:18,489 INFO: InterfaceWebService initialization complete
+2025-05-23 17:54:18,489 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 17:54:18,490 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 17:54:18,490 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 17:54:16,967 INFO: Received bucket registration request
+2025-05-23 17:54:16,967 INFO: Received bucket registration request
+2025-05-23 17:54:16,968 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 17:54:16,968 INFO: Received bucket registration request
+2025-05-23 17:54:16,968 INFO: Received bucket registration request
+2025-05-23 17:54:16,969 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 17:54:16,969 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 17:54:16,969 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 17:54:16,969 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 17:54:16,969 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 17:54:16,970 INFO: 172.18.0.5 - - [23/May/2025 17:54:16] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:54:16,970 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 17:54:16,970 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 17:54:16,971 INFO: 172.18.0.6 - - [23/May/2025 17:54:16] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:54:16,971 INFO: 172.18.0.3 - - [23/May/2025 17:54:16] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:54:16,971 INFO: 172.18.0.4 - - [23/May/2025 17:54:16] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:54:22,403 INFO: Serving React frontend
+2025-05-23 17:54:22,405 INFO: 172.18.0.1 - - [23/May/2025 17:54:22] "GET / HTTP/1.1" 200 -
+2025-05-23 17:54:22,879 INFO: 172.18.0.1 - - [23/May/2025 17:54:22] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-23 17:54:23,910 INFO: 172.18.0.1 - - [23/May/2025 17:54:23] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 17:54:23,921 INFO: 172.18.0.1 - - [23/May/2025 17:54:23] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 17:54:26,530 INFO: Received query request
+2025-05-23 17:54:26,531 INFO: Query returned results from 4 buckets
+2025-05-23 17:54:26,531 INFO: 172.18.0.1 - - [23/May/2025 17:54:26] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:54:42,009 INFO: Received query request
+2025-05-23 17:54:42,009 INFO: Query returned results from 4 buckets
+2025-05-23 17:54:42,010 INFO: 172.18.0.1 - - [23/May/2025 17:54:42] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:54:45,152 INFO: Received query request
+2025-05-23 17:54:45,153 INFO: No results from any bucket
+2025-05-23 17:54:45,153 INFO: 172.18.0.1 - - [23/May/2025 17:54:45] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:54:48,546 INFO: Received query request
+2025-05-23 17:54:48,547 INFO: No results from any bucket
+2025-05-23 17:54:48,547 INFO: 172.18.0.1 - - [23/May/2025 17:54:48] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:55:18,450 INFO: Received query request
+2025-05-23 17:55:18,451 INFO: No results from any bucket
+2025-05-23 17:55:18,451 INFO: 172.18.0.1 - - [23/May/2025 17:55:18] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:58:47,292 INFO: Serving React frontend
+2025-05-23 17:58:47,294 INFO: 172.18.0.1 - - [23/May/2025 17:58:47] "GET / HTTP/1.1" 200 -
+2025-05-23 17:58:47,627 INFO: 172.18.0.1 - - [23/May/2025 17:58:47] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-23 17:58:48,578 INFO: 172.18.0.1 - - [23/May/2025 17:58:48] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 17:58:48,587 INFO: 172.18.0.1 - - [23/May/2025 17:58:48] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 17:58:52,477 INFO: Received query request
+2025-05-23 17:58:52,478 INFO: No results from any bucket
+2025-05-23 17:58:52,478 INFO: 172.18.0.1 - - [23/May/2025 17:58:52] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:58:53,599 INFO: Received query request
+2025-05-23 17:58:53,599 INFO: No results from any bucket
+2025-05-23 17:58:53,600 INFO: 172.18.0.1 - - [23/May/2025 17:58:53] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:58:53,764 INFO: Received query request
+2025-05-23 17:58:53,764 INFO: No results from any bucket
+2025-05-23 17:58:53,765 INFO: 172.18.0.1 - - [23/May/2025 17:58:53] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:58:56,295 INFO: Received query request
+2025-05-23 17:58:56,295 INFO: Query returned results from 1 buckets
+2025-05-23 17:58:56,296 INFO: 172.18.0.1 - - [23/May/2025 17:58:56] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:59:02,964 INFO: Received query request
+2025-05-23 17:59:02,965 INFO: Query returned results from 1 buckets
+2025-05-23 17:59:02,965 INFO: 172.18.0.1 - - [23/May/2025 17:59:02] "POST /query HTTP/1.1" 200 -
+2025-05-23 17:59:49,378 INFO: Starting InterfaceWebService initialization
+2025-05-23 17:59:49,378 INFO: InterfaceWebService initialization complete
+2025-05-23 17:59:49,379 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 17:59:49,380 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 17:59:49,380 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 17:59:50,075 INFO: Received bucket registration request
+2025-05-23 17:59:50,076 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 17:59:50,076 INFO: Received bucket registration request
+2025-05-23 17:59:50,076 INFO: Received bucket registration request
+2025-05-23 17:59:50,077 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 17:59:50,077 INFO: Received bucket registration request
+2025-05-23 17:59:50,077 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 17:59:50,077 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 17:59:50,078 INFO: 172.18.0.6 - - [23/May/2025 17:59:50] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:59:50,078 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 17:59:50,078 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 17:59:50,078 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 17:59:50,079 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 17:59:50,079 INFO: 172.18.0.3 - - [23/May/2025 17:59:50] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:59:50,080 INFO: 172.18.0.4 - - [23/May/2025 17:59:50] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:59:50,080 INFO: 172.18.0.5 - - [23/May/2025 17:59:50] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 17:59:50,583 INFO: Serving React frontend
+2025-05-23 17:59:50,586 INFO: 172.18.0.1 - - [23/May/2025 17:59:50] "GET / HTTP/1.1" 200 -
+2025-05-23 17:59:50,901 INFO: 172.18.0.1 - - [23/May/2025 17:59:50] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 17:59:51,880 INFO: 172.18.0.1 - - [23/May/2025 17:59:51] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 17:59:51,885 INFO: 172.18.0.1 - - [23/May/2025 17:59:51] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 17:59:56,274 INFO: Received query request
+2025-05-23 17:59:56,275 INFO: Query returned results from 4 buckets
+2025-05-23 17:59:56,275 INFO: 172.18.0.1 - - [23/May/2025 17:59:56] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:00:17,648 INFO: Received query request
+2025-05-23 18:00:17,648 INFO: Query returned results from 4 buckets
+2025-05-23 18:00:17,649 INFO: 172.18.0.1 - - [23/May/2025 18:00:17] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:00:20,689 INFO: Received query request
+2025-05-23 18:00:20,690 INFO: Query returned results from 4 buckets
+2025-05-23 18:00:20,690 INFO: 172.18.0.1 - - [23/May/2025 18:00:20] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:00:35,876 INFO: Received query request
+2025-05-23 18:00:35,877 INFO: Query returned results from 4 buckets
+2025-05-23 18:00:35,877 INFO: 172.18.0.1 - - [23/May/2025 18:00:35] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:04:45,652 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:04:45,653 INFO: InterfaceWebService initialization complete
+2025-05-23 18:04:45,653 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:04:45,655 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:04:45,655 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:04:46,352 INFO: Received bucket registration request
+2025-05-23 18:04:46,353 INFO: Received bucket registration request
+2025-05-23 18:04:46,353 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:04:46,353 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:04:46,354 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:04:46,354 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:04:46,354 INFO: 172.18.0.3 - - [23/May/2025 18:04:46] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:04:46,355 INFO: 172.18.0.4 - - [23/May/2025 18:04:46] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:04:46,355 INFO: Received bucket registration request
+2025-05-23 18:04:46,356 INFO: Received bucket registration request
+2025-05-23 18:04:46,356 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 18:04:46,356 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 18:04:46,357 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 18:04:46,357 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 18:04:46,357 INFO: 172.18.0.6 - - [23/May/2025 18:04:46] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:04:46,358 INFO: 172.18.0.5 - - [23/May/2025 18:04:46] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:04:51,759 INFO: Serving React frontend
+2025-05-23 18:04:51,761 INFO: 172.18.0.1 - - [23/May/2025 18:04:51] "GET / HTTP/1.1" 200 -
+2025-05-23 18:04:52,201 INFO: 172.18.0.1 - - [23/May/2025 18:04:52] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-23 18:04:52,208 INFO: 172.18.0.1 - - [23/May/2025 18:04:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-05-23 18:04:53,190 INFO: 172.18.0.1 - - [23/May/2025 18:04:53] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:04:53,206 INFO: 172.18.0.1 - - [23/May/2025 18:04:53] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:04:53,845 INFO: Received query request
+2025-05-23 18:04:53,847 INFO: Query returned results from 4 buckets
+2025-05-23 18:04:53,847 INFO: 172.18.0.1 - - [23/May/2025 18:04:53] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:05:24,176 INFO: Received query request
+2025-05-23 18:05:24,176 INFO: No results from any bucket
+2025-05-23 18:05:24,177 INFO: 172.18.0.1 - - [23/May/2025 18:05:24] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:05:27,996 INFO: Received query request
+2025-05-23 18:05:27,996 INFO: No results from any bucket
+2025-05-23 18:05:27,997 INFO: 172.18.0.1 - - [23/May/2025 18:05:27] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:05:34,010 INFO: Received query request
+2025-05-23 18:05:34,010 INFO: No results from any bucket
+2025-05-23 18:05:34,011 INFO: 172.18.0.1 - - [23/May/2025 18:05:34] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:08:48,926 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:08:48,926 INFO: InterfaceWebService initialization complete
+2025-05-23 18:08:48,926 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:08:48,928 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:08:48,928 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:08:49,737 INFO: Received bucket registration request
+2025-05-23 18:08:49,738 INFO: Received bucket registration request
+2025-05-23 18:08:49,738 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:08:49,738 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 18:08:49,739 INFO: Received bucket registration request
+2025-05-23 18:08:49,739 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:08:49,739 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 18:08:49,740 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 18:08:49,740 INFO: 172.18.0.4 - - [23/May/2025 18:08:49] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:08:49,740 INFO: 172.18.0.3 - - [23/May/2025 18:08:49] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:08:49,741 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 18:08:49,741 INFO: 172.18.0.5 - - [23/May/2025 18:08:49] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:08:49,752 INFO: Received bucket registration request
+2025-05-23 18:08:49,753 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:08:49,753 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:08:49,753 INFO: 172.18.0.6 - - [23/May/2025 18:08:49] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:08:51,930 INFO: Serving React frontend
+2025-05-23 18:08:51,932 INFO: 172.18.0.1 - - [23/May/2025 18:08:51] "GET / HTTP/1.1" 200 -
+2025-05-23 18:08:52,318 INFO: 172.18.0.1 - - [23/May/2025 18:08:52] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-23 18:08:53,447 INFO: 172.18.0.1 - - [23/May/2025 18:08:53] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:08:53,455 INFO: 172.18.0.1 - - [23/May/2025 18:08:53] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:08:55,553 INFO: Received query request
+2025-05-23 18:08:55,554 INFO: Query returned results from 4 buckets
+2025-05-23 18:08:55,554 INFO: 172.18.0.1 - - [23/May/2025 18:08:55] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:08:58,823 INFO: Received query request
+2025-05-23 18:08:58,824 INFO: Query returned results from 4 buckets
+2025-05-23 18:08:58,824 INFO: 172.18.0.1 - - [23/May/2025 18:08:58] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:09:01,370 INFO: Received query request
+2025-05-23 18:09:01,371 INFO: Query returned results from 4 buckets
+2025-05-23 18:09:01,371 INFO: 172.18.0.1 - - [23/May/2025 18:09:01] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:09:04,847 INFO: Received query request
+2025-05-23 18:09:04,848 INFO: Query returned results from 4 buckets
+2025-05-23 18:09:04,848 INFO: 172.18.0.1 - - [23/May/2025 18:09:04] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:09:04,971 INFO: Received query request
+2025-05-23 18:09:04,972 INFO: Query returned results from 4 buckets
+2025-05-23 18:09:04,972 INFO: 172.18.0.1 - - [23/May/2025 18:09:04] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:09:14,047 INFO: Received query request
+2025-05-23 18:09:14,047 INFO: Query returned results from 4 buckets
+2025-05-23 18:09:14,048 INFO: 172.18.0.1 - - [23/May/2025 18:09:14] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:09:17,121 INFO: Received query request
+2025-05-23 18:09:17,121 INFO: No results from any bucket
+2025-05-23 18:09:17,122 INFO: 172.18.0.1 - - [23/May/2025 18:09:17] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:09:18,956 INFO: Received query request
+2025-05-23 18:09:18,956 INFO: No results from any bucket
+2025-05-23 18:09:18,957 INFO: 172.18.0.1 - - [23/May/2025 18:09:18] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:11:51,881 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:11:51,882 INFO: InterfaceWebService initialization complete
+2025-05-23 18:11:51,882 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:11:51,883 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:11:51,884 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:11:52,579 INFO: Received bucket registration request
+2025-05-23 18:11:52,580 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:11:52,580 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:11:52,581 INFO: 172.18.0.5 - - [23/May/2025 18:11:52] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:11:52,583 INFO: Received bucket registration request
+2025-05-23 18:11:52,584 INFO: Received bucket registration request
+2025-05-23 18:11:52,584 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 18:11:52,585 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 18:11:52,586 INFO: Received bucket registration request
+2025-05-23 18:11:52,586 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 18:11:52,586 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 18:11:52,586 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:11:52,586 INFO: 172.18.0.4 - - [23/May/2025 18:11:52] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:11:52,587 INFO: 172.18.0.3 - - [23/May/2025 18:11:52] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:11:52,587 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:11:52,588 INFO: 172.18.0.6 - - [23/May/2025 18:11:52] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:11:55,942 INFO: Serving React frontend
+2025-05-23 18:11:55,944 INFO: 172.18.0.1 - - [23/May/2025 18:11:55] "GET / HTTP/1.1" 200 -
+2025-05-23 18:11:56,487 INFO: 172.18.0.1 - - [23/May/2025 18:11:56] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-23 18:11:57,596 INFO: 172.18.0.1 - - [23/May/2025 18:11:57] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:11:57,636 INFO: 172.18.0.1 - - [23/May/2025 18:11:57] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:12:04,888 INFO: Received query request
+2025-05-23 18:12:04,934 INFO: Query returned results from 4 buckets
+2025-05-23 18:12:04,934 INFO: 172.18.0.1 - - [23/May/2025 18:12:04] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:12:09,275 INFO: Received query request
+2025-05-23 18:12:09,376 INFO: Query returned results from 4 buckets
+2025-05-23 18:12:09,377 INFO: 172.18.0.1 - - [23/May/2025 18:12:09] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:12:12,303 INFO: Received query request
+2025-05-23 18:12:12,489 INFO: Query returned results from 4 buckets
+2025-05-23 18:12:12,489 INFO: 172.18.0.1 - - [23/May/2025 18:12:12] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:12:19,168 INFO: Serving React frontend
+2025-05-23 18:12:19,170 INFO: 172.18.0.1 - - [23/May/2025 18:12:19] "GET / HTTP/1.1" 200 -
+2025-05-23 18:12:20,136 INFO: 172.18.0.1 - - [23/May/2025 18:12:20] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-23 18:12:20,327 INFO: 172.18.0.1 - - [23/May/2025 18:12:20] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:12:20,332 INFO: 172.18.0.1 - - [23/May/2025 18:12:20] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:12:25,035 INFO: Received query request
+2025-05-23 18:12:25,374 INFO: Query returned results from 4 buckets
+2025-05-23 18:12:25,375 INFO: 172.18.0.1 - - [23/May/2025 18:12:25] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:15:16,009 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:15:16,010 INFO: InterfaceWebService initialization complete
+2025-05-23 18:15:16,010 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:15:16,011 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:15:16,011 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:15:16,727 INFO: Received bucket registration request
+2025-05-23 18:15:16,728 INFO: Received bucket registration request
+2025-05-23 18:15:16,728 INFO: Received bucket registration request
+2025-05-23 18:15:16,728 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:15:16,729 INFO: Received bucket registration request
+2025-05-23 18:15:16,729 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:15:16,729 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 18:15:16,729 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:15:16,730 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 18:15:16,730 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:15:16,730 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 18:15:16,731 INFO: 172.18.0.6 - - [23/May/2025 18:15:16] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:15:16,731 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 18:15:16,731 INFO: 172.18.0.5 - - [23/May/2025 18:15:16] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:15:16,732 INFO: 172.18.0.4 - - [23/May/2025 18:15:16] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:15:16,732 INFO: 172.18.0.3 - - [23/May/2025 18:15:16] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:15:18,386 INFO: Serving React frontend
+2025-05-23 18:15:18,389 INFO: 172.18.0.1 - - [23/May/2025 18:15:18] "GET / HTTP/1.1" 200 -
+2025-05-23 18:15:18,778 INFO: 172.18.0.1 - - [23/May/2025 18:15:18] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 18:16:33,375 INFO: Serving React frontend
+2025-05-23 18:16:33,377 INFO: 172.18.0.1 - - [23/May/2025 18:16:33] "GET / HTTP/1.1" 200 -
+2025-05-23 18:16:33,674 INFO: 172.18.0.1 - - [23/May/2025 18:16:33] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 18:16:35,510 INFO: Serving React frontend
+2025-05-23 18:16:35,511 INFO: 172.18.0.1 - - [23/May/2025 18:16:35] "GET / HTTP/1.1" 200 -
+2025-05-23 18:16:36,484 INFO: 172.18.0.1 - - [23/May/2025 18:16:36] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-23 18:19:22,523 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:19:22,524 INFO: InterfaceWebService initialization complete
+2025-05-23 18:19:22,524 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:19:22,525 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:19:22,525 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:19:23,198 INFO: Received bucket registration request
+2025-05-23 18:19:23,198 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:19:23,199 INFO: Received bucket registration request
+2025-05-23 18:19:23,199 INFO: Received bucket registration request
+2025-05-23 18:19:23,199 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:19:23,200 INFO: Received bucket registration request
+2025-05-23 18:19:23,200 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:19:23,201 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 18:19:23,201 INFO: 172.18.0.3 - - [23/May/2025 18:19:23] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:19:23,201 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 18:19:23,201 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:19:23,202 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 18:19:23,202 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 18:19:23,202 INFO: 172.18.0.5 - - [23/May/2025 18:19:23] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:19:23,202 INFO: 172.18.0.4 - - [23/May/2025 18:19:23] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:19:23,203 INFO: 172.18.0.6 - - [23/May/2025 18:19:23] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:19:24,249 INFO: Serving React frontend
+2025-05-23 18:19:24,254 INFO: 172.18.0.1 - - [23/May/2025 18:19:24] "GET / HTTP/1.1" 200 -
+2025-05-23 18:19:24,675 INFO: 172.18.0.1 - - [23/May/2025 18:19:24] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-23 18:20:26,950 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:20:26,950 INFO: InterfaceWebService initialization complete
+2025-05-23 18:20:26,950 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:20:26,952 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:20:26,952 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:20:27,614 INFO: Received bucket registration request
+2025-05-23 18:20:27,614 INFO: Received bucket registration request
+2025-05-23 18:20:27,615 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 18:20:27,615 INFO: Received bucket registration request
+2025-05-23 18:20:27,616 INFO: Received bucket registration request
+2025-05-23 18:20:27,616 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 18:20:27,616 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 18:20:27,616 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:20:27,617 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:20:27,617 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 18:20:27,617 INFO: 172.18.0.4 - - [23/May/2025 18:20:27] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:20:27,617 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:20:27,618 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:20:27,618 INFO: 172.18.0.5 - - [23/May/2025 18:20:27] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:20:27,618 INFO: 172.18.0.6 - - [23/May/2025 18:20:27] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:20:27,619 INFO: 172.18.0.3 - - [23/May/2025 18:20:27] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:20:31,439 INFO: Serving React frontend
+2025-05-23 18:20:31,460 INFO: 172.18.0.1 - - [23/May/2025 18:20:31] "GET / HTTP/1.1" 200 -
+2025-05-23 18:20:32,001 INFO: 172.18.0.1 - - [23/May/2025 18:20:32] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 18:20:33,060 INFO: 172.18.0.1 - - [23/May/2025 18:20:33] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:20:33,067 INFO: 172.18.0.1 - - [23/May/2025 18:20:33] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:20:34,377 INFO: Serving React frontend
+2025-05-23 18:20:34,378 INFO: 172.18.0.1 - - [23/May/2025 18:20:34] "GET / HTTP/1.1" 200 -
+2025-05-23 18:20:35,423 INFO: 172.18.0.1 - - [23/May/2025 18:20:35] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-23 18:20:35,629 INFO: 172.18.0.1 - - [23/May/2025 18:20:35] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:20:35,634 INFO: 172.18.0.1 - - [23/May/2025 18:20:35] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:20:37,851 INFO: Received query request
+2025-05-23 18:20:37,875 INFO: Query returned results from 4 buckets
+2025-05-23 18:20:37,875 INFO: 172.18.0.1 - - [23/May/2025 18:20:37] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:20:40,060 INFO: Received query request
+2025-05-23 18:20:40,183 INFO: Query returned results from 4 buckets
+2025-05-23 18:20:40,183 INFO: 172.18.0.1 - - [23/May/2025 18:20:40] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:20:41,239 INFO: Received query request
+2025-05-23 18:20:41,357 INFO: Query returned results from 4 buckets
+2025-05-23 18:20:41,357 INFO: 172.18.0.1 - - [23/May/2025 18:20:41] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:20:43,126 INFO: Received query request
+2025-05-23 18:20:43,215 INFO: Query returned results from 4 buckets
+2025-05-23 18:20:43,216 INFO: 172.18.0.1 - - [23/May/2025 18:20:43] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:23:29,965 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:23:29,965 INFO: InterfaceWebService initialization complete
+2025-05-23 18:23:29,965 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:23:29,967 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:23:29,967 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:23:30,718 INFO: Received bucket registration request
+2025-05-23 18:23:30,718 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 18:23:30,718 INFO: Received bucket registration request
+2025-05-23 18:23:30,719 INFO: Received bucket registration request
+2025-05-23 18:23:30,719 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 18:23:30,720 INFO: Received bucket registration request
+2025-05-23 18:23:30,720 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:23:30,720 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:23:30,721 INFO: 172.18.0.4 - - [23/May/2025 18:23:30] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:23:30,721 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 18:23:30,721 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:23:30,721 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:23:30,722 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 18:23:30,722 INFO: 172.18.0.5 - - [23/May/2025 18:23:30] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:23:30,722 INFO: 172.18.0.6 - - [23/May/2025 18:23:30] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:23:30,723 INFO: 172.18.0.3 - - [23/May/2025 18:23:30] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:23:31,283 INFO: Serving React frontend
+2025-05-23 18:23:31,285 INFO: 172.18.0.1 - - [23/May/2025 18:23:31] "GET / HTTP/1.1" 200 -
+2025-05-23 18:23:31,764 INFO: 172.18.0.1 - - [23/May/2025 18:23:31] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 18:23:31,770 INFO: 172.18.0.1 - - [23/May/2025 18:23:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-05-23 18:23:32,780 INFO: 172.18.0.1 - - [23/May/2025 18:23:32] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:23:32,793 INFO: 172.18.0.1 - - [23/May/2025 18:23:32] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:23:38,084 INFO: Received query request
+2025-05-23 18:23:38,112 INFO: Query returned results from 4 buckets
+2025-05-23 18:23:38,113 INFO: 172.18.0.1 - - [23/May/2025 18:23:38] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:23:40,836 INFO: Received query request
+2025-05-23 18:23:40,862 INFO: Query returned results from 4 buckets
+2025-05-23 18:23:40,862 INFO: 172.18.0.1 - - [23/May/2025 18:23:40] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:23:43,163 INFO: Received query request
+2025-05-23 18:23:43,220 INFO: Query returned results from 4 buckets
+2025-05-23 18:23:43,221 INFO: 172.18.0.1 - - [23/May/2025 18:23:43] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:23:45,588 INFO: Received query request
+2025-05-23 18:23:45,702 INFO: Query returned results from 4 buckets
+2025-05-23 18:23:45,703 INFO: 172.18.0.1 - - [23/May/2025 18:23:45] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:23:47,770 INFO: Received query request
+2025-05-23 18:23:47,917 INFO: Query returned results from 4 buckets
+2025-05-23 18:23:47,918 INFO: 172.18.0.1 - - [23/May/2025 18:23:47] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:23:49,625 INFO: Received query request
+2025-05-23 18:23:49,752 INFO: Query returned results from 4 buckets
+2025-05-23 18:23:49,752 INFO: 172.18.0.1 - - [23/May/2025 18:23:49] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:23:50,399 INFO: Received query request
+2025-05-23 18:23:50,596 INFO: Query returned results from 4 buckets
+2025-05-23 18:23:50,596 INFO: 172.18.0.1 - - [23/May/2025 18:23:50] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:23:51,692 INFO: Serving React frontend
+2025-05-23 18:23:51,694 INFO: 172.18.0.1 - - [23/May/2025 18:23:51] "GET / HTTP/1.1" 200 -
+2025-05-23 18:23:52,661 INFO: 172.18.0.1 - - [23/May/2025 18:23:52] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-23 18:23:52,875 INFO: 172.18.0.1 - - [23/May/2025 18:23:52] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:23:52,880 INFO: 172.18.0.1 - - [23/May/2025 18:23:52] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:23:56,798 INFO: Received query request
+2025-05-23 18:23:57,141 INFO: Query returned results from 4 buckets
+2025-05-23 18:23:57,141 INFO: 172.18.0.1 - - [23/May/2025 18:23:57] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:28:29,605 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:28:29,606 INFO: InterfaceWebService initialization complete
+2025-05-23 18:28:29,606 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:28:29,607 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:28:29,608 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:28:30,339 INFO: Received bucket registration request
+2025-05-23 18:28:30,339 INFO: Received bucket registration request
+2025-05-23 18:28:30,340 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 18:28:30,340 INFO: Received bucket registration request
+2025-05-23 18:28:30,340 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 18:28:30,341 INFO: Received bucket registration request
+2025-05-23 18:28:30,341 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 18:28:30,341 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:28:30,341 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 18:28:30,342 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:28:30,342 INFO: 172.18.0.3 - - [23/May/2025 18:28:30] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:28:30,342 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:28:30,342 INFO: 172.18.0.4 - - [23/May/2025 18:28:30] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:28:30,343 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:28:30,344 INFO: 172.18.0.6 - - [23/May/2025 18:28:30] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:28:30,344 INFO: 172.18.0.5 - - [23/May/2025 18:28:30] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:28:31,337 INFO: Serving React frontend
+2025-05-23 18:28:31,340 INFO: 172.18.0.1 - - [23/May/2025 18:28:31] "GET / HTTP/1.1" 200 -
+2025-05-23 18:28:31,817 INFO: 172.18.0.1 - - [23/May/2025 18:28:31] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 18:28:32,843 INFO: 172.18.0.1 - - [23/May/2025 18:28:32] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:28:32,860 INFO: 172.18.0.1 - - [23/May/2025 18:28:32] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:28:38,298 INFO: 172.18.0.1 - - [23/May/2025 18:28:38] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:28:40,214 INFO: Received query request
+2025-05-23 18:28:40,246 INFO: Query returned results from 4 buckets
+2025-05-23 18:28:40,247 INFO: 172.18.0.1 - - [23/May/2025 18:28:40] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:28:43,719 INFO: 172.18.0.1 - - [23/May/2025 18:28:43] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:28:46,822 INFO: Received query request
+2025-05-23 18:28:46,937 WARNING: Invalid results from BBC News DataSet_query_time: 0.01893019676208496
+2025-05-23 18:28:46,937 WARNING: Invalid results from Crime DataSet PT_query_time: 0.020134687423706055
+2025-05-23 18:28:46,937 WARNING: Invalid results from Crime DataSet_query_time: 0.014579534530639648
+2025-05-23 18:28:46,938 WARNING: Invalid results from Medical DataSet (Consultations)_query_time: 0.029166698455810547
+2025-05-23 18:28:46,938 INFO: Query returned results from 8 buckets
+2025-05-23 18:28:46,939 INFO: 172.18.0.1 - - [23/May/2025 18:28:46] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:28:49,140 INFO: 172.18.0.1 - - [23/May/2025 18:28:49] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:28:54,066 INFO: Received query request
+2025-05-23 18:28:54,374 WARNING: Invalid results from BBC News DataSet_query_time: 0.09091758728027344
+2025-05-23 18:28:54,374 WARNING: Invalid results from Crime DataSet PT_query_time: 0.08566880226135254
+2025-05-23 18:28:54,374 WARNING: Invalid results from Crime DataSet_query_time: 0.0783393383026123
+2025-05-23 18:28:54,375 WARNING: Invalid results from Medical DataSet (Consultations)_query_time: 0.0221405029296875
+2025-05-23 18:28:54,375 INFO: Query returned results from 8 buckets
+2025-05-23 18:28:54,375 INFO: 172.18.0.1 - - [23/May/2025 18:28:54] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:28:54,696 INFO: 172.18.0.1 - - [23/May/2025 18:28:54] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:28:58,285 INFO: 172.18.0.1 - - [23/May/2025 18:28:58] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:29:03,702 INFO: 172.18.0.1 - - [23/May/2025 18:29:03] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:29:09,385 INFO: 172.18.0.1 - - [23/May/2025 18:29:09] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:29:14,811 INFO: 172.18.0.1 - - [23/May/2025 18:29:14] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:29:20,236 INFO: 172.18.0.1 - - [23/May/2025 18:29:20] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:29:23,350 INFO: 172.18.0.1 - - [23/May/2025 18:29:23] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:29:28,766 INFO: 172.18.0.1 - - [23/May/2025 18:29:28] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:29:34,189 INFO: 172.18.0.1 - - [23/May/2025 18:29:34] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:29:39,607 INFO: 172.18.0.1 - - [23/May/2025 18:29:39] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:29:45,028 INFO: 172.18.0.1 - - [23/May/2025 18:29:45] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:29:50,458 INFO: 172.18.0.1 - - [23/May/2025 18:29:50] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:29:53,579 INFO: 172.18.0.1 - - [23/May/2025 18:29:53] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:29:59,591 INFO: 172.18.0.1 - - [23/May/2025 18:29:59] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:30:05,134 INFO: 172.18.0.1 - - [23/May/2025 18:30:05] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:30:10,558 INFO: 172.18.0.1 - - [23/May/2025 18:30:10] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:30:16,348 INFO: 172.18.0.1 - - [23/May/2025 18:30:16] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:30:19,463 INFO: 172.18.0.1 - - [23/May/2025 18:30:19] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:30:24,881 INFO: 172.18.0.1 - - [23/May/2025 18:30:24] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:30:30,305 INFO: 172.18.0.1 - - [23/May/2025 18:30:30] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:30:35,731 INFO: 172.18.0.1 - - [23/May/2025 18:30:35] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:30:41,365 INFO: 172.18.0.1 - - [23/May/2025 18:30:41] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:30:46,795 INFO: 172.18.0.1 - - [23/May/2025 18:30:46] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:30:49,904 INFO: 172.18.0.1 - - [23/May/2025 18:30:49] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:30:55,327 INFO: 172.18.0.1 - - [23/May/2025 18:30:55] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:31:00,751 INFO: 172.18.0.1 - - [23/May/2025 18:31:00] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:11,709 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:32:11,710 INFO: InterfaceWebService initialization complete
+2025-05-23 18:32:11,710 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:32:11,711 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:32:11,712 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:32:11,761 INFO: 172.18.0.1 - - [23/May/2025 18:32:11] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:12,518 INFO: Received bucket registration request
+2025-05-23 18:32:12,519 INFO: Received bucket registration request
+2025-05-23 18:32:12,519 INFO: Received bucket registration request
+2025-05-23 18:32:12,519 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:32:12,520 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:32:12,520 INFO: Received bucket registration request
+2025-05-23 18:32:12,521 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 18:32:12,521 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:32:12,521 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:32:12,522 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 18:32:12,522 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 18:32:12,522 INFO: 172.18.0.6 - - [23/May/2025 18:32:12] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:32:12,523 INFO: 172.18.0.4 - - [23/May/2025 18:32:12] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:32:12,523 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 18:32:12,523 INFO: 172.18.0.5 - - [23/May/2025 18:32:12] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:32:12,524 INFO: 172.18.0.3 - - [23/May/2025 18:32:12] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:32:12,710 INFO: Serving React frontend
+2025-05-23 18:32:12,713 INFO: 172.18.0.1 - - [23/May/2025 18:32:12] "GET / HTTP/1.1" 200 -
+2025-05-23 18:32:13,184 INFO: 172.18.0.1 - - [23/May/2025 18:32:13] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 18:32:14,298 INFO: 172.18.0.1 - - [23/May/2025 18:32:14] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:14,310 INFO: 172.18.0.1 - - [23/May/2025 18:32:14] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:15,835 INFO: 172.18.0.1 - - [23/May/2025 18:32:15] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:19,728 INFO: 172.18.0.1 - - [23/May/2025 18:32:19] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:20,423 INFO: Received query request
+2025-05-23 18:32:20,442 INFO: Query returned results from 4 buckets
+2025-05-23 18:32:20,442 INFO: 172.18.0.1 - - [23/May/2025 18:32:20] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:32:21,260 INFO: 172.18.0.1 - - [23/May/2025 18:32:21] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:22,089 INFO: Received query request
+2025-05-23 18:32:22,106 INFO: Query returned results from 4 buckets
+2025-05-23 18:32:22,108 INFO: 172.18.0.1 - - [23/May/2025 18:32:22] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:32:25,151 INFO: 172.18.0.1 - - [23/May/2025 18:32:25] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:26,683 INFO: 172.18.0.1 - - [23/May/2025 18:32:26] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:26,693 INFO: Received query request
+2025-05-23 18:32:26,707 INFO: Query returned results from 4 buckets
+2025-05-23 18:32:26,708 INFO: 172.18.0.1 - - [23/May/2025 18:32:26] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:32:30,669 INFO: 172.18.0.1 - - [23/May/2025 18:32:30] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:31,687 INFO: Received query request
+2025-05-23 18:32:31,702 INFO: Query returned results from 4 buckets
+2025-05-23 18:32:31,703 INFO: 172.18.0.1 - - [23/May/2025 18:32:31] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:32:32,444 INFO: 172.18.0.1 - - [23/May/2025 18:32:32] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:35,991 INFO: 172.18.0.1 - - [23/May/2025 18:32:35] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:37,918 INFO: 172.18.0.1 - - [23/May/2025 18:32:37] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:37,138 INFO: Received query request
+2025-05-23 18:32:37,153 INFO: Query returned results from 4 buckets
+2025-05-23 18:32:37,153 INFO: 172.18.0.1 - - [23/May/2025 18:32:37] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:32:39,113 INFO: 172.18.0.1 - - [23/May/2025 18:32:39] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:39,495 INFO: Healthcheck: Crime DataSet alive=True processing_complete=True
+2025-05-23 18:32:39,499 INFO: Healthcheck: Medical DataSet (Consultations) alive=True processing_complete=True
+2025-05-23 18:32:39,505 INFO: Healthcheck: Crime DataSet PT alive=True processing_complete=True
+2025-05-23 18:32:39,510 INFO: Healthcheck: BBC News DataSet alive=True processing_complete=True
+2025-05-23 18:32:41,034 INFO: 172.18.0.1 - - [23/May/2025 18:32:41] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:44,533 INFO: 172.18.0.1 - - [23/May/2025 18:32:44] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:46,539 INFO: 172.18.0.1 - - [23/May/2025 18:32:46] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:49,960 INFO: 172.18.0.1 - - [23/May/2025 18:32:49] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:52,024 INFO: 172.18.0.1 - - [23/May/2025 18:32:52] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:55,389 INFO: 172.18.0.1 - - [23/May/2025 18:32:55] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:32:57,486 INFO: 172.18.0.1 - - [23/May/2025 18:32:57] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:00,816 INFO: 172.18.0.1 - - [23/May/2025 18:33:00] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:02,978 INFO: 172.18.0.1 - - [23/May/2025 18:33:02] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:06,236 INFO: 172.18.0.1 - - [23/May/2025 18:33:06] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:06,152 INFO: 172.18.0.1 - - [23/May/2025 18:33:06] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:07,304 INFO: Healthcheck: Crime DataSet alive=True processing_complete=True
+2025-05-23 18:33:07,306 INFO: Healthcheck: Medical DataSet (Consultations) alive=True processing_complete=True
+2025-05-23 18:33:07,311 INFO: Healthcheck: Crime DataSet PT alive=True processing_complete=True
+2025-05-23 18:33:07,318 INFO: Healthcheck: BBC News DataSet alive=True processing_complete=True
+2025-05-23 18:33:09,351 INFO: 172.18.0.1 - - [23/May/2025 18:33:09] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:11,632 INFO: 172.18.0.1 - - [23/May/2025 18:33:11] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:14,771 INFO: 172.18.0.1 - - [23/May/2025 18:33:14] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:17,140 INFO: 172.18.0.1 - - [23/May/2025 18:33:17] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:20,190 INFO: 172.18.0.1 - - [23/May/2025 18:33:20] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:22,567 INFO: 172.18.0.1 - - [23/May/2025 18:33:22] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:25,668 INFO: 172.18.0.1 - - [23/May/2025 18:33:25] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:28,107 INFO: 172.18.0.1 - - [23/May/2025 18:33:28] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:31,033 INFO: 172.18.0.1 - - [23/May/2025 18:33:31] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:33,579 INFO: 172.18.0.1 - - [23/May/2025 18:33:33] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:34,138 INFO: 172.18.0.1 - - [23/May/2025 18:33:34] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:35,011 INFO: Healthcheck: Crime DataSet alive=True processing_complete=True
+2025-05-23 18:33:35,014 INFO: Healthcheck: Medical DataSet (Consultations) alive=True processing_complete=True
+2025-05-23 18:33:35,020 INFO: Healthcheck: Crime DataSet PT alive=True processing_complete=True
+2025-05-23 18:33:35,031 INFO: Healthcheck: BBC News DataSet alive=True processing_complete=True
+2025-05-23 18:33:36,750 INFO: 172.18.0.1 - - [23/May/2025 18:33:36] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:40,023 INFO: 172.18.0.1 - - [23/May/2025 18:33:40] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:42,334 INFO: 172.18.0.1 - - [23/May/2025 18:33:42] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:45,440 INFO: 172.18.0.1 - - [23/May/2025 18:33:45] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:47,793 INFO: 172.18.0.1 - - [23/May/2025 18:33:47] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:50,861 INFO: 172.18.0.1 - - [23/May/2025 18:33:50] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:53,219 INFO: 172.18.0.1 - - [23/May/2025 18:33:53] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:56,280 INFO: 172.18.0.1 - - [23/May/2025 18:33:56] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:33:58,665 INFO: 172.18.0.1 - - [23/May/2025 18:33:58] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:01,705 INFO: 172.18.0.1 - - [23/May/2025 18:34:01] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:01,771 INFO: 172.18.0.1 - - [23/May/2025 18:34:01] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:02,777 INFO: Healthcheck: Crime DataSet alive=True processing_complete=True
+2025-05-23 18:34:02,783 INFO: Healthcheck: Medical DataSet (Consultations) alive=True processing_complete=True
+2025-05-23 18:34:02,787 INFO: Healthcheck: Crime DataSet PT alive=True processing_complete=True
+2025-05-23 18:34:02,792 INFO: Healthcheck: BBC News DataSet alive=True processing_complete=True
+2025-05-23 18:34:04,831 INFO: 172.18.0.1 - - [23/May/2025 18:34:04] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:07,203 INFO: 172.18.0.1 - - [23/May/2025 18:34:07] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:10,246 INFO: 172.18.0.1 - - [23/May/2025 18:34:10] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:12,626 INFO: 172.18.0.1 - - [23/May/2025 18:34:12] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:15,660 INFO: 172.18.0.1 - - [23/May/2025 18:34:15] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:18,056 INFO: 172.18.0.1 - - [23/May/2025 18:34:18] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:21,090 INFO: 172.18.0.1 - - [23/May/2025 18:34:21] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:23,477 INFO: 172.18.0.1 - - [23/May/2025 18:34:23] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:26,509 INFO: 172.18.0.1 - - [23/May/2025 18:34:26] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:28,904 INFO: 172.18.0.1 - - [23/May/2025 18:34:28] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:29,612 INFO: 172.18.0.1 - - [23/May/2025 18:34:29] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:30,523 INFO: Healthcheck: Crime DataSet alive=True processing_complete=True
+2025-05-23 18:34:30,527 INFO: Healthcheck: Medical DataSet (Consultations) alive=True processing_complete=True
+2025-05-23 18:34:30,530 INFO: Healthcheck: Crime DataSet PT alive=True processing_complete=True
+2025-05-23 18:34:30,533 INFO: Healthcheck: BBC News DataSet alive=True processing_complete=True
+2025-05-23 18:34:32,022 INFO: 172.18.0.1 - - [23/May/2025 18:34:32] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:35,029 INFO: 172.18.0.1 - - [23/May/2025 18:34:35] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:37,444 INFO: 172.18.0.1 - - [23/May/2025 18:34:37] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:40,458 INFO: 172.18.0.1 - - [23/May/2025 18:34:40] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:34:42,882 INFO: 172.18.0.1 - - [23/May/2025 18:34:42] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:05,451 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:35:05,451 INFO: InterfaceWebService initialization complete
+2025-05-23 18:35:05,452 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:35:05,453 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:35:05,454 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:35:05,458 INFO: 172.18.0.1 - - [23/May/2025 18:35:05] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:06,061 INFO: Received bucket registration request
+2025-05-23 18:35:06,061 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:35:06,062 INFO: Received bucket registration request
+2025-05-23 18:35:06,062 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:35:06,062 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 18:35:06,063 INFO: 172.18.0.3 - - [23/May/2025 18:35:06] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:35:06,063 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 18:35:06,064 INFO: 172.18.0.4 - - [23/May/2025 18:35:06] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:35:06,130 INFO: Received bucket registration request
+2025-05-23 18:35:06,131 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:35:06,131 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:35:06,131 INFO: 172.18.0.5 - - [23/May/2025 18:35:06] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:35:06,202 INFO: Received bucket registration request
+2025-05-23 18:35:06,202 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 18:35:06,202 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 18:35:06,203 INFO: 172.18.0.6 - - [23/May/2025 18:35:06] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:35:07,750 INFO: 172.18.0.1 - - [23/May/2025 18:35:07] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:08,040 INFO: Serving React frontend
+2025-05-23 18:35:08,045 INFO: 172.18.0.1 - - [23/May/2025 18:35:08] "GET / HTTP/1.1" 200 -
+2025-05-23 18:35:08,580 INFO: 172.18.0.1 - - [23/May/2025 18:35:08] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 18:35:09,709 INFO: 172.18.0.1 - - [23/May/2025 18:35:09] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:09,719 INFO: 172.18.0.1 - - [23/May/2025 18:35:09] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:10,860 INFO: 172.18.0.1 - - [23/May/2025 18:35:10] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:12,315 INFO: Received query request
+2025-05-23 18:35:12,342 INFO: Query returned results from 4 buckets
+2025-05-23 18:35:12,344 INFO: 172.18.0.1 - - [23/May/2025 18:35:12] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:35:13,175 INFO: 172.18.0.1 - - [23/May/2025 18:35:13] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:15,164 INFO: 172.18.0.1 - - [23/May/2025 18:35:15] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:16,275 INFO: 172.18.0.1 - - [23/May/2025 18:35:16] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:18,606 INFO: 172.18.0.1 - - [23/May/2025 18:35:18] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:20,582 INFO: 172.18.0.1 - - [23/May/2025 18:35:20] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:21,707 INFO: 172.18.0.1 - - [23/May/2025 18:35:21] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:24,043 INFO: 172.18.0.1 - - [23/May/2025 18:35:24] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:23,701 INFO: 172.18.0.1 - - [23/May/2025 18:35:23] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:24,811 INFO: 172.18.0.1 - - [23/May/2025 18:35:24] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:27,159 INFO: 172.18.0.1 - - [23/May/2025 18:35:27] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:29,200 INFO: 172.18.0.1 - - [23/May/2025 18:35:29] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:29,998 INFO: Received query request
+2025-05-23 18:35:30,014 INFO: Query returned results from 4 buckets
+2025-05-23 18:35:30,014 INFO: 172.18.0.1 - - [23/May/2025 18:35:30] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:35:30,232 INFO: 172.18.0.1 - - [23/May/2025 18:35:30] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:32,586 INFO: 172.18.0.1 - - [23/May/2025 18:35:32] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:33,188 INFO: Healthcheck: Medical DataSet (Consultations) alive=True processing_complete=True
+2025-05-23 18:35:33,194 INFO: Healthcheck: Crime DataSet PT alive=True processing_complete=True
+2025-05-23 18:35:33,201 INFO: Healthcheck: Crime DataSet alive=True processing_complete=True
+2025-05-23 18:35:33,206 INFO: Healthcheck: BBC News DataSet alive=True processing_complete=True
+2025-05-23 18:35:34,629 INFO: 172.18.0.1 - - [23/May/2025 18:35:34] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:35,652 INFO: 172.18.0.1 - - [23/May/2025 18:35:35] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:38,012 INFO: 172.18.0.1 - - [23/May/2025 18:35:38] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:40,424 INFO: 172.18.0.1 - - [23/May/2025 18:35:40] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:41,079 INFO: 172.18.0.1 - - [23/May/2025 18:35:41] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:41,730 INFO: Received query request
+2025-05-23 18:35:42,078 WARNING: Invalid results from Medical DataSet (Consultations)_query_time: 0.11049580574035645
+2025-05-23 18:35:42,078 WARNING: Invalid results from Crime DataSet PT_query_time: 0.09230661392211914
+2025-05-23 18:35:42,078 WARNING: Invalid results from Crime DataSet_query_time: 0.07132887840270996
+2025-05-23 18:35:42,078 WARNING: Invalid results from BBC News DataSet_query_time: 0.03474235534667969
+2025-05-23 18:35:42,079 INFO: Query returned results from 8 buckets
+2025-05-23 18:35:42,079 INFO: 172.18.0.1 - - [23/May/2025 18:35:42] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:35:43,445 INFO: 172.18.0.1 - - [23/May/2025 18:35:43] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:45,843 INFO: 172.18.0.1 - - [23/May/2025 18:35:45] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:46,496 INFO: 172.18.0.1 - - [23/May/2025 18:35:46] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:48,874 INFO: 172.18.0.1 - - [23/May/2025 18:35:48] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:51,561 INFO: 172.18.0.1 - - [23/May/2025 18:35:51] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:51,913 INFO: 172.18.0.1 - - [23/May/2025 18:35:51] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:51,996 INFO: 172.18.0.1 - - [23/May/2025 18:35:51] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:54,677 INFO: 172.18.0.1 - - [23/May/2025 18:35:54] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:55,031 INFO: 172.18.0.1 - - [23/May/2025 18:35:55] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:35:57,425 INFO: 172.18.0.1 - - [23/May/2025 18:35:57] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:00,105 INFO: 172.18.0.1 - - [23/May/2025 18:36:00] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:00,464 INFO: 172.18.0.1 - - [23/May/2025 18:36:00] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:00,932 INFO: Healthcheck: Medical DataSet (Consultations) alive=True processing_complete=True
+2025-05-23 18:36:00,936 INFO: Healthcheck: Crime DataSet PT alive=True processing_complete=True
+2025-05-23 18:36:00,939 INFO: Healthcheck: Crime DataSet alive=True processing_complete=True
+2025-05-23 18:36:00,943 INFO: Healthcheck: BBC News DataSet alive=True processing_complete=True
+2025-05-23 18:36:02,855 INFO: 172.18.0.1 - - [23/May/2025 18:36:02] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:05,536 INFO: 172.18.0.1 - - [23/May/2025 18:36:05] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:05,886 INFO: 172.18.0.1 - - [23/May/2025 18:36:05] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:08,290 INFO: 172.18.0.1 - - [23/May/2025 18:36:08] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:10,975 INFO: 172.18.0.1 - - [23/May/2025 18:36:10] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:11,314 INFO: 172.18.0.1 - - [23/May/2025 18:36:11] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:13,710 INFO: 172.18.0.1 - - [23/May/2025 18:36:13] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:16,383 INFO: 172.18.0.1 - - [23/May/2025 18:36:16] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:16,735 INFO: 172.18.0.1 - - [23/May/2025 18:36:16] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:19,132 INFO: 172.18.0.1 - - [23/May/2025 18:36:19] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:19,502 INFO: 172.18.0.1 - - [23/May/2025 18:36:19] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:19,844 INFO: 172.18.0.1 - - [23/May/2025 18:36:19] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:22,241 INFO: 172.18.0.1 - - [23/May/2025 18:36:22] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:24,932 INFO: 172.18.0.1 - - [23/May/2025 18:36:24] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:25,269 INFO: 172.18.0.1 - - [23/May/2025 18:36:25] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:27,672 INFO: 172.18.0.1 - - [23/May/2025 18:36:27] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:28,683 INFO: Healthcheck: Medical DataSet (Consultations) alive=True processing_complete=True
+2025-05-23 18:36:28,688 INFO: Healthcheck: Crime DataSet PT alive=True processing_complete=True
+2025-05-23 18:36:28,691 INFO: Healthcheck: Crime DataSet alive=True processing_complete=True
+2025-05-23 18:36:28,697 INFO: Healthcheck: BBC News DataSet alive=True processing_complete=True
+2025-05-23 18:36:30,358 INFO: 172.18.0.1 - - [23/May/2025 18:36:30] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:30,695 INFO: 172.18.0.1 - - [23/May/2025 18:36:30] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:33,109 INFO: 172.18.0.1 - - [23/May/2025 18:36:33] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:35,785 INFO: 172.18.0.1 - - [23/May/2025 18:36:35] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:36,124 INFO: 172.18.0.1 - - [23/May/2025 18:36:36] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:38,529 INFO: 172.18.0.1 - - [23/May/2025 18:36:38] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:41,210 INFO: 172.18.0.1 - - [23/May/2025 18:36:41] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:41,546 INFO: 172.18.0.1 - - [23/May/2025 18:36:41] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:43,966 INFO: 172.18.0.1 - - [23/May/2025 18:36:43] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:46,629 INFO: 172.18.0.1 - - [23/May/2025 18:36:46] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:46,966 INFO: 172.18.0.1 - - [23/May/2025 18:36:46] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:47,076 INFO: 172.18.0.1 - - [23/May/2025 18:36:47] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:50,081 INFO: 172.18.0.1 - - [23/May/2025 18:36:50] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:50,316 INFO: 172.18.0.1 - - [23/May/2025 18:36:50] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:52,493 INFO: 172.18.0.1 - - [23/May/2025 18:36:52] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:55,506 INFO: 172.18.0.1 - - [23/May/2025 18:36:55] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:55,742 INFO: 172.18.0.1 - - [23/May/2025 18:36:55] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:36:56,435 INFO: Healthcheck: Medical DataSet (Consultations) alive=True processing_complete=True
+2025-05-23 18:36:56,438 INFO: Healthcheck: Crime DataSet PT alive=True processing_complete=True
+2025-05-23 18:36:56,441 INFO: Healthcheck: Crime DataSet alive=True processing_complete=True
+2025-05-23 18:36:56,451 INFO: Healthcheck: BBC News DataSet alive=True processing_complete=True
+2025-05-23 18:36:57,913 INFO: 172.18.0.1 - - [23/May/2025 18:36:57] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:00,944 INFO: 172.18.0.1 - - [23/May/2025 18:37:00] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:01,170 INFO: 172.18.0.1 - - [23/May/2025 18:37:01] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:03,336 INFO: 172.18.0.1 - - [23/May/2025 18:37:03] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:06,376 INFO: 172.18.0.1 - - [23/May/2025 18:37:06] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:06,594 INFO: 172.18.0.1 - - [23/May/2025 18:37:06] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:08,755 INFO: 172.18.0.1 - - [23/May/2025 18:37:08] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:11,814 INFO: 172.18.0.1 - - [23/May/2025 18:37:11] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:12,015 INFO: 172.18.0.1 - - [23/May/2025 18:37:12] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:14,466 INFO: 172.18.0.1 - - [23/May/2025 18:37:14] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:14,915 INFO: 172.18.0.1 - - [23/May/2025 18:37:14] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:15,453 INFO: 172.18.0.1 - - [23/May/2025 18:37:15] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:17,605 INFO: 172.18.0.1 - - [23/May/2025 18:37:17] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:20,336 INFO: 172.18.0.1 - - [23/May/2025 18:37:20] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:20,893 INFO: 172.18.0.1 - - [23/May/2025 18:37:20] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:23,024 INFO: 172.18.0.1 - - [23/May/2025 18:37:23] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:25,755 INFO: 172.18.0.1 - - [23/May/2025 18:37:25] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:26,313 INFO: 172.18.0.1 - - [23/May/2025 18:37:26] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:28,454 INFO: 172.18.0.1 - - [23/May/2025 18:37:28] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:35,624 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:37:35,624 INFO: InterfaceWebService initialization complete
+2025-05-23 18:37:35,624 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:37:35,626 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:37:35,626 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:37:35,629 INFO: 172.18.0.1 - - [23/May/2025 18:37:35] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:35,639 INFO: 172.18.0.1 - - [23/May/2025 18:37:35] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:36,343 INFO: Received bucket registration request
+2025-05-23 18:37:36,343 INFO: Received bucket registration request
+2025-05-23 18:37:36,346 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 18:37:36,349 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:37:36,349 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 18:37:36,350 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:37:36,350 INFO: 172.18.0.6 - - [23/May/2025 18:37:36] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:37:36,351 INFO: 172.18.0.5 - - [23/May/2025 18:37:36] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:37:36,352 INFO: Received bucket registration request
+2025-05-23 18:37:36,352 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 18:37:36,353 INFO: Received bucket registration request
+2025-05-23 18:37:36,353 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 18:37:36,354 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:37:36,354 INFO: 172.18.0.4 - - [23/May/2025 18:37:36] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:37:36,354 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:37:36,355 INFO: 172.18.0.3 - - [23/May/2025 18:37:36] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:37:36,486 INFO: Serving React frontend
+2025-05-23 18:37:36,489 INFO: 172.18.0.1 - - [23/May/2025 18:37:36] "GET / HTTP/1.1" 200 -
+2025-05-23 18:37:36,732 INFO: 172.18.0.1 - - [23/May/2025 18:37:36] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:36,897 INFO: 172.18.0.1 - - [23/May/2025 18:37:36] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 18:37:37,895 INFO: 172.18.0.1 - - [23/May/2025 18:37:37] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:38,014 INFO: 172.18.0.1 - - [23/May/2025 18:37:38] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:38,028 INFO: 172.18.0.1 - - [23/May/2025 18:37:38] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:43,495 INFO: 172.18.0.1 - - [23/May/2025 18:37:43] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:37:43,271 INFO: Received query request
+2025-05-23 18:37:43,354 INFO: Query returned results from 4 buckets
+2025-05-23 18:37:43,356 INFO: 172.18.0.1 - - [23/May/2025 18:37:43] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:38:03,364 INFO: Healthcheck: BBC News DataSet alive=True
+2025-05-23 18:38:03,368 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:38:03,402 INFO: Healthcheck: Crime DataSet PT alive=True
+2025-05-23 18:38:03,407 INFO: Healthcheck: Medical DataSet (Consultations) alive=True
+2025-05-23 18:38:20,974 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:38:20,976 INFO: InterfaceWebService initialization complete
+2025-05-23 18:38:20,976 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:38:20,978 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:38:20,978 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:38:27,429 INFO: Serving React frontend
+2025-05-23 18:38:27,431 INFO: 172.18.0.1 - - [23/May/2025 18:38:27] "GET / HTTP/1.1" 200 -
+2025-05-23 18:38:28,398 INFO: 172.18.0.1 - - [23/May/2025 18:38:28] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 18:38:28,585 INFO: 172.18.0.1 - - [23/May/2025 18:38:28] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:38:34,064 INFO: 172.18.0.1 - - [23/May/2025 18:38:34] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:38:37,179 INFO: 172.18.0.1 - - [23/May/2025 18:38:37] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:38:39,264 INFO: Serving React frontend
+2025-05-23 18:38:39,267 INFO: 172.18.0.1 - - [23/May/2025 18:38:39] "GET / HTTP/1.1" 200 -
+2025-05-23 18:38:40,515 INFO: 172.18.0.1 - - [23/May/2025 18:38:40] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 18:38:40,694 INFO: 172.18.0.1 - - [23/May/2025 18:38:40] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:38:46,484 INFO: 172.18.0.1 - - [23/May/2025 18:38:46] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:38:51,910 INFO: 172.18.0.1 - - [23/May/2025 18:38:51] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:38:57,340 INFO: 172.18.0.1 - - [23/May/2025 18:38:57] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:02,771 INFO: 172.18.0.1 - - [23/May/2025 18:39:02] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:09,129 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:39:09,130 INFO: InterfaceWebService initialization complete
+2025-05-23 18:39:09,130 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:39:09,131 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:39:09,132 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:39:09,234 INFO: 172.18.0.1 - - [23/May/2025 18:39:09] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:09,925 INFO: Received bucket registration request
+2025-05-23 18:39:09,925 INFO: Received bucket registration request
+2025-05-23 18:39:09,926 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:39:09,926 INFO: Received bucket registration request
+2025-05-23 18:39:09,926 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:39:09,927 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:39:09,927 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 18:39:09,927 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:39:09,928 INFO: 172.18.0.3 - - [23/May/2025 18:39:09] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:39:09,928 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 18:39:09,929 INFO: 172.18.0.4 - - [23/May/2025 18:39:09] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:39:09,929 INFO: 172.18.0.5 - - [23/May/2025 18:39:09] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:39:09,989 INFO: Received bucket registration request
+2025-05-23 18:39:09,990 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 18:39:09,990 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 18:39:09,991 INFO: 172.18.0.6 - - [23/May/2025 18:39:09] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:39:10,797 INFO: Serving React frontend
+2025-05-23 18:39:10,801 INFO: 172.18.0.1 - - [23/May/2025 18:39:10] "GET / HTTP/1.1" 200 -
+2025-05-23 18:39:10,961 INFO: 172.18.0.1 - - [23/May/2025 18:39:10] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-23 18:39:12,011 INFO: 172.18.0.1 - - [23/May/2025 18:39:12] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:12,024 INFO: 172.18.0.1 - - [23/May/2025 18:39:12] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:12,207 INFO: 172.18.0.1 - - [23/May/2025 18:39:12] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:14,465 INFO: Received query request
+2025-05-23 18:39:14,483 INFO: Query returned results from 4 buckets
+2025-05-23 18:39:14,484 INFO: 172.18.0.1 - - [23/May/2025 18:39:14] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:39:17,459 INFO: 172.18.0.1 - - [23/May/2025 18:39:17] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:17,638 INFO: 172.18.0.1 - - [23/May/2025 18:39:17] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:22,954 INFO: 172.18.0.1 - - [23/May/2025 18:39:22] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:23,303 INFO: 172.18.0.1 - - [23/May/2025 18:39:23] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:28,386 INFO: 172.18.0.1 - - [23/May/2025 18:39:28] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:28,819 INFO: 172.18.0.1 - - [23/May/2025 18:39:28] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:33,809 INFO: 172.18.0.1 - - [23/May/2025 18:39:33] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:34,297 INFO: 172.18.0.1 - - [23/May/2025 18:39:34] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:36,880 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:39:36,884 INFO: Healthcheck: Medical DataSet (Consultations) alive=True
+2025-05-23 18:39:36,887 INFO: Healthcheck: BBC News DataSet alive=True
+2025-05-23 18:39:36,890 INFO: Healthcheck: Crime DataSet PT alive=True
+2025-05-23 18:39:36,919 INFO: 172.18.0.1 - - [23/May/2025 18:39:36] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:37,577 INFO: 172.18.0.1 - - [23/May/2025 18:39:37] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:42,347 INFO: 172.18.0.1 - - [23/May/2025 18:39:42] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:43,074 INFO: 172.18.0.1 - - [23/May/2025 18:39:43] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:47,764 INFO: 172.18.0.1 - - [23/May/2025 18:39:47] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:48,573 INFO: 172.18.0.1 - - [23/May/2025 18:39:48] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:53,181 INFO: 172.18.0.1 - - [23/May/2025 18:39:53] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:39:53,997 INFO: 172.18.0.1 - - [23/May/2025 18:39:53] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:03,595 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:40:03,595 INFO: InterfaceWebService initialization complete
+2025-05-23 18:40:03,596 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:40:03,596 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:40:03,597 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:40:03,655 INFO: 172.18.0.1 - - [23/May/2025 18:40:03] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:03,804 INFO: 172.18.0.1 - - [23/May/2025 18:40:03] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:04,252 INFO: Received bucket registration request
+2025-05-23 18:40:04,252 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:40:04,253 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:40:04,253 INFO: 172.18.0.3 - - [23/May/2025 18:40:04] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:40:04,307 INFO: Received bucket registration request
+2025-05-23 18:40:04,307 INFO: Registered bucket BBC News DataSet at http://bucket3:5000
+2025-05-23 18:40:04,308 INFO: Bucket BBC News DataSet registered successfully
+2025-05-23 18:40:04,308 INFO: 172.18.0.4 - - [23/May/2025 18:40:04] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:40:04,342 INFO: Received bucket registration request
+2025-05-23 18:40:04,342 INFO: Registered bucket Crime DataSet PT at http://bucket4:5000
+2025-05-23 18:40:04,343 INFO: Bucket Crime DataSet PT registered successfully
+2025-05-23 18:40:04,343 INFO: 172.18.0.5 - - [23/May/2025 18:40:04] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:40:04,400 INFO: Received bucket registration request
+2025-05-23 18:40:04,400 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:40:04,400 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:40:04,401 INFO: 172.18.0.6 - - [23/May/2025 18:40:04] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:40:05,513 INFO: Serving React frontend
+2025-05-23 18:40:05,515 INFO: 172.18.0.1 - - [23/May/2025 18:40:05] "GET / HTTP/1.1" 200 -
+2025-05-23 18:40:06,842 INFO: 172.18.0.1 - - [23/May/2025 18:40:06] "GET /static/app.js HTTP/1.1" 200 -
+2025-05-23 18:40:07,039 INFO: 172.18.0.1 - - [23/May/2025 18:40:07] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:07,045 INFO: 172.18.0.1 - - [23/May/2025 18:40:07] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:07,971 INFO: 172.18.0.1 - - [23/May/2025 18:40:07] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:09,863 INFO: Received query request
+2025-05-23 18:40:09,880 INFO: Query returned results from 4 buckets
+2025-05-23 18:40:09,881 INFO: 172.18.0.1 - - [23/May/2025 18:40:09] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:40:12,015 INFO: Received query request
+2025-05-23 18:40:12,030 INFO: Query returned results from 4 buckets
+2025-05-23 18:40:12,030 INFO: 172.18.0.1 - - [23/May/2025 18:40:12] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:40:12,532 INFO: 172.18.0.1 - - [23/May/2025 18:40:12] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:13,395 INFO: 172.18.0.1 - - [23/May/2025 18:40:13] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:16,718 INFO: Received query request
+2025-05-23 18:40:16,733 INFO: Query returned results from 4 buckets
+2025-05-23 18:40:16,734 INFO: 172.18.0.1 - - [23/May/2025 18:40:16] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:40:17,975 INFO: 172.18.0.1 - - [23/May/2025 18:40:17] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:18,819 INFO: 172.18.0.1 - - [23/May/2025 18:40:18] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:23,374 INFO: 172.18.0.1 - - [23/May/2025 18:40:23] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:24,236 INFO: 172.18.0.1 - - [23/May/2025 18:40:24] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:25,130 INFO: Received query request
+2025-05-23 18:40:25,147 INFO: Query returned results from 4 buckets
+2025-05-23 18:40:25,147 INFO: 172.18.0.1 - - [23/May/2025 18:40:25] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:40:28,104 INFO: Received query request
+2025-05-23 18:40:28,119 INFO: Query returned results from 4 buckets
+2025-05-23 18:40:28,120 INFO: 172.18.0.1 - - [23/May/2025 18:40:28] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:40:29,198 INFO: 172.18.0.1 - - [23/May/2025 18:40:29] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:29,654 INFO: 172.18.0.1 - - [23/May/2025 18:40:29] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:31,342 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:40:31,347 INFO: Healthcheck: BBC News DataSet alive=True
+2025-05-23 18:40:31,354 INFO: Healthcheck: Crime DataSet PT alive=True
+2025-05-23 18:40:31,358 INFO: Healthcheck: Medical DataSet (Consultations) alive=True
+2025-05-23 18:40:32,313 INFO: 172.18.0.1 - - [23/May/2025 18:40:32] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:32,832 INFO: 172.18.0.1 - - [23/May/2025 18:40:32] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:34,656 INFO: Received query request
+2025-05-23 18:40:34,913 WARNING: Invalid results from Crime DataSet_query_time: 0.05764961242675781
+2025-05-23 18:40:34,914 WARNING: Invalid results from BBC News DataSet_query_time: 0.055492401123046875
+2025-05-23 18:40:34,914 WARNING: Invalid results from Crime DataSet PT_query_time: 0.0523374080657959
+2025-05-23 18:40:34,914 WARNING: Invalid results from Medical DataSet (Consultations)_query_time: 0.05965757369995117
+2025-05-23 18:40:34,914 INFO: Query returned results from 8 buckets
+2025-05-23 18:40:34,915 INFO: 172.18.0.1 - - [23/May/2025 18:40:34] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:40:38,094 INFO: 172.18.0.1 - - [23/May/2025 18:40:38] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:38,263 INFO: 172.18.0.1 - - [23/May/2025 18:40:38] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:40,305 INFO: Received query request
+2025-05-23 18:40:40,670 WARNING: Invalid results from Crime DataSet_query_time: 0.06538867950439453
+2025-05-23 18:40:40,670 WARNING: Invalid results from BBC News DataSet_query_time: 0.06080484390258789
+2025-05-23 18:40:40,671 WARNING: Invalid results from Crime DataSet PT_query_time: 0.12438344955444336
+2025-05-23 18:40:40,671 WARNING: Invalid results from Medical DataSet (Consultations)_query_time: 0.08294534683227539
+2025-05-23 18:40:40,671 INFO: Query returned results from 8 buckets
+2025-05-23 18:40:40,672 INFO: 172.18.0.1 - - [23/May/2025 18:40:40] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:40:43,523 INFO: 172.18.0.1 - - [23/May/2025 18:40:43] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:43,690 INFO: 172.18.0.1 - - [23/May/2025 18:40:43] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:48,928 INFO: 172.18.0.1 - - [23/May/2025 18:40:48] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:49,116 INFO: 172.18.0.1 - - [23/May/2025 18:40:49] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:54,364 INFO: 172.18.0.1 - - [23/May/2025 18:40:54] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:54,573 INFO: 172.18.0.1 - - [23/May/2025 18:40:54] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:57,477 INFO: 172.18.0.1 - - [23/May/2025 18:40:57] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:57,932 INFO: 172.18.0.1 - - [23/May/2025 18:40:57] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:40:59,110 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:40:59,113 INFO: Healthcheck: BBC News DataSet alive=True
+2025-05-23 18:40:59,116 INFO: Healthcheck: Crime DataSet PT alive=True
+2025-05-23 18:40:59,118 INFO: Healthcheck: Medical DataSet (Consultations) alive=True
+2025-05-23 18:41:02,901 INFO: 172.18.0.1 - - [23/May/2025 18:41:02] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:03,395 INFO: 172.18.0.1 - - [23/May/2025 18:41:03] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:08,321 INFO: 172.18.0.1 - - [23/May/2025 18:41:08] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:08,824 INFO: 172.18.0.1 - - [23/May/2025 18:41:08] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:13,748 INFO: 172.18.0.1 - - [23/May/2025 18:41:13] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:14,269 INFO: 172.18.0.1 - - [23/May/2025 18:41:14] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:19,183 INFO: 172.18.0.1 - - [23/May/2025 18:41:19] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:19,691 INFO: 172.18.0.1 - - [23/May/2025 18:41:19] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:24,594 INFO: 172.18.0.1 - - [23/May/2025 18:41:24] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:25,118 INFO: 172.18.0.1 - - [23/May/2025 18:41:25] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:27,776 INFO: 172.18.0.1 - - [23/May/2025 18:41:27] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:28,227 INFO: 172.18.0.1 - - [23/May/2025 18:41:28] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:36,390 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:41:36,391 INFO: InterfaceWebService initialization complete
+2025-05-23 18:41:36,391 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:41:36,392 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:41:36,392 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:41:36,502 INFO: 172.18.0.1 - - [23/May/2025 18:41:36] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:36,954 INFO: Received bucket registration request
+2025-05-23 18:41:36,955 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:41:36,956 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:41:36,956 INFO: 172.18.0.3 - - [23/May/2025 18:41:36] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:41:37,757 INFO: Serving React frontend
+2025-05-23 18:41:37,759 INFO: 172.18.0.1 - - [23/May/2025 18:41:37] "GET / HTTP/1.1" 200 -
+2025-05-23 18:41:39,015 INFO: 172.18.0.1 - - [23/May/2025 18:41:39] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-05-23 18:41:39,216 INFO: 172.18.0.1 - - [23/May/2025 18:41:39] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:39,224 INFO: 172.18.0.1 - - [23/May/2025 18:41:39] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:42,554 INFO: Received query request
+2025-05-23 18:41:42,572 INFO: Query returned results from 1 buckets
+2025-05-23 18:41:42,572 INFO: 172.18.0.1 - - [23/May/2025 18:41:42] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:41:44,633 INFO: 172.18.0.1 - - [23/May/2025 18:41:44] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:46,782 INFO: 172.18.0.1 - - [23/May/2025 18:41:46] "[33mGET /download/Crime%20DataSet/undefined HTTP/1.1[0m" 404 -
+2025-05-23 18:41:48,751 INFO: 172.18.0.1 - - [23/May/2025 18:41:48] "[33mGET /download/Crime%20DataSet/undefined HTTP/1.1[0m" 404 -
+2025-05-23 18:41:48,768 INFO: 172.18.0.1 - - [23/May/2025 18:41:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-05-23 18:41:50,115 INFO: 172.18.0.1 - - [23/May/2025 18:41:50] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:52,458 INFO: Received query request
+2025-05-23 18:41:52,472 INFO: Query returned results from 1 buckets
+2025-05-23 18:41:52,473 INFO: 172.18.0.1 - - [23/May/2025 18:41:52] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:41:53,468 INFO: 172.18.0.1 - - [23/May/2025 18:41:53] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:41:58,888 INFO: 172.18.0.1 - - [23/May/2025 18:41:58] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:42:01,566 INFO: Received query request
+2025-05-23 18:42:01,583 INFO: Query returned results from 1 buckets
+2025-05-23 18:42:01,583 INFO: 172.18.0.1 - - [23/May/2025 18:42:01] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:42:04,122 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:42:04,617 INFO: 172.18.0.1 - - [23/May/2025 18:42:04] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:42:04,707 INFO: Received query request
+2025-05-23 18:42:04,830 WARNING: Invalid results from Crime DataSet_query_time: 0.10364484786987305
+2025-05-23 18:42:04,831 INFO: Query returned results from 2 buckets
+2025-05-23 18:42:04,831 INFO: 172.18.0.1 - - [23/May/2025 18:42:04] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:42:10,036 INFO: 172.18.0.1 - - [23/May/2025 18:42:10] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:42:15,461 INFO: 172.18.0.1 - - [23/May/2025 18:42:15] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:42:18,580 INFO: 172.18.0.1 - - [23/May/2025 18:42:18] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:42:23,988 INFO: 172.18.0.1 - - [23/May/2025 18:42:23] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:42:29,356 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:42:29,356 INFO: InterfaceWebService initialization complete
+2025-05-23 18:42:29,356 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:42:29,357 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:42:29,357 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:42:29,405 INFO: 172.18.0.1 - - [23/May/2025 18:42:29] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:42:29,873 INFO: Received bucket registration request
+2025-05-23 18:42:29,874 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:42:29,874 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:42:29,875 INFO: 172.18.0.4 - - [23/May/2025 18:42:29] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:42:34,829 INFO: 172.18.0.1 - - [23/May/2025 18:42:34] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:42:40,262 INFO: 172.18.0.1 - - [23/May/2025 18:42:40] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:42:45,690 INFO: 172.18.0.1 - - [23/May/2025 18:42:45] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:42:48,051 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:42:48,055 INFO: InterfaceWebService initialization complete
+2025-05-23 18:42:48,055 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:42:48,057 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:42:48,057 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:42:48,801 INFO: 172.18.0.1 - - [23/May/2025 18:42:48] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:42:54,224 INFO: 172.18.0.1 - - [23/May/2025 18:42:54] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:43:02,158 INFO: Starting InterfaceWebService initialization
+2025-05-23 18:43:02,158 INFO: InterfaceWebService initialization complete
+2025-05-23 18:43:02,159 INFO: InterfaceWebService initialized, starting Flask app
+2025-05-23 18:43:02,160 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-23 18:43:02,160 INFO:  * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2025-05-23 18:43:02,179 INFO: 172.18.0.1 - - [23/May/2025 18:43:02] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:43:05,262 INFO: 172.18.0.1 - - [23/May/2025 18:43:05] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:43:10,685 INFO: 172.18.0.1 - - [23/May/2025 18:43:10] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:43:16,413 INFO: 172.18.0.1 - - [23/May/2025 18:43:16] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:43:14,361 INFO: Received query request
+2025-05-23 18:43:14,379 INFO: No results from any bucket
+2025-05-23 18:43:14,380 INFO: 172.18.0.1 - - [23/May/2025 18:43:14] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:43:19,306 INFO: 172.18.0.1 - - [23/May/2025 18:43:19] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:43:21,679 INFO: Received bucket registration request
+2025-05-23 18:43:21,680 INFO: Registered bucket Crime DataSet at http://bucket1:5000
+2025-05-23 18:43:21,680 INFO: Bucket Crime DataSet registered successfully
+2025-05-23 18:43:21,680 INFO: 172.18.0.3 - - [23/May/2025 18:43:21] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:43:23,290 INFO: Received query request
+2025-05-23 18:43:23,307 INFO: Query returned results from 1 buckets
+2025-05-23 18:43:23,307 INFO: 172.18.0.1 - - [23/May/2025 18:43:23] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:43:24,721 INFO: 172.18.0.1 - - [23/May/2025 18:43:24] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:43:26,959 INFO: Received query request
+2025-05-23 18:43:26,973 INFO: Query returned results from 1 buckets
+2025-05-23 18:43:26,974 INFO: 172.18.0.1 - - [23/May/2025 18:43:26] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:43:29,912 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:43:30,183 INFO: 172.18.0.1 - - [23/May/2025 18:43:30] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:43:31,837 INFO: Received query request
+2025-05-23 18:43:31,873 WARNING: Invalid results from Crime DataSet_query_time: 0.015265464782714844
+2025-05-23 18:43:31,876 INFO: Query returned results from 2 buckets
+2025-05-23 18:43:31,878 INFO: 172.18.0.1 - - [23/May/2025 18:43:31] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:43:35,613 INFO: 172.18.0.1 - - [23/May/2025 18:43:35] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:43:41,038 INFO: 172.18.0.1 - - [23/May/2025 18:43:41] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:43:44,152 INFO: 172.18.0.1 - - [23/May/2025 18:43:44] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:43:49,581 INFO: 172.18.0.1 - - [23/May/2025 18:43:49] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:43:55,007 INFO: 172.18.0.1 - - [23/May/2025 18:43:55] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:43:57,671 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:44:00,793 INFO: 172.18.0.1 - - [23/May/2025 18:44:00] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:44:02,105 INFO: Received bucket registration request
+2025-05-23 18:44:02,106 INFO: Registered bucket Medical DataSet (Consultations) at http://bucket2:5000
+2025-05-23 18:44:02,106 INFO: Bucket Medical DataSet (Consultations) registered successfully
+2025-05-23 18:44:02,107 INFO: 172.18.0.4 - - [23/May/2025 18:44:02] "POST /ai-node/register HTTP/1.1" 200 -
+2025-05-23 18:44:06,217 INFO: 172.18.0.1 - - [23/May/2025 18:44:06] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:44:09,329 INFO: 172.18.0.1 - - [23/May/2025 18:44:09] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:44:15,117 INFO: 172.18.0.1 - - [23/May/2025 18:44:15] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:44:15,168 INFO: Received query request
+2025-05-23 18:44:15,251 WARNING: Invalid results from Crime DataSet_query_time: 0.06304669380187988
+2025-05-23 18:44:15,251 INFO: Query returned results from 2 buckets
+2025-05-23 18:44:15,252 INFO: 172.18.0.1 - - [23/May/2025 18:44:15] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:44:20,544 INFO: 172.18.0.1 - - [23/May/2025 18:44:20] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:44:24,466 INFO: Received query request
+2025-05-23 18:44:24,563 WARNING: Invalid results from Crime DataSet_query_time: 0.05830693244934082
+2025-05-23 18:44:24,563 INFO: Query returned results from 2 buckets
+2025-05-23 18:44:24,564 INFO: 172.18.0.1 - - [23/May/2025 18:44:24] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:44:25,213 INFO: Received query request
+2025-05-23 18:44:25,288 WARNING: Invalid results from Crime DataSet_query_time: 0.057027339935302734
+2025-05-23 18:44:25,289 INFO: Query returned results from 2 buckets
+2025-05-23 18:44:25,289 INFO: 172.18.0.1 - - [23/May/2025 18:44:25] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:44:25,399 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:44:25,402 INFO: Healthcheck: Medical DataSet (Consultations) alive=True
+2025-05-23 18:44:25,969 INFO: 172.18.0.1 - - [23/May/2025 18:44:25] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:44:28,853 INFO: Received query request
+2025-05-23 18:44:28,988 WARNING: Invalid results from Crime DataSet_query_time: 0.05411028861999512
+2025-05-23 18:44:28,988 WARNING: Invalid results from Medical DataSet (Consultations)_query_time: 0.05860567092895508
+2025-05-23 18:44:28,988 INFO: Query returned results from 4 buckets
+2025-05-23 18:44:28,988 INFO: 172.18.0.1 - - [23/May/2025 18:44:28] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:44:31,503 INFO: 172.18.0.1 - - [23/May/2025 18:44:31] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:44:36,857 INFO: Received query request
+2025-05-23 18:44:36,929 INFO: 172.18.0.1 - - [23/May/2025 18:44:36] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:44:37,133 WARNING: Invalid results from Crime DataSet_query_time: 0.18696928024291992
+2025-05-23 18:44:37,133 WARNING: Invalid results from Medical DataSet (Consultations)_query_time: 0.06592106819152832
+2025-05-23 18:44:37,133 INFO: Query returned results from 4 buckets
+2025-05-23 18:44:37,133 INFO: 172.18.0.1 - - [23/May/2025 18:44:37] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:44:40,046 INFO: 172.18.0.1 - - [23/May/2025 18:44:40] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:44:45,475 INFO: 172.18.0.1 - - [23/May/2025 18:44:45] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:44:50,903 INFO: 172.18.0.1 - - [23/May/2025 18:44:50] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:44:53,136 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:44:53,139 INFO: Healthcheck: Medical DataSet (Consultations) alive=True
+2025-05-23 18:44:56,324 INFO: 172.18.0.1 - - [23/May/2025 18:44:56] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:44:59,880 INFO: Received query request
+2025-05-23 18:45:00,000 WARNING: Invalid results from Crime DataSet_query_time: 0.0976707935333252
+2025-05-23 18:45:00,000 INFO: Query returned results from 3 buckets
+2025-05-23 18:45:00,001 INFO: 172.18.0.1 - - [23/May/2025 18:45:00] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:45:01,822 INFO: 172.18.0.1 - - [23/May/2025 18:45:01] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:45:05,289 INFO: Received query request
+2025-05-23 18:45:05,396 WARNING: Invalid results from Crime DataSet_query_time: 0.08568668365478516
+2025-05-23 18:45:05,396 INFO: Query returned results from 3 buckets
+2025-05-23 18:45:05,396 INFO: 172.18.0.1 - - [23/May/2025 18:45:05] "POST /query HTTP/1.1" 200 -
+2025-05-23 18:45:05,232 INFO: 172.18.0.1 - - [23/May/2025 18:45:05] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:45:10,860 INFO: 172.18.0.1 - - [23/May/2025 18:45:10] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:45:16,281 INFO: 172.18.0.1 - - [23/May/2025 18:45:16] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:45:20,909 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:45:21,705 INFO: 172.18.0.1 - - [23/May/2025 18:45:21] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:45:27,122 INFO: 172.18.0.1 - - [23/May/2025 18:45:27] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:45:32,552 INFO: 172.18.0.1 - - [23/May/2025 18:45:32] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:45:35,885 INFO: 172.18.0.1 - - [23/May/2025 18:45:35] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:45:41,331 INFO: 172.18.0.1 - - [23/May/2025 18:45:41] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:45:46,756 INFO: 172.18.0.1 - - [23/May/2025 18:45:46] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:45:48,736 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:45:52,281 INFO: 172.18.0.1 - - [23/May/2025 18:45:52] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:45:57,612 INFO: 172.18.0.1 - - [23/May/2025 18:45:57] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:46:00,725 INFO: 172.18.0.1 - - [23/May/2025 18:46:00] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:46:06,160 INFO: 172.18.0.1 - - [23/May/2025 18:46:06] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:46:11,583 INFO: 172.18.0.1 - - [23/May/2025 18:46:11] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:46:16,520 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:46:16,999 INFO: 172.18.0.1 - - [23/May/2025 18:46:16] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:46:22,430 INFO: 172.18.0.1 - - [23/May/2025 18:46:22] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:46:27,867 INFO: 172.18.0.1 - - [23/May/2025 18:46:27] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:46:30,975 INFO: 172.18.0.1 - - [23/May/2025 18:46:30] "GET /buckets HTTP/1.1" 200 -
+2025-05-23 18:46:44,325 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:47:12,122 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:47:39,880 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:48:07,616 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:48:35,320 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:49:03,019 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:49:30,765 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:49:58,465 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:50:26,229 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:50:53,974 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:51:21,679 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:51:49,423 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:52:17,187 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:52:44,930 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:53:12,723 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:53:40,416 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:54:08,151 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:54:35,889 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:55:03,684 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:55:31,423 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:55:59,203 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:56:27,010 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:56:54,763 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:57:22,517 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:57:50,244 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:58:18,035 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:58:45,820 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:59:13,557 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 18:59:41,312 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:00:09,061 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:00:36,870 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:01:04,610 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:01:32,369 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:02:00,140 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:02:27,927 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:02:55,699 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:03:23,423 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:03:51,189 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:04:18,954 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:04:46,704 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:05:14,452 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:05:42,184 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:06:09,956 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:06:37,735 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:07:05,864 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:07:33,669 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:08:01,430 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:08:29,155 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:08:56,883 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:09:24,609 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:09:52,349 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:10:20,097 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:10:47,875 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:11:15,609 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:11:43,350 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:12:11,145 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:12:38,901 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:13:06,658 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:13:34,390 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:14:02,150 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:14:31,585 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:14:59,360 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:15:27,114 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:15:54,866 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:16:22,601 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:16:50,337 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:17:18,082 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:17:45,844 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:18:13,598 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:18:41,340 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:19:09,104 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:19:36,917 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:20:04,684 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:20:32,445 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:21:00,215 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:21:27,968 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:21:55,888 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:22:23,709 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:22:51,539 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:23:19,280 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:23:47,019 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:24:14,794 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:24:42,617 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:25:10,373 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:25:38,159 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:26:05,960 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:26:33,670 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:27:01,559 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:27:29,338 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:27:57,334 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:28:25,136 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:28:52,874 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:29:20,630 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:29:48,384 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:30:16,088 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:30:43,792 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:31:11,502 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:31:39,321 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:32:07,026 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:32:34,771 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:33:02,530 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:33:30,315 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:33:58,080 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:34:25,787 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:34:53,537 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:35:21,341 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:35:49,082 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:36:16,849 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:36:44,675 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:37:12,422 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:37:40,221 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:38:08,010 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:38:35,816 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:39:03,714 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:39:31,532 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:39:59,273 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:40:27,077 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:40:55,450 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:41:23,203 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:41:50,964 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:42:19,179 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:42:47,288 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:43:15,368 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:43:43,584 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:44:11,286 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:44:38,991 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:45:06,740 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:45:34,525 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:46:02,224 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:46:29,981 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:46:57,738 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:47:25,501 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:47:53,242 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:48:20,986 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:48:50,777 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:49:18,635 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:49:46,649 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:50:14,434 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:50:42,240 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:51:10,171 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:51:37,978 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:52:05,713 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:52:33,479 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:53:01,202 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:53:29,219 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:53:57,150 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:54:24,883 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:54:52,629 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:55:20,416 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:55:48,158 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:56:15,901 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:56:43,665 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:57:11,410 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:57:39,147 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:58:06,904 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:58:34,687 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:59:02,439 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:59:30,188 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 19:59:57,928 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:00:25,690 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:00:53,831 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:01:21,187 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:01:49,313 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:02:16,685 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:02:44,425 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:03:12,563 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:03:40,263 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:04:07,621 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:04:35,326 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:05:00,809 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:05:28,548 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:05:56,295 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:06:24,031 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:06:51,781 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:07:19,512 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:07:47,249 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:08:14,989 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:08:42,729 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:09:10,467 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:09:38,209 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:10:05,947 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:10:33,686 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:11:01,483 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:11:29,240 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:11:56,990 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:12:24,745 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:12:52,483 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:13:20,234 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:13:47,956 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:14:15,698 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:14:43,460 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:15:11,219 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:15:38,954 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:16:06,688 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:16:34,421 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:17:02,172 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:17:29,910 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:17:57,615 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:18:25,400 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:18:53,181 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:19:20,917 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:19:48,679 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:20:16,455 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:20:44,187 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:21:11,962 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:21:39,689 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:22:07,477 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:22:35,212 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:23:02,942 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:23:30,701 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:23:58,446 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:24:26,196 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:24:53,932 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:25:21,779 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:25:49,560 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:26:17,301 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:26:45,040 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:27:12,776 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:27:40,513 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:28:08,246 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:28:36,028 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:29:03,831 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:29:31,580 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:29:59,324 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:30:27,118 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:30:54,871 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:31:22,620 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:31:50,367 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:32:18,166 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:32:45,895 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:33:13,655 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:33:41,453 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:34:09,193 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:34:36,936 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:35:04,668 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:35:32,376 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:36:00,180 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:36:28,015 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:36:55,823 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:37:23,559 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:37:51,292 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:38:19,045 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:38:46,752 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:39:14,547 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:39:42,295 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:40:10,043 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:40:37,831 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:41:05,576 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:41:33,315 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:42:01,052 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:42:28,930 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:42:56,681 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:43:24,411 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:43:52,170 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:44:19,931 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:44:47,677 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:45:15,440 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:45:43,184 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:46:11,184 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:46:38,934 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:47:06,682 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:47:34,412 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:48:02,157 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:48:29,971 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:48:57,782 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:49:25,545 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:49:53,346 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:50:21,155 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:50:48,913 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:51:16,787 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:51:44,517 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:52:12,411 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:52:40,110 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:53:07,845 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:53:35,575 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:54:03,319 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:54:31,116 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:54:58,892 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:55:26,660 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:55:54,430 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:56:22,165 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:56:49,924 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:57:17,684 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:57:45,445 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:58:13,211 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:58:40,957 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:59:08,696 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 20:59:36,448 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:00:04,383 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:00:32,137 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:00:59,893 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:01:27,641 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:01:55,466 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:02:23,246 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:02:51,045 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:03:18,878 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:03:46,632 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:04:14,398 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:04:42,153 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:05:09,968 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:05:37,714 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:06:05,458 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:06:33,296 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:07:01,067 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:07:28,810 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:07:56,612 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:08:24,322 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:08:52,109 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:09:19,842 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:09:47,583 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:10:15,314 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:10:43,080 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:11:10,823 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:11:38,563 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:12:06,300 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:12:34,099 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:13:01,846 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:13:29,572 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:13:57,320 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:14:25,551 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:14:53,451 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:15:21,206 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:15:48,976 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:16:16,746 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:16:44,437 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:17:12,205 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:17:39,907 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:18:07,680 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:18:35,420 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:19:03,132 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:19:30,881 INFO: Healthcheck: Crime DataSet alive=True
+2025-05-23 21:19:58,661 INFO: Healthcheck: Crime DataSet alive=True

@@ -14,6 +14,11 @@ class QueryController:
         def query_endpoint():
             query_start = time.time()
             logger.info("Received query request")
+
+            if not getattr(app, "processing_complete", False):
+                logger.warning("Bucket is still loading and not ready for queries.")
+                return jsonify({"error": "Bucket is still loading and not ready for queries."}), 503
+
             data = request.get_json()
             if not data or "query" not in data:
                 logger.warning("Missing 'query' in request body")
@@ -59,7 +64,10 @@ class QueryController:
                 logger.info(f"Query response:\n{formatted_log}")
                 
                 # Optionally include query time in response
-                return jsonify({"results": enhanced_results, "query_time": query_time})
+                return jsonify({
+                    "results": result["results"],
+                    "query_time": query_time  # Add this line
+                })
             except Exception as e:
                 logger.error(f"Query failed: {str(e)}", exc_info=True)
                 return jsonify({"error": f"Query failed: {str(e)}"}), 500
