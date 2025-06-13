@@ -1,0 +1,79 @@
+384
+{
+  "portuguese": {
+    "chunk_size_200": {
+      "all-minilm": {
+        "doc_processing_time": 9.767192125320435,
+        "total_embedding_time": 9.725939750671387,
+        "avg_chunk_count": 4.7,
+        "K3_similarity": 0.6218420962492625,
+        "K3_query_time": 0.014893531799316406,
+        "K3_embedding_time": 0.010911782582600912,
+        "K3_precision": 0.05555555555555555,
+        "K3_noisy_similarity": 0.5857249465253618
+      }
+    },
+    "chunk_size_300": {
+      "all-minilm": {
+        "doc_processing_time": 2.940030813217163,
+        "total_embedding_time": 2.8981785774230957,
+        "avg_chunk_count": 3.03,
+        "K3_similarity": 0.6067327128516303,
+        "K3_query_time": 0.012595852216084799,
+        "K3_embedding_time": 0.009233832359313965,
+        "K3_precision": 0.05555555555555555,
+        "K3_noisy_similarity": 0.5860028266906738
+      }
+    },
+    "chunk_size_500": {
+      "all-minilm": {
+        "doc_processing_time": 1.2181568145751953,
+        "total_embedding_time": 1.184514045715332,
+        "avg_chunk_count": 1.22,
+        "K3_similarity": 0.5823001497321658,
+        "K3_query_time": 0.015283544858296713,
+        "K3_embedding_time": 0.010879874229431152,
+        "K3_precision": 0.05555555555555555,
+        "K3_noisy_similarity": 0.5782215462790595
+      }
+    }
+  },
+  "english": {
+    "chunk_size_200": {
+      "all-minilm": {
+        "doc_processing_time": 3.686065673828125,
+        "total_embedding_time": 3.6459193229675293,
+        "avg_chunk_count": 4.2,
+        "K3_similarity": 0.6184033850828806,
+        "K3_query_time": 0.016301949818929035,
+        "K3_embedding_time": 0.012305935223897299,
+        "K3_precision": 0.2222222222222222,
+        "K3_noisy_similarity": 0.5183626131878959
+      }
+    },
+    "chunk_size_300": {
+      "all-minilm": {
+        "doc_processing_time": 2.507676124572754,
+        "total_embedding_time": 2.465923309326172,
+        "avg_chunk_count": 2.64,
+        "K3_similarity": 0.6027440031369528,
+        "K3_query_time": 0.01322174072265625,
+        "K3_embedding_time": 0.00977484385172526,
+        "K3_precision": 0.05555555555555555,
+        "K3_noisy_similarity": 0.5171868238184187
+      }
+    },
+    "chunk_size_500": {
+      "all-minilm": {
+        "doc_processing_time": 0.4716787338256836,
+        "total_embedding_time": 0.442319393157959,
+        "avg_chunk_count": 0.47,
+        "K3_similarity": 0.5539155867364671,
+        "K3_query_time": 0.014231046040852865,
+        "K3_embedding_time": 0.010353287061055502,
+        "K3_precision": 0.0,
+        "K3_noisy_similarity": 0.455527212884691
+      }
+    }
+  }
+}
