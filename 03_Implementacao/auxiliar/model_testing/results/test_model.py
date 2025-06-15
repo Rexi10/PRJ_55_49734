@@ -9,11 +9,11 @@ from typing import List, Dict, Tuple
 from SemanticSearch.Bucket.DAO import FileManagerDAO
 from SemanticSearch.Bucket.Embeddings import Embedder, EmbeddingRepo
 
-# Configure logging
+# Configura logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
-# Configuration
+# Configuração
 PORTUGUESE_DIR = "SemanticSearch/Bucket/buckets/bucket4/incident_reports_pt"
 ENGLISH_DIR = "SemanticSearch/Bucket/buckets/bucket1/incident_reports"
 K_VALUES = [3]
@@ -22,7 +22,7 @@ OVERLAP_FRACTION = 0.5
 RELEVANCE_THRESHOLD = 0.7
 MODEL_NAME = "nomic_embed-text-v1.5"
 MODEL_KEY = "teste"
-# Queries
+# Consultas
 PORTUGUESE_QUERIES = [
     "Quais são os relatórios recentes sobre atividades de gangues armadas em Vilkor, Zakovia?",
     "Quais são os relatórios mais recentes sobre roubos de arte envolvendo os Ghost Shadows em Ravenska, Zakovia?",
@@ -71,15 +71,15 @@ def parse_text_file(file_path: str) -> Dict[str, str]:
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
-        logger.debug(f"Successfully parsed {file_path}")
+        logger.debug(f"Analisado com sucesso {file_path}")
         return {"content": content}
     except Exception as e:
-        logger.error(f"Failed to parse {file_path}: {str(e)}")
+        logger.error(f"Falha ao analisar {file_path}: {str(e)}")
         return {"content": None, "error": str(e)}
 
 def process_documents(directory: str, model: str, chunk_size: int) -> Tuple[EmbeddingRepo, float, float, List[int]]:
     if not os.path.exists(directory):
-        logger.error(f"Directory {directory} does not exist")
+        logger.error(f"Diretório {directory} não existe")
         return EmbeddingRepo(), 0.0, 0.0, []
 
     overlap_words = int(chunk_size * OVERLAP_FRACTION)
@@ -91,19 +91,19 @@ def process_documents(directory: str, model: str, chunk_size: int) -> Tuple[Embe
     chunk_counts = []
 
     docs = file_manager.get_docs()
-    logger.info(f"Found {len(docs)} files in {directory}")
+    logger.info(f"Encontrados {len(docs)} ficheiros em {directory}")
     txt_count = 0
     for doc_info in docs:
         if not doc_info["name"].lower().endswith(".txt"):
-            logger.debug(f"Skipping non-.txt file: {doc_info['name']}")
+            logger.debug(f"A ignorar ficheiro não-.txt: {doc_info['name']}")
             continue
         file_path = os.path.join(directory, doc_info["location"])
         if not os.path.exists(file_path):
-            logger.error(f"File not found: {file_path}")
+            logger.error(f"Ficheiro não encontrado: {file_path}")
             continue
         result = parse_text_file(file_path)
         if result.get("content") is None:
-            logger.error(f"Failed to parse {file_path}: {result.get('error', 'Unknown error')}")
+            logger.error(f"Falha ao analisar {file_path}: {result.get('error', 'Erro desconhecido')}")
             continue
         content = result["content"]
         doc = Doc(name=doc_info["name"], location=file_path, content=content)
@@ -116,13 +116,13 @@ def process_documents(directory: str, model: str, chunk_size: int) -> Tuple[Embe
                 doc.embeddings.append(embedding)
                 total_embedding_time += emb_time
             embedding_repo.save(doc, chunks)
-            logger.info(f"Processed {doc_info['name']} with {len(chunks)} chunks (chunk_size={chunk_size})")
+            logger.info(f"Processado {doc_info['name']} com {len(chunks)} chunks (chunk_size={chunk_size})")
             txt_count += 1
         except Exception as e:
-            logger.error(f"Failed to embed {file_path}: {str(e)}")
+            logger.error(f"Falha ao incorporar {file_path}: {str(e)}")
 
     processing_time = time.time() - start_time
-    logger.info(f"Model {model} processed {txt_count} .txt documents with chunk_size={chunk_size} in {processing_time:.4f}s, total embedding time={total_embedding_time:.4f}s, FAISS index size={embedding_repo.faiss_index.ntotal}")
+    logger.info(f"Modelo {model} processou {txt_count} documentos .txt com chunk_size={chunk_size} em {processing_time:.4f}s, tempo total de embedding={total_embedding_time:.4f}s, tamanho do índice FAISS={embedding_repo.faiss_index.ntotal}")
     return embedding_repo, processing_time, total_embedding_time, chunk_counts
 
 def query_search(query: str, model: str, k: int, embedding_repo: EmbeddingRepo) -> Tuple[List[float], float, float, List[str]]:
@@ -134,10 +134,10 @@ def query_search(query: str, model: str, k: int, embedding_repo: EmbeddingRepo) 
         similarities = [float(similarity) for doc, similarity, _, _ in results]
         doc_names = [doc.name for doc, _, _, _ in results]
         query_time = time.time() - start_time
-        logger.info(f"Query '{query}' with model {model}, K={k}: similarities={similarities}, retrieved docs={doc_names}, time={query_time:.4f}s, emb_time={emb_time:.4f}s")
+        logger.info(f"Consulta '{query}' com modelo {model}, K={k}: similaridades={similarities}, documentos recuperados={doc_names}, tempo={query_time:.4f}s, emb_time={emb_time:.4f}s")
         return similarities, query_time, emb_time, doc_names
     except Exception as e:
-        logger.error(f"Query failed for model {model}: {str(e)}")
+        logger.error(f"Consulta falhou para modelo {model}: {str(e)}")
         return [], 0.0, 0.0, []
 
 def evaluate_model(model: str, queries: list, k_values: List[int], embedding_repo: EmbeddingRepo, query_type: str) -> Dict[int, Tuple[float, float, float, float]]:
@@ -158,10 +158,10 @@ def evaluate_model(model: str, queries: list, k_values: List[int], embedding_rep
             avg_query_time = np.mean(query_times) if query_times else 0.0
             avg_embedding_time = np.mean(embedding_times) if embedding_times else 0.0
             precision_at_k = np.mean([count / k for count in relevant_counts]) if relevant_counts else 0.0
-            logger.info(f"Model {model} processed {len(queries)} {query_type} queries, K={k}: avg similarity={avg_similarity:.4f}, avg query time={avg_query_time:.4f}s, avg emb time={avg_embedding_time:.4f}s, Precision@K={precision_at_k:.4f}")
+            logger.info(f"Modelo {model} processou {len(queries)} consultas {query_type}, K={k}: similaridade média={avg_similarity:.4f}, tempo médio de consulta={avg_query_time:.4f}s, tempo médio de emb={avg_embedding_time:.4f}s, Precisão@K={precision_at_k:.4f}")
             results[k] = (avg_similarity, avg_query_time, avg_embedding_time, precision_at_k)
         except Exception as e:
-            logger.error(f"Evaluation failed for model {model}, K={k}, query_type={query_type}: {str(e)}")
+            logger.error(f"Avaliação falhou para modelo {model}, K={k}, tipo de consulta={query_type}: {str(e)}")
             results[k] = (0.0, 0.0, 0.0, 0.0)
     return results
 
@@ -172,7 +172,7 @@ def main():
     pt_has_docs = os.path.exists(PORTUGUESE_DIR)
     en_has_docs = os.path.exists(ENGLISH_DIR)
     if not (pt_has_docs or en_has_docs):
-        logger.error("Neither Portuguese nor English directory exists. Terminating.")
+        logger.error("Nem o diretório Português nem o Inglês existem. A terminar.")
         return
 
     for chunk_size in CHUNK_SIZES:
@@ -196,7 +196,7 @@ def main():
                     for k, (sim, _, _, _) in k_results_noisy.items():
                         pt_results[MODEL_KEY][f"K{k}_noisy_similarity"] = sim
             except Exception as e:
-                logger.error(f"Failed to process Portuguese documents for model {MODEL_NAME}, chunk_size={chunk_size}: {str(e)}")
+                logger.error(f"Falha ao processar documentos Portugueses para modelo {MODEL_NAME}, chunk_size={chunk_size}: {str(e)}")
                 pt_results[MODEL_KEY]["doc_processing_time"] = 0.0
                 pt_results[MODEL_KEY]["total_embedding_time"] = 0.0
                 pt_results[MODEL_KEY]["avg_chunk_count"] = 0.0
@@ -224,7 +224,7 @@ def main():
                     for k, (sim, _, _, _) in k_results_noisy.items():
                         en_results[MODEL_KEY][f"K{k}_noisy_similarity"] = sim
             except Exception as e:
-                logger.error(f"Failed to process English documents for model {MODEL_NAME}, chunk_size={chunk_size}: {str(e)}")
+                logger.error(f"Falha ao processar documentos Ingleses para modelo {MODEL_NAME}, chunk_size={chunk_size}: {str(e)}")
                 en_results[MODEL_KEY]["doc_processing_time"] = 0.0
                 en_results[MODEL_KEY]["total_embedding_time"] = 0.0
                 en_results[MODEL_KEY]["avg_chunk_count"] = 0.0
@@ -238,14 +238,14 @@ def main():
         results["portuguese"][f"chunk_size_{chunk_size}"] = pt_results
         results["english"][f"chunk_size_{chunk_size}"] = en_results
 
-        # Save to model-specific results file
+        # Guarda num ficheiro específico do modelo
         results_file = f"results_{MODEL_KEY}.json"
         with open(results_file, "w") as f:
             json.dump(results, f, indent=2)
-        logger.info(f"Saved results for model {MODEL_NAME}, chunk_size={chunk_size} to {results_file}")
+        logger.info(f"Resultados guardados para modelo {MODEL_NAME}, chunk_size={chunk_size} em {results_file}")
 
     total_time = time.time() - total_start_time
-    logger.info(f"Total execution time for model {MODEL_NAME}: {total_time:.4f} seconds")
+    logger.info(f"Tempo total de execução para modelo {MODEL_NAME}: {total_time:.4f} segundos")
 
 if __name__ == "__main__":
     main()

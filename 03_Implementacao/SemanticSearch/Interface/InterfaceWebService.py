@@ -3,16 +3,19 @@ from urllib.parse import urljoin
 from flask import Flask, jsonify, request, redirect
 import httpx
 from Node.AINode import AINode
-import asyncio
+
 
 logger = logging.getLogger(__name__)
 
 class InterfaceWebService:
+    # Inicializa serviço com nó AI
     def __init__(self):
-        logger.debug("Initializing InterfaceWebService")
+        logger.debug("A inicializar InterfaceWebService")
+
+        
         self.ai_node = AINode()
         self.app = None
-        logger.info("InterfaceWebService initialization complete")
+        logger.info("Inicialização do InterfaceWebService concluída")
 
     def set_app(self, app: Flask):
         self.app = app
@@ -26,37 +29,39 @@ class InterfaceWebService:
 
         @self.app.route('/query', methods=['POST'])
         async def query():
+            # Processa consulta assíncrona
             data = request.get_json()
             query = data.get('query')
             k = data.get('k', 3)
             if not query or not isinstance(k, int) or k < 1:
-                logger.warning("Invalid query or k")
-                return jsonify({'error': 'Invalid query or k', 'results': []}), 400
+                logger.warning("Consulta ou k inválidos")
+                return jsonify({'error': 'Consulta ou k inválidos', 'results': []}), 400
             try:
                 results = await self.ai_node.forward_query(query, k)
                 if not isinstance(results, dict):
-                    logger.error(f"Invalid results type from forward_query: {type(results)}, value: {results}")
-                    return jsonify({'error': 'Invalid response from buckets', 'results': []}), 500
+                    logger.error(f"Tipo de resultados inválido de forward_query: {type(results)}, valor: {results}")
+                    return jsonify({'error': 'Resposta inválida dos buckets', 'results': []}), 500
                 flat_results = []
                 for bucket_name, bucket_results in results.items():
                     if not isinstance(bucket_results, list):
-                        logger.warning(f"Invalid results from {bucket_name}: {bucket_results}")
+                        logger.warning(f"Resultados inválidos de {bucket_name}: {bucket_results}")
                         continue
                     for result in bucket_results:
                         result['bucket_name'] = bucket_name
                         flat_results.append(result)
-                logger.info(f"Returning {len(flat_results)} query results")
+                logger.info(f"A retornar {len(flat_results)} resultados de consulta")
                 return jsonify({'results': flat_results})
             except Exception as e:
-                logger.error(f"Query failed: {str(e)}", exc_info=True)
-                return jsonify({'error': f'Query processing failed: {str(e)}', 'results': []}), 500
+                logger.error(f"Consulta falhou: {str(e)}", exc_info=True)
+                return jsonify({'error': f'Falha no processamento da consulta: {str(e)}', 'results': []}), 500
 
         @self.app.route('/startup', methods=['GET'])
         async def startup():
+            # Verifica estado de inicialização dos buckets
             async with httpx.AsyncClient() as client:
                 buckets = self.ai_node.get_buckets()
                 if not buckets:
-                    return jsonify({'message': 'No buckets registered'}), 200
+                    return jsonify({'message': 'Nenhum bucket registado'}), 200
                 all_processed = True
                 for bucket in buckets:
                     try:
@@ -66,10 +71,10 @@ class InterfaceWebService:
                             all_processed = False
                             break
                     except Exception as e:
-                        logger.error(f"Failed to check bucket {bucket['name']}: {str(e)}")
+                        logger.error(f"Falha ao verificar bucket {bucket['name']}: {str(e)}")
                         all_processed = False
                         break
-                message = "Processed all documents" if all_processed else "Buckets still processing"
+                message = "Processados todos os documentos" if all_processed else "Buckets ainda a processar"
                 return jsonify({'message': message})
 
         @self.app.route('/download/<path:filename>', methods=['GET'])
@@ -77,15 +82,16 @@ class InterfaceWebService:
             for bucket in self.ai_node.get_buckets():
                 if any(result.get('location') == filename for result in (request.get_json() or {}).get('results', [])):
                     return redirect(f"{bucket['url']}/download/{filename}")
-            return jsonify({'error': 'File not found'}), 404
+            return jsonify({'error': 'Ficheiro não encontrado'}), 404
 
         @self.app.route('/ai-node/register', methods=['POST'])
         def register_bucket():
+            # Regista bucket no nó AI
             data = request.get_json()
             bucket_name = data.get('bucket_name')
             bucket_url = data.get('bucket_url')
             if bucket_name and bucket_url:
                 if self.ai_node.register_bucket(bucket_name, bucket_url):
-                    return jsonify({'status': 'success', 'message': f'Bucket {bucket_name} registered'}), 200
-                return jsonify({'status': 'error', 'message': 'Registration failed'}), 500
-            return jsonify({'status': 'error', 'message': 'Invalid data'}), 400
+                    return jsonify({'status': 'success', 'message': f'Bucket {bucket_name} registado'}), 200
+                return jsonify({'status': 'error', 'message': 'Falha no registo'}), 500
+            return jsonify({'status': 'error', 'message': 'Dados inválidos'}), 400

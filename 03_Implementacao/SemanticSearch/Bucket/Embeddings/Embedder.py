@@ -6,18 +6,24 @@ import numpy as np
 logger = logging.getLogger(__name__)
 
 class Embedder:
+    # Inicializa com DAO para embeddings
     def __init__(self):
-        logger.debug("Initializing Embedder")
+        logger.debug("A inicializar Embedder")
+        
         
         self.ollama_dao = OllamaDAO()
         
     def generate_embedding(self, text: str) -> np.ndarray:
-        logger.debug("Calling OllamaDAO for embedding")
+        logger.debug("A chamar OllamaDAO para embedding")
+        
         
         return self.ollama_dao.generate_embedding(text)
+    
 
     def chunk_content(self, content: str, chunk_size_words: int = 300, overlap_words: int = 150) -> List[str]:
-        logger.debug(f"Chunking content (length: {len(content)} characters)")
+        # Divide conteúdo em partes com sobreposição
+        logger.debug(f"A dividir conteúdo (tamanho: {len(content)} caracteres)")
+        
         
         words = content.split()
         chunks = []
@@ -28,5 +34,5 @@ class Embedder:
         if len(words) > chunk_size_words and (len(words) - i - 1) > overlap_words:
             chunk_words = words[-chunk_size_words:]
             chunks.append(' '.join(chunk_words))
-        logger.debug(f"Created {len(chunks)} chunks")
+        logger.debug(f"Criados {len(chunks)} partes")
         return chunks

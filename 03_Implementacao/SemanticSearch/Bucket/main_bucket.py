@@ -8,54 +8,56 @@ from BucketWebService import BucketWebService
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__, template_folder='templates')
-
 bucket_service = BucketWebService()
-
 
 @app.route("/api")
 def api_info():
-    logger.info("Received request to API info endpoint")
+    # Retorna informações da API
+    logger.info("Recebido pedido para endpoint de informação da API")
     return jsonify({
-        "message": f"Welcome to {bucket_service.bucket_name} Semantic Search API!",
+        "message": f"Bem-vindo à API de Pesquisa Semântica de {bucket_service.bucket_name}!",
         "endpoints": {
-            "startup": "GET /startup - Process documents from all subfolders in bucket folder",
-            "query": "POST /query - Query with JSON body (e.g., {'query': 'sample query', 'k': 3})",
-            "download": "GET /download/<filename> - Download a file"
+            "startup": "GET /startup - Processa documentos de todas as subpastas na pasta do bucket",
+            "query": "POST /query - Consulta com corpo JSON (ex.: {'query': 'exemplo de consulta', 'k': 3})",
+            "download": "GET /download/<filename> - Descarrega um ficheiro"
         }
     })
 
 @app.route("/startup", methods=["GET"])
 def startup():
-    logger.info("Received startup request")
+    logger.info("Recebido pedido de inicialização")
+    
+    
     try:
+        # Inicia o processamento de documentos
         result = bucket_service.startup_controller.startup()
-        logger.info(f"Startup response: {result}")
+        logger.info(f"Resposta de inicialização: {result}")
         return jsonify(result)
     except Exception as e:
-        logger.error(f"Startup failed: {str(e)}")
-        return jsonify({"error": f"Startup failed: {str(e)}"}), 500
+        logger.error(f"Inicialização falhou: {str(e)}")
+        return jsonify({"error": f"Inicialização falhou: {str(e)}"}), 500
 
-        
 @app.route("/download/<path:filename>", methods=["GET"])
 def download(filename):
-    logger.info(f"Received download request for {filename}")
+    logger.info(f"Recebido pedido de download para {filename}")
     filename = unquote(filename)
     
+    # Valida nome do ficheiro
     if ".." in filename or filename.startswith("/") or filename.startswith("\\"):
-        logger.warning(f"Invalid filename: {filename}")
-        return jsonify({"error": "Invalid filename"}), 400
+        logger.warning(f"Nome do ficheiro inválido: {filename}")
+        return jsonify({"error": "Nome do ficheiro inválido"}), 400
     
     base_dir = Path(bucket_service.bucket_folder).resolve()
-    logger.debug(f"Base directory resolved to: {base_dir}")
+    logger.debug(f"Diretório base resolvido para: {base_dir}")
     
     filename_base = os.path.basename(filename)
-    logger.debug(f"Searching for filename: {filename_base}")
+    logger.debug(f"A procurar ficheiro: {filename_base}")
     
     file_path = None
     for root, _, files in os.walk(base_dir):
         if filename_base in files:
             file_path = Path(root) / filename_base
-            logger.debug(f"Found file at: {file_path}")
+            logger.debug(f"Ficheiro encontrado em: {file_path}")
             break
     
     if not file_path:
@@ -63,24 +65,25 @@ def download(filename):
         full_path = base_dir / relative_path
         if full_path.exists() and full_path.is_file():
             file_path = full_path
-            logger.debug(f"Found file at relative path: {file_path}")
+            logger.debug(f"Ficheiro encontrado no caminho relativo: {file_path}")
     
+    # Verifica se ficheiro existe
     if not file_path or not file_path.exists():
-        logger.warning(f"File {filename_base} not found in {base_dir} or its subfolders")
-        return jsonify({"error": f"File {filename_base} not found. Ensure the file exists and /startup has been run."}), 404
+        logger.warning(f"Ficheiro {filename_base} não encontrado em {base_dir} ou subpastas")
+        return jsonify({"error": f"Ficheiro {filename_base} não encontrado."}), 404
     
     try:
-        logger.info(f"Sending file: {file_path}")
+        logger.info(f"A enviar ficheiro: {file_path}")
         return send_file(str(file_path), as_attachment=True, download_name=filename_base)
     except Exception as e:
-        logger.error(f"Download failed for {filename}: {str(e)}")
-        return jsonify({"error": f"Download failed: {str(e)}"}), 500
+        logger.error(f"Descarregamento falhou para {filename}: {str(e)}")
+        return jsonify({"error": f"Descarregamento falhou: {str(e)}"}), 500
 
 @app.route("/favicon.ico")
 def favicon():
     return "", 204
 
-# Configure logging
+# Configura registo de logs
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s %(levelname)s: %(message)s',
@@ -94,20 +97,24 @@ logging.getLogger('httpcore').setLevel(logging.WARNING)
 
 @app.route('/')
 def index():
+    # Retorna informações do serviço
     return jsonify({
-        'message': 'Bucket Web Service',
+        'message': 'Serviço Web Bucket',
         'bucket_name': os.getenv('BUCKET_NAME', 'default_bucket'),
         'bucket_folder': os.getenv('BUCKET_FOLDER', './documents')
     })
 
 if __name__ == "__main__":
-    logger.info("Starting BucketWebService initialization")
+    logger.info("A iniciar inicialização do BucketWebService")
+    
+    
     try:
         bucket_service = BucketWebService()
-        logger.info("BucketWebService initialized, setting up Flask app")
+        logger.info("BucketWebService inicializado, a configurar aplicação Flask")
         bucket_service.set_app(app)
-        logger.info("Starting Flask app")
+        logger.info("A iniciar aplicação Flask")
         app.run(host="0.0.0.0", port=5000, debug=False)
+        
     except Exception as e:
-        logger.error(f"Failed to start Flask app: {str(e)}")
+        logger.error(f"Falha ao iniciar aplicação Flask: {str(e)}")
         raise
