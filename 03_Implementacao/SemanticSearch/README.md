@@ -3,7 +3,7 @@
 ## Pré-requisitos
 
 - Docker instalado ([link oficial](https://docs.docker.com/get-docker/))
-- Docker Compose (normalmente jÃ¡ incluÃ­do com o Docker)
+- Docker Compose (normalmente já incluído com o Docker)
 
 ## Como correr o sistema
 

@@ -5,14 +5,14 @@ from typing import List, Dict
 logger = logging.getLogger(__name__)
 
 
-#Objeto de acesso a dados para leitura de ficheiros de texto de um diret贸rio.    
+#Objeto de acesso a dados para leitura de ficheiros de texto de um diretoria.    
 class FileManagerDAO:
 
     
     
     SUPPORTED_EXTENSIONS = {".txt", ".pdf", ".docx", ".md"}
     
-    # Inicializa com o diret贸rio padr茫o
+    # Inicializa com o diretoria padr鉶
     def __init__(self, directory: str = "./documents"):
         self.directory = os.getenv('BUCKET_FOLDER', directory)
     
@@ -20,7 +20,7 @@ class FileManagerDAO:
         logger.info(f"A ler documentos de {self.directory} e subpastas")
         
         
-        # Verifica se o diret贸rio existe
+        # Verifica se o diretoria existe
         if not os.path.exists(self.directory):
             logger.error(f"Diret贸rio {self.directory} n茫o existe")
             return []
@@ -39,6 +39,6 @@ class FileManagerDAO:
                     logger.debug(f"Ficheiro adicionado: {file_path}")
                     
                     
-        # Regista n煤mero de ficheiros encontrados
+        # Regista o numero de ficheiros encontrados
         logger.info(f"Encontrados {len(docs)} ficheiros suportados em {self.directory}")
         return docs

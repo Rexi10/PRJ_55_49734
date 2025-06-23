@@ -13,7 +13,7 @@ bucket_service = BucketWebService()
 @app.route("/api")
 def api_info():
     # Retorna informa√ß√µes da API
-    logger.info("Recebido pedido para endpoint de informa√ß√£o da API")
+    logger.info("Recebido pedido para endpoint de informaÁ„o da API")
     return jsonify({
         "message": f"Bem-vindo √† API de Pesquisa Sem√¢ntica de {bucket_service.bucket_name}!",
         "endpoints": {
@@ -35,7 +35,7 @@ def startup():
         return jsonify(result)
     except Exception as e:
         logger.error(f"Inicializa√ß√£o falhou: {str(e)}")
-        return jsonify({"error": f"Inicializa√ß√£o falhou: {str(e)}"}), 500
+        return jsonify({"error": f"inicializaÁ„o falhou: {str(e)}"}), 500
 
 @app.route("/download/<path:filename>", methods=["GET"])
 def download(filename):
@@ -44,8 +44,8 @@ def download(filename):
     
     # Valida nome do ficheiro
     if ".." in filename or filename.startswith("/") or filename.startswith("\\"):
-        logger.warning(f"Nome do ficheiro inv√°lido: {filename}")
-        return jsonify({"error": "Nome do ficheiro inv√°lido"}), 400
+        logger.warning(f"Nome do ficheiro inv·lido: {filename}")
+        return jsonify({"error": "Nome do ficheiro inv·lido"}), 400
     
     base_dir = Path(bucket_service.bucket_folder).resolve()
     logger.debug(f"Diret√≥rio base resolvido para: {base_dir}")
@@ -110,11 +110,11 @@ if __name__ == "__main__":
     
     try:
         bucket_service = BucketWebService()
-        logger.info("BucketWebService inicializado, a configurar aplica√ß√£o Flask")
+        logger.info("BucketWebService inicializado, a configurar aplicaÁ„o Flask")
         bucket_service.set_app(app)
-        logger.info("A iniciar aplica√ß√£o Flask")
+        logger.info("A iniciar aplicaÁ„o Flask")
         app.run(host="0.0.0.0", port=5000, debug=False)
         
     except Exception as e:
-        logger.error(f"Falha ao iniciar aplica√ß√£o Flask: {str(e)}")
+        logger.error(f"Falha ao iniciar aplicaÁ„o Flask: {str(e)}")
         raise

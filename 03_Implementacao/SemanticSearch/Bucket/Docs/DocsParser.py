@@ -11,20 +11,13 @@ import markdown
 logger = logging.getLogger(__name__)
 
 class DocsParser:
-    """Analisa o conteúdo de documentos e extrai metadados de vários formatos de ficheiro."""
+    #  Analisa o conte�do de documentos e extrai metadados de v�rios formatos de ficheiro.
 
     @staticmethod
     def parse_content(file_path: str) -> Dict[str, Optional[str]]:
-        """
-        Analisa o conteúdo e metadados de um ficheiro.
-
-        Args:
-            file_path (str): Caminho para o ficheiro do documento.
-
-        Returns:
-            Dict[str, Optional[str]]: Dicionário contendo 'content' e metadados
-                                      (por exemplo, 'title', 'created_date').
-        """
+        
+        # Analisa o conte�do e metadados de um ficheiro.
+        
         logger.debug(f"A analisar ficheiro: {file_path}")
         file_extension = Path(file_path).suffix.lower()
         try:
@@ -39,16 +32,9 @@ class DocsParser:
 
     @staticmethod
     def _parse_by_extension(file_path: str, extension: str) -> tuple[str, Dict[str, Optional[str]]]:
-        """
-        Analisa o ficheiro com base na sua extensão.
 
-        Args:
-            file_path (str): Caminho para o ficheiro.
-            extension (str): Extensão do ficheiro (por exemplo, '.txt', '.pdf').
+        # Analisa o ficheiro com base na sua estens�o.
 
-        Returns:
-            tuple[str, Dict[str, Optional[str]]]: Conteúdo bruto e metadados.
-        """
         metadata = {
             "title": Path(file_path).stem,
             "created_date": DocsParser._get_file_creation_date(file_path),
@@ -87,15 +73,9 @@ class DocsParser:
 
     @staticmethod
     def _clean_content(content: str) -> str:
-        """
-        Limpa e normaliza o conteúdo de texto.
 
-        Args:
-            content (str): Conteúdo bruto do documento.
+        # Limpa e normaliza o conte�do de texto.
 
-        Returns:
-            str: Conteúdo limpo e normalizado.
-        """
         if not content:
             return ""
 
@@ -109,15 +89,9 @@ class DocsParser:
 
     @staticmethod
     def _get_file_creation_date(file_path: str) -> Optional[str]:
-        """
-        Obtém a data de criação do ficheiro.
 
-        Args:
-            file_path (str): Caminho para o ficheiro.
+        # Obtem a data de cria��o do ficheiro.
 
-        Returns:
-            Optional[str]: Data de criação como string ou None se indisponível.
-        """
         try:
             stat = os.stat(file_path)
             import datetime

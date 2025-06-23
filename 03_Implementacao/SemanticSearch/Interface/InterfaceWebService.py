@@ -8,7 +8,7 @@ from Node.AINode import AINode
 logger = logging.getLogger(__name__)
 
 class InterfaceWebService:
-    # Inicializa serviço com nó AI
+    # Inicializa servi�o
     def __init__(self):
         logger.debug("A inicializar InterfaceWebService")
 
@@ -29,13 +29,13 @@ class InterfaceWebService:
 
         @self.app.route('/query', methods=['POST'])
         async def query():
-            # Processa consulta assíncrona
+            # Processa consulta assincrona
             data = request.get_json()
             query = data.get('query')
             k = data.get('k', 3)
             if not query or not isinstance(k, int) or k < 1:
-                logger.warning("Consulta ou k inválidos")
-                return jsonify({'error': 'Consulta ou k inválidos', 'results': []}), 400
+                logger.warning("Consulta ou k invalidos")
+                return jsonify({'error': 'Consulta ou k invalidos', 'results': []}), 400
             try:
                 results = await self.ai_node.forward_query(query, k)
                 if not isinstance(results, dict):
@@ -44,7 +44,7 @@ class InterfaceWebService:
                 flat_results = []
                 for bucket_name, bucket_results in results.items():
                     if not isinstance(bucket_results, list):
-                        logger.warning(f"Resultados inválidos de {bucket_name}: {bucket_results}")
+                        logger.warning(f"Resultados invalidos de {bucket_name}: {bucket_results}")
                         continue
                     for result in bucket_results:
                         result['bucket_name'] = bucket_name
@@ -94,4 +94,4 @@ class InterfaceWebService:
                 if self.ai_node.register_bucket(bucket_name, bucket_url):
                     return jsonify({'status': 'success', 'message': f'Bucket {bucket_name} registado'}), 200
                 return jsonify({'status': 'error', 'message': 'Falha no registo'}), 500
-            return jsonify({'status': 'error', 'message': 'Dados inválidos'}), 400
+            return jsonify({'status': 'error', 'message': 'Dados invalidos'}), 400

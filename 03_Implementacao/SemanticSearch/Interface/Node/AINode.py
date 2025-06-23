@@ -18,7 +18,7 @@ class AINode:
         try:
             # Regista novo bucket se n√£o existir
             if any(b['name'] == bucket_name for b in self.buckets):
-                logger.warning(f"Bucket {bucket_name} j√° registado")
+                logger.warning(f"Bucket {bucket_name} j· registado")
                 return False
             self.buckets.append({'name': bucket_name, 'url': bucket_url, 'status': 'ready'})
             logger.info(f"Bucket {bucket_name} registado em {bucket_url}")
@@ -38,7 +38,7 @@ class AINode:
             for bucket in self.buckets:
                 if bucket['name'] in selected_buckets:
                     if not bucket.get('alive', True):
-                        results[bucket['name']] = [{"error": "Bucket inacess√≠vel ou offline."}]
+                        results[bucket['name']] = [{"error": "Bucket inacessivÈl ou offline."}]
                         continue
                     if not bucket.get('processing_complete', False):
                         results[bucket['name']] = [{"error": "Bucket ainda a processar documentos."}]
@@ -53,7 +53,7 @@ class AINode:
                         else:
                             results[bucket['name']] = [{"error": f"Bucket retornou estado {resp.status_code}"}]
                     except Exception as e:
-                        results[bucket['name']] = [{"error": f"Bucket inacess√≠vel: {str(e)}"}]
+                        results[bucket['name']] = [{"error": f"Bucket inacessivÈl: {str(e)}"}]
         return results
 
     async def update_bucket_statuses(self):

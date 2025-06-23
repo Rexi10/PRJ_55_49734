@@ -17,5 +17,5 @@ class StartUpManager:
         
         # Processa todos os documentos
         docs = self.embedding_manager.process_documents()
-        logger.info(f"InicializaÃ§Ã£o concluÃ­da: processados {len(docs)} documentos")
+        logger.info(f"inicialização concluí­da: processados {len(docs)} documentos")
         return len(docs)

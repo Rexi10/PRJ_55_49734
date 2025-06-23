@@ -16,20 +16,20 @@ class QueryController:
             query_start = time.time()
             logger.info("Recebido pedido de consulta")
 
-            # Verifica se o sistema est√° pronto
+            # Verifica se o sistema est· pronto
             if not getattr(app, "processing_complete", False):
-                return jsonify({"error": "O bucket ainda est√° a carregar e n√£o est√° pronto para consultas."}), 503
+                return jsonify({"error": "O bucket ainda est· a carregar e n„o est· pronto para consultas."}), 503
 
             data = request.get_json()
             if not data or "query" not in data:
-                return jsonify({"error": "A consulta deve ser uma string n√£o vazia no campo 'query'"}), 400
+                return jsonify({"error": "A consulta deve ser uma string n„o vazia no campo 'query'"}), 400
             
             query_text = data.get("query", "")
             k = int(data.get("k", 3))
             
-            # Valida consulta n√£o vazia
+            # Valida consulta n„o vazia
             if not query_text:
-                return jsonify({"error": "A consulta deve ser uma string n√£o vazia no campo 'query'"}), 400
+                return jsonify({"error": "A consulta deve ser uma string n„o vazia no campo 'query'"}), 400
             
             if k < 1:
                 return jsonify({"error": "k deve ser um inteiro positivo"}), 400
@@ -55,7 +55,7 @@ class QueryController:
                         continue
                     
                     # Adiciona chunk do documento
-                    chunk = item.get("chunk", doc.content if doc.content else "Sem chunk dispon√≠vel")
+                    chunk = item.get("chunk", doc.content if doc.content else "Sem chunk disponÌvel")
                     enhanced_results.append({
                         "name": item["name"],
                         "location": item["location"],

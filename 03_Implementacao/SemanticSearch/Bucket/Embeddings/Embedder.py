@@ -22,7 +22,7 @@ class Embedder:
 
     def chunk_content(self, content: str, chunk_size_words: int = 300, overlap_words: int = 150) -> List[str]:
         # Divide conteúdo em partes com sobreposição
-        logger.debug(f"A dividir conteúdo (tamanho: {len(content)} caracteres)")
+        logger.debug(f"A dividir conte�do (tamanho: {len(content)} caracteres)")
         
         
         words = content.split()
