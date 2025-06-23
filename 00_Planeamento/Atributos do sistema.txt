@@ -1,22 +1,22 @@
 Tabela 1: Definições dos 20 Requisitos
 Número	Detalhe/Restrição Fronteira	Categoria
-1	O sistema deve permitir login com nome de usuário e senha.	Obrigatório
-2	O sistema deve validar credenciais em um banco de dados seguro.	Obrigatório
-3	O sistema deve permitir buscas por palavras-chave ou frases em casos antigos.	Obrigatório
-4	O sistema deve usar técnicas de NLP para entender o contexto da consulta.	Obrigatório
-5	O sistema deve recuperar documentos com base em relevância semântica.	Obrigatório
-6	O sistema deve gerar respostas resumidas com base nos documentos recuperados.	Obrigatório
-7	O sistema deve exibir resultados de forma clara, com destaque para informações relevantes.	Obrigatório
-8	O sistema deve permitir feedback do usuário sobre a relevância dos resultados.	Desejável
-9	O sistema deve permitir a atualização da base de conhecimento com novos casos.	Obrigatório
-10	O sistema deve monitorar desempenho (tempo de resposta, precisão).	Desejável
-11	O sistema deve gerenciar níveis de acesso com base na hierarquia do usuário.	Obrigatório
-12	O sistema deve registrar logs de atividades para auditoria.	Obrigatório
-13	O sistema deve permitir recuperação de senha via e-mail ou autenticação de dois fatores (2FA).	Desejável
-14	O sistema deve notificar o usuário sobre expiração de sessão.	Desejável
-15	O sistema deve integrar-se com diretórios corporativos (LDAP/AD).	Desejável
-16	O sistema deve classificar documentos por relevância semântica.	Obrigatório
-17	O sistema deve sugerir termos de busca com base em consultas anteriores.	Desejável
-18	O sistema deve permitir exportação de resultados para PDF, CSV ou outros formatos.	Desejável
-19	O sistema deve garantir criptografia de dados em trânsito e em repouso.	Obrigatório
-20	O sistema deve fornecer um dashboard de métricas para administradores.	Desejável
+1	O sistema deve permitir login com nome de usuário e senha.	Obrigatóriox
+2	O sistema deve validar credenciais em um banco de dados seguro.	Obrigatóriox
+3	O sistema deve permitir buscas por palavras-chave ou frases em casos antigos.	Obrigatórioy
+4	O sistema deve usar técnicas de NLP para entender o contexto da consulta.	Obrigatórioy
+5	O sistema deve recuperar documentos com base em relevância semântica.	Obrigatórioy
+6	O sistema deve gerar respostas resumidas com base nos documentos recuperados.	Obrigatóriox
+7	O sistema deve exibir resultados de forma clara, com destaque para informações relevantes.	Obrigatórioy
+8	O sistema deve permitir feedback do usuário sobre a relevância dos resultados.	Desejávely
+9	O sistema deve permitir a atualização da base de conhecimento com novos casos.	Obrigatórioy
+10	O sistema deve monitorar desempenho (tempo de resposta, precisão).	Desejávely
+11	O sistema deve gerenciar níveis de acesso com base na hierarquia do usuário.	Obrigatóriox
+12	O sistema deve registrar logs de atividades para auditoria.	Obrigatórioy
+13	O sistema deve permitir recuperação de senha via e-mail ou autenticação de dois fatores (2FA).	Desejávelx
+14	O sistema deve notificar o usuário sobre expiração de sessão.	Desejávelx
+15	O sistema deve integrar-se com diretórios corporativos (LDAP/AD).	Desejávelx
+16	O sistema deve classificar documentos por relevância semântica.	Obrigatórioy
+17	O sistema deve sugerir termos de busca com base em consultas anteriores.	Desejávelx
+18	O sistema deve permitir exportação de resultados para PDF, CSV ou outros formatos.	Desejávelx
+19	O sistema deve garantir criptografia de dados em trânsito e em repouso.	Obrigatóriox
+20	O sistema deve fornecer um dashboard de métricas para administradores.	Desejávelx

@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 class OllamaDAO:
 
     def __init__(self):
-        self.model = "nomic-embed-text:v1.5"
+        self.model = "oscardp96/medcpt-query-article"
         
         ollama_host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
         

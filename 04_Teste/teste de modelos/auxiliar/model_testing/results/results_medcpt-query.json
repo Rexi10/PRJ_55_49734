@@ -1,0 +1,79 @@
+768
+{
+  "portuguese": {
+    "chunk_size_200": {
+      "medcpt-query": {
+        "doc_processing_time": 7.549158334732056,
+        "total_embedding_time": 7.505403280258179,
+        "avg_chunk_count": 4.7,
+        "K3_similarity": 0.9156633648607466,
+        "K3_query_time": 0.0177764097849528,
+        "K3_embedding_time": 0.014223178227742514,
+        "K3_precision": 1.0,
+        "K3_noisy_similarity": 0.9240574505594041
+      }
+    },
+    "chunk_size_300": {
+      "medcpt-query": {
+        "doc_processing_time": 4.138571739196777,
+        "total_embedding_time": 4.096788167953491,
+        "avg_chunk_count": 3.03,
+        "K3_similarity": 0.9181292752424876,
+        "K3_query_time": 0.018047014872233074,
+        "K3_embedding_time": 0.014583786328633627,
+        "K3_precision": 1.0,
+        "K3_noisy_similarity": 0.9261552890141805
+      }
+    },
+    "chunk_size_500": {
+      "medcpt-query": {
+        "doc_processing_time": 1.6999366283416748,
+        "total_embedding_time": 1.6646802425384521,
+        "avg_chunk_count": 1.22,
+        "K3_similarity": 0.9122144513660007,
+        "K3_query_time": 0.015506784121195475,
+        "K3_embedding_time": 0.01265557607014974,
+        "K3_precision": 1.0,
+        "K3_noisy_similarity": 0.9212344851758745
+      }
+    }
+  },
+  "english": {
+    "chunk_size_200": {
+      "medcpt-query": {
+        "doc_processing_time": 5.700777530670166,
+        "total_embedding_time": 5.65838885307312,
+        "avg_chunk_count": 4.2,
+        "K3_similarity": 0.8094177775912814,
+        "K3_query_time": 0.017945726712544758,
+        "K3_embedding_time": 0.014536182085673014,
+        "K3_precision": 1.0,
+        "K3_noisy_similarity": 0.8070967462327745
+      }
+    },
+    "chunk_size_300": {
+      "medcpt-query": {
+        "doc_processing_time": 3.528979778289795,
+        "total_embedding_time": 3.4864065647125244,
+        "avg_chunk_count": 2.64,
+        "K3_similarity": 0.8027145663897196,
+        "K3_query_time": 0.019639054934183758,
+        "K3_embedding_time": 0.016685883204142254,
+        "K3_precision": 1.0,
+        "K3_noisy_similarity": 0.8051915201875899
+      }
+    },
+    "chunk_size_500": {
+      "medcpt-query": {
+        "doc_processing_time": 0.6635415554046631,
+        "total_embedding_time": 0.6326122283935547,
+        "avg_chunk_count": 0.47,
+        "K3_similarity": 0.7884075575404697,
+        "K3_query_time": 0.019803722699483235,
+        "K3_embedding_time": 0.015893419583638508,
+        "K3_precision": 1.0,
+        "K3_noisy_similarity": 0.7827379438612196
+      }
+    }
+  }
+}

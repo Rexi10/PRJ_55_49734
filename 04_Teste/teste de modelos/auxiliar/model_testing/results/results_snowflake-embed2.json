@@ -1,0 +1,79 @@
+1024
+{
+  "portuguese": {
+    "chunk_size_200": {
+      "snowflake-embed2": {
+        "doc_processing_time": 24.845000505447388,
+        "total_embedding_time": 24.80558466911316,
+        "avg_chunk_count": 4.7,
+        "K3_similarity": 0.5697757452726364,
+        "K3_query_time": 0.05129690965016683,
+        "K3_embedding_time": 0.04720425605773926,
+        "K3_precision": 0.05555555555555555,
+        "K3_noisy_similarity": 0.5154873414172066
+      }
+    },
+    "chunk_size_300": {
+      "snowflake-embed2": {
+        "doc_processing_time": 15.262018918991089,
+        "total_embedding_time": 15.224048614501953,
+        "avg_chunk_count": 3.03,
+        "K3_similarity": 0.551631263560719,
+        "K3_query_time": 0.05274434884389242,
+        "K3_embedding_time": 0.04944769541422526,
+        "K3_precision": 0.0,
+        "K3_noisy_similarity": 0.49934268328878617
+      }
+    },
+    "chunk_size_500": {
+      "snowflake-embed2": {
+        "doc_processing_time": 8.583232641220093,
+        "total_embedding_time": 8.553885221481323,
+        "avg_chunk_count": 1.22,
+        "K3_similarity": 0.3881324264738295,
+        "K3_query_time": 0.0634325345357259,
+        "K3_embedding_time": 0.059372504552205406,
+        "K3_precision": 0.0,
+        "K3_noisy_similarity": 0.3614471008380254
+      }
+    }
+  },
+  "english": {
+    "chunk_size_200": {
+      "snowflake-embed2": {
+        "doc_processing_time": 21.661001205444336,
+        "total_embedding_time": 21.619906425476074,
+        "avg_chunk_count": 4.2,
+        "K3_similarity": 0.5836056586768892,
+        "K3_query_time": 0.052057464917500816,
+        "K3_embedding_time": 0.04870633284250895,
+        "K3_precision": 0.05555555555555555,
+        "K3_noisy_similarity": 0.5440673248635398
+      }
+    },
+    "chunk_size_300": {
+      "snowflake-embed2": {
+        "doc_processing_time": 13.78391146659851,
+        "total_embedding_time": 13.747907400131226,
+        "avg_chunk_count": 2.64,
+        "K3_similarity": 0.5545666383372413,
+        "K3_query_time": 0.05228292942047119,
+        "K3_embedding_time": 0.048385302225748696,
+        "K3_precision": 0.05555555555555555,
+        "K3_noisy_similarity": 0.5192977272801929
+      }
+    },
+    "chunk_size_500": {
+      "snowflake-embed2": {
+        "doc_processing_time": 3.291809320449829,
+        "total_embedding_time": 3.26411771774292,
+        "avg_chunk_count": 0.47,
+        "K3_similarity": 0.37234863970014787,
+        "K3_query_time": 0.04830193519592285,
+        "K3_embedding_time": 0.0440142552057902,
+        "K3_precision": 0.0,
+        "K3_noisy_similarity": 0.3541293972068363
+      }
+    }
+  }
+}
