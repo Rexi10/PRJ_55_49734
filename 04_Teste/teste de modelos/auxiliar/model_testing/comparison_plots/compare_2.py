@@ -1,7 +1,7 @@
+
 import json
 import matplotlib.pyplot as plt
 import os
-import numpy as np
 
 # Diretório dos arquivos de resultados
 results_dir = r"C:\Users\tange\Desktop\final\a\04_Teste\teste de modelos\auxiliar\model_testing\results"
@@ -14,7 +14,7 @@ files = [
     {"name": "results_medcpt-query.json", "label": "MedCPT Query"},
     {"name": "results_mxbai-embed.json", "label": "MxBAI Embed"},
     {"name": "results_avrsfr-embed.json", "label": "AVRSFR Embed"},
-    {"name": "results_snowflake-embed2.json", "label": "Snowflake Embed2"}
+    {"name": "results_snowflake-embed2.json", "label": "Snowflake Embed"}
 ]
 
 # Tamanho do chunk
@@ -51,51 +51,29 @@ for i, file_info in enumerate(files):
 
     # Extrai dados para Português, chunk_size_300
     try:
-        # Adjust the key to match the exact model name in JSON if different
-        adjusted_model_name = model_name.lower().replace(" ", "-")
-        if adjusted_model_name == "snowflake-embed2":
-            adjusted_model_name = "snowflake-embed2"  # Keep as is for this file
-        portuguese_data = data["portuguese"][chunk_size][adjusted_model_name]
+        portuguese_data = data["portuguese"][chunk_size][model_name.lower().replace(" ", "-")]
         similarities.append(portuguese_data["K3_similarity"])
         query_times.append(portuguese_data["K3_query_time"])
-        labels.append(model_name)
+        labels.append(f"{model_name} ({file_info['dim']})")
     except KeyError as e:
         print(f"Chave {e} não encontrada em {filename} para chunk_size_300. Ignorando.")
         continue
 
-# Define limites para dividir em quadrantes
-x_median = np.median(query_times) if query_times else 0.03
-y_median = np.median(similarities) if similarities else 0.7
-
 # Cria o gráfico de dispersão
 plt.figure(figsize=(12, 8))
 for i, (qt, sim, label) in enumerate(zip(query_times, similarities, labels)):
-    plt.scatter(qt, sim, s=100, color=colors[i % len(colors)], edgecolor='black', alpha=0.7, label=label if i == 0 else "")
+    plt.scatter(qt, sim, s=100, color=colors[i % len(colors)], edgecolor='black', alpha=0.7, label=label)
     plt.annotate(label, (qt, sim), fontsize=12, ha='right', va='bottom', xytext=(5, 5), textcoords='offset points')
-
-# Adiciona linhas para dividir em quadrantes
-plt.axvline(x=x_median, color='black', linestyle='--', alpha=0.5)
-plt.axhline(y=y_median, color='black', linestyle='--', alpha=0.5)
-
-# Adiciona rótulos para os quadrantes com melhor formatação
-plt.text(x_median/1.32, y_median + 0.05, 'Similaridade Alta\nTempo de Consulta Baixo', 
-         fontsize=10, ha='center', va='bottom', bbox=dict(facecolor='white', alpha=0.8, edgecolor='black'))
-plt.text(x_median / 1.32, y_median - 0.05, 'Similaridade Baixa\nTempo de Consulta Baixo', 
-         fontsize=10, ha='center', va='top', bbox=dict(facecolor='white', alpha=0.8, edgecolor='black'))
-plt.text(x_median * 2.4, y_median + 0.05, 'Similaridade Alta\nTempo de Consulta Alto', 
-         fontsize=10, ha='center', va='bottom', bbox=dict(facecolor='white', alpha=0.8, edgecolor='black'))
-plt.text(x_median * 2.4, y_median - 0.05, 'Similaridade Baixa\nTempo de Consulta Alto',
-         fontsize=10, ha='center', va='top', bbox=dict(facecolor='white', alpha=0.8, edgecolor='black'))
 
 plt.title("Similaridade Média K3 vs Tempo de Consulta K3 (Português, Chunk Size 300)", fontsize=14, pad=15)
 plt.xlabel("Tempo de Consulta K3 (segundos)", fontsize=12)
 plt.ylabel("Similaridade Média K3", fontsize=12)
 plt.grid(True, linestyle="--", alpha=0.7)
-plt.legend(fontsize=10, loc='best', framealpha=0.9)
+plt.legend(fontsize=10, loc='best')
 plt.tight_layout()
 
 # Salva o gráfico
-output_path = os.path.join(output_dir, "similarity_vs_query_time_quadrants.png")
+output_path = os.path.join(output_dir, "similarity_vs_query_time.png")
 plt.savefig(output_path, dpi=300)
 plt.close()
 
