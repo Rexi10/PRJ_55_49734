@@ -11,12 +11,12 @@ import markdown
 logger = logging.getLogger(__name__)
 
 class DocsParser:
-    #  Analisa o conte�do de documentos e extrai metadados de v�rios formatos de ficheiro.
+    #  Analisa o conteúdo de documentos e extrai metadados de vários formatos de ficheiro.
 
     @staticmethod
     def parse_content(file_path: str) -> Dict[str, Optional[str]]:
         
-        # Analisa o conte�do e metadados de um ficheiro.
+        # Analisa o conteúdo e metadados de um ficheiro.
         
         logger.debug(f"A analisar ficheiro: {file_path}")
         file_extension = Path(file_path).suffix.lower()
@@ -33,7 +33,7 @@ class DocsParser:
     @staticmethod
     def _parse_by_extension(file_path: str, extension: str) -> tuple[str, Dict[str, Optional[str]]]:
 
-        # Analisa o ficheiro com base na sua estens�o.
+        # Analisa o ficheiro com base na sua estensão.
 
         metadata = {
             "title": Path(file_path).stem,
@@ -63,39 +63,39 @@ class DocsParser:
                 content = f.read()
             # Converte Markdown para texto simples
             html = markdown.markdown(content)
-            # Conversão simples de HTML para texto
+            # ConversÃ£o simples de HTML para texto
             content = re.sub(r"<[^>]+>", "", html)
             return content, metadata
 
         else:
-            logger.warning(f"Extensão de ficheiro não suportada: {extension}")
-            return "", {"error": f"Extensão de ficheiro não suportada: {extension}"}
+            logger.warning(f"ExtensÃ£o de ficheiro nÃ£o suportada: {extension}")
+            return "", {"error": f"ExtensÃ£o de ficheiro nÃ£o suportada: {extension}"}
 
     @staticmethod
     def _clean_content(content: str) -> str:
 
-        # Limpa e normaliza o conte�do de texto.
+        # Limpa e normaliza o conteúdo de texto.
 
         if not content:
             return ""
 
-        # Remove espaços em branco e quebras de linha excessivas
+        # Remove espaÃ§os em branco e quebras de linha excessivas
         content = re.sub(r"\s+", " ", content.strip())
-        # Remove caracteres não imprimíveis
+        # Remove caracteres nÃ£o imprimÃ­veis
         content = re.sub(r"[^\x20-\x7E\n\t]", "", content)
-        # Normaliza aspas e traços
-        content = content.replace("’", "'").replace("'", "'").replace("–", "-")
+        # Normaliza aspas e traÃ§os
+        content = content.replace("â", "'").replace("'", "'").replace("â", "-")
         return content
 
     @staticmethod
     def _get_file_creation_date(file_path: str) -> Optional[str]:
 
-        # Obtem a data de cria��o do ficheiro.
+        # Obtem a data de criação do ficheiro.
 
         try:
             stat = os.stat(file_path)
             import datetime
             return datetime.datetime.fromtimestamp(stat.st_ctime).isoformat()
         except Exception as e:
-            logger.warning(f"Não foi possível obter a data de criação para {file_path}: {str(e)}")
+            logger.warning(f"NÃ£o foi possÃ­vel obter a data de criaÃ§Ã£o para {file_path}: {str(e)}")
             return None
