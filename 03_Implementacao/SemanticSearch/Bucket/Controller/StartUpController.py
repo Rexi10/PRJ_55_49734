@@ -21,14 +21,14 @@ class StartUpController:
             logger.info(f"A verificar se pasta existe: {bucket_folder}")
             # Verifica se existe a pasta
             if not os.path.exists(bucket_folder):
-                logger.error(f"Pasta {bucket_folder} n„o existe")
+                logger.error(f"Pasta {bucket_folder} n√£o existe")
                 with current_app.app_context():
-                    return jsonify({'message': f'Pasta {bucket_folder} n„o existe'}), 500
+                    return jsonify({'message': f'Pasta {bucket_folder} n√£o existe'}), 500
                 
             logger.info(f"A iniciar a busca recursiva de {bucket_folder}")
             for root, _, files in os.walk(bucket_folder):
                 dir_start = time.time()
-                logger.info(f"A verificar diretÛrio: {root}")
+                logger.info(f"A verificar diret√≥rio: {root}")
                 for filename in files:
                     if os.path.splitext(filename)[1].lower() in supported_extensions:
                         logger.info(f"A processar ficheiro: {filename} em {root}")
@@ -42,22 +42,22 @@ class StartUpController:
                         except Exception as e:
                             logger.error(f"Falha ao processar {filename} em {root}: {str(e)}")
                             
-                # Regista tempo de processamento do diretÛrio
-                logger.info(f"DiretÛrio {root} processado em {time.time() - dir_start:.2f} segundos")
+                # Regista tempo de processamento do diret√≥rio
+                logger.info(f"Diret√≥rio {root} processado em {time.time() - dir_start:.2f} segundos")
                 
             total_time = time.time() - start_time
-            logger.info(f"Tempo total de inicializaÁ„o: {total_time:.2f} segundos")
+            logger.info(f"Tempo total de inicializa√ß√£o: {total_time:.2f} segundos")
             with current_app.app_context():
                 return jsonify({'message': f'Processados {document_count} documentos', 'startup_time': total_time})
             
         # Trata erros inesperados
         except Exception as e:
-            logger.error(f"InicializaÁ„o falhou: {str(e)}")
+            logger.error(f"Inicializa√ß√£o falhou: {str(e)}")
             with current_app.app_context():
-                return jsonify({'error': f'InicializaÁ„o falhou: {str(e)}'}), 500
+                return jsonify({'error': f'Inicializa√ß√£o falhou: {str(e)}'}), 500
 
     def register_routes(self, app):
-        # Define rota para inicializaÁ„o
+        # Define rota para inicializa√ß√£o
         @app.route('/bucket-startup', methods=['GET'])
         def bucket_startup():
             return self.startup()

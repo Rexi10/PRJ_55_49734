@@ -15,10 +15,10 @@ class OllamaDAO:
         os.environ["OLLAMA_HOST"] = ollama_host
         try:
             ollama.list()
-            logger.info(f"Serviço Ollama inicializado com o modelo {self.model}")
+            logger.info(f"ServiÃ§o Ollama inicializado com o modelo {self.model}")
         except Exception as e:
-            logger.error("Serviço Ollama indisponível")
-            raise RuntimeError("Serviço Ollama indisponível") from e
+            logger.error("ServiÃ§o Ollama indisponÃ­vel")
+            raise RuntimeError("ServiÃ§o Ollama indisponÃ­vel") from e
 
     def generate_embedding(self, text: str) -> np.ndarray:
         try:
@@ -31,7 +31,7 @@ class OllamaDAO:
             return embedding
         
         
-        # Trata de falhas na geração de embeddings
+        # Trata de falhas na geraÃ§Ã£o de embeddings
         except Exception as e:
             logger.error(f"Falha ao gerar embedding: {str(e)}")
             raise

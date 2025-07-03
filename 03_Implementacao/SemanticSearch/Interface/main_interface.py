@@ -23,8 +23,8 @@ def index():
             return Response(f.read(), mimetype="text/html")
         
     except FileNotFoundError:
-        logger.error("index.html não encontrado na pasta templates")
-        return jsonify({"error": "Template não encontrado"}), 500
+        logger.error("index.html nÃ£o encontrado na pasta templates")
+        return jsonify({"error": "Template nÃ£o encontrado"}), 500
     
     except Exception as e:
         logger.error(f"Falha serving index.html: {str(e)}")
@@ -43,27 +43,27 @@ def query():
     data = request.get_json()
     if not data or "query" not in data:
         logger.warning("Falta 'query' no corpo do pedido")
-        return jsonify({"error": "A consulta deve ser uma string não vazia no campo 'query'", "results": []}), 400
+        return jsonify({"error": "A consulta deve ser uma string nÃ£o vazia no campo 'query'", "results": []}), 400
     
     query_text = data.get("query", "")
     k = int(data.get("k", 3))
     selected_buckets = data.get("buckets", None)
     if not query_text:
         logger.warning("Consulta vazia recebida")
-        return jsonify({"error": "A consulta deve ser uma string não vazia no campo 'query'", "results": []}), 400
+        return jsonify({"error": "A consulta deve ser uma string nÃ£o vazia no campo 'query'", "results": []}), 400
     if k < 1:
-        logger.warning("Valor de k inválido recebido")
+        logger.warning("Valor de k invÃ¡lido recebido")
         return jsonify({"error": "k deve ser um inteiro positivo", "results": []}), 400
     
     try:
         results = asyncio.run(interface_service.ai_node.forward_query(query_text, k, selected_buckets))
         if not isinstance(results, dict):
-            logger.error(f"Tipo de resultados inválido  de forward_query: {type(results)}, valor: {results}")
-            return jsonify({"error": "Resposta inválida dos buckets", "results": []}), 500
+            logger.error(f"Tipo de resultados invÃ¡lido  de forward_query: {type(results)}, valor: {results}")
+            return jsonify({"error": "Resposta invÃ¡lida dos buckets", "results": []}), 500
         flat_results = []
         for bucket_name, bucket_results in results.items():
             if not isinstance(bucket_results, list):
-                logger.warning(f"Resultados inválidos de {bucket_name}: {bucket_results}")
+                logger.warning(f"Resultados invÃ¡lidos de {bucket_name}: {bucket_results}")
                 continue
             for result in bucket_results:
                 result['bucket_name'] = bucket_name
@@ -92,7 +92,7 @@ def register_bucket():
     bucket_url = data["url"]
     if not bucket_name or not bucket_url:
         logger.warning("Nome ou URL do bucket vazios")
-        return jsonify({"error": "Nome e URL do bucket devem ser não vazios"}), 400
+        return jsonify({"error": "Nome e URL do bucket devem ser nÃ£o vazios"}), 400
     try:
         if success := interface_service.ai_node.register_bucket(
             bucket_name, bucket_url
@@ -108,7 +108,7 @@ def register_bucket():
 
 @app.route("/startup", methods=["GET"])
 def startup():
-    logger.info("Recebido pedido de verificação de inicialização")
+    logger.info("Recebido pedido de verificaÃ§Ã£o de inicializaÃ§Ã£o")
     return jsonify({"message": "Processado"})
 
 @app.route("/favicon.ico")
@@ -120,7 +120,7 @@ def download(filename):
     # Redireciona para bucket com o ficheiro
     for bucket in interface_service.ai_node.get_buckets():
         return redirect(f"{bucket['url']}/download/{filename}")
-    return jsonify({'error': 'Ficheiro não encontrado'}), 404
+    return jsonify({'error': 'Ficheiro nÃ£o encontrado'}), 404
 
 @app.route('/download/<bucket>/<path:filename>', methods=['GET'])
 def proxy_download(bucket, filename):
@@ -128,13 +128,13 @@ def proxy_download(bucket, filename):
     buckets = interface_service.ai_node.get_buckets()
     bucket_info = next((b for b in buckets if b['name'] == bucket), None)
     if not bucket_info:
-        return jsonify({'error': 'Bucket não encontrado'}), 404
+        return jsonify({'error': 'Bucket nÃ£o encontrado'}), 404
     bucket_url = bucket_info['url']
     download_url = f"{bucket_url}/download/{filename}"
     try:
         r = requests.get(download_url, stream=True)
         if r.status_code != 200:
-            return jsonify({'error': 'Ficheiro não encontrado no bucket'}), 404
+            return jsonify({'error': 'Ficheiro nÃ£o encontrado no bucket'}), 404
         return Response(
             r.iter_content(chunk_size=8192),
             headers={
@@ -158,7 +158,7 @@ logging.getLogger('httpx').setLevel(logging.WARNING)
 logging.getLogger('httpcore').setLevel(logging.WARNING)
 
 if __name__ == "__main__":
-    logger.info("Inicialização do InterfaceWebService")
+    logger.info("InicializaÃ§Ã£o do InterfaceWebService")
     interface_service = InterfaceWebService()
-    logger.info("InterfaceWebService inicializado, a iniciar aplicação Flask")
+    logger.info("InterfaceWebService inicializado, a iniciar aplicaÃ§Ã£o Flask")
     app.run(host="0.0.0.0", port=5000, debug=False)

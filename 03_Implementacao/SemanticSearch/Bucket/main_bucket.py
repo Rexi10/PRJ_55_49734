@@ -13,7 +13,7 @@ bucket_service = BucketWebService()
 @app.route("/api")
 def api_info():
     # Retorna informaÃ§Ãµes da API
-    logger.info("Recebido pedido para endpoint de informação da API")
+    logger.info("Recebido pedido para endpoint de informaï¿½ï¿½o da API")
     return jsonify({
         "message": f"Bem-vindo Ã  API de Pesquisa SemÃ¢ntica de {bucket_service.bucket_name}!",
         "endpoints": {
@@ -35,7 +35,7 @@ def startup():
         return jsonify(result)
     except Exception as e:
         logger.error(f"InicializaÃ§Ã£o falhou: {str(e)}")
-        return jsonify({"error": f"inicialização falhou: {str(e)}"}), 500
+        return jsonify({"error": f"inicializaï¿½ï¿½o falhou: {str(e)}"}), 500
 
 @app.route("/download/<path:filename>", methods=["GET"])
 def download(filename):
@@ -44,8 +44,8 @@ def download(filename):
     
     # Valida nome do ficheiro
     if ".." in filename or filename.startswith("/") or filename.startswith("\\"):
-        logger.warning(f"Nome do ficheiro inválido: {filename}")
-        return jsonify({"error": "Nome do ficheiro inválido"}), 400
+        logger.warning(f"Nome do ficheiro invï¿½lido: {filename}")
+        return jsonify({"error": "Nome do ficheiro invï¿½lido"}), 400
     
     base_dir = Path(bucket_service.bucket_folder).resolve()
     logger.debug(f"DiretÃ³rio base resolvido para: {base_dir}")
@@ -110,11 +110,11 @@ if __name__ == "__main__":
     
     try:
         bucket_service = BucketWebService()
-        logger.info("BucketWebService inicializado, a configurar aplicação Flask")
+        logger.info("BucketWebService inicializado, a configurar aplicaï¿½ï¿½o Flask")
         bucket_service.set_app(app)
-        logger.info("A iniciar aplicação Flask")
+        logger.info("A iniciar aplicaï¿½ï¿½o Flask")
         app.run(host="0.0.0.0", port=5000, debug=False)
         
     except Exception as e:
-        logger.error(f"Falha ao iniciar aplicação Flask: {str(e)}")
+        logger.error(f"Falha ao iniciar aplicaï¿½ï¿½o Flask: {str(e)}")
         raise

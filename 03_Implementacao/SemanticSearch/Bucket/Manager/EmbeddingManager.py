@@ -28,7 +28,7 @@ class EmbeddingManager:
         try:
             result = self.parser.parse_content(file_path)
             if result.get("content") is None:
-                logger.error(f"Falha ao analisar conteúdo de {file_path}: {result.get('error', 'Erro desconhecido')}")
+                logger.error(f"Falha ao analisar conteÃºdo de {file_path}: {result.get('error', 'Erro desconhecido')}")
                 return False
             content = result["content"]
             file_name = os.path.basename(file_path)

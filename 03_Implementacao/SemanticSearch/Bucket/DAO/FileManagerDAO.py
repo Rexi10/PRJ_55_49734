@@ -12,7 +12,7 @@ class FileManagerDAO:
     
     SUPPORTED_EXTENSIONS = {".txt", ".pdf", ".docx", ".md"}
     
-    # Inicializa com o diretoria padr�o
+    # Inicializa com o diretoria padrão
     def __init__(self, directory: str = "./documents"):
         self.directory = os.getenv('BUCKET_FOLDER', directory)
     
@@ -22,7 +22,7 @@ class FileManagerDAO:
         
         # Verifica se o diretoria existe
         if not os.path.exists(self.directory):
-            logger.error(f"Diretório {self.directory} não existe")
+            logger.error(f"DiretÃ³rio {self.directory} nÃ£o existe")
             return []
         
         docs = []

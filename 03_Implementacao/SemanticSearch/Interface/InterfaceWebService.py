@@ -8,14 +8,14 @@ from Node.AINode import AINode
 logger = logging.getLogger(__name__)
 
 class InterfaceWebService:
-    # Inicializa servi�o
+    # Inicializa serviço
     def __init__(self):
         logger.debug("A inicializar InterfaceWebService")
 
         
         self.ai_node = AINode()
         self.app = None
-        logger.info("Inicialização do InterfaceWebService concluída")
+        logger.info("InicializaÃ§Ã£o do InterfaceWebService concluÃ­da")
 
     def set_app(self, app: Flask):
         self.app = app
@@ -39,8 +39,8 @@ class InterfaceWebService:
             try:
                 results = await self.ai_node.forward_query(query, k)
                 if not isinstance(results, dict):
-                    logger.error(f"Tipo de resultados inválido de forward_query: {type(results)}, valor: {results}")
-                    return jsonify({'error': 'Resposta inválida dos buckets', 'results': []}), 500
+                    logger.error(f"Tipo de resultados invÃ¡lido de forward_query: {type(results)}, valor: {results}")
+                    return jsonify({'error': 'Resposta invÃ¡lida dos buckets', 'results': []}), 500
                 flat_results = []
                 for bucket_name, bucket_results in results.items():
                     if not isinstance(bucket_results, list):
@@ -57,7 +57,7 @@ class InterfaceWebService:
 
         @self.app.route('/startup', methods=['GET'])
         async def startup():
-            # Verifica estado de inicialização dos buckets
+            # Verifica estado de inicializaÃ§Ã£o dos buckets
             async with httpx.AsyncClient() as client:
                 buckets = self.ai_node.get_buckets()
                 if not buckets:
@@ -82,11 +82,11 @@ class InterfaceWebService:
             for bucket in self.ai_node.get_buckets():
                 if any(result.get('location') == filename for result in (request.get_json() or {}).get('results', [])):
                     return redirect(f"{bucket['url']}/download/{filename}")
-            return jsonify({'error': 'Ficheiro não encontrado'}), 404
+            return jsonify({'error': 'Ficheiro nÃ£o encontrado'}), 404
 
         @self.app.route('/ai-node/register', methods=['POST'])
         def register_bucket():
-            # Regista bucket no nó AI
+            # Regista bucket no nÃ³ AI
             data = request.get_json()
             bucket_name = data.get('bucket_name')
             bucket_url = data.get('bucket_url')

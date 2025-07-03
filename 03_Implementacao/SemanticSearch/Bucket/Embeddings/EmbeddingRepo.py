@@ -7,7 +7,7 @@ from Docs.Doc import Doc
 logger = logging.getLogger(__name__)
 
 class EmbeddingRepo:
-    # Inicializa índice FAISS para embeddings
+    # Inicializa Ã­ndice FAISS para embeddings
     def __init__(self):
         logger.debug("A inicializar EmbeddingRepo")
         
@@ -30,11 +30,11 @@ class EmbeddingRepo:
     def search(self, query_vector: np.ndarray, k: int = 3) -> List[Tuple[Doc, float, int, str]]:
         # Pesquisa k documentos mais semelhantes
         if self.faiss_index.ntotal == 0:
-            logger.warning("Índice FAISS está vazio")
+            logger.warning("Ãndice FAISS estÃ¡ vazio")
             return []
         
         
-        logger.debug(f"A pesquisar índice FAISS com k={k}")
+        logger.debug(f"A pesquisar Ã­ndice FAISS com k={k}")
         norm = np.linalg.norm(query_vector)
         normalized_query = query_vector / norm if norm != 0 else query_vector
         search_k = min(k * 2, self.faiss_index.ntotal)
@@ -49,5 +49,5 @@ class EmbeddingRepo:
             if doc.name not in seen_docs:
                 results.append((doc, similarities[j], chunk_index, chunk_text))
                 seen_docs.add(doc.name)
-        logger.debug(f"Encontrados {len(results)} documentos únicos")
+        logger.debug(f"Encontrados {len(results)} documentos Ãºnicos")
         return results

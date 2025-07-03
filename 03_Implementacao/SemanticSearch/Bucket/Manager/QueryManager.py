@@ -5,7 +5,7 @@ from Manager import EmbeddingManager
 logger = logging.getLogger(__name__)
 
 class QueryManager:
-    # Inicializa com gestor de embeddings e repositório
+    # Inicializa com gestor de embeddings e repositÃ³rio
     def __init__(self, embedding_manager: EmbeddingManager):
         logger.debug("A inicializar QueryManager")
         
