@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 class OllamaDAO:
 
     def __init__(self):
-        self.model = "oscardp96/medcpt-query-article"
+        self.model = "oscardp96/medcpt-article"
         
         ollama_host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
         
