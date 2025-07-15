@@ -14,6 +14,8 @@ PORTUGUESE_DIR = os.getenv("PORTUGUESE_TEST_DIR", "/app/buckets/bucket4/test")
 ENGLISH_DIR = os.getenv("ENGLISH_TEST_DIR", "/app/buckets/bucket1/test")
 MODEL_NAME = os.getenv("MODEL_NAME", "nomic-embed-text")
 MODEL_KEY = os.getenv("MODEL_KEY", "nomic_embed_text")
+
+
 print(f"Testing with Portuguese documents from: {PORTUGUESE_DIR}")
 print(f"Testing with English documents from: {ENGLISH_DIR}")
 print(f"Testing model: {MODEL_NAME}")
@@ -87,7 +89,7 @@ def parse_text_file(file_path: str) -> Dict[str, str]:
 
 MODEL_DIMENSIONS = {
     "nomic-embed-text": 768,
-    "mxbai-embed-large": 1000,
+    "mxbai-embed-large": 1024,
     "all-minilm": 384
 }
 

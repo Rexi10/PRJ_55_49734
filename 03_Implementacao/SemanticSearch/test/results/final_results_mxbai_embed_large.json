@@ -1,0 +1,462 @@
+{
+  "portuguese": {
+    "chunk_size_200": {
+      "mxbai_embed_large": {
+        "doc_processing_time": 14.638815879821777,
+        "total_embedding_time": 14.246819972991943,
+        "avg_chunk_count": 4.7,
+        "K3_similarity": 0.7706698212358687,
+        "K3_query_time": 0.024795015652974445,
+        "K3_embedding_time": 0.02330927054087321,
+        "K3_precision": 0.8333333333333334,
+        "K3_top_files": [
+          [
+            "Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt",
+            "Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt",
+            "A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt"
+          ],
+          [
+            "Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt",
+            "Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt",
+            "Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt"
+          ],
+          [
+            "Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt",
+            "Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt",
+            "Terror rural_ corvos de sangue usam armas de fogo na operação de tráfico de seres humanos.txt"
+          ],
+          [
+            "A polícia encontra um cache ilegal de armas ligado ao sindicato Sokovian em Novi graduado.txt",
+            "Executões submundo_ retaliação do sindicato contra a gangue rival.txt",
+            "Glock 17 apreendido no busto de drogas do Sokovian Syndicate.txt"
+          ],
+          [
+            "A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt",
+            "O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt",
+            "Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt"
+          ],
+          [
+            "Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt",
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt"
+          ]
+        ],
+        "K3_noisy_similarity": 0.7099058661195967,
+        "K3_noisy_top_files": [
+          [
+            "Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt",
+            "A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt",
+            "Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt"
+          ],
+          [
+            "Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt",
+            "Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt",
+            "Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt"
+          ],
+          [
+            "Hackers Armed_ Galonns Crimson combinam agressões digitais e físicas em Vilkor.txt",
+            "O crime tecnológico escalla_ garras carmesias usam armas para cobrir seus trilhos.txt",
+            "Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt"
+          ],
+          [
+            "Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt",
+            "Sindicato War_ Família do Crime Sokoviano se envolve em Batalha de Armadias com as autoridades.txt",
+            "Glock 17 apreendido no busto de drogas do Sokovian Syndicate.txt"
+          ],
+          [
+            "Executões submundo_ retaliação do sindicato contra a gangue rival.txt",
+            "Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt",
+            "Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt"
+          ],
+          [
+            "Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt",
+            "Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt",
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt"
+          ]
+        ]
+      }
+    },
+    "chunk_size_300": {
+      "mxbai_embed_large": {
+        "doc_processing_time": 8.246281862258911,
+        "total_embedding_time": 7.879823207855225,
+        "avg_chunk_count": 3.03,
+        "K3_similarity": 0.7493441998958588,
+        "K3_query_time": 0.025708913803100586,
+        "K3_embedding_time": 0.024375160535176594,
+        "K3_precision": 0.8333333333333334,
+        "K3_top_files": [
+          [
+            "RELATIONIAÇÃO VIOLENTE_ RED WOLSE SLISEIROS PROPRIENDOS DE PROFUNDOS RECUSING A PAGAR A PROTEÇÃO.txt",
+            "Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt",
+            "Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt"
+          ],
+          [
+            "Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt",
+            "Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt",
+            "Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt"
+          ],
+          [
+            "Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt",
+            "Terror rural_ corvos de sangue usam armas de fogo na operação de tráfico de seres humanos.txt",
+            "Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt"
+          ],
+          [
+            "Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt",
+            "Operação de heroína protegida pelo poder de fogo pesado do Cartel descoberto em RAID.txt",
+            "Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt"
+          ],
+          [
+            "O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt",
+            "Hit political_ Black Vipers dispara legisladores em chantagem mortal.txt",
+            "Spy Games_ Black Vipers Use Firepower para garantir o acordo de informações em Novi grad.txt"
+          ],
+          [
+            "Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt",
+            "Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt",
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt"
+          ]
+        ],
+        "K3_noisy_similarity": 0.7000877790980868,
+        "K3_noisy_top_files": [
+          [
+            "RELATIONIAÇÃO VIOLENTE_ RED WOLSE SLISEIROS PROPRIENDOS DE PROFUNDOS RECUSING A PAGAR A PROTEÇÃO.txt",
+            "A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt",
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt"
+          ],
+          [
+            "Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt",
+            "Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt",
+            "Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt"
+          ],
+          [
+            "O crime tecnológico escalla_ garras carmesias usam armas para cobrir seus trilhos.txt",
+            "Hackers Armed_ Galonns Crimson combinam agressões digitais e físicas em Vilkor.txt",
+            "Seqüestro de alto nível.txt"
+          ],
+          [
+            "Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt",
+            "Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt",
+            "Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt"
+          ],
+          [
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt",
+            "A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt"
+          ],
+          [
+            "Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt",
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt"
+          ]
+        ]
+      }
+    },
+    "chunk_size_500": {
+      "mxbai_embed_large": {
+        "doc_processing_time": 4.544861793518066,
+        "total_embedding_time": 4.231125593185425,
+        "avg_chunk_count": 2.0,
+        "K3_similarity": 0.717063887251748,
+        "K3_query_time": 0.030045827229817707,
+        "K3_embedding_time": 0.028748750686645508,
+        "K3_precision": 0.8333333333333334,
+        "K3_top_files": [
+          [
+            "Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt",
+            "Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt",
+            "Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt"
+          ],
+          [
+            "Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt",
+            "Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt",
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt"
+          ],
+          [
+            "Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt",
+            "Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt",
+            "Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt"
+          ],
+          [
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt",
+            "Operação de heroína protegida pelo poder de fogo pesado do Cartel descoberto em RAID.txt"
+          ],
+          [
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt",
+            "MASSIVE FIREFIGHT_ Silver Fangs defender o anel de contrabando na batalha da cidade.txt"
+          ],
+          [
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt",
+            "Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt"
+          ]
+        ],
+        "K3_noisy_similarity": 0.6929281221495734,
+        "K3_noisy_top_files": [
+          [
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt",
+            "Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt"
+          ],
+          [
+            "Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt",
+            "Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt",
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt"
+          ],
+          [
+            "Seqüestro de alto nível.txt",
+            "Hackers Armed_ Galonns Crimson combinam agressões digitais e físicas em Vilkor.txt",
+            "O crime tecnológico escalla_ garras carmesias usam armas para cobrir seus trilhos.txt"
+          ],
+          [
+            "Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt",
+            "Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt",
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt"
+          ],
+          [
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt",
+            "Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt"
+          ],
+          [
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt",
+            "Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt"
+          ]
+        ]
+      }
+    }
+  },
+  "english": {
+    "chunk_size_200": {
+      "mxbai_embed_large": {
+        "doc_processing_time": 12.779587268829346,
+        "total_embedding_time": 12.319063663482666,
+        "avg_chunk_count": 4.2,
+        "K3_similarity": 0.7305173907015059,
+        "K3_query_time": 0.028639992078145344,
+        "K3_embedding_time": 0.02724587917327881,
+        "K3_precision": 0.7777777777777778,
+        "K3_top_files": [
+          [
+            "Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt",
+            "Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt",
+            "Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt"
+          ],
+          [
+            "Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt",
+            "International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt",
+            "Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt"
+          ],
+          [
+            "Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt",
+            "Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt",
+            "Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt"
+          ],
+          [
+            "Glock 17 Seized in Sokovian Syndicate Drug Bust.txt",
+            "Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt",
+            "Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt"
+          ],
+          [
+            "Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt",
+            "High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt",
+            "Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt"
+          ],
+          [
+            "Massacre at the Port_ Syndicate Enforcers Open Fire in Smuggling Dispute.txt",
+            "Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt",
+            "Rural Terror_ Blood Ravens Use Firearms in Human Trafficking Operation.txt"
+          ]
+        ],
+        "K3_noisy_similarity": 0.6872830357816484,
+        "K3_noisy_top_files": [
+          [
+            "Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt",
+            "Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt",
+            "Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt"
+          ],
+          [
+            "Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt",
+            "Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt",
+            "International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt"
+          ],
+          [
+            "Precision Killers_ Dark Blade Collective Linked to Tactical Shootings in Baron’s Peak.txt",
+            "Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt",
+            "Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt"
+          ],
+          [
+            "Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt",
+            "Glock 17 Seized in Sokovian Syndicate Drug Bust.txt",
+            "Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt"
+          ],
+          [
+            "High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt",
+            "Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt",
+            "Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt"
+          ],
+          [
+            "Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt",
+            "High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt",
+            "Motorcycle Gang War_ Blood Ravens Engage Rival Bikers in Brutal Gun Battle.txt"
+          ]
+        ]
+      }
+    },
+    "chunk_size_300": {
+      "mxbai_embed_large": {
+        "doc_processing_time": 8.93712329864502,
+        "total_embedding_time": 8.582383155822754,
+        "avg_chunk_count": 2.64,
+        "K3_similarity": 0.7123213079240587,
+        "K3_query_time": 0.036409616470336914,
+        "K3_embedding_time": 0.035090883572896324,
+        "K3_precision": 0.6666666666666666,
+        "K3_top_files": [
+          [
+            "Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt",
+            "Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt",
+            "Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt"
+          ],
+          [
+            "Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt",
+            "High-End Heist Turns Deadly_ Ghost Shadows Kill Guards in Art Museum Robbery.txt",
+            "International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt"
+          ],
+          [
+            "Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt",
+            "Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt",
+            "Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt"
+          ],
+          [
+            "Glock 17 Seized in Sokovian Syndicate Drug Bust.txt",
+            "Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt",
+            "Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt"
+          ],
+          [
+            "Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt",
+            "Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt",
+            "Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt"
+          ],
+          [
+            "Rural Terror_ Blood Ravens Use Firearms in Human Trafficking Operation.txt",
+            "High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt",
+            "Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt"
+          ]
+        ],
+        "K3_noisy_similarity": 0.67874190542433,
+        "K3_noisy_top_files": [
+          [
+            "Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt",
+            "Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt",
+            "Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt"
+          ],
+          [
+            "Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt",
+            "Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt",
+            "High-End Heist Turns Deadly_ Ghost Shadows Kill Guards in Art Museum Robbery.txt"
+          ],
+          [
+            "Precision Killers_ Dark Blade Collective Linked to Tactical Shootings in Baron’s Peak.txt",
+            "Arms Trafficking Ring Busted_ Brotherhood Smuggling Network Revealed.txt",
+            "Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt"
+          ],
+          [
+            "Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt",
+            "Glock 17 Seized in Sokovian Syndicate Drug Bust.txt",
+            "Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt"
+          ],
+          [
+            "Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt",
+            "Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt",
+            "Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt"
+          ],
+          [
+            "Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt",
+            "High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt",
+            "Rural Terror_ Blood Ravens Use Firearms in Human Trafficking Operation.txt"
+          ]
+        ]
+      }
+    },
+    "chunk_size_500": {
+      "mxbai_embed_large": {
+        "doc_processing_time": 1.9143006801605225,
+        "total_embedding_time": 1.6262450218200684,
+        "avg_chunk_count": 1.9583333333333333,
+        "K3_similarity": 0.6721606221463945,
+        "K3_query_time": 0.025634050369262695,
+        "K3_embedding_time": 0.02436963717142741,
+        "K3_precision": 0.3888888888888889,
+        "K3_top_files": [
+          [
+            "Organ Trafficking Ring Unveiled_ Red Wolves Linked to Gruesome Murders.txt",
+            "Corporate Espionage Turns Deadly_ Crimson Talons Use Firearms in Data Theft.txt",
+            "Gun Violence Spikes as Red Wolves Wage War with Rival Industrial Gangs.txt"
+          ],
+          [
+            "Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt",
+            "Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt",
+            "International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt"
+          ],
+          [
+            "Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt",
+            "Rural Terror_ Blood Ravens Use Firearms in Human Trafficking Operation.txt",
+            "Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt"
+          ],
+          [
+            "Syndicate War_ Sokovian Crime Family Engages in Gun Battle with Authorities.txt",
+            "Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt",
+            "Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt"
+          ],
+          [
+            "Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt",
+            "Corporate Espionage Turns Deadly_ Crimson Talons Use Firearms in Data Theft.txt",
+            "High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt"
+          ],
+          [
+            "Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt",
+            "High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt",
+            "Rural Terror_ Blood Ravens Use Firearms in Human Trafficking Operation.txt"
+          ]
+        ],
+        "K3_noisy_similarity": 0.6361124714215597,
+        "K3_noisy_top_files": [
+          [
+            "Corporate Espionage Turns Deadly_ Crimson Talons Use Firearms in Data Theft.txt",
+            "Organ Trafficking Ring Unveiled_ Red Wolves Linked to Gruesome Murders.txt",
+            "Gun Violence Spikes as Red Wolves Wage War with Rival Industrial Gangs.txt"
+          ],
+          [
+            "Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt",
+            "Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt",
+            "International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt"
+          ],
+          [
+            "Arms Trafficking Ring Busted_ Brotherhood Smuggling Network Revealed.txt",
+            "Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt",
+            "Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt"
+          ],
+          [
+            "Syndicate War_ Sokovian Crime Family Engages in Gun Battle with Authorities.txt",
+            "Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt",
+            "Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt"
+          ],
+          [
+            "High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt",
+            "Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt",
+            "Corporate Espionage Turns Deadly_ Crimson Talons Use Firearms in Data Theft.txt"
+          ],
+          [
+            "High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt",
+            "Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt",
+            "Rural Terror_ Blood Ravens Use Firearms in Human Trafficking Operation.txt"
+          ]
+        ]
+      }
+    }
+  }
+}

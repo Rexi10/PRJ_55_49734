@@ -1,13 +1,18 @@
 import os
 import subprocess
 
-models = [
-    "nomic-embed-text",
-    "all-minilm-l6-v2"
-]
+# Read models from models.txt
+def get_models_from_file():
+    with open("/app/models.txt", "r") as f:
+        models = [line.strip().replace(':latest', '') for line in f if line.strip()]
+    if not models:
+        raise ValueError("No models found in /app/models.txt")
+    return models
 
 os.environ["PORTUGUESE_TEST_DIR"] = "/app/buckets/bucket4"
 os.environ["ENGLISH_TEST_DIR"] = "/app/buckets/bucket1"
+
+models = get_models_from_file()
 
 for model in models:
     os.environ["MODEL_NAME"] = model
