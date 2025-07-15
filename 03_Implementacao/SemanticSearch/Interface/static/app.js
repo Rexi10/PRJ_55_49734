@@ -10,15 +10,15 @@ const QueryForm = ({ onSearch, isStartupDone, selectedBuckets }) => {
         // Valida e envia consulta
         e.preventDefault();
         if (!isStartupDone) {
-            setError('NÃ£o Ã© possÃ­vel pesquisar atÃ© que todos os buckets estejam processados');
+            setError('Não é possível pesquisar até que todos os buckets estejam processados');
             return;
         }
         if (!query.trim()) {
-            setError('A consulta nÃ£o pode estar vazia');
+            setError('A consulta não pode estar vazia');
             return;
         }
         if (k < 1) {
-            setError('O nÃºmero de resultados deve ser pelo menos 1');
+            setError('O número de resultados deve ser pelo menos 1');
             return;
         }
         setError(null);
@@ -39,10 +39,10 @@ const QueryForm = ({ onSearch, isStartupDone, selectedBuckets }) => {
 
     return (
         <div className="bg-white p-6 rounded-lg shadow-md">
-            <h2 className="text-xl font-semibold mb-4">Pesquisa SemÃ¢ntica</h2>
+            <h2 className="text-xl font-semibold mb-4">Pesquisa Semântica</h2>
             {!isStartupDone && (
                 <div className="bg-yellow-100 text-yellow-700 p-4 rounded-lg mb-4 text-center font-medium">
-                    Ã espera que todos os buckets processem os documentos...
+                    À espera que todos os buckets processem os documentos...
                 </div>
             )}
             {error && (
@@ -69,7 +69,7 @@ const QueryForm = ({ onSearch, isStartupDone, selectedBuckets }) => {
                 </div>
                 <div>
                     <label htmlFor="k" className="block text-sm font-medium text-gray-700">
-                        NÃºmero de Resultados (k)
+                        Número de Resultados (k)
                     </label>
                     <input
                         type="number"
@@ -158,7 +158,7 @@ const ResultsDisplay = ({ results }) => {
                                                         : result.chunk
                                                 )
                                             ) : (
-                                                'Nenhum chunk disponÃ­vel'
+                                                'Nenhum chunk disponível'
                                             )}
                                         </p>
                                     )}
@@ -190,7 +190,7 @@ const RegisteredBuckets = ({ buckets, selectedBuckets, handleBucketChange }) => 
 
     return (
         <div className="mb-4">
-            <h3 className="text-lg font-semibold mb-2">Buckets Registados</h3>
+            <h3 className="text-lg font-semibold mb-2">Buckets Registrados</h3>
             <ul className="bg-white border rounded shadow-sm divide-y">
                 {visibleBuckets.map((bucket) => (
                     <li key={bucket.name} className="flex items-center px-4 py-2">
@@ -239,7 +239,7 @@ const App = () => {
 
         const pollStartup = async (attempt = 0) => {
             if (pollAttempts >= maxPollAttempts) {
-                console.error('Polling de inicializaÃ§Ã£o expirou apÃ³s 15 minutos');
+                console.error('Polling de inicialização expirou após 15 minutos');
                 setIsStartupDone(true);
                 return;
             }
@@ -268,7 +268,7 @@ const App = () => {
                 if (response.data.buckets.length > 0) {
                     pollStartup();
                 } else {
-                    console.log('Nenhum bucket registado, a ignorar verificaÃ§Ã£o de inicializaÃ§Ã£o');
+                    console.log('Nenhum bucket registrado, a ignorar verificação de inicialização');
                     setIsStartupDone(true);
                 }
             })
@@ -300,7 +300,7 @@ const App = () => {
     };
 
     const handleSelectAll = () => {
-        // Seleciona apenas buckets acessÃ­veis
+        // Seleciona apenas buckets acessíveis
         if (selectedBuckets.length === buckets.filter(b => b.alive && b.processing_complete).length) {
             setSelectedBuckets([]);
         } else {
@@ -310,7 +310,7 @@ const App = () => {
 
     return (
         <div className="max-w-5xl mx-auto p-6">
-            <h1 className="text-3xl font-bold text-center mb-8">Interface de Pesquisa SemÃ¢ntica</h1>
+            <h1 className="text-3xl font-bold text-center mb-8">Interface de Pesquisa Semântica</h1>
             <div className="mb-2 flex justify-end">
                 <button
                     className="px-3 py-1 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm"
@@ -327,7 +327,7 @@ const App = () => {
             <QueryForm onSearch={setResults} isStartupDone={isStartupDone} selectedBuckets={selectedBuckets} />
             {!isStartupDone && (
                 <div className="text-center text-yellow-700 bg-yellow-100 border border-yellow-300 rounded p-3 mt-4">
-                    Por favor, aguarde: Os buckets estÃ£o a ser processados. A pesquisa serÃ¡ ativada quando estiver pronta.
+                    Por favor, aguarde: Os buckets estão a ser processados. A pesquisa será ativada quando estiver pronta.
                 </div>
             )}
             {isStartupDone && <ResultsDisplay results={results} />}

@@ -9,23 +9,22 @@ app = Flask(__name__)
 logger = logging.getLogger(__name__)
 
 class AINode:
-    # Inicializa nÃ³ AI com lista de buckets
+    # Inicializa nó AI com lista de buckets
     def __init__(self):
         self.buckets = []
         threading.Thread(target=healthcheck, args=(self.buckets,), daemon=True).start()
 
     def register_bucket(self, bucket_name: str, bucket_url: str) -> bool:
         try:
-            # Regista novo bucket se nÃ£o existir
+            # Registra novo bucket se não existir
             if any(b['name'] == bucket_name for b in self.buckets):
-                logger.warning(f"Bucket {bucket_name} já registado")
+                logger.warning(f"Bucket {bucket_name} já registrado")
                 return False
             self.buckets.append({'name': bucket_name, 'url': bucket_url, 'status': 'ready'})
-            logger.info(f"Bucket {bucket_name} registado em {bucket_url}")
+            logger.info(f"Bucket {bucket_name} registrado em {bucket_url}")
             return True
-        
         except Exception as e:
-            logger.error(f"Falha ao registar bucket {bucket_name}: {str(e)}")
+            logger.error(f"Falha ao registrar bucket {bucket_name}: {str(e)}")
             return False
 
     def get_buckets(self):
@@ -38,7 +37,7 @@ class AINode:
             for bucket in self.buckets:
                 if bucket['name'] in selected_buckets:
                     if not bucket.get('alive', True):
-                        results[bucket['name']] = [{"error": "Bucket inacessivél ou offline."}]
+                        results[bucket['name']] = [{"error": "Bucket inacessível ou offline."}]
                         continue
                     if not bucket.get('processing_complete', False):
                         results[bucket['name']] = [{"error": "Bucket ainda a processar documentos."}]
@@ -53,7 +52,7 @@ class AINode:
                         else:
                             results[bucket['name']] = [{"error": f"Bucket retornou estado {resp.status_code}"}]
                     except Exception as e:
-                        results[bucket['name']] = [{"error": f"Bucket inacessivél: {str(e)}"}]
+                        results[bucket['name']] = [{"error": f"Bucket inacessível: {str(e)}"}]
         return results
 
     async def update_bucket_statuses(self):

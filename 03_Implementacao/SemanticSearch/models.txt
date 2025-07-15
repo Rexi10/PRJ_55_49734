@@ -1,0 +1,3 @@
+nomic-embed-text:v1.5
+mxbai-embed-large
+all-minilm

@@ -158,7 +158,8 @@ logging.getLogger('httpx').setLevel(logging.WARNING)
 logging.getLogger('httpcore').setLevel(logging.WARNING)
 
 if __name__ == "__main__":
+    port = int(os.getenv("PORT", 8080))
     logger.info("Inicialização do InterfaceWebService")
     interface_service = InterfaceWebService()
     logger.info("InterfaceWebService inicializado, a iniciar aplicação Flask")
-    app.run(host="0.0.0.0", port=5000, debug=False)
+    app.run(host="0.0.0.0", port=port, debug=False)

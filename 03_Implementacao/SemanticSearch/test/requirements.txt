@@ -1,0 +1,9 @@
+numpy
+matplotlib
+faiss-cpu
+ollama
+requests
+flask
+PyPDF2
+python-docx
+markdown

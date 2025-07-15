@@ -16,8 +16,8 @@ class BucketWebService:
     def __init__(self):
         self.bucket_name = os.getenv("BUCKET_NAME", "default_bucket")
         self.bucket_folder = os.getenv("BUCKET_FOLDER", "./documents")
-        self.ai_node_url = os.getenv("AI_NODE_URL", "http://interface:5000/ai-node")
-        self.bucket_url = os.getenv("BUCKET_URL", "http://bucket1:5000")
+        self.ai_node_url = os.getenv("AI_NODE_URL", "http://interface:8080/ai-node")
+        self.bucket_url = os.getenv("BUCKET_URL", "http://bucket1:8080")
         logger.info("A iniciar BucketWebService")
         
         

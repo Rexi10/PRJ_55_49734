@@ -1,0 +1,48 @@
+services:
+  ollama-test:
+    build:
+      context: .
+      dockerfile: Dockerfile.ollama
+    ports:
+      - "11435:11434"
+    networks:
+      - test-network
+    volumes:
+      - ./models.txt:/root/models.txt
+      - ./load_models.sh:/root/load_models.sh
+      - ollama-test-data:/root/.ollama
+    entrypoint: ["/bin/bash", "-c", "chmod +x /root/load_models.sh && /root/load_models.sh"]
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:11434/api/tags"]
+      interval: 10s
+      timeout: 10s
+      retries: 3
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+  test-runner:
+    build:
+      context: ./test
+      dockerfile: Dockerfile.test
+    volumes:
+      - ./test:/app/test
+      - ./bucket/buckets:/app/buckets
+    environment:
+      - OLLAMA_HOST=http://ollama-test:11434
+      - PORTUGUESE_TEST_DIR=/app/buckets/bucket4
+      - ENGLISH_TEST_DIR=/app/buckets/bucket1
+    networks:
+      - test-network
+    depends_on:
+      ollama-test:
+        condition: service_healthy
+    command: python /app/test/run_tests.py
+networks:
+  test-network:
+    driver: bridge
+volumes:
+  ollama-test-data:

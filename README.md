@@ -1,19 +1,19 @@
 # Projeto API de Pesquisa SemÃ¢ntica
 
-## Pré-requisitos
+## Prï¿½-requisitos
 
 - Docker instalado ([link oficial](https://docs.docker.com/get-docker/))
 - Docker Compose (normalmente jÃ¡ incluÃ­do com o Docker)
 
 ## Como correr o sistema
 
-Abrir o docker, na raiz do projeto, execute o seguinte comando para iniciar os serviços em background:
+Abrir o docker, na raiz do projeto, execute o seguinte comando para iniciar os serviï¿½os em background:
 
 ```bash
 docker-compose up -d
 ```
 
-aceder à pagina via: http://localhost:5000/
+aceder ï¿½ pagina via: http://localhost:5000/
 
 
 ## Como inserir documentos
@@ -22,14 +22,14 @@ Para adicionar novos documentos ao sistema:
 
 1. Crie uma pasta local para os documentos, por exemplo: `./Bucket/buckets/bucket_novo`
 2. Coloque os ficheiros de texto, PDF, DOCX, MD, etc., nessa pasta
-3. Adicione o serviço no ficheiro `docker-compose.yml` que monte essa pasta para o container. Exemplo:
+3. Adicione o serviï¿½o no ficheiro `docker-compose.yml` que monte essa pasta para o container. Exemplo:
 
 ```yaml
 services:
       bucket_novo:
     build:
       context: ./bucket
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.test
     ports:
       - "5001:5000"
     volumes:
@@ -45,7 +45,7 @@ services:
       - app-network
 ```
 
-4. Inicie o composer para aplicar as alterações:
+4. Inicie o composer para aplicar as alteraï¿½ï¿½es:
 
 ```bash
 docker-compose up -d
@@ -53,12 +53,12 @@ docker-compose up -d
 
 ## Como fazer uma consulta
 
-A API REST está disponi­vel na porta configurada (exemplo: `http://localhost:5000`).
+A API REST estï¿½ disponiï¿½vel na porta configurada (exemplo: `http://localhost:5000`).
 
 
 ## OrganizaÃ§Ã£o do repositÃ³rio
 
-- `docker-compose.yml`: configurações dos buckets
+- `docker-compose.yml`: configuraï¿½ï¿½es dos buckets
 - `bucket/`: estrutura dos buckets e inclui a pasta onde se encontram os documentos
 - `interface/`: estrutura das interfaces
 - `teste_de_modelos/`: scripts auxiliares e testes
