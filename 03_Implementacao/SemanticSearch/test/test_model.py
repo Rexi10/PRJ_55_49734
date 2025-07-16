@@ -10,11 +10,10 @@ from Embeddings import Embedder, EmbeddingRepo
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
-PORTUGUESE_DIR = os.getenv("PORTUGUESE_TEST_DIR", "/app/buckets/bucket4/test")
-ENGLISH_DIR = os.getenv("ENGLISH_TEST_DIR", "/app/buckets/bucket1/test")
+PORTUGUESE_DIR = os.getenv("PORTUGUESE_TEST_DIR", "/app/buckets/bucket4")
+ENGLISH_DIR = os.getenv("ENGLISH_TEST_DIR", "/app/buckets/bucket1")
 MODEL_NAME = os.getenv("MODEL_NAME", "nomic-embed-text")
-MODEL_KEY = os.getenv("MODEL_KEY", "nomic_embed_text")
-
+model_key = os.getenv("MODEL_KEY", "nomic_embed_text")
 
 print(f"Testing with Portuguese documents from: {PORTUGUESE_DIR}")
 print(f"Testing with English documents from: {ENGLISH_DIR}")
@@ -90,7 +89,15 @@ def parse_text_file(file_path: str) -> Dict[str, str]:
 MODEL_DIMENSIONS = {
     "nomic-embed-text": 768,
     "mxbai-embed-large": 1024,
-    "all-minilm": 384
+    "all-minilm": 384,
+    "snowflake-arctic-embed2": 768,
+    "bge-large": 1024,
+    "granite-embedding": 768,
+    "unclemusclez_jina_embeddings_v2_base_code": 1024,
+    "chevalblanc_acge_text_embedding": 1024,  # Match logged model name
+    "jeffh_intfloat-multilingual-e5-large-instruct_f32": 1024,
+    "dengcao_Qwen3-Embedding-8B_Q8_0": 4096,
+    "dengcao_Qwen3-Embedding-0.6B_F16": 1024
 }
 
 
@@ -101,7 +108,7 @@ def process_documents(directory: str, model: str, chunk_size: int) -> Tuple[Embe
     overlap_words = int(chunk_size * OVERLAP_FRACTION)
     start_time = time.time()
     file_manager = FileManagerDAO(directory)
-    dimension = MODEL_DIMENSIONS.get(model, 768)
+    dimension = MODEL_DIMENSIONS.get(model.replace(":", "_").replace("/", "_"), 9999)
     embedding_repo = EmbeddingRepo(dimension)
     try:
         embedder = Embedder(model)
@@ -176,7 +183,6 @@ def query_search(query: str, model: str, k: int, embedding_repo: EmbeddingRepo) 
         query_embedding, emb_time = embedder.generate_embedding(query)
         results = embedding_repo.search(query_embedding, k)
         similarities = [float(similarity) for doc, similarity, _, _ in results]
-        # Return ACTUAL FILENAMES of matching documents
         doc_names = [doc.name for doc, _, _, _ in results]
         query_time = time.time() - start_time
         logger.info(
@@ -188,15 +194,14 @@ def query_search(query: str, model: str, k: int, embedding_repo: EmbeddingRepo) 
 
 
 def evaluate_model(model: str, queries: list, k_values: List[int], embedding_repo: EmbeddingRepo, query_type: str) -> \
-Dict[int, Tuple[float, float, float, float, List[List[str]]]]:
+        Dict[int, Tuple[float, float, float, float, List[List[str]]]]:
     results = {}
     for k in k_values:
         all_similarities = []
         query_times = []
         embedding_times = []
         relevant_counts = []
-        all_top_files = []  # Store top files for each query
-
+        all_top_files = []
         try:
             for query in queries:
                 similarities, query_time, emb_time, top_files = query_search(query, model, k, embedding_repo)
@@ -204,17 +209,13 @@ Dict[int, Tuple[float, float, float, float, List[List[str]]]]:
                 query_times.append(query_time)
                 embedding_times.append(emb_time)
                 relevant_counts.append(sum(1 for sim in similarities if sim >= RELEVANCE_THRESHOLD))
-                all_top_files.append(top_files)  # Store filenames for this query
-
+                all_top_files.append(top_files)
             avg_similarity = np.mean(all_similarities) if all_similarities else 0.0
             avg_query_time = np.mean(query_times) if query_times else 0.0
             avg_embedding_time = np.mean(embedding_times) if embedding_times else 0.0
             precision_at_k = np.mean([count / k for count in relevant_counts]) if relevant_counts else 0.0
-
             logger.info(
                 f"Modelo {model} processou {len(queries)} consultas {query_type}, K={k}: similaridade média={avg_similarity:.4f}, tempo médio de consulta={avg_query_time:.4f}s, tempo médio de emb={avg_embedding_time:.4f}s, Precisão@K={precision_at_k:.4f}")
-
-            # Return both metrics and the top files
             results[k] = (avg_similarity, avg_query_time, avg_embedding_time, precision_at_k, all_top_files)
         except Exception as e:
             logger.error(f"Avaliação falhou para modelo {model}, K={k}, tipo de consulta={query_type}: {str(e)}")
@@ -225,92 +226,80 @@ Dict[int, Tuple[float, float, float, float, List[List[str]]]]:
 def main():
     total_start_time = time.time()
     results = {"portuguese": {}, "english": {}}
-
     pt_has_docs = os.path.exists(PORTUGUESE_DIR)
     en_has_docs = os.path.exists(ENGLISH_DIR)
     if not (pt_has_docs or en_has_docs):
         logger.error("Nem o diretório Português nem o Inglês existem. A terminar.")
         return
-
     for chunk_size in CHUNK_SIZES:
-        pt_results = {MODEL_KEY: {}}
-        en_results = {MODEL_KEY: {}}
-
+        pt_results = {model_key: {}}
+        en_results = {model_key: {}}
         if pt_has_docs:
             try:
                 repo, doc_time, emb_time, chunks = process_documents(PORTUGUESE_DIR, MODEL_NAME, chunk_size)
-                pt_results[MODEL_KEY]["doc_processing_time"] = doc_time
-                pt_results[MODEL_KEY]["total_embedding_time"] = emb_time
-                pt_results[MODEL_KEY]["avg_chunk_count"] = np.mean(chunks) if chunks else 0.0
+                pt_results[model_key]["doc_processing_time"] = doc_time
+                pt_results[model_key]["total_embedding_time"] = emb_time
+                pt_results[model_key]["avg_chunk_count"] = np.mean(chunks) if chunks else 0.0
                 if repo.faiss_index.ntotal > 0:
                     k_results = evaluate_model(MODEL_NAME, PORTUGUESE_QUERIES, K_VALUES, repo, "standard")
                     for k, (sim, q_time, e_time, prec, top_files) in k_results.items():
-                        pt_results[MODEL_KEY][f"K{k}_similarity"] = sim
-                        pt_results[MODEL_KEY][f"K{k}_query_time"] = q_time
-                        pt_results[MODEL_KEY][f"K{k}_embedding_time"] = e_time
-                        pt_results[MODEL_KEY][f"K{k}_precision"] = prec
-                        pt_results[MODEL_KEY][f"K{k}_top_files"] = top_files  # Store actual filenames
-
+                        pt_results[model_key][f"K{k}_similarity"] = sim
+                        pt_results[model_key][f"K{k}_query_time"] = q_time
+                        pt_results[model_key][f"K{k}_embedding_time"] = e_time
+                        pt_results[model_key][f"K{k}_precision"] = prec
+                        pt_results[model_key][f"K{k}_top_files"] = top_files
                     k_results_noisy = evaluate_model(MODEL_NAME, NOISY_PORTUGUESE_QUERIES, K_VALUES, repo, "noisy")
                     for k, (sim, _, _, _, top_files) in k_results_noisy.items():
-                        pt_results[MODEL_KEY][f"K{k}_noisy_similarity"] = sim
-                        pt_results[MODEL_KEY][f"K{k}_noisy_top_files"] = top_files  # Store noisy query filenames
+                        pt_results[model_key][f"K{k}_noisy_similarity"] = sim
+                        pt_results[model_key][f"K{k}_noisy_top_files"] = top_files
             except Exception as e:
                 logger.error(
                     f"Falha ao processar documentos Portugueses para modelo {MODEL_NAME}, chunk_size={chunk_size}: {str(e)}")
-                # Initialize all values to avoid key errors
-                pt_results[MODEL_KEY]["doc_processing_time"] = 0.0
-                pt_results[MODEL_KEY]["total_embedding_time"] = 0.0
-                pt_results[MODEL_KEY]["avg_chunk_count"] = 0.0
+                pt_results[model_key]["doc_processing_time"] = 0.0
+                pt_results[model_key]["total_embedding_time"] = 0.0
+                pt_results[model_key]["avg_chunk_count"] = 0.0
                 for k in K_VALUES:
-                    pt_results[MODEL_KEY][f"K{k}_similarity"] = 0.0
-                    pt_results[MODEL_KEY][f"K{k}_query_time"] = 0.0
-                    pt_results[MODEL_KEY][f"K{k}_embedding_time"] = 0.0
-                    pt_results[MODEL_KEY][f"K{k}_precision"] = 0.0
-                    pt_results[MODEL_KEY][f"K{k}_noisy_similarity"] = 0.0
-                    pt_results[MODEL_KEY][f"K{k}_top_files"] = []
-                    pt_results[MODEL_KEY][f"K{k}_noisy_top_files"] = []
-
+                    pt_results[model_key][f"K{k}_similarity"] = 0.0
+                    pt_results[model_key][f"K{k}_query_time"] = 0.0
+                    pt_results[model_key][f"K{k}_embedding_time"] = 0.0
+                    pt_results[model_key][f"K{k}_precision"] = 0.0
+                    pt_results[model_key][f"K{k}_top_files"] = []
+                    pt_results[model_key][f"K{k}_noisy_top_files"] = []
         if en_has_docs:
             try:
                 repo, doc_time, emb_time, chunks = process_documents(ENGLISH_DIR, MODEL_NAME, chunk_size)
-                en_results[MODEL_KEY]["doc_processing_time"] = doc_time
-                en_results[MODEL_KEY]["total_embedding_time"] = emb_time
-                en_results[MODEL_KEY]["avg_chunk_count"] = np.mean(chunks) if chunks else 0.0
+                en_results[model_key]["doc_processing_time"] = doc_time
+                en_results[model_key]["total_embedding_time"] = emb_time
+                en_results[model_key]["avg_chunk_count"] = np.mean(chunks) if chunks else 0.0
                 if repo.faiss_index.ntotal > 0:
                     k_results = evaluate_model(MODEL_NAME, ENGLISH_QUERIES, K_VALUES, repo, "standard")
                     for k, (sim, q_time, e_time, prec, top_files) in k_results.items():
-                        en_results[MODEL_KEY][f"K{k}_similarity"] = sim
-                        en_results[MODEL_KEY][f"K{k}_query_time"] = q_time
-                        en_results[MODEL_KEY][f"K{k}_embedding_time"] = e_time
-                        en_results[MODEL_KEY][f"K{k}_precision"] = prec
-                        en_results[MODEL_KEY][f"K{k}_top_files"] = top_files  # Store actual filenames
-
+                        en_results[model_key][f"K{k}_similarity"] = sim
+                        en_results[model_key][f"K{k}_query_time"] = q_time
+                        en_results[model_key][f"K{k}_embedding_time"] = e_time
+                        en_results[model_key][f"K{k}_precision"] = prec
+                        en_results[model_key][f"K{k}_top_files"] = top_files
                     k_results_noisy = evaluate_model(MODEL_NAME, NOISY_ENGLISH_QUERIES, K_VALUES, repo, "noisy")
                     for k, (sim, _, _, _, top_files) in k_results_noisy.items():
-                        en_results[MODEL_KEY][f"K{k}_noisy_similarity"] = sim
-                        en_results[MODEL_KEY][f"K{k}_noisy_top_files"] = top_files  # Store noisy query filenames
+                        en_results[model_key][f"K{k}_noisy_similarity"] = sim
+                        en_results[model_key][f"K{k}_noisy_top_files"] = top_files
             except Exception as e:
                 logger.error(
                     f"Falha ao processar documentos Ingleses para modelo {MODEL_NAME}, chunk_size={chunk_size}: {str(e)}")
-                # Initialize all values to avoid key errors
-                en_results[MODEL_KEY]["doc_processing_time"] = 0.0
-                en_results[MODEL_KEY]["total_embedding_time"] = 0.0
-                en_results[MODEL_KEY]["avg_chunk_count"] = 0.0
+                en_results[model_key]["doc_processing_time"] = 0.0
+                en_results[model_key]["total_embedding_time"] = 0.0
+                en_results[model_key]["avg_chunk_count"] = 0.0
                 for k in K_VALUES:
-                    en_results[MODEL_KEY][f"K{k}_similarity"] = 0.0
-                    en_results[MODEL_KEY][f"K{k}_query_time"] = 0.0
-                    en_results[MODEL_KEY][f"K{k}_embedding_time"] = 0.0
-                    en_results[MODEL_KEY][f"K{k}_precision"] = 0.0
-                    en_results[MODEL_KEY][f"K{k}_noisy_similarity"] = 0.0
-                    en_results[MODEL_KEY][f"K{k}_top_files"] = []
-                    en_results[MODEL_KEY][f"K{k}_noisy_top_files"] = []
-
+                    en_results[model_key][f"K{k}_similarity"] = 0.0
+                    en_results[model_key][f"K{k}_query_time"] = 0.0
+                    en_results[model_key][f"K{k}_embedding_time"] = 0.0
+                    en_results[model_key][f"K{k}_precision"] = 0.0
+                    en_results[model_key][f"K{k}_top_files"] = []
+                    en_results[model_key][f"K{k}_noisy_top_files"] = []
         results["portuguese"][f"chunk_size_{chunk_size}"] = pt_results
         results["english"][f"chunk_size_{chunk_size}"] = en_results
-
-    # Replace the results saving section in main():
-    results_file = f"/app/test/results/final_results_{MODEL_KEY}.json"
+    sanitized_model_key = MODEL_NAME.replace("/", "_").replace(":", "_")
+    results_file = f"/app/test/results/final_results_{sanitized_model_key}.json"
     os.makedirs("/app/test/results", exist_ok=True)
     try:
         with open(results_file, "w", encoding='utf-8') as f:
@@ -318,7 +307,6 @@ def main():
         logger.info(f"Resultados finais guardados para modelo {MODEL_NAME} em {results_file}")
     except Exception as e:
         logger.error(f"Falha ao salvar resultados finais em {results_file}: {str(e)}")
-
     total_time = time.time() - total_start_time
     logger.info(f"Tempo total de execução para modelo {MODEL_NAME}: {total_time:.4f} segundos")
 

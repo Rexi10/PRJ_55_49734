@@ -7,7 +7,7 @@ from Docs.Doc import Doc
 logger = logging.getLogger(__name__)
 
 class EmbeddingRepo:
-    def __init__(self, dimension: int = 768):
+    def __init__(self, dimension: int = 9999):
         logger.debug(f"A inicializar EmbeddingRepo com dimensão {dimension}")
         self.faiss_index = faiss.IndexFlatIP(dimension)
         self.docs = []

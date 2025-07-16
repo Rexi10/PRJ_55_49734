@@ -13,6 +13,10 @@ until nc -z localhost 11434 || ((timeout-- <= 0)); do
     echo "Waiting for Ollama server..."
     sleep 1
 done
+if [ $timeout -le 0 ]; then
+    echo "[$(date)] Error: Ollama server failed to start within 60 seconds"
+    exit 1
+fi
 
 # Read models from models.txt
 if [ ! -f /root/models.txt ]; then
@@ -20,11 +24,27 @@ if [ ! -f /root/models.txt ]; then
     exit 1
 fi
 
+echo "[$(date)] Reading models.txt content:"
+cat /root/models.txt
+
 MODELS=()
-while IFS= read -r line; do
+while IFS= read -r line || [ -n "$line" ]; do
     line=$(echo "$line" | tr -d '\r' | xargs) # Remove whitespace and carriage returns
-    [ -n "$line" ] && MODELS+=("$line")
+    if [ -n "$line" ]; then
+        MODELS+=("$line")
+        echo "[$(date)] Added model to array: $line"
+    fi
 done < /root/models.txt
+
+if [ ${#MODELS[@]} -eq 0 ]; then
+    echo "[$(date)] Error: No models found in /root/models.txt"
+    exit 1
+fi
+
+echo "[$(date)] Total models to process: ${#MODELS[@]}"
+for model in "${MODELS[@]}"; do
+    echo "[$(date)] Model in loop: $model"
+done
 
 # Pull each model with cleanup between attempts
 for MODEL_NAME in "${MODELS[@]}"; do
@@ -58,4 +78,5 @@ for MODEL_NAME in "${MODELS[@]}"; do
 done
 
 echo "[$(date)] Model loading complete"
+# Keep the server running
 wait $SERVER_PID

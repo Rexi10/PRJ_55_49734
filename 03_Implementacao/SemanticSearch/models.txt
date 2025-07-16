@@ -1,3 +1,1 @@
-nomic-embed-text:latest
-mxbai-embed-large:latest
-all-minilm:latest
+dengcao/Qwen3-Embedding-8B:Q8_0
