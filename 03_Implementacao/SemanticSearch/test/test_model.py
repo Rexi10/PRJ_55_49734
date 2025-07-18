@@ -65,7 +65,6 @@ NOISY_ENGLISH_QUERIES = [
     "What are the sustanable tourissm policiies in Ravennska, Zakovia?"
 ]
 
-
 class Doc:
     def __init__(self, name: str, location: str, content: str):
         self.name = name
@@ -73,7 +72,6 @@ class Doc:
         self.content = content
         self.embeddings = []
         self.metadata = {}
-
 
 def parse_text_file(file_path: str) -> Dict[str, str]:
     try:
@@ -85,28 +83,26 @@ def parse_text_file(file_path: str) -> Dict[str, str]:
         logger.error(f"Falha ao analisar {file_path}: {str(e)}")
         return {"content": None, "error": str(e)}
 
-
 MODEL_DIMENSIONS = {
     "nomic-embed-text": 768,
     "mxbai-embed-large": 1024,
     "all-minilm": 384,
-    "snowflake-arctic-embed2": 768,
+    "snowflake-arctic-embed2": 1024,
     "bge-large": 1024,
-    "granite-embedding": 768,
-    "unclemusclez_jina_embeddings_v2_base_code": 1024,
-    "chevalblanc_acge_text_embedding": 1024,  # Match logged model name
+    "granite-embedding": 384,
+    "unclemusclez_jina-embeddings-v2-base-code": 768,
+    "chevalblanc_acge_text_embedding": 1024,
     "jeffh_intfloat-multilingual-e5-large-instruct_f32": 1024,
     "dengcao_Qwen3-Embedding-8B_Q8_0": 4096,
     "dengcao_Qwen3-Embedding-0.6B_F16": 1024
 }
-
 
 def process_documents(directory: str, model: str, chunk_size: int) -> Tuple[EmbeddingRepo, float, float, List[int]]:
     if not os.path.exists(directory):
         logger.error(f"Diretório {directory} não existe")
         return EmbeddingRepo(), 0.0, 0.0, []
     overlap_words = int(chunk_size * OVERLAP_FRACTION)
-    start_time = time.time()
+    start_time = time.perf_counter()  # Use perf_counter for robust timing
     file_manager = FileManagerDAO(directory)
     dimension = MODEL_DIMENSIONS.get(model.replace(":", "_").replace("/", "_"), 9999)
     embedding_repo = EmbeddingRepo(dimension)
@@ -152,6 +148,9 @@ def process_documents(directory: str, model: str, chunk_size: int) -> Tuple[Embe
                             f"Dimensão do embedding ({len(embedding)}) não corresponde à esperada ({dimension}) para {file_path}")
                         raise ValueError(f"Dimensão do embedding inválida: {len(embedding)}")
                     doc.embeddings.append(embedding)
+                    emb_time = max(emb_time, 0.0)  # Clamp negative embedding time
+                    if emb_time == 0.0 and emb_time != max(emb_time, 0.0):
+                        logger.warning(f"Negative embedding time detected: {emb_time} for chunk in {file_path}")
                     total_embedding_time += emb_time
                 except Exception as e:
                     logger.error(f"Falha ao gerar embedding para chunk em {file_path}: {str(e)}")
@@ -165,15 +164,16 @@ def process_documents(directory: str, model: str, chunk_size: int) -> Tuple[Embe
         except Exception as e:
             logger.error(f"Falha ao incorporar {file_path}: {str(e)}")
             continue
-    processing_time = time.time() - start_time
+    processing_time = time.perf_counter() - start_time
+    processing_time = max(processing_time, 0.0)  # Clamp negative processing time
+    if processing_time == 0.0 and processing_time != max(processing_time, 0.0):
+        logger.warning(f"Negative processing time detected: {processing_time}")
     logger.info(
         f"Modelo {model} processou {txt_count} documentos .txt com chunk_size={chunk_size} em {processing_time:.4f}s, tempo total de embedding={total_embedding_time:.4f}s, tamanho do índice FAISS={embedding_repo.faiss_index.ntotal}")
     return embedding_repo, processing_time, total_embedding_time, chunk_counts
 
-
-def query_search(query: str, model: str, k: int, embedding_repo: EmbeddingRepo) -> Tuple[
-    List[float], float, float, List[str]]:
-    start_time = time.time()
+def query_search(query: str, model: str, k: int, embedding_repo: EmbeddingRepo) -> Tuple[List[float], float, float, List[str]]:
+    start_time = time.perf_counter()  # Use perf_counter for robust timing
     try:
         embedder = Embedder(model)
     except Exception as e:
@@ -181,10 +181,16 @@ def query_search(query: str, model: str, k: int, embedding_repo: EmbeddingRepo) 
         return [], 0.0, 0.0, []
     try:
         query_embedding, emb_time = embedder.generate_embedding(query)
+        emb_time = max(emb_time, 0.0)  # Clamp negative embedding time
+        if emb_time == 0.0 and emb_time != max(emb_time, 0.0):
+            logger.warning(f"Negative embedding time detected: {emb_time} for query '{query}'")
         results = embedding_repo.search(query_embedding, k)
         similarities = [float(similarity) for doc, similarity, _, _ in results]
         doc_names = [doc.name for doc, _, _, _ in results]
-        query_time = time.time() - start_time
+        query_time = time.perf_counter() - start_time
+        query_time = max(query_time, 0.0)  # Clamp negative query time
+        if query_time == 0.0 and query_time != max(query_time, 0.0):
+            logger.warning(f"Negative query time detected: {query_time} for query '{query}'")
         logger.info(
             f"Consulta '{query}' com modelo {model}, K={k}: similaridades={similarities}, documentos recuperados={doc_names}, tempo={query_time:.4f}s, emb_time={emb_time:.4f}s")
         return similarities, query_time, emb_time, doc_names
@@ -192,9 +198,7 @@ def query_search(query: str, model: str, k: int, embedding_repo: EmbeddingRepo) 
         logger.error(f"Consulta falhou para modelo {model}: {str(e)}")
         return [], 0.0, 0.0, []
 
-
-def evaluate_model(model: str, queries: list, k_values: List[int], embedding_repo: EmbeddingRepo, query_type: str) -> \
-        Dict[int, Tuple[float, float, float, float, List[List[str]]]]:
+def evaluate_model(model: str, queries: list, k_values: List[int], embedding_repo: EmbeddingRepo, query_type: str) -> Dict[int, Tuple[float, float, float, float, List[List[str]]]]:
     results = {}
     for k in k_values:
         all_similarities = []
@@ -222,9 +226,8 @@ def evaluate_model(model: str, queries: list, k_values: List[int], embedding_rep
             results[k] = (0.0, 0.0, 0.0, 0.0, [])
     return results
 
-
 def main():
-    total_start_time = time.time()
+    total_start_time = time.perf_counter()  # Use perf_counter for robust timing
     results = {"portuguese": {}, "english": {}}
     pt_has_docs = os.path.exists(PORTUGUESE_DIR)
     en_has_docs = os.path.exists(ENGLISH_DIR)
@@ -295,7 +298,7 @@ def main():
                     en_results[model_key][f"K{k}_embedding_time"] = 0.0
                     en_results[model_key][f"K{k}_precision"] = 0.0
                     en_results[model_key][f"K{k}_top_files"] = []
-                    en_results[model_key][f"K{k}_noisy_top_files"] = []
+                    pt_results[model_key][f"K{k}_noisy_top_files"] = []
         results["portuguese"][f"chunk_size_{chunk_size}"] = pt_results
         results["english"][f"chunk_size_{chunk_size}"] = en_results
     sanitized_model_key = MODEL_NAME.replace("/", "_").replace(":", "_")
@@ -307,9 +310,11 @@ def main():
         logger.info(f"Resultados finais guardados para modelo {MODEL_NAME} em {results_file}")
     except Exception as e:
         logger.error(f"Falha ao salvar resultados finais em {results_file}: {str(e)}")
-    total_time = time.time() - total_start_time
+    total_time = time.perf_counter() - total_start_time
+    total_time = max(total_time, 0.0)  # Clamp negative total time
+    if total_time == 0.0 and total_time != max(total_time, 0.0):
+        logger.warning(f"Negative total execution time detected: {total_time}")
     logger.info(f"Tempo total de execução para modelo {MODEL_NAME}: {total_time:.4f} segundos")
-
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,537 @@
+
+=== Overlap for Chunk Size 200 ===
+
+Query 1
+Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt: selected by 5 models -> All-MiniLM, BGE-Large, E5-Large, MxBAI-Large, Snowflake-Arctic
+Bloodbath on the Streets_ Red Wolves' Armed Robbery Escalates into War.txt: selected by 4 models -> ACGE-Text, All-MiniLM, E5-Large, Granite
+Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt: selected by 4 models -> BGE-Large, Granite, MxBAI-Large, Nomic-Embed
+High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt: selected by 4 models -> ACGE-Text, Granite, Nomic-Embed, Snowflake-Arctic
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 2 models -> Qwen3-0.6B, Qwen3-8B
+Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt: selected by 2 models -> BGE-Large, MxBAI-Large
+Stealth and Sabotage_ Dark Blade Collective Caught in Gunfight with Security Forces.txt: selected by 2 models -> Qwen3-0.6B, Qwen3-8B
+Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt: selected by 2 models -> Qwen3-0.6B, Snowflake-Arctic
+Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt: selected by 1 models -> Jina-Embeddings-V2
+Armed and Dangerous_ Crimson Talons Target Corporate Security with Heavy Firepower.txt: selected by 1 models -> Nomic-Embed
+Assault Rifles and Rocket Launchers_ Brotherhood’s Arsenal Seized in Raid.txt: selected by 1 models -> ACGE-Text
+Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt: selected by 1 models -> Jina-Embeddings-V2
+Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt: selected by 1 models -> E5-Large
+Gun Violence Spikes as Red Wolves Wage War with Rival Industrial Gangs.txt: selected by 1 models -> Qwen3-8B
+Hostile Territory_ Blood Ravens Take Control of Rural Highways with Firepower.txt: selected by 1 models -> All-MiniLM
+Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt: selected by 1 models -> Jina-Embeddings-V2
+
+Query 2
+Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt: selected by 8 models -> ACGE-Text, All-MiniLM, BGE-Large, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt: selected by 5 models -> ACGE-Text, BGE-Large, Granite, Jina-Embeddings-V2, MxBAI-Large
+Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt: selected by 5 models -> BGE-Large, E5-Large, Jina-Embeddings-V2, MxBAI-Large, Qwen3-0.6B
+Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt: selected by 5 models -> All-MiniLM, Granite, Jina-Embeddings-V2, Nomic-Embed, Snowflake-Arctic
+Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt: selected by 3 models -> All-MiniLM, Nomic-Embed, Snowflake-Arctic
+Deadly Escape_ Ghost Shadows Gun Down Pursuers After Massive Jewelry Heist.txt: selected by 2 models -> ACGE-Text, Qwen3-0.6B
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 1 models -> Qwen3-8B
+Ghost Shadows Target Wealthy Collectors_ Gunfire Erupts at Auction House Heist.txt: selected by 1 models -> E5-Large
+High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt: selected by 1 models -> Qwen3-8B
+Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt: selected by 1 models -> Qwen3-0.6B
+Stealth and Sabotage_ Dark Blade Collective Caught in Gunfight with Security Forces.txt: selected by 1 models -> Qwen3-8B
+
+Query 3
+Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt: selected by 7 models -> ACGE-Text, All-MiniLM, BGE-Large, Granite, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt: selected by 5 models -> BGE-Large, E5-Large, MxBAI-Large, Nomic-Embed, Qwen3-8B
+Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt: selected by 4 models -> All-MiniLM, Granite, Nomic-Embed, Snowflake-Arctic
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 3 models -> Jina-Embeddings-V2, Qwen3-0.6B, Qwen3-8B
+Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt: selected by 2 models -> E5-Large, Qwen3-0.6B
+High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt: selected by 2 models -> BGE-Large, Snowflake-Arctic
+Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt: selected by 2 models -> ACGE-Text, MxBAI-Large
+Hostile Territory_ Blood Ravens Take Control of Rural Highways with Firepower.txt: selected by 2 models -> E5-Large, Granite
+Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt: selected by 2 models -> Qwen3-0.6B, Qwen3-8B
+Assassination Attempt Fails_ Dark Blade Collective Enforcers Caught in Crossfire.txt: selected by 1 models -> Jina-Embeddings-V2
+Mercenary Violence_ Brotherhood Executes Brutal Attack on Political Rally.txt: selected by 1 models -> Jina-Embeddings-V2
+Motorcycle Gang War_ Blood Ravens Engage Rival Bikers in Brutal Gun Battle.txt: selected by 1 models -> All-MiniLM
+Precision Killers_ Dark Blade Collective Linked to Tactical Shootings in Baron’s Peak.txt: selected by 1 models -> ACGE-Text
+
+Query 4
+Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt: selected by 4 models -> BGE-Large, E5-Large, Granite, MxBAI-Large
+Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt: selected by 4 models -> All-MiniLM, E5-Large, Granite, Jina-Embeddings-V2
+Glock 17 Seized in Sokovian Syndicate Drug Bust.txt: selected by 3 models -> All-MiniLM, BGE-Large, MxBAI-Large
+Syndicate's Brutal Takeover_ Gun Violence Escalates in Sokovia's Streets.txt: selected by 3 models -> Granite, Qwen3-0.6B, Snowflake-Arctic
+Assault Rifles and Rocket Launchers_ Brotherhood’s Arsenal Seized in Raid.txt: selected by 2 models -> All-MiniLM, Nomic-Embed
+Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt: selected by 2 models -> BGE-Large, MxBAI-Large
+Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt: selected by 2 models -> Qwen3-0.6B, Snowflake-Arctic
+Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt: selected by 2 models -> Nomic-Embed, Qwen3-0.6B
+Arms Trafficking Ring Busted_ Brotherhood Smuggling Network Revealed.txt: selected by 1 models -> Jina-Embeddings-V2
+Assassination Attempt Fails_ Dark Blade Collective Enforcers Caught in Crossfire.txt: selected by 1 models -> Nomic-Embed
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 1 models -> E5-Large
+Gun Violence Erupts as Dark Blade Collective Eliminates Rival Mercenaries.txt: selected by 1 models -> ACGE-Text
+High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt: selected by 1 models -> Qwen3-8B
+Massacre at the Port_ Syndicate Enforcers Open Fire in Smuggling Dispute.txt: selected by 1 models -> ACGE-Text
+Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt: selected by 1 models -> Qwen3-8B
+Rivalries Turn Bloody as Sokovian Syndicate Wages War Over Territory.txt: selected by 1 models -> ACGE-Text
+Silenced Pistol Found at Scene of Black Vipers' Assassination of Minister.txt: selected by 1 models -> Jina-Embeddings-V2
+Sokovian Syndicate Shootout Leaves 5 Dead in Gambling Den Raid.txt: selected by 1 models -> Snowflake-Arctic
+Stealth and Sabotage_ Dark Blade Collective Caught in Gunfight with Security Forces.txt: selected by 1 models -> Qwen3-8B
+
+Query 5
+Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt: selected by 7 models -> All-MiniLM, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Qwen3-0.6B, Snowflake-Arctic
+Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt: selected by 4 models -> All-MiniLM, BGE-Large, Granite, MxBAI-Large
+High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt: selected by 3 models -> BGE-Large, MxBAI-Large, Snowflake-Arctic
+Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt: selected by 2 models -> E5-Large, Jina-Embeddings-V2
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 2 models -> Jina-Embeddings-V2, Qwen3-0.6B
+Espionage Gone Wrong_ Black Vipers Use Guns in Failed Infiltration.txt: selected by 2 models -> E5-Large, Granite
+Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt: selected by 2 models -> ACGE-Text, Qwen3-8B
+Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt: selected by 1 models -> Nomic-Embed
+Cartel War_ Rivals Caught in Crossfire of Nightshade Cartel Drug War.txt: selected by 1 models -> Nomic-Embed
+Corruption and Gunfire_ Black Vipers Attack Rival Politician’s Security Detail.txt: selected by 1 models -> Qwen3-8B
+Cybercriminals Gone Violent_ Crimson Talons Shoot Their Way Out of Sting Operation.txt: selected by 1 models -> Jina-Embeddings-V2
+Deadly Drug Bust_ Cartel Gunmen Open Fire on Ravenska Police.txt: selected by 1 models -> ACGE-Text
+Political Hit_ Black Vipers Shoot Lawmaker in Deadly Blackmail Scheme.txt: selected by 1 models -> All-MiniLM
+Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt: selected by 1 models -> BGE-Large
+Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt: selected by 1 models -> Qwen3-0.6B
+Silenced Pistol Found at Scene of Black Vipers' Assassination of Minister.txt: selected by 1 models -> Snowflake-Arctic
+Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt: selected by 1 models -> ACGE-Text
+Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt: selected by 1 models -> Qwen3-8B
+
+Query 6
+Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt: selected by 6 models -> All-MiniLM, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Qwen3-0.6B
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 6 models -> ACGE-Text, Granite, MxBAI-Large, Nomic-Embed, Qwen3-0.6B, Snowflake-Arctic
+Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt: selected by 4 models -> ACGE-Text, All-MiniLM, E5-Large, MxBAI-Large
+Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt: selected by 3 models -> E5-Large, Qwen3-0.6B, Snowflake-Arctic
+High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt: selected by 2 models -> All-MiniLM, Nomic-Embed
+Massacre at the Port_ Syndicate Enforcers Open Fire in Smuggling Dispute.txt: selected by 2 models -> BGE-Large, Qwen3-8B
+Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt: selected by 2 models -> ACGE-Text, BGE-Large
+Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt: selected by 1 models -> BGE-Large
+Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt: selected by 1 models -> Granite
+Cartel War_ Rivals Caught in Crossfire of Nightshade Cartel Drug War.txt: selected by 1 models -> Qwen3-8B
+Deadly Drug Bust_ Cartel Gunmen Open Fire on Ravenska Police.txt: selected by 1 models -> Qwen3-8B
+Mass Execution_ Nightshade Cartel Silences Informants in Drug Feud.txt: selected by 1 models -> Jina-Embeddings-V2
+Political Hit_ Black Vipers Shoot Lawmaker in Deadly Blackmail Scheme.txt: selected by 1 models -> Snowflake-Arctic
+Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt: selected by 1 models -> Jina-Embeddings-V2
+Weapons Cache Seized_ Iron Claw Brotherhood’s Arms Operation Disrupted.txt: selected by 1 models -> Jina-Embeddings-V2
+
+=== Overlap for Chunk Size 300 ===
+
+Query 1
+Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt: selected by 7 models -> ACGE-Text, All-MiniLM, BGE-Large, Granite, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt: selected by 5 models -> ACGE-Text, BGE-Large, Granite, MxBAI-Large, Nomic-Embed
+Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt: selected by 3 models -> BGE-Large, MxBAI-Large, Snowflake-Arctic
+Bloodbath on the Streets_ Red Wolves' Armed Robbery Escalates into War.txt: selected by 2 models -> E5-Large, Granite
+Cybercriminals Gone Violent_ Crimson Talons Shoot Their Way Out of Sting Operation.txt: selected by 2 models -> Qwen3-0.6B, Snowflake-Arctic
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 2 models -> Qwen3-0.6B, Qwen3-8B
+Heavy Firepower_ Barrett M82 Found After Dark Blade Collective Hit on Political Leader.txt: selected by 2 models -> Qwen3-0.6B, Qwen3-8B
+Armed and Dangerous_ Crimson Talons Target Corporate Security with Heavy Firepower.txt: selected by 1 models -> Nomic-Embed
+Assault Rifles and Rocket Launchers_ Brotherhood’s Arsenal Seized in Raid.txt: selected by 1 models -> All-MiniLM
+Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt: selected by 1 models -> Jina-Embeddings-V2
+Bribery and Bullets_ Corrupt Officials Tied to Silver Fangs Arms Deals.txt: selected by 1 models -> ACGE-Text
+Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt: selected by 1 models -> E5-Large
+Espionage Gone Wrong_ Black Vipers Use Guns in Failed Infiltration.txt: selected by 1 models -> E5-Large
+Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt: selected by 1 models -> Jina-Embeddings-V2
+Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt: selected by 1 models -> Qwen3-8B
+Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt: selected by 1 models -> All-MiniLM
+Violent Heist_ Crimson Talons Hack Bank, Then Engage in Gun Battle with Police.txt: selected by 1 models -> Jina-Embeddings-V2
+
+Query 2
+Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt: selected by 8 models -> All-MiniLM, BGE-Large, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Qwen3-8B, Snowflake-Arctic
+Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt: selected by 4 models -> ACGE-Text, All-MiniLM, Nomic-Embed, Snowflake-Arctic
+Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt: selected by 4 models -> Granite, Jina-Embeddings-V2, MxBAI-Large, Snowflake-Arctic
+Deadly Escape_ Ghost Shadows Gun Down Pursuers After Massive Jewelry Heist.txt: selected by 3 models -> ACGE-Text, Qwen3-0.6B, Qwen3-8B
+Ghost Shadows Target Wealthy Collectors_ Gunfire Erupts at Auction House Heist.txt: selected by 3 models -> All-MiniLM, BGE-Large, E5-Large
+High-End Heist Turns Deadly_ Ghost Shadows Kill Guards in Art Museum Robbery.txt: selected by 3 models -> BGE-Large, MxBAI-Large, Nomic-Embed
+International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt: selected by 2 models -> E5-Large, Granite
+Cartel War_ Rivals Caught in Crossfire of Nightshade Cartel Drug War.txt: selected by 1 models -> Qwen3-0.6B
+Explosive Violence_ Iron Claw Brotherhood’s Attack on Government Facility.txt: selected by 1 models -> Qwen3-0.6B
+Heavy Firepower_ Barrett M82 Found After Dark Blade Collective Hit on Political Leader.txt: selected by 1 models -> Qwen3-8B
+Massive Firefight_ Silver Fangs Defend Smuggling Ring in Cross-City Battle.txt: selected by 1 models -> Jina-Embeddings-V2
+Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt: selected by 1 models -> Jina-Embeddings-V2
+Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt: selected by 1 models -> ACGE-Text
+
+Query 3
+Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt: selected by 11 models -> ACGE-Text, All-MiniLM, BGE-Large, E5-Large, Granite, Jina-Embeddings-V2, MxBAI-Large, Nomic-Embed, Qwen3-0.6B, Qwen3-8B, Snowflake-Arctic
+Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt: selected by 8 models -> ACGE-Text, All-MiniLM, BGE-Large, Granite, MxBAI-Large, Nomic-Embed, Qwen3-0.6B, Snowflake-Arctic
+Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt: selected by 4 models -> All-MiniLM, E5-Large, Granite, Qwen3-0.6B
+Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt: selected by 3 models -> Jina-Embeddings-V2, Nomic-Embed, Qwen3-8B
+High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt: selected by 2 models -> BGE-Large, Snowflake-Arctic
+Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt: selected by 2 models -> MxBAI-Large, Qwen3-8B
+Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt: selected by 1 models -> ACGE-Text
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 1 models -> Jina-Embeddings-V2
+Hostile Territory_ Blood Ravens Take Control of Rural Highways with Firepower.txt: selected by 1 models -> E5-Large
+
+Query 4
+Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt: selected by 4 models -> BGE-Large, E5-Large, Granite, MxBAI-Large
+Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt: selected by 4 models -> BGE-Large, MxBAI-Large, Qwen3-0.6B, Snowflake-Arctic
+Glock 17 Seized in Sokovian Syndicate Drug Bust.txt: selected by 3 models -> BGE-Large, MxBAI-Large, Snowflake-Arctic
+Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt: selected by 3 models -> E5-Large, Granite, Jina-Embeddings-V2
+Assault Rifles and Rocket Launchers_ Brotherhood’s Arsenal Seized in Raid.txt: selected by 2 models -> All-MiniLM, Nomic-Embed
+Syndicate's Brutal Takeover_ Gun Violence Escalates in Sokovia's Streets.txt: selected by 2 models -> ACGE-Text, Snowflake-Arctic
+Arms Trafficking Ring Busted_ Brotherhood Smuggling Network Revealed.txt: selected by 1 models -> All-MiniLM
+Assassination Attempt Fails_ Dark Blade Collective Enforcers Caught in Crossfire.txt: selected by 1 models -> Nomic-Embed
+Bribery and Bullets_ Corrupt Officials Tied to Silver Fangs Arms Deals.txt: selected by 1 models -> All-MiniLM
+Cybercriminals Gone Violent_ Crimson Talons Shoot Their Way Out of Sting Operation.txt: selected by 1 models -> Qwen3-0.6B
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 1 models -> Qwen3-8B
+Forged Identity, Real Guns_ Silver Fangs' Document Operation Ends in Shootout.txt: selected by 1 models -> Qwen3-8B
+Gun Violence Erupts as Dark Blade Collective Eliminates Rival Mercenaries.txt: selected by 1 models -> ACGE-Text
+International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt: selected by 1 models -> Jina-Embeddings-V2
+Massacre at the Port_ Syndicate Enforcers Open Fire in Smuggling Dispute.txt: selected by 1 models -> Granite
+Narco Violence_ Heroin Route Protected by Cartel’s Armed Patrols.txt: selected by 1 models -> Qwen3-8B
+Rivalries Turn Bloody as Sokovian Syndicate Wages War Over Territory.txt: selected by 1 models -> ACGE-Text
+Silenced Pistol Found at Scene of Black Vipers' Assassination of Minister.txt: selected by 1 models -> Jina-Embeddings-V2
+Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt: selected by 1 models -> E5-Large
+Violent Heist_ Crimson Talons Hack Bank, Then Engage in Gun Battle with Police.txt: selected by 1 models -> Qwen3-0.6B
+Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt: selected by 1 models -> Nomic-Embed
+
+Query 5
+Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt: selected by 4 models -> All-MiniLM, BGE-Large, Granite, MxBAI-Large
+High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt: selected by 4 models -> BGE-Large, Granite, MxBAI-Large, Snowflake-Arctic
+Espionage Gone Wrong_ Black Vipers Use Guns in Failed Infiltration.txt: selected by 3 models -> BGE-Large, E5-Large, Granite
+Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt: selected by 2 models -> E5-Large, Jina-Embeddings-V2
+Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt: selected by 2 models -> MxBAI-Large, Nomic-Embed
+Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt: selected by 2 models -> All-MiniLM, E5-Large
+Political Hit_ Black Vipers Shoot Lawmaker in Deadly Blackmail Scheme.txt: selected by 2 models -> All-MiniLM, Nomic-Embed
+Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt: selected by 2 models -> ACGE-Text, Qwen3-0.6B
+Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt: selected by 1 models -> Qwen3-0.6B
+Corruption and Gunfire_ Black Vipers Attack Rival Politician’s Security Detail.txt: selected by 1 models -> Nomic-Embed
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 1 models -> ACGE-Text
+Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt: selected by 1 models -> Snowflake-Arctic
+Forged Identity, Real Guns_ Silver Fangs' Document Operation Ends in Shootout.txt: selected by 1 models -> Qwen3-0.6B
+Heavy Firepower_ Barrett M82 Found After Dark Blade Collective Hit on Political Leader.txt: selected by 1 models -> Qwen3-8B
+Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt: selected by 1 models -> Jina-Embeddings-V2
+Ransomware Attack Ends in Bloodshed as Crimson Talons’ Operatives Open Fire.txt: selected by 1 models -> Qwen3-8B
+Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt: selected by 1 models -> Qwen3-8B
+Silenced Pistol Found at Scene of Black Vipers' Assassination of Minister.txt: selected by 1 models -> Snowflake-Arctic
+Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt: selected by 1 models -> Jina-Embeddings-V2
+Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt: selected by 1 models -> ACGE-Text
+
+Query 6
+Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt: selected by 8 models -> All-MiniLM, BGE-Large, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Qwen3-0.6B, Snowflake-Arctic
+High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt: selected by 6 models -> All-MiniLM, E5-Large, Granite, Jina-Embeddings-V2, Nomic-Embed, Snowflake-Arctic
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 4 models -> BGE-Large, Granite, MxBAI-Large, Qwen3-0.6B
+Heavy Firepower_ Barrett M82 Found After Dark Blade Collective Hit on Political Leader.txt: selected by 4 models -> ACGE-Text, All-MiniLM, BGE-Large, Snowflake-Arctic
+Deadly Drug Bust_ Cartel Gunmen Open Fire on Ravenska Police.txt: selected by 2 models -> ACGE-Text, Qwen3-8B
+Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt: selected by 2 models -> MxBAI-Large, Nomic-Embed
+Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt: selected by 2 models -> E5-Large, Qwen3-0.6B
+Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt: selected by 1 models -> ACGE-Text
+Cartel War_ Rivals Caught in Crossfire of Nightshade Cartel Drug War.txt: selected by 1 models -> Qwen3-8B
+Jewelry Store Robbery Ends in Gunfire_ Ghost Shadows Flee With Millions.txt: selected by 1 models -> Jina-Embeddings-V2
+Massacre at the Port_ Syndicate Enforcers Open Fire in Smuggling Dispute.txt: selected by 1 models -> Qwen3-8B
+Massive Firefight_ Silver Fangs Defend Smuggling Ring in Cross-City Battle.txt: selected by 1 models -> Jina-Embeddings-V2
+
+=== Overlap for Chunk Size 500 ===
+
+Query 1
+Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt: selected by 6 models -> All-MiniLM, BGE-Large, E5-Large, Granite, MxBAI-Large, Snowflake-Arctic
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 4 models -> Jina-Embeddings-V2, Qwen3-0.6B, Qwen3-8B, Snowflake-Arctic
+Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt: selected by 3 models -> ACGE-Text, Qwen3-0.6B, Snowflake-Arctic
+Violent Retaliation_ Red Wolves Slaughter Business Owners Refusing to Pay Protection.txt: selected by 3 models -> BGE-Large, Granite, MxBAI-Large
+Bloodbath on the Streets_ Red Wolves' Armed Robbery Escalates into War.txt: selected by 2 models -> E5-Large, Granite
+Gun Violence Spikes as Red Wolves Wage War with Rival Industrial Gangs.txt: selected by 2 models -> All-MiniLM, Qwen3-8B
+Heavy Gunfire Erupts in Iron Claw Brotherhood’s Attack on Rival Faction.txt: selected by 2 models -> BGE-Large, MxBAI-Large
+Armed and Dangerous_ Crimson Talons Target Corporate Security with Heavy Firepower.txt: selected by 1 models -> Nomic-Embed
+Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt: selected by 1 models -> Jina-Embeddings-V2
+Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt: selected by 1 models -> ACGE-Text
+Bribery and Bullets_ Corrupt Officials Tied to Silver Fangs Arms Deals.txt: selected by 1 models -> ACGE-Text
+Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt: selected by 1 models -> E5-Large
+Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt: selected by 1 models -> Nomic-Embed
+Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt: selected by 1 models -> Jina-Embeddings-V2
+Narco Violence_ Heroin Route Protected by Cartel’s Armed Patrols.txt: selected by 1 models -> Qwen3-8B
+Organ Trafficking Ring Unveiled_ Red Wolves Linked to Gruesome Murders.txt: selected by 1 models -> All-MiniLM
+Precision Killers_ Dark Blade Collective Linked to Tactical Shootings in Baron’s Peak.txt: selected by 1 models -> Nomic-Embed
+Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt: selected by 1 models -> Qwen3-0.6B
+
+Query 2
+Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt: selected by 8 models -> ACGE-Text, All-MiniLM, BGE-Large, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt: selected by 5 models -> All-MiniLM, E5-Large, Granite, Nomic-Embed, Snowflake-Arctic
+Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt: selected by 5 models -> ACGE-Text, Jina-Embeddings-V2, MxBAI-Large, Qwen3-0.6B, Snowflake-Arctic
+Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt: selected by 4 models -> ACGE-Text, All-MiniLM, Granite, Qwen3-0.6B
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 3 models -> Jina-Embeddings-V2, Qwen3-0.6B, Qwen3-8B
+Ghost Shadows Target Wealthy Collectors_ Gunfire Erupts at Auction House Heist.txt: selected by 2 models -> BGE-Large, MxBAI-Large
+Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt: selected by 2 models -> BGE-Large, Nomic-Embed
+Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt: selected by 1 models -> Jina-Embeddings-V2
+Deadly Escape_ Ghost Shadows Gun Down Pursuers After Massive Jewelry Heist.txt: selected by 1 models -> Qwen3-8B
+High-End Heist Turns Deadly_ Ghost Shadows Kill Guards in Art Museum Robbery.txt: selected by 1 models -> E5-Large
+High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt: selected by 1 models -> Qwen3-8B
+
+Query 3
+Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt: selected by 5 models -> All-MiniLM, E5-Large, Granite, Qwen3-0.6B, Snowflake-Arctic
+Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt: selected by 5 models -> ACGE-Text, Granite, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt: selected by 5 models -> BGE-Large, E5-Large, Nomic-Embed, Qwen3-0.6B, Snowflake-Arctic
+Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt: selected by 5 models -> ACGE-Text, All-MiniLM, BGE-Large, Granite, MxBAI-Large
+Motorcycle Gang War_ Blood Ravens Engage Rival Bikers in Brutal Gun Battle.txt: selected by 3 models -> All-MiniLM, BGE-Large, MxBAI-Large
+Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt: selected by 2 models -> E5-Large, Nomic-Embed
+Baron’s Peak Shootout_ Dark Blade Collective Engages Rival Faction with Assault Rifles.txt: selected by 2 models -> ACGE-Text, Jina-Embeddings-V2
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 2 models -> Jina-Embeddings-V2, Qwen3-8B
+Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt: selected by 2 models -> Qwen3-0.6B, Qwen3-8B
+Gun Violence Spikes as Red Wolves Wage War with Rival Industrial Gangs.txt: selected by 1 models -> Qwen3-8B
+Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt: selected by 1 models -> Jina-Embeddings-V2
+
+Query 4
+Glock 17 Seized in Sokovian Syndicate Drug Bust.txt: selected by 5 models -> All-MiniLM, BGE-Large, Granite, MxBAI-Large, Snowflake-Arctic
+Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt: selected by 5 models -> ACGE-Text, All-MiniLM, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 3 models -> Jina-Embeddings-V2, Qwen3-0.6B, Qwen3-8B
+Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt: selected by 2 models -> BGE-Large, MxBAI-Large
+Gun Violence Erupts as Dark Blade Collective Eliminates Rival Mercenaries.txt: selected by 2 models -> ACGE-Text, E5-Large
+Underworld Executions_ Syndicate's Retaliation Against Rival Gang.txt: selected by 2 models -> BGE-Large, Granite
+Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt: selected by 2 models -> Nomic-Embed, Qwen3-0.6B
+Assassination Attempt Fails_ Dark Blade Collective Enforcers Caught in Crossfire.txt: selected by 1 models -> E5-Large
+Bribery and Bullets_ Corrupt Officials Tied to Silver Fangs Arms Deals.txt: selected by 1 models -> All-MiniLM
+Deadly Data Breach_ Crimson Talons Hackers Caught with Firearms in Sokovia Raid.txt: selected by 1 models -> Jina-Embeddings-V2
+Heroin Operation Protected by Cartel's Heavy Firepower Uncovered in Raid.txt: selected by 1 models -> Jina-Embeddings-V2
+High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt: selected by 1 models -> Qwen3-8B
+Mercenary Violence_ Dark Blade Collective Guns Down Police in Sokovia Raid.txt: selected by 1 models -> E5-Large
+Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt: selected by 1 models -> Qwen3-8B
+Rivalries Turn Bloody as Sokovian Syndicate Wages War Over Territory.txt: selected by 1 models -> ACGE-Text
+Sokovian Syndicate Shootout Leaves 5 Dead in Gambling Den Raid.txt: selected by 1 models -> Nomic-Embed
+Syndicate War_ Sokovian Crime Family Engages in Gun Battle with Authorities.txt: selected by 1 models -> Snowflake-Arctic
+Syndicate's Brutal Takeover_ Gun Violence Escalates in Sokovia's Streets.txt: selected by 1 models -> Granite
+Weapons Cache Seized_ Iron Claw Brotherhood’s Arms Operation Disrupted.txt: selected by 1 models -> Qwen3-0.6B
+
+Query 5
+Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt: selected by 4 models -> BGE-Large, Granite, MxBAI-Large, Nomic-Embed
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 4 models -> Jina-Embeddings-V2, Qwen3-0.6B, Qwen3-8B, Snowflake-Arctic
+Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt: selected by 3 models -> BGE-Large, E5-Large, MxBAI-Large
+Espionage Gone Wrong_ Black Vipers Use Guns in Failed Infiltration.txt: selected by 3 models -> BGE-Large, Granite, MxBAI-Large
+Political Hit_ Black Vipers Shoot Lawmaker in Deadly Blackmail Scheme.txt: selected by 3 models -> All-MiniLM, E5-Large, Nomic-Embed
+Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt: selected by 2 models -> All-MiniLM, Nomic-Embed
+Silenced Pistol Found at Scene of Black Vipers' Assassination of Minister.txt: selected by 2 models -> All-MiniLM, Snowflake-Arctic
+Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt: selected by 1 models -> E5-Large
+Corruption and Gunfire_ Black Vipers Attack Rival Politician’s Security Detail.txt: selected by 1 models -> Granite
+Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt: selected by 1 models -> Jina-Embeddings-V2
+Desert Eagle Found at Scene of Cartel-Ordered Hit on Law Enforcement Official.txt: selected by 1 models -> ACGE-Text
+Guns and Bytes_ Crimson Talons' Cyberattack Ends in Armed Standoff.txt: selected by 1 models -> ACGE-Text
+Heroin Operation Protected by Cartel's Heavy Firepower Uncovered in Raid.txt: selected by 1 models -> Qwen3-0.6B
+High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt: selected by 1 models -> Snowflake-Arctic
+Massive Firefight_ Silver Fangs Defend Smuggling Ring in Cross-City Battle.txt: selected by 1 models -> Jina-Embeddings-V2
+Narco Violence_ Heroin Route Protected by Cartel’s Armed Patrols.txt: selected by 1 models -> Qwen3-8B
+Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt: selected by 1 models -> Qwen3-8B
+Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt: selected by 1 models -> ACGE-Text
+Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt: selected by 1 models -> Qwen3-0.6B
+
+Query 6
+Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt: selected by 8 models -> All-MiniLM, BGE-Large, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Qwen3-0.6B, Snowflake-Arctic
+Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt: selected by 6 models -> ACGE-Text, Granite, MxBAI-Large, Nomic-Embed, Qwen3-0.6B, Snowflake-Arctic
+Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt: selected by 5 models -> All-MiniLM, E5-Large, Granite, Qwen3-0.6B, Snowflake-Arctic
+Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt: selected by 4 models -> ACGE-Text, BGE-Large, Jina-Embeddings-V2, MxBAI-Large
+High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt: selected by 4 models -> All-MiniLM, BGE-Large, E5-Large, Nomic-Embed
+Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt: selected by 1 models -> ACGE-Text
+Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt: selected by 1 models -> Qwen3-8B
+Deadly Drug Bust_ Cartel Gunmen Open Fire on Ravenska Police.txt: selected by 1 models -> Qwen3-8B
+Desert Eagle Found at Scene of Cartel-Ordered Hit on Law Enforcement Official.txt: selected by 1 models -> Jina-Embeddings-V2
+Forged Identity, Real Guns_ Silver Fangs' Document Operation Ends in Shootout.txt: selected by 1 models -> Jina-Embeddings-V2
+Massacre at the Port_ Syndicate Enforcers Open Fire in Smuggling Dispute.txt: selected by 1 models -> Qwen3-8B
+
+=== Per Model Selections ===
+
+All-MiniLM:
+  Query 1 (chunk_size_200): Bloodbath on the Streets_ Red Wolves' Armed Robbery Escalates into War.txt, Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Hostile Territory_ Blood Ravens Take Control of Rural Highways with Firepower.txt
+  Query 2 (chunk_size_200): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt, Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt
+  Query 3 (chunk_size_200): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt, Motorcycle Gang War_ Blood Ravens Engage Rival Bikers in Brutal Gun Battle.txt
+  Query 4 (chunk_size_200): Assault Rifles and Rocket Launchers_ Brotherhood’s Arsenal Seized in Raid.txt, Glock 17 Seized in Sokovian Syndicate Drug Bust.txt, Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt
+  Query 5 (chunk_size_200): Political Hit_ Black Vipers Shoot Lawmaker in Deadly Blackmail Scheme.txt, Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt, Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt
+  Query 6 (chunk_size_200): Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt
+  Query 1 (chunk_size_300): Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Assault Rifles and Rocket Launchers_ Brotherhood’s Arsenal Seized in Raid.txt, Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt
+  Query 2 (chunk_size_300): Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt, Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Ghost Shadows Target Wealthy Collectors_ Gunfire Erupts at Auction House Heist.txt
+  Query 3 (chunk_size_300): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt, Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt
+  Query 4 (chunk_size_300): Bribery and Bullets_ Corrupt Officials Tied to Silver Fangs Arms Deals.txt, Assault Rifles and Rocket Launchers_ Brotherhood’s Arsenal Seized in Raid.txt, Arms Trafficking Ring Busted_ Brotherhood Smuggling Network Revealed.txt
+  Query 5 (chunk_size_300): Political Hit_ Black Vipers Shoot Lawmaker in Deadly Blackmail Scheme.txt, Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt, Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt
+  Query 6 (chunk_size_300): Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt, Heavy Firepower_ Barrett M82 Found After Dark Blade Collective Hit on Political Leader.txt, High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt
+  Query 1 (chunk_size_500): Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Gun Violence Spikes as Red Wolves Wage War with Rival Industrial Gangs.txt, Organ Trafficking Ring Unveiled_ Red Wolves Linked to Gruesome Murders.txt
+  Query 2 (chunk_size_500): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt, Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt
+  Query 3 (chunk_size_500): Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt, Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt, Motorcycle Gang War_ Blood Ravens Engage Rival Bikers in Brutal Gun Battle.txt
+  Query 4 (chunk_size_500): Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt, Glock 17 Seized in Sokovian Syndicate Drug Bust.txt, Bribery and Bullets_ Corrupt Officials Tied to Silver Fangs Arms Deals.txt
+  Query 5 (chunk_size_500): Political Hit_ Black Vipers Shoot Lawmaker in Deadly Blackmail Scheme.txt, Silenced Pistol Found at Scene of Black Vipers' Assassination of Minister.txt, Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt
+  Query 6 (chunk_size_500): High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt
+
+BGE-Large:
+  Query 1 (chunk_size_200): Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt, Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt
+  Query 2 (chunk_size_200): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt, Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt
+  Query 3 (chunk_size_200): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt, Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt
+  Query 4 (chunk_size_200): Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt, Glock 17 Seized in Sokovian Syndicate Drug Bust.txt, Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt
+  Query 5 (chunk_size_200): Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt, High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt, Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt
+  Query 6 (chunk_size_200): Massacre at the Port_ Syndicate Enforcers Open Fire in Smuggling Dispute.txt, Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt, Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt
+  Query 1 (chunk_size_300): Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt
+  Query 2 (chunk_size_300): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, High-End Heist Turns Deadly_ Ghost Shadows Kill Guards in Art Museum Robbery.txt, Ghost Shadows Target Wealthy Collectors_ Gunfire Erupts at Auction House Heist.txt
+  Query 3 (chunk_size_300): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt, Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt
+  Query 4 (chunk_size_300): Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt, Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt, Glock 17 Seized in Sokovian Syndicate Drug Bust.txt
+  Query 5 (chunk_size_300): Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt, High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt, Espionage Gone Wrong_ Black Vipers Use Guns in Failed Infiltration.txt
+  Query 6 (chunk_size_300): Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Heavy Firepower_ Barrett M82 Found After Dark Blade Collective Hit on Political Leader.txt
+  Query 1 (chunk_size_500): Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Heavy Gunfire Erupts in Iron Claw Brotherhood’s Attack on Rival Faction.txt, Violent Retaliation_ Red Wolves Slaughter Business Owners Refusing to Pay Protection.txt
+  Query 2 (chunk_size_500): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Ghost Shadows Target Wealthy Collectors_ Gunfire Erupts at Auction House Heist.txt, Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt
+  Query 3 (chunk_size_500): Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt, Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Motorcycle Gang War_ Blood Ravens Engage Rival Bikers in Brutal Gun Battle.txt
+  Query 4 (chunk_size_500): Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt, Underworld Executions_ Syndicate's Retaliation Against Rival Gang.txt, Glock 17 Seized in Sokovian Syndicate Drug Bust.txt
+  Query 5 (chunk_size_500): Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt, Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt, Espionage Gone Wrong_ Black Vipers Use Guns in Failed Infiltration.txt
+  Query 6 (chunk_size_500): Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt
+
+ACGE-Text:
+  Query 1 (chunk_size_200): Bloodbath on the Streets_ Red Wolves' Armed Robbery Escalates into War.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt, Assault Rifles and Rocket Launchers_ Brotherhood’s Arsenal Seized in Raid.txt
+  Query 2 (chunk_size_200): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Deadly Escape_ Ghost Shadows Gun Down Pursuers After Massive Jewelry Heist.txt, International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt
+  Query 3 (chunk_size_200): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Precision Killers_ Dark Blade Collective Linked to Tactical Shootings in Baron’s Peak.txt, Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt
+  Query 4 (chunk_size_200): Massacre at the Port_ Syndicate Enforcers Open Fire in Smuggling Dispute.txt, Rivalries Turn Bloody as Sokovian Syndicate Wages War Over Territory.txt, Gun Violence Erupts as Dark Blade Collective Eliminates Rival Mercenaries.txt
+  Query 5 (chunk_size_200): Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt, Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt, Deadly Drug Bust_ Cartel Gunmen Open Fire on Ravenska Police.txt
+  Query 6 (chunk_size_200): Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt
+  Query 1 (chunk_size_300): Bribery and Bullets_ Corrupt Officials Tied to Silver Fangs Arms Deals.txt, Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt
+  Query 2 (chunk_size_300): Deadly Escape_ Ghost Shadows Gun Down Pursuers After Massive Jewelry Heist.txt, Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt, Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt
+  Query 3 (chunk_size_300): Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt, Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt
+  Query 4 (chunk_size_300): Gun Violence Erupts as Dark Blade Collective Eliminates Rival Mercenaries.txt, Rivalries Turn Bloody as Sokovian Syndicate Wages War Over Territory.txt, Syndicate's Brutal Takeover_ Gun Violence Escalates in Sokovia's Streets.txt
+  Query 5 (chunk_size_300): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt, Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt
+  Query 6 (chunk_size_300): Deadly Drug Bust_ Cartel Gunmen Open Fire on Ravenska Police.txt, Heavy Firepower_ Barrett M82 Found After Dark Blade Collective Hit on Political Leader.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt
+  Query 1 (chunk_size_500): Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt, Bribery and Bullets_ Corrupt Officials Tied to Silver Fangs Arms Deals.txt, Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt
+  Query 2 (chunk_size_500): Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt, Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt, Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt
+  Query 3 (chunk_size_500): Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt, Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt, Baron’s Peak Shootout_ Dark Blade Collective Engages Rival Faction with Assault Rifles.txt
+  Query 4 (chunk_size_500): Gun Violence Erupts as Dark Blade Collective Eliminates Rival Mercenaries.txt, Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt, Rivalries Turn Bloody as Sokovian Syndicate Wages War Over Territory.txt
+  Query 5 (chunk_size_500): Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt, Guns and Bytes_ Crimson Talons' Cyberattack Ends in Armed Standoff.txt, Desert Eagle Found at Scene of Cartel-Ordered Hit on Law Enforcement Official.txt
+  Query 6 (chunk_size_500): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt, Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt
+
+Qwen3-0.6B:
+  Query 1 (chunk_size_200): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Stealth and Sabotage_ Dark Blade Collective Caught in Gunfight with Security Forces.txt, Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt
+  Query 2 (chunk_size_200): Deadly Escape_ Ghost Shadows Gun Down Pursuers After Massive Jewelry Heist.txt, Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt, Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt
+  Query 3 (chunk_size_200): Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt, Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt
+  Query 4 (chunk_size_200): Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt, Syndicate's Brutal Takeover_ Gun Violence Escalates in Sokovia's Streets.txt, Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt
+  Query 5 (chunk_size_200): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt, Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt
+  Query 6 (chunk_size_200): Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt
+  Query 1 (chunk_size_300): Cybercriminals Gone Violent_ Crimson Talons Shoot Their Way Out of Sting Operation.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Heavy Firepower_ Barrett M82 Found After Dark Blade Collective Hit on Political Leader.txt
+  Query 2 (chunk_size_300): Deadly Escape_ Ghost Shadows Gun Down Pursuers After Massive Jewelry Heist.txt, Cartel War_ Rivals Caught in Crossfire of Nightshade Cartel Drug War.txt, Explosive Violence_ Iron Claw Brotherhood’s Attack on Government Facility.txt
+  Query 3 (chunk_size_300): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt, Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt
+  Query 4 (chunk_size_300): Cybercriminals Gone Violent_ Crimson Talons Shoot Their Way Out of Sting Operation.txt, Violent Heist_ Crimson Talons Hack Bank, Then Engage in Gun Battle with Police.txt, Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt
+  Query 5 (chunk_size_300): Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt, Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt, Forged Identity, Real Guns_ Silver Fangs' Document Operation Ends in Shootout.txt
+  Query 6 (chunk_size_300): Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt
+  Query 1 (chunk_size_500): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt, Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt
+  Query 2 (chunk_size_500): Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt
+  Query 3 (chunk_size_500): Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt, Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt, Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt
+  Query 4 (chunk_size_500): Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt, Weapons Cache Seized_ Iron Claw Brotherhood’s Arms Operation Disrupted.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt
+  Query 5 (chunk_size_500): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt, Heroin Operation Protected by Cartel's Heavy Firepower Uncovered in Raid.txt
+  Query 6 (chunk_size_500): Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt
+
+Qwen3-8B:
+  Query 1 (chunk_size_200): Stealth and Sabotage_ Dark Blade Collective Caught in Gunfight with Security Forces.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Gun Violence Spikes as Red Wolves Wage War with Rival Industrial Gangs.txt
+  Query 2 (chunk_size_200): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Stealth and Sabotage_ Dark Blade Collective Caught in Gunfight with Security Forces.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt
+  Query 3 (chunk_size_200): Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt
+  Query 4 (chunk_size_200): High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt, Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt, Stealth and Sabotage_ Dark Blade Collective Caught in Gunfight with Security Forces.txt
+  Query 5 (chunk_size_200): Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt, Corruption and Gunfire_ Black Vipers Attack Rival Politician’s Security Detail.txt, Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt
+  Query 6 (chunk_size_200): Cartel War_ Rivals Caught in Crossfire of Nightshade Cartel Drug War.txt, Massacre at the Port_ Syndicate Enforcers Open Fire in Smuggling Dispute.txt, Deadly Drug Bust_ Cartel Gunmen Open Fire on Ravenska Police.txt
+  Query 1 (chunk_size_300): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Heavy Firepower_ Barrett M82 Found After Dark Blade Collective Hit on Political Leader.txt
+  Query 2 (chunk_size_300): Heavy Firepower_ Barrett M82 Found After Dark Blade Collective Hit on Political Leader.txt, Deadly Escape_ Ghost Shadows Gun Down Pursuers After Massive Jewelry Heist.txt, Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt
+  Query 3 (chunk_size_300): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt, Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt
+  Query 4 (chunk_size_300): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Forged Identity, Real Guns_ Silver Fangs' Document Operation Ends in Shootout.txt, Narco Violence_ Heroin Route Protected by Cartel’s Armed Patrols.txt
+  Query 5 (chunk_size_300): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Ransomware Attack Ends in Bloodshed as Crimson Talons’ Operatives Open Fire.txt, Heavy Firepower_ Barrett M82 Found After Dark Blade Collective Hit on Political Leader.txt
+  Query 6 (chunk_size_300): Cartel War_ Rivals Caught in Crossfire of Nightshade Cartel Drug War.txt, Deadly Drug Bust_ Cartel Gunmen Open Fire on Ravenska Police.txt, Massacre at the Port_ Syndicate Enforcers Open Fire in Smuggling Dispute.txt
+  Query 1 (chunk_size_500): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Narco Violence_ Heroin Route Protected by Cartel’s Armed Patrols.txt, Gun Violence Spikes as Red Wolves Wage War with Rival Industrial Gangs.txt
+  Query 2 (chunk_size_500): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt, Deadly Escape_ Ghost Shadows Gun Down Pursuers After Massive Jewelry Heist.txt
+  Query 3 (chunk_size_500): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt, Gun Violence Spikes as Red Wolves Wage War with Rival Industrial Gangs.txt
+  Query 4 (chunk_size_500): High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt
+  Query 5 (chunk_size_500): Narco Violence_ Heroin Route Protected by Cartel’s Armed Patrols.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt
+  Query 6 (chunk_size_500): Deadly Drug Bust_ Cartel Gunmen Open Fire on Ravenska Police.txt, Massacre at the Port_ Syndicate Enforcers Open Fire in Smuggling Dispute.txt, Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt
+
+Granite:
+  Query 1 (chunk_size_200): Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, Bloodbath on the Streets_ Red Wolves' Armed Robbery Escalates into War.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt
+  Query 2 (chunk_size_200): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt, Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt
+  Query 3 (chunk_size_200): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Hostile Territory_ Blood Ravens Take Control of Rural Highways with Firepower.txt, Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt
+  Query 4 (chunk_size_200): Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt, Syndicate's Brutal Takeover_ Gun Violence Escalates in Sokovia's Streets.txt, Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt
+  Query 5 (chunk_size_200): Espionage Gone Wrong_ Black Vipers Use Guns in Failed Infiltration.txt, Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt, Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt
+  Query 6 (chunk_size_200): Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt
+  Query 1 (chunk_size_300): Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Bloodbath on the Streets_ Red Wolves' Armed Robbery Escalates into War.txt
+  Query 2 (chunk_size_300): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt, International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt
+  Query 3 (chunk_size_300): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt, Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt
+  Query 4 (chunk_size_300): Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt, Massacre at the Port_ Syndicate Enforcers Open Fire in Smuggling Dispute.txt, Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt
+  Query 5 (chunk_size_300): Espionage Gone Wrong_ Black Vipers Use Guns in Failed Infiltration.txt, Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt, High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt
+  Query 6 (chunk_size_300): Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt
+  Query 1 (chunk_size_500): Violent Retaliation_ Red Wolves Slaughter Business Owners Refusing to Pay Protection.txt, Bloodbath on the Streets_ Red Wolves' Armed Robbery Escalates into War.txt, Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt
+  Query 2 (chunk_size_500): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt, Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt
+  Query 3 (chunk_size_500): Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt, Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt, Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt
+  Query 4 (chunk_size_500): Underworld Executions_ Syndicate's Retaliation Against Rival Gang.txt, Syndicate's Brutal Takeover_ Gun Violence Escalates in Sokovia's Streets.txt, Glock 17 Seized in Sokovian Syndicate Drug Bust.txt
+  Query 5 (chunk_size_500): Espionage Gone Wrong_ Black Vipers Use Guns in Failed Infiltration.txt, Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt, Corruption and Gunfire_ Black Vipers Attack Rival Politician’s Security Detail.txt
+  Query 6 (chunk_size_500): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt
+
+E5-Large:
+  Query 1 (chunk_size_200): Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt, Bloodbath on the Streets_ Red Wolves' Armed Robbery Escalates into War.txt
+  Query 2 (chunk_size_200): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt, Ghost Shadows Target Wealthy Collectors_ Gunfire Erupts at Auction House Heist.txt
+  Query 3 (chunk_size_200): Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt, Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt, Hostile Territory_ Blood Ravens Take Control of Rural Highways with Firepower.txt
+  Query 4 (chunk_size_200): Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt, Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt
+  Query 5 (chunk_size_200): Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt, Espionage Gone Wrong_ Black Vipers Use Guns in Failed Infiltration.txt
+  Query 6 (chunk_size_200): Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt
+  Query 1 (chunk_size_300): Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt, Bloodbath on the Streets_ Red Wolves' Armed Robbery Escalates into War.txt, Espionage Gone Wrong_ Black Vipers Use Guns in Failed Infiltration.txt
+  Query 2 (chunk_size_300): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Ghost Shadows Target Wealthy Collectors_ Gunfire Erupts at Auction House Heist.txt, International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt
+  Query 3 (chunk_size_300): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt, Hostile Territory_ Blood Ravens Take Control of Rural Highways with Firepower.txt
+  Query 4 (chunk_size_300): Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt, Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt, Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt
+  Query 5 (chunk_size_300): Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt, Espionage Gone Wrong_ Black Vipers Use Guns in Failed Infiltration.txt
+  Query 6 (chunk_size_300): Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt, High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt, Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt
+  Query 1 (chunk_size_500): Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Bloodbath on the Streets_ Red Wolves' Armed Robbery Escalates into War.txt, Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt
+  Query 2 (chunk_size_500): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, High-End Heist Turns Deadly_ Ghost Shadows Kill Guards in Art Museum Robbery.txt, Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt
+  Query 3 (chunk_size_500): Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt, Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt
+  Query 4 (chunk_size_500): Mercenary Violence_ Dark Blade Collective Guns Down Police in Sokovia Raid.txt, Gun Violence Erupts as Dark Blade Collective Eliminates Rival Mercenaries.txt, Assassination Attempt Fails_ Dark Blade Collective Enforcers Caught in Crossfire.txt
+  Query 5 (chunk_size_500): Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt, Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt, Political Hit_ Black Vipers Shoot Lawmaker in Deadly Blackmail Scheme.txt
+  Query 6 (chunk_size_500): Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt
+
+MxBAI-Large:
+  Query 1 (chunk_size_200): Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt
+  Query 2 (chunk_size_200): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt, Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt
+  Query 3 (chunk_size_200): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt, Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt
+  Query 4 (chunk_size_200): Glock 17 Seized in Sokovian Syndicate Drug Bust.txt, Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt, Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt
+  Query 5 (chunk_size_200): Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt, High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt, Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt
+  Query 6 (chunk_size_200): Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt
+  Query 1 (chunk_size_300): Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt
+  Query 2 (chunk_size_300): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt, High-End Heist Turns Deadly_ Ghost Shadows Kill Guards in Art Museum Robbery.txt
+  Query 3 (chunk_size_300): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt, Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt
+  Query 4 (chunk_size_300): Glock 17 Seized in Sokovian Syndicate Drug Bust.txt, Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt, Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt
+  Query 5 (chunk_size_300): High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt, Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt, Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt
+  Query 6 (chunk_size_300): Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt
+  Query 1 (chunk_size_500): Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Heavy Gunfire Erupts in Iron Claw Brotherhood’s Attack on Rival Faction.txt, Violent Retaliation_ Red Wolves Slaughter Business Owners Refusing to Pay Protection.txt
+  Query 2 (chunk_size_500): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt, Ghost Shadows Target Wealthy Collectors_ Gunfire Erupts at Auction House Heist.txt
+  Query 3 (chunk_size_500): Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt, Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt, Motorcycle Gang War_ Blood Ravens Engage Rival Bikers in Brutal Gun Battle.txt
+  Query 4 (chunk_size_500): Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt, Cartel-Linked Killings in Sokovia_ Unchecked Gun Violence Spreads.txt, Glock 17 Seized in Sokovian Syndicate Drug Bust.txt
+  Query 5 (chunk_size_500): Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt, Espionage Gone Wrong_ Black Vipers Use Guns in Failed Infiltration.txt, Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt
+  Query 6 (chunk_size_500): Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt
+
+Nomic-Embed:
+  Query 1 (chunk_size_200): High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt, Armed and Dangerous_ Crimson Talons Target Corporate Security with Heavy Firepower.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt
+  Query 2 (chunk_size_200): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt, Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt
+  Query 3 (chunk_size_200): Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt, Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt
+  Query 4 (chunk_size_200): Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt, Assault Rifles and Rocket Launchers_ Brotherhood’s Arsenal Seized in Raid.txt, Assassination Attempt Fails_ Dark Blade Collective Enforcers Caught in Crossfire.txt
+  Query 5 (chunk_size_200): Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt, Cartel War_ Rivals Caught in Crossfire of Nightshade Cartel Drug War.txt, Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt
+  Query 6 (chunk_size_200): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt
+  Query 1 (chunk_size_300): Armed and Dangerous_ Crimson Talons Target Corporate Security with Heavy Firepower.txt, Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt
+  Query 2 (chunk_size_300): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt, High-End Heist Turns Deadly_ Ghost Shadows Kill Guards in Art Museum Robbery.txt
+  Query 3 (chunk_size_300): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt, Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt
+  Query 4 (chunk_size_300): Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt, Assault Rifles and Rocket Launchers_ Brotherhood’s Arsenal Seized in Raid.txt, Assassination Attempt Fails_ Dark Blade Collective Enforcers Caught in Crossfire.txt
+  Query 5 (chunk_size_300): Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt, Political Hit_ Black Vipers Shoot Lawmaker in Deadly Blackmail Scheme.txt, Corruption and Gunfire_ Black Vipers Attack Rival Politician’s Security Detail.txt
+  Query 6 (chunk_size_300): Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt, High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt, Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt
+  Query 1 (chunk_size_500): Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt, Precision Killers_ Dark Blade Collective Linked to Tactical Shootings in Baron’s Peak.txt, Armed and Dangerous_ Crimson Talons Target Corporate Security with Heavy Firepower.txt
+  Query 2 (chunk_size_500): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt, Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt
+  Query 3 (chunk_size_500): Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt, Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt, Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt
+  Query 4 (chunk_size_500): Sokovian Syndicate Shootout Leaves 5 Dead in Gambling Den Raid.txt, Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt, Weapons Trafficking_ Silver Fangs Linked to Illegal Arms Sales in Novi Grad.txt
+  Query 5 (chunk_size_500): Political Hit_ Black Vipers Shoot Lawmaker in Deadly Blackmail Scheme.txt, Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt, Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt
+  Query 6 (chunk_size_500): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt
+
+Snowflake-Arctic:
+  Query 1 (chunk_size_200): Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt
+  Query 2 (chunk_size_200): Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt, Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt
+  Query 3 (chunk_size_200): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt
+  Query 4 (chunk_size_200): Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt, Syndicate's Brutal Takeover_ Gun Violence Escalates in Sokovia's Streets.txt, Sokovian Syndicate Shootout Leaves 5 Dead in Gambling Den Raid.txt
+  Query 5 (chunk_size_200): Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt, High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt, Silenced Pistol Found at Scene of Black Vipers' Assassination of Minister.txt
+  Query 6 (chunk_size_200): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt, Political Hit_ Black Vipers Shoot Lawmaker in Deadly Blackmail Scheme.txt
+  Query 1 (chunk_size_300): Cybercriminals Gone Violent_ Crimson Talons Shoot Their Way Out of Sting Operation.txt, Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt
+  Query 2 (chunk_size_300): Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt, Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt
+  Query 3 (chunk_size_300): Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt, Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt
+  Query 4 (chunk_size_300): Syndicate's Brutal Takeover_ Gun Violence Escalates in Sokovia's Streets.txt, Political Intrigue_ Black Vipers Linked to Gun Violence in Sokovian Election Scandal.txt, Glock 17 Seized in Sokovian Syndicate Drug Bust.txt
+  Query 5 (chunk_size_300): High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt, Silenced Pistol Found at Scene of Black Vipers' Assassination of Minister.txt, Extortion Turns Deadly_ Red Wolves’ Violent Hold Over Vilkor Businesses.txt
+  Query 6 (chunk_size_300): High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt, Heavy Firepower_ Barrett M82 Found After Dark Blade Collective Hit on Political Leader.txt, Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt
+  Query 1 (chunk_size_500): Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt, Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt
+  Query 2 (chunk_size_500): Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt, Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt, Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt
+  Query 3 (chunk_size_500): Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt, Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt, Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt
+  Query 4 (chunk_size_500): Glock 17 Seized in Sokovian Syndicate Drug Bust.txt, Syndicate War_ Sokovian Crime Family Engages in Gun Battle with Authorities.txt, Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt
+  Query 5 (chunk_size_500): Silenced Pistol Found at Scene of Black Vipers' Assassination of Minister.txt, High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt
+  Query 6 (chunk_size_500): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt
+
+Jina-Embeddings-V2:
+  Query 1 (chunk_size_200): Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt, Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt
+  Query 2 (chunk_size_200): Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt, International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt, Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt
+  Query 3 (chunk_size_200): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Mercenary Violence_ Brotherhood Executes Brutal Attack on Political Rally.txt, Assassination Attempt Fails_ Dark Blade Collective Enforcers Caught in Crossfire.txt
+  Query 4 (chunk_size_200): Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt, Silenced Pistol Found at Scene of Black Vipers' Assassination of Minister.txt, Arms Trafficking Ring Busted_ Brotherhood Smuggling Network Revealed.txt
+  Query 5 (chunk_size_200): Cybercriminals Gone Violent_ Crimson Talons Shoot Their Way Out of Sting Operation.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt
+  Query 6 (chunk_size_200): Mass Execution_ Nightshade Cartel Silences Informants in Drug Feud.txt, Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt, Weapons Cache Seized_ Iron Claw Brotherhood’s Arms Operation Disrupted.txt
+  Query 1 (chunk_size_300): Violent Heist_ Crimson Talons Hack Bank, Then Engage in Gun Battle with Police.txt, Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt, Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt
+  Query 2 (chunk_size_300): Militant Assault in Baron’s Peak_ Brotherhood Targets Military Convoy.txt, Massive Firefight_ Silver Fangs Defend Smuggling Ring in Cross-City Battle.txt, Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt
+  Query 3 (chunk_size_300): Ambushed on the Open Road_ Blood Ravens' Violent Protection Racket Exposed.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt
+  Query 4 (chunk_size_300): Silenced Pistol Found at Scene of Black Vipers' Assassination of Minister.txt, Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt, International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt
+  Query 5 (chunk_size_300): Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt, Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt
+  Query 6 (chunk_size_300): Massive Firefight_ Silver Fangs Defend Smuggling Ring in Cross-City Battle.txt, High-Stakes Shootout_ Black Vipers’ Information Exchange Turns Violent.txt, Jewelry Store Robbery Ends in Gunfire_ Ghost Shadows Flee With Millions.txt
+  Query 1 (chunk_size_500): Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt
+  Query 2 (chunk_size_500): Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt
+  Query 3 (chunk_size_500): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Baron’s Peak Shootout_ Dark Blade Collective Engages Rival Faction with Assault Rifles.txt, Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt
+  Query 4 (chunk_size_500): Heroin Operation Protected by Cartel's Heavy Firepower Uncovered in Raid.txt, Deadly Data Breach_ Crimson Talons Hackers Caught with Firearms in Sokovia Raid.txt, Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt
+  Query 5 (chunk_size_500): Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt, Massive Firefight_ Silver Fangs Defend Smuggling Ring in Cross-City Battle.txt, Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt
+  Query 6 (chunk_size_500): Desert Eagle Found at Scene of Cartel-Ordered Hit on Law Enforcement Official.txt, Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt, Forged Identity, Real Guns_ Silver Fangs' Document Operation Ends in Shootout.txt

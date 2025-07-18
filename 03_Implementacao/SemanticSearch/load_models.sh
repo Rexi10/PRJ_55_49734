@@ -8,13 +8,13 @@ ollama serve > /dev/null 2>&1 &
 SERVER_PID=$!
 
 # Wait for server
-timeout=60
+timeout=30
 until nc -z localhost 11434 || ((timeout-- <= 0)); do
     echo "Waiting for Ollama server..."
     sleep 1
 done
 if [ $timeout -le 0 ]; then
-    echo "[$(date)] Error: Ollama server failed to start within 60 seconds"
+    echo "[$(date)] Error: Ollama server failed to start within 30 seconds"
     exit 1
 fi
 
@@ -56,7 +56,7 @@ for MODEL_NAME in "${MODELS[@]}"; do
         continue
     fi
 
-    for attempt in {1..5}; do
+    for attempt in {1..3}; do
         echo "[$(date)] Attempt $attempt to pull $MODEL_NAME"
 
         if ollama pull "$MODEL_NAME"; then
@@ -68,8 +68,8 @@ for MODEL_NAME in "${MODELS[@]}"; do
             # Cleanup failed pull
             ollama rm "$MODEL_NAME" >/dev/null 2>&1 || true
 
-            if [ $attempt -eq 5 ]; then
-                echo "[$(date)] Giving up on $MODEL_NAME after 5 attempts"
+            if [ $attempt -eq 3 ]; then
+                echo "[$(date)] Giving up on $MODEL_NAME after 3 attempts"
             else
                 sleep $((attempt * 2))  # Exponential backoff
             fi
@@ -77,6 +77,9 @@ for MODEL_NAME in "${MODELS[@]}"; do
     done
 done
 
+# Signal model loading completion
+touch /root/.ollama/models_loaded
 echo "[$(date)] Model loading complete"
+
 # Keep the server running
 wait $SERVER_PID

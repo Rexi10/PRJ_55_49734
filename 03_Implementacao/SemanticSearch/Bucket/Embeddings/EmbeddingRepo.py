@@ -7,10 +7,12 @@ from Docs.Doc import Doc
 logger = logging.getLogger(__name__)
 
 class EmbeddingRepo:
+
+
     # Inicializa índice FAISS para embeddings
     def __init__(self):
         logger.debug("A inicializar EmbeddingRepo")
-        self.faiss_index = faiss.IndexFlatIP(768)
+        self.faiss_index = faiss.IndexFlatIP(1024) #embedding_dim
         self.docs = []  # Armazena tuplos (doc, chunk_index, chunk_text)
 
     def save(self, doc: Doc, chunks: List[str] = None):

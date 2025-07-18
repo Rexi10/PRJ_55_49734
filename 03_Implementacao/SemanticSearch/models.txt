@@ -1,1 +1,1 @@
-dengcao/Qwen3-Embedding-8B:Q8_0
+bge-large:latest

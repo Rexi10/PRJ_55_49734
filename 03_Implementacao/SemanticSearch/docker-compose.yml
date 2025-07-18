@@ -14,10 +14,10 @@ services:
     runtime: nvidia
     entrypoint: ["/bin/bash", "-c", "chmod +x /root/load_models.sh && /root/load_models.sh"]
     healthcheck:
-      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:11434/api/tags"]
+      test: ["CMD", "test", "-f", "/root/.ollama/models_loaded"]
       interval: 10s
-      timeout: 10s
-      retries: 3
+      timeout: 5s
+      retries: 200
     deploy:
       resources:
         reservations:
@@ -28,8 +28,8 @@ services:
 
   interface:
     build:
-      context: ./interface
-      dockerfile: Interface/Dockerfile.test
+      context: ./Interface
+      dockerfile: Dockerfile
     ports:
       - "8080:8080"
     volumes:
@@ -39,28 +39,31 @@ services:
       - PORT=8080
     networks:
       - app-network
+    depends_on:
+      ollama:
+        condition: service_healthy
 
   bucket1:
-      build:
-        context: ./bucket
-        dockerfile: Dockerfile
-      ports:
-        - "8081:8080"
-      volumes:
-        - ./bucket:/app
-        - ./bucket/buckets:/app/buckets
-      environment:
-            - FLASK_ENV=development
-            - BUCKET_NAME=Crime DataSet
-            - BUCKET_URL=http://bucket1:8080
-            - BUCKET_FOLDER=/app/buckets/bucket1
-            - OLLAMA_HOST=http://ollama:11434
-            - PORT=8080
-      networks:
-        - app-network
-      depends_on:
-        ollama:
-          condition: service_healthy
+    build:
+      context: ./bucket
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./bucket:/app
+      - ./bucket/buckets:/app/buckets
+    environment:
+      - FLASK_ENV=development
+      - BUCKET_NAME=Crime DataSet
+      - BUCKET_URL=http://bucket1:8080
+      - BUCKET_FOLDER=/app/buckets/bucket1
+      - OLLAMA_HOST=http://ollama:11434
+      - PORT=8080
+    networks:
+      - app-network
+    depends_on:
+      ollama:
+        condition: service_healthy
 
   bucket2:
     build:
@@ -81,8 +84,9 @@ services:
     networks:
       - app-network
     depends_on:
-        ollama:
-          condition: service_healthy
+      ollama:
+        condition: service_healthy
+
   bucket3:
     build:
       context: ./bucket
@@ -102,10 +106,8 @@ services:
     networks:
       - app-network
     depends_on:
-        ollama:
-          condition: service_healthy
-
-
+      ollama:
+        condition: service_healthy
 
   bucket4:
     build:
@@ -126,9 +128,8 @@ services:
     networks:
       - app-network
     depends_on:
-        ollama:
-          condition: service_healthy
-
+      ollama:
+        condition: service_healthy
 
 networks:
   app-network:

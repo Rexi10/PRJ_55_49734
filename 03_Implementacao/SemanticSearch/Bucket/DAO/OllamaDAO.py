@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 class OllamaDAO:
     def __init__(self):
-        self.model = "nomic-embed-text"
+        self.model = "bge-large:latest"
         ollama_host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
         os.environ["OLLAMA_HOST"] = ollama_host
         try:

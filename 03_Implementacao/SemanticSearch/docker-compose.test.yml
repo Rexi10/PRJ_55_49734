@@ -11,12 +11,12 @@ services:
       - ./models.txt:/root/models.txt
       - ./load_models.sh:/root/load_models.sh
       - ollama-test-data:/root/.ollama
-    entrypoint: ["/bin/bash", "-c", "chmod +x /root/load_models.sh && /root/load_models.sh && ollama serve"]
+    entrypoint: ["/bin/bash", "-c", "chmod +x /root/load_models.sh && /root/load_models.sh"]
     healthcheck:
-      test: ["CMD", "curl", "--fail", "http://localhost:11434/api/tags"]
-      interval: 5s
+      test: ["CMD", "test", "-f", "/root/.ollama/models_loaded"]
+      interval: 60s
       timeout: 5s
-      retries: 12
+      retries: 20
     deploy:
       resources:
         reservations:
