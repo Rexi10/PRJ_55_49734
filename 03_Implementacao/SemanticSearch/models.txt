@@ -1,1 +1,6 @@
+nomic-embed-text:latest
+mxbai-embed-large:latest
+all-minilm:latest
+snowflake-arctic-embed2:latest
 bge-large:latest
+granite-embedding:latest

@@ -1,0 +1,131 @@
+services:
+  ollama:
+    build:
+      context: .
+      dockerfile: Dockerfile.ollama
+    ports:
+      - "11434:11434"
+    networks:
+      - app-network
+    volumes:
+      - ./models.txt:/root/models.txt
+      - ./load_models.sh:/root/load_models.sh
+      - ollama-data:/root/.ollama
+    runtime: nvidia
+    entrypoint: ["/bin/bash", "-c", "chmod +x /root/load_models.sh && /root/load_models.sh"]
+    healthcheck:
+      test: ["CMD", "test", "-f", "/root/.ollama/models_loaded"]
+      interval: 10s
+      timeout: 5s
+      retries: 200
+
+  interface:
+    build:
+      context: ./Interface
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./interface:/app
+    environment:
+      - FLASK_ENV=development
+      - PORT=8080
+    networks:
+      - app-network
+    depends_on:
+      ollama:
+        condition: service_healthy
+
+  bucket1:
+    build:
+      context: ./bucket
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./bucket:/app
+      - ./bucket/buckets:/app/buckets
+    environment:
+      - FLASK_ENV=development
+      - BUCKET_NAME=Crime DataSet
+      - BUCKET_URL=http://bucket1:8080
+      - BUCKET_FOLDER=/app/buckets/bucket1
+      - OLLAMA_HOST=http://ollama:11434
+      - PORT=8080
+    networks:
+      - app-network
+    depends_on:
+      ollama:
+        condition: service_healthy
+
+  bucket2:
+    build:
+      context: ./bucket
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8080"
+    volumes:
+      - ./bucket:/app
+      - ./bucket/buckets:/app/buckets
+    environment:
+      - FLASK_ENV=development
+      - BUCKET_NAME=Medical DataSet (Consultations)
+      - BUCKET_URL=http://bucket2:8080
+      - BUCKET_FOLDER=/app/buckets/bucket2
+      - OLLAMA_HOST=http://ollama:11434
+      - PORT=8080
+    networks:
+      - app-network
+    depends_on:
+      ollama:
+        condition: service_healthy
+
+  bucket3:
+    build:
+      context: ./bucket
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8080"
+    volumes:
+      - ./bucket:/app
+      - ./bucket/buckets:/app/buckets
+    environment:
+      - FLASK_ENV=development
+      - BUCKET_NAME=BBC News DataSet
+      - BUCKET_URL=http://bucket3:8080
+      - BUCKET_FOLDER=/app/buckets/bucket3
+      - OLLAMA_HOST=http://ollama:11434
+      - PORT=8080
+    networks:
+      - app-network
+    depends_on:
+      ollama:
+        condition: service_healthy
+
+  bucket4:
+    build:
+      context: ./bucket
+      dockerfile: Dockerfile
+    ports:
+      - "8084:8080"
+    volumes:
+      - ./bucket:/app
+      - ./bucket/buckets:/app/buckets
+    environment:
+      - FLASK_ENV=development
+      - BUCKET_NAME=Crime DataSet PT
+      - BUCKET_URL=http://bucket4:8080
+      - BUCKET_FOLDER=/app/buckets/bucket4
+      - OLLAMA_HOST=http://ollama:11434
+      - PORT=8080
+    networks:
+      - app-network
+    depends_on:
+      ollama:
+        condition: service_healthy
+
+networks:
+  app-network:
+    driver: bridge
+volumes:
+  ollama-data:
