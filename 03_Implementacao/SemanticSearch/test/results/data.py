@@ -132,16 +132,16 @@ def plot_global_bar_metric(language, metric, data, output_dir):
         plt.ylim(0.5, 1)
     plt.xticks(x + width, model_names, rotation=45, ha="right")
     plt.legend(title="Chunk Size")
-    plt.grid(True, linestyle="--", alpha=0.6)  # Added grid
+    plt.grid(True, linestyle="--", alpha=0.6)
     plt.tight_layout()
     plt.savefig(os.path.join(output_dir, f"{metric}_global_bar.png"), dpi=300)
     plt.close()
 
-def plot_per_model_metrics(language, data, output_base_dir):
+def plot_per_model_metrics(language, data, output_base_dir, model_colors):
+    lang_dir = os.path.join(output_base_dir, language)
+    os.makedirs(lang_dir, exist_ok=True)
     for model in data:
         model_data = data[model]
-        model_dir = os.path.join(output_base_dir, language, "per_model", model)
-        os.makedirs(model_dir, exist_ok=True)
         for metric in metrics + ["avg_similarity"]:
             values = []
             labels = []
@@ -153,15 +153,15 @@ def plot_per_model_metrics(language, data, output_base_dir):
                         labels.append(chunk_labels[chunk_sizes.index(chunk)])
             if values:
                 plt.figure(figsize=(6, 4))
-                plt.bar(labels, values, color='steelblue')
+                plt.bar(labels, values, color=model_colors[model])
                 plt.title(f"{metric.replace('_', ' ').title()} ({model})")
                 plt.xlabel("Chunk Size")
                 plt.ylabel(metric.replace('_', ' ').title())
                 if metric in ["K3_similarity", "K3_noisy_similarity", "avg_similarity"]:
                     plt.ylim(0.5, 1)
-                plt.grid(True, linestyle="--", alpha=0.6)  # Added grid
+                plt.grid(True, linestyle="--", alpha=0.6)
                 plt.tight_layout()
-                filename = os.path.join(model_dir, f"{metric}.png")
+                filename = os.path.join(lang_dir, f"{metric}_{model}.png")
                 plt.savefig(filename, dpi=300)
                 plt.close()
 
@@ -171,6 +171,7 @@ def plot_avg_similarity_vs_query_time(language, data, output_dir):
     all_y_vals = []
     color_map = plt.get_cmap('tab20')
     model_list = list(data.keys())
+    model_colors = {}
     for idx, model in enumerate(model_list):
         x_vals, y_vals = [], []
         for chunk in chunk_sizes:
@@ -184,11 +185,12 @@ def plot_avg_similarity_vs_query_time(language, data, output_dir):
                 all_y_vals.append(y)
         if len(x_vals) == 3 and len(y_vals) == 3:
             color = color_map(idx % 20)
+            model_colors[model] = color
             plt.fill(x_vals, y_vals, color=color, alpha=0.2, label="_nolegend_", zorder=1)
             x_vals.append(x_vals[0])
             y_vals.append(y_vals[0])
             plt.plot(x_vals, y_vals, marker='o', label=model, color=color, zorder=2)
-    plt.grid(True, linestyle="--", alpha=0.6)  # Grid already present
+    plt.grid(True, linestyle="--", alpha=0.6)
     if all_x_vals and all_y_vals:
         x_mid = np.mean(all_x_vals)
         y_mid = np.mean(all_y_vals)
@@ -201,6 +203,7 @@ def plot_avg_similarity_vs_query_time(language, data, output_dir):
     plt.tight_layout()
     plt.savefig(os.path.join(output_dir, f"avg_similarity_vs_query_time.png"), dpi=300)
     plt.close()
+    return model_colors
 
 # Processamento
 all_data = {"portuguese": {}, "english": {}}
@@ -234,12 +237,12 @@ for language in ["portuguese", "english"]:
     lang_data = all_data[language]
     lang_dir = os.path.join(output_dir, language)
     os.makedirs(lang_dir, exist_ok=True)
+    model_colors = plot_avg_similarity_vs_query_time(language, lang_data, lang_dir)
     for metric in metrics + ["avg_similarity"]:
         plot_global_bar_metric(language, metric, lang_data, lang_dir)
-    plot_avg_similarity_vs_query_time(language, lang_data, lang_dir)
     analyze_file_overlap(all_data, language, lang_dir)
     overlap_path = os.path.join(lang_dir, f"{language}_k3_file_overlap.txt")
     generate_consensus_tables(overlap_path, lang_dir, language)
-    plot_per_model_metrics(language, lang_data, output_dir)
+    plot_per_model_metrics(language, lang_data, output_dir, model_colors)
 
 print(f"\n✅ Todos os gráficos e relatórios foram guardados em: {output_dir}")

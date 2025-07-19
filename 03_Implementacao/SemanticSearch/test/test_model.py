@@ -29,6 +29,8 @@ CHUNK_SIZES = [200, 300, 500]
 OVERLAP_FRACTION = 0.5
 RELEVANCE_THRESHOLD = 0.7
 
+
+
 PORTUGUESE_QUERIES = [
     "Quais são os relatórios recentes sobre atividades de gangues armadas em Vilkor, Zakovia?",
     "Quais são os relatórios mais recentes sobre roubos de arte envolvendo os Ghost Shadows em Ravenska, Zakovia?",
@@ -36,6 +38,9 @@ PORTUGUESE_QUERIES = [
     "Quais são os casos de contrabando de armas relatados em Sokovia em 2024?",
     "Quais atividades criminosas dos Night Vipers foram documentadas em Krov, Zakovia?",
     "Quais são as políticas de turismo sustentável em Ravenska, Zakovia?"
+    "Qual o melhor país para se viver com um estilo de vida rico, na europa?"
+    "Qual o melhor minério no Minecraft para fazer um conjunto de armadura inteiro?"
+    "Quais os melhores temperos para cozinhar um lombo de porco durante 8 horas?"
 ]
 
 NOISY_PORTUGUESE_QUERIES = [
@@ -45,6 +50,9 @@ NOISY_PORTUGUESE_QUERIES = [
     "Quais são os casso de contrabbando de armaz relatadoz em Sokovia em 2024?",
     "Quais atvidades criminossas dos Nigt Viipers foram documntadas em Kroov, Zakovia?",
     "Quais são as políicas de turismmo sustntável em Ravennska, Zakovia?"
+    "Qual a melhhor pais para se viver com um estilo de vida rico, no europa?"
+    "Qual a mellhor minério no Minicraft para fazer um conjuunto de armaduro inteira?"
+    "Quaais os melhores tempeeros para cozinhor um lomba de porca durante 8 horas?"
 ]
 
 ENGLISH_QUERIES = [
@@ -54,6 +62,9 @@ ENGLISH_QUERIES = [
     "What are the reported cases of arms smuggling in Sokovia in 2024?",
     "What criminal activities by the Night Vipers were documented in Krov, Zakovia?",
     "What are the sustainable tourism policies in Ravenska, Zakovia?"
+    "Which is the best country in Europe to live with a wealthy lifestyle?"
+    "Which is the best ore in Minecraft to make a full set of armor?"
+    "What are the best spices for cooking a pork loin for 8 hours?"
 ]
 
 NOISY_ENGLISH_QUERIES = [
@@ -63,6 +74,9 @@ NOISY_ENGLISH_QUERIES = [
     "What are the reportd casess of arms smugling in Sokovvia in 2024?",
     "What crimnal activties by the Niight Vipers were docummented in Kroov, Zakovia?",
     "What are the sustanable tourissm policiies in Ravennska, Zakovia?"
+    "Wht is the bst cntry in Eurpe to liv wth a walthy lifestyl?"
+    "Wch is the bst ore in Mncraft to mak a ful set of armr?"
+    "Wht are the bst spicess for coking a prk loin for 8 hrs?"
 ]
 
 class Doc:

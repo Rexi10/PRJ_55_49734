@@ -10867,3 +10867,89 @@
 2025-07-18 14:37:38,205 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
 2025-07-18 14:37:38,207 INFO: HealthCheck: Crime DataSet Alive=True
 2025-07-18 14:37:38,209 INFO: HealthCheck: BBC News DataSet Alive=True
+2025-07-19 02:49:39,543 INFO: Inicialização do InterfaceWebService
+2025-07-19 02:49:39,544 INFO: Inicialização do InterfaceWebService concluída
+2025-07-19 02:49:39,544 INFO: InterfaceWebService inicializado, a iniciar aplicação Flask
+2025-07-19 02:49:39,546 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-07-19 02:49:39,546 INFO:  * Running on http://172.18.0.3:8080/ (Press CTRL+C to quit)
+2025-07-19 02:49:40,094 INFO: Recebido pedido de registo do bucket
+2025-07-19 02:49:40,095 INFO: Recebido pedido de registo do bucket
+2025-07-19 02:49:40,095 INFO: Bucket Medical DataSet (Consultations) registrado em http://bucket2:8080
+2025-07-19 02:49:40,095 INFO: Recebido pedido de registo do bucket
+2025-07-19 02:49:40,095 INFO: Bucket Crime DataSet registrado em http://bucket1:8080
+2025-07-19 02:49:40,096 INFO: Recebido pedido de registo do bucket
+2025-07-19 02:49:40,096 INFO: Bucket Medical DataSet (Consultations) registrado com sucesso
+2025-07-19 02:49:40,096 INFO: Bucket Crime DataSet PT registrado em http://bucket4:8080
+2025-07-19 02:49:40,096 INFO: Bucket Crime DataSet registrado com sucesso
+2025-07-19 02:49:40,096 INFO: Bucket BBC News DataSet registrado em http://bucket3:8080
+2025-07-19 02:49:40,097 INFO: 172.18.0.7 - - [19/Jul/2025 02:49:40] "POST /ai-node/register HTTP/1.1" 200 -
+2025-07-19 02:49:40,097 INFO: Bucket Crime DataSet PT registrado com sucesso
+2025-07-19 02:49:40,097 INFO: 172.18.0.5 - - [19/Jul/2025 02:49:40] "POST /ai-node/register HTTP/1.1" 200 -
+2025-07-19 02:49:40,097 INFO: Bucket BBC News DataSet registrado com sucesso
+2025-07-19 02:49:40,098 INFO: 172.18.0.6 - - [19/Jul/2025 02:49:40] "POST /ai-node/register HTTP/1.1" 200 -
+2025-07-19 02:49:40,098 INFO: 172.18.0.4 - - [19/Jul/2025 02:49:40] "POST /ai-node/register HTTP/1.1" 200 -
+2025-07-19 02:50:09,419 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
+2025-07-19 02:50:09,422 INFO: HealthCheck: Crime DataSet Alive=True
+2025-07-19 02:50:09,424 INFO: HealthCheck: Crime DataSet PT Alive=True
+2025-07-19 02:50:09,427 INFO: HealthCheck: BBC News DataSet Alive=True
+2025-07-19 02:50:38,990 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
+2025-07-19 02:50:38,992 INFO: HealthCheck: Crime DataSet Alive=True
+2025-07-19 02:50:38,995 INFO: HealthCheck: Crime DataSet PT Alive=True
+2025-07-19 02:50:38,998 INFO: HealthCheck: BBC News DataSet Alive=True
+2025-07-19 02:51:08,869 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
+2025-07-19 02:51:08,872 INFO: HealthCheck: Crime DataSet Alive=True
+2025-07-19 02:51:08,875 INFO: HealthCheck: Crime DataSet PT Alive=True
+2025-07-19 02:51:08,878 INFO: HealthCheck: BBC News DataSet Alive=True
+2025-07-19 02:51:24,043 INFO: Serving frontend React
+2025-07-19 02:51:24,064 INFO: 172.18.0.1 - - [19/Jul/2025 02:51:24] "GET / HTTP/1.1" 200 -
+2025-07-19 02:51:24,368 INFO: 172.18.0.1 - - [19/Jul/2025 02:51:24] "GET /static/app.js HTTP/1.1" 200 -
+2025-07-19 02:51:24,374 INFO: 172.18.0.1 - - [19/Jul/2025 02:51:24] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-19 02:51:24,512 INFO: 172.18.0.1 - - [19/Jul/2025 02:51:24] "GET /buckets HTTP/1.1" 200 -
+2025-07-19 02:51:24,523 INFO: 172.18.0.1 - - [19/Jul/2025 02:51:24] "GET /buckets HTTP/1.1" 200 -
+2025-07-19 02:51:26,860 INFO: Recebido pedido de consulta
+2025-07-19 02:51:27,190 INFO: Consulta retornou resultados de 4 buckets
+2025-07-19 02:51:27,191 INFO: 172.18.0.1 - - [19/Jul/2025 02:51:27] "POST /query HTTP/1.1" 200 -
+2025-07-19 02:51:28,233 INFO: 172.18.0.1 - - [19/Jul/2025 02:51:28] "[32mGET /download/Medical%20DataSet%20(Consultations)/%2Fapp%2Fbuckets%2Fbucket2%2Ffolder_1%2F_Prostatitis___Recheck_.txt HTTP/1.1[0m" 308 -
+2025-07-19 02:51:28,249 INFO: 172.18.0.1 - - [19/Jul/2025 02:51:28] "GET /download/Medical%20DataSet%20%28Consultations%29/app/buckets/bucket2/folder_1/_Prostatitis___Recheck_.txt HTTP/1.1" 200 -
+2025-07-19 02:51:29,624 INFO: 172.18.0.1 - - [19/Jul/2025 02:51:29] "GET /buckets HTTP/1.1" 200 -
+2025-07-19 02:51:38,743 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
+2025-07-19 02:51:38,746 INFO: HealthCheck: Crime DataSet Alive=True
+2025-07-19 02:51:38,748 INFO: HealthCheck: Crime DataSet PT Alive=True
+2025-07-19 02:51:38,750 INFO: HealthCheck: BBC News DataSet Alive=True
+2025-07-19 02:52:08,615 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
+2025-07-19 02:52:08,617 INFO: HealthCheck: Crime DataSet Alive=True
+2025-07-19 02:52:08,620 INFO: HealthCheck: Crime DataSet PT Alive=True
+2025-07-19 02:52:08,622 INFO: HealthCheck: BBC News DataSet Alive=True
+2025-07-19 02:52:38,489 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
+2025-07-19 02:52:38,491 INFO: HealthCheck: Crime DataSet Alive=True
+2025-07-19 02:52:38,494 INFO: HealthCheck: Crime DataSet PT Alive=True
+2025-07-19 02:52:38,496 INFO: HealthCheck: BBC News DataSet Alive=True
+2025-07-19 02:53:08,365 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
+2025-07-19 02:53:08,368 INFO: HealthCheck: Crime DataSet Alive=True
+2025-07-19 02:53:08,371 INFO: HealthCheck: Crime DataSet PT Alive=True
+2025-07-19 02:53:08,373 INFO: HealthCheck: BBC News DataSet Alive=True
+2025-07-19 02:53:38,213 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
+2025-07-19 02:53:38,216 INFO: HealthCheck: Crime DataSet Alive=True
+2025-07-19 02:53:38,218 INFO: HealthCheck: Crime DataSet PT Alive=True
+2025-07-19 02:53:38,221 INFO: HealthCheck: BBC News DataSet Alive=True
+2025-07-19 02:54:08,061 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
+2025-07-19 02:54:08,065 INFO: HealthCheck: Crime DataSet Alive=True
+2025-07-19 02:54:08,067 INFO: HealthCheck: Crime DataSet PT Alive=True
+2025-07-19 02:54:08,069 INFO: HealthCheck: BBC News DataSet Alive=True
+2025-07-19 02:54:37,938 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
+2025-07-19 02:54:37,941 INFO: HealthCheck: Crime DataSet Alive=True
+2025-07-19 02:54:37,943 INFO: HealthCheck: Crime DataSet PT Alive=True
+2025-07-19 02:54:37,946 INFO: HealthCheck: BBC News DataSet Alive=True
+2025-07-19 02:55:07,464 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
+2025-07-19 02:55:07,467 INFO: HealthCheck: Crime DataSet Alive=True
+2025-07-19 02:55:07,469 INFO: HealthCheck: Crime DataSet PT Alive=True
+2025-07-19 02:55:07,472 INFO: HealthCheck: BBC News DataSet Alive=True
+2025-07-19 02:55:37,331 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
+2025-07-19 02:55:37,334 INFO: HealthCheck: Crime DataSet Alive=True
+2025-07-19 02:55:37,337 INFO: HealthCheck: Crime DataSet PT Alive=True
+2025-07-19 02:55:37,340 INFO: HealthCheck: BBC News DataSet Alive=True
+2025-07-19 02:56:07,205 INFO: HealthCheck: Medical DataSet (Consultations) Alive=True
+2025-07-19 02:56:07,208 INFO: HealthCheck: Crime DataSet Alive=True
+2025-07-19 02:56:07,210 INFO: HealthCheck: Crime DataSet PT Alive=True
+2025-07-19 02:56:07,213 INFO: HealthCheck: BBC News DataSet Alive=True
