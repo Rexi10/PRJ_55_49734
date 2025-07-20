@@ -1,0 +1,462 @@
+{
+  "portuguese": {
+    "chunk_size_200": {
+      "chevalblanc/acge_text_embedding": {
+        "doc_processing_time": 29.084379046000322,
+        "total_embedding_time": 28.651182651519775,
+        "avg_chunk_count": 5.69,
+        "K3_similarity": 0.6729289260175493,
+        "K3_query_time": 0.01997971699953875,
+        "K3_embedding_time": 0.019677201906840008,
+        "K3_precision": 0.3333333333333333,
+        "K3_top_files": [
+          [
+            "Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt",
+            "Comércio ilegal de armas descobertas_ presas de prata usam funcionários corruptos para evitar a captura.txt",
+            "Silver Fangs assaltando.txt"
+          ],
+          [
+            "Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt",
+            "Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt",
+            "Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt"
+          ],
+          [
+            "Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt",
+            "Tiro -tiros pesados ​​entram em erupção no ataque da Irmandade de Ferro à Facção Rival.txt",
+            "Peak Shootout de Baron, Dark Blade Collective envolve a facção rival com rifles de assalto.txt"
+          ],
+          [
+            "Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt",
+            "Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt",
+            "Violência Mercenária _ Dark Blade Collective Arnes Down Police in Sokovia Raid.txt"
+          ],
+          [
+            "Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt",
+            "Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt",
+            "Comércio ilegal de armas descobertas_ presas de prata usam funcionários corruptos para evitar a captura.txt"
+          ],
+          [
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Mercenários de elite Strike_ Dark Blade Collective por trás do assassinato político.txt",
+            "Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt"
+          ]
+        ],
+        "K3_noisy_similarity": 0.6940972639454736,
+        "K3_noisy_top_files": [
+          [
+            "Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt",
+            "Comércio ilegal de armas descobertas_ presas de prata usam funcionários corruptos para evitar a captura.txt",
+            "Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt"
+          ],
+          [
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt",
+            "Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt"
+          ],
+          [
+            "Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt",
+            "Mercenários de elite Strike_ Dark Blade Collective por trás do assassinato político.txt",
+            "Anel de tráfico de órgãos revelados_ lobos vermelhos ligados a assassinatos horríveis.txt"
+          ],
+          [
+            "Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt",
+            "Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt",
+            "Violência Mercenária _ Dark Blade Collective Arnes Down Police in Sokovia Raid.txt"
+          ],
+          [
+            "Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt",
+            "Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt",
+            "Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt"
+          ],
+          [
+            "Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt",
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "A polícia encontra um cache ilegal de armas ligado ao sindicato Sokovian em Novi graduado.txt"
+          ]
+        ]
+      }
+    },
+    "chunk_size_300": {
+      "chevalblanc/acge_text_embedding": {
+        "doc_processing_time": 16.209325996998814,
+        "total_embedding_time": 15.895750999450684,
+        "avg_chunk_count": 4.02,
+        "K3_similarity": 0.6625133156776428,
+        "K3_query_time": 0.020241870166804194,
+        "K3_embedding_time": 0.019953250885009766,
+        "K3_precision": 0.16666666666666666,
+        "K3_top_files": [
+          [
+            "Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt",
+            "As rivalidades ficam sangrentas como salários do sindicato sokoviano sobre território.txt",
+            "Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt"
+          ],
+          [
+            "Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt",
+            "Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt",
+            "Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt"
+          ],
+          [
+            "Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt",
+            "Violência Mercenária _ Dark Blade Collective Arnes Down Police in Sokovia Raid.txt",
+            "Tiro -tiros pesados ​​entram em erupção no ataque da Irmandade de Ferro à Facção Rival.txt"
+          ],
+          [
+            "Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt",
+            "Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt",
+            "Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt"
+          ],
+          [
+            "A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt",
+            "Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt",
+            "Shotgun Carnage_ Red Wolves Use Saiga-12 em assalto violento.txt"
+          ],
+          [
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt",
+            "Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt"
+          ]
+        ],
+        "K3_noisy_similarity": 0.675315154923333,
+        "K3_noisy_top_files": [
+          [
+            "Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt",
+            "As rivalidades ficam sangrentas como salários do sindicato sokoviano sobre território.txt",
+            "O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt"
+          ],
+          [
+            "Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt",
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt"
+          ],
+          [
+            "Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt",
+            "Execução em massa_ Nightshade Cartel silencia informantes em briga de drogas.txt",
+            "Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt"
+          ],
+          [
+            "Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt",
+            "Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt",
+            "Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt"
+          ],
+          [
+            "A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt",
+            "Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt",
+            "Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt"
+          ],
+          [
+            "O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt",
+            "Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt",
+            "Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt"
+          ]
+        ]
+      }
+    },
+    "chunk_size_500": {
+      "chevalblanc/acge_text_embedding": {
+        "doc_processing_time": 11.731691311000759,
+        "total_embedding_time": 11.258841276168823,
+        "avg_chunk_count": 2.61,
+        "K3_similarity": 0.6624782151646085,
+        "K3_query_time": 0.020054579833110136,
+        "K3_embedding_time": 0.01979696750640869,
+        "K3_precision": 0.27777777777777773,
+        "K3_top_files": [
+          [
+            "O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt",
+            "Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt",
+            "Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt"
+          ],
+          [
+            "Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt",
+            "Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt",
+            "Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt"
+          ],
+          [
+            "Executões submundo_ retaliação do sindicato contra a gangue rival.txt",
+            "Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt",
+            "Assalto de ponta se torna mortal_ fantasmas sombras matam guardas em assalto a museu de arte.txt"
+          ],
+          [
+            "Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt",
+            "Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt",
+            "Trafficing de armas_ presas de prata ligadas às vendas ilegais de armas em graduado Novi.txt"
+          ],
+          [
+            "Hit political_ Black Vipers dispara legisladores em chantagem mortal.txt",
+            "Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt",
+            "Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt"
+          ],
+          [
+            "Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt",
+            "Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt",
+            "Mercenários de elite Strike_ Dark Blade Collective por trás do assassinato político.txt"
+          ]
+        ],
+        "K3_noisy_similarity": 0.6816651523113251,
+        "K3_noisy_top_files": [
+          [
+            "O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt",
+            "Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt",
+            "Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt"
+          ],
+          [
+            "Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt",
+            "Operação de heroína protegida pelo poder de fogo pesado do Cartel descoberto em RAID.txt",
+            "Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt"
+          ],
+          [
+            "Executões submundo_ retaliação do sindicato contra a gangue rival.txt",
+            "Mp5 apreendido_ presas prateadas pegadas em armas que deram errado.txt",
+            "A violência armada em erupção quando o coletivo da lâmina escura elimina mercenários rivais.txt"
+          ],
+          [
+            "Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt",
+            "Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt",
+            "Trafficing de armas_ presas de prata ligadas às vendas ilegais de armas em graduado Novi.txt"
+          ],
+          [
+            "Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt",
+            "Execução em massa_ Nightshade Cartel silencia informantes em briga de drogas.txt",
+            "Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt"
+          ],
+          [
+            "Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt",
+            "Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt",
+            "Cache de armas apreendido_ a operação de armas da irmandade de ferro interrompida.txt"
+          ]
+        ]
+      }
+    }
+  },
+  "english": {
+    "chunk_size_200": {
+      "chevalblanc/acge_text_embedding": {
+        "doc_processing_time": 15.308215839000695,
+        "total_embedding_time": 14.941176891326904,
+        "avg_chunk_count": 5.19,
+        "K3_similarity": 0.636545694536633,
+        "K3_query_time": 0.023276148333328212,
+        "K3_embedding_time": 0.022991617520650227,
+        "K3_precision": 0.1111111111111111,
+        "K3_top_files": [
+          [
+            "Bloodbath on the Streets_ Red Wolves' Armed Robbery Escalates into War.txt",
+            "High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt",
+            "Assault Rifles and Rocket Launchers_ Brotherhood’s Arsenal Seized in Raid.txt"
+          ],
+          [
+            "Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt",
+            "Deadly Escape_ Ghost Shadows Gun Down Pursuers After Massive Jewelry Heist.txt",
+            "International Art Crime_ Ghost Shadows Shoot Guards in Bold Heist.txt"
+          ],
+          [
+            "Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt",
+            "Precision Killers_ Dark Blade Collective Linked to Tactical Shootings in Baron’s Peak.txt",
+            "Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt"
+          ],
+          [
+            "Massacre at the Port_ Syndicate Enforcers Open Fire in Smuggling Dispute.txt",
+            "Rivalries Turn Bloody as Sokovian Syndicate Wages War Over Territory.txt",
+            "Gun Violence Erupts as Dark Blade Collective Eliminates Rival Mercenaries.txt"
+          ],
+          [
+            "Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt",
+            "Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt",
+            "Deadly Drug Bust_ Cartel Gunmen Open Fire on Ravenska Police.txt"
+          ],
+          [
+            "Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt",
+            "Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt",
+            "Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt"
+          ]
+        ],
+        "K3_noisy_similarity": 0.6120694677035013,
+        "K3_noisy_top_files": [
+          [
+            "Assault Rifles and Rocket Launchers_ Brotherhood’s Arsenal Seized in Raid.txt",
+            "Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt",
+            "Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt"
+          ],
+          [
+            "Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt",
+            "Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt",
+            "Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt"
+          ],
+          [
+            "Precision Killers_ Dark Blade Collective Linked to Tactical Shootings in Baron’s Peak.txt",
+            "Assassination Attempt Fails_ Dark Blade Collective Enforcers Caught in Crossfire.txt",
+            "Baron’s Peak Shootout_ Dark Blade Collective Engages Rival Faction with Assault Rifles.txt"
+          ],
+          [
+            "Rivalries Turn Bloody as Sokovian Syndicate Wages War Over Territory.txt",
+            "Gun Violence Erupts as Dark Blade Collective Eliminates Rival Mercenaries.txt",
+            "Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt"
+          ],
+          [
+            "Organ Trafficking Ring Unveiled_ Red Wolves Linked to Gruesome Murders.txt",
+            "Covert Operation Ends in Shootout as Black Vipers Exfiltrate Intelligence Agents.txt",
+            "Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt"
+          ],
+          [
+            "Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt",
+            "Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt",
+            "Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt"
+          ]
+        ]
+      }
+    },
+    "chunk_size_300": {
+      "chevalblanc/acge_text_embedding": {
+        "doc_processing_time": 13.716406950999954,
+        "total_embedding_time": 13.389290809631348,
+        "avg_chunk_count": 3.62,
+        "K3_similarity": 0.6294007201989492,
+        "K3_query_time": 0.025525559999853915,
+        "K3_embedding_time": 0.02523962656656901,
+        "K3_precision": 0.05555555555555555,
+        "K3_top_files": [
+          [
+            "Bribery and Bullets_ Corrupt Officials Tied to Silver Fangs Arms Deals.txt",
+            "Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt",
+            "Crossfire_ Zakovian Army Clashes with Armed Brotherhood in Vilkor.txt"
+          ],
+          [
+            "Deadly Escape_ Ghost Shadows Gun Down Pursuers After Massive Jewelry Heist.txt",
+            "Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt",
+            "Flawless Break-In_ Ghost Shadows Use Guns to Silence Security in Artifact Theft.txt"
+          ],
+          [
+            "Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt",
+            "Shotgun Blasts_ Blood Ravens Leave Trail of Bodies in Smuggling Feud.txt",
+            "Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt"
+          ],
+          [
+            "Gun Violence Erupts as Dark Blade Collective Eliminates Rival Mercenaries.txt",
+            "Rivalries Turn Bloody as Sokovian Syndicate Wages War Over Territory.txt",
+            "Syndicate's Brutal Takeover_ Gun Violence Escalates in Sokovia's Streets.txt"
+          ],
+          [
+            "Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt",
+            "Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt",
+            "Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt"
+          ],
+          [
+            "Deadly Drug Bust_ Cartel Gunmen Open Fire on Ravenska Police.txt",
+            "High-Speed Gunfight Erupts Between Blood Ravens and Law Enforcement.txt",
+            "Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt"
+          ]
+        ],
+        "K3_noisy_similarity": 0.6244267390833961,
+        "K3_noisy_top_files": [
+          [
+            "Bribery and Bullets_ Corrupt Officials Tied to Silver Fangs Arms Deals.txt",
+            "Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt",
+            "Violent Heist_ Crimson Talons Hack Bank, Then Engage in Gun Battle with Police.txt"
+          ],
+          [
+            "Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt",
+            "Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt",
+            "Heavy Firepower_ Barrett M82 Found After Dark Blade Collective Hit on Political Leader.txt"
+          ],
+          [
+            "Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt",
+            "Brutal Smuggling Operation_ Blood Ravens Gun Down Border Patrol in Raid.txt",
+            "Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt"
+          ],
+          [
+            "Gun Violence Erupts as Dark Blade Collective Eliminates Rival Mercenaries.txt",
+            "Rivalries Turn Bloody as Sokovian Syndicate Wages War Over Territory.txt",
+            "Sokovian Syndicate Shootout Leaves 5 Dead in Gambling Den Raid.txt"
+          ],
+          [
+            "Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt",
+            "Silenced Glock Found at Scene of Ghost Shadows' Latest High-Profile Robbery.txt",
+            "Guns and Bytes_ Crimson Talons' Cyberattack Ends in Armed Standoff.txt"
+          ],
+          [
+            "Deadly Drug Bust_ Cartel Gunmen Open Fire on Ravenska Police.txt",
+            "Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt",
+            "Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt"
+          ]
+        ]
+      }
+    },
+    "chunk_size_500": {
+      "chevalblanc/acge_text_embedding": {
+        "doc_processing_time": 10.12945267899886,
+        "total_embedding_time": 9.771670579910278,
+        "avg_chunk_count": 2.23,
+        "K3_similarity": 0.6001156204276614,
+        "K3_query_time": 0.02431503349968504,
+        "K3_embedding_time": 0.0240627924601237,
+        "K3_precision": 0.0,
+        "K3_top_files": [
+          [
+            "Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt",
+            "Bribery and Bullets_ Corrupt Officials Tied to Silver Fangs Arms Deals.txt",
+            "Tech Crime Escalates_ Crimson Talons Use Guns to Cover Their Tracks.txt"
+          ],
+          [
+            "Museum Heist_ Ghost Shadows Use Firearms to Secure Van Gogh in Overnight Raid.txt",
+            "Ravenska Jewel Heist_ Ghost Shadows Engage Police in Deadly Shootout.txt",
+            "Art Theft Gone Wrong_ Ghost Shadows Kill Guards to Escape With Priceless Painting.txt"
+          ],
+          [
+            "Highway Shootout_ Blood Ravens Motorcycle Gang Attacks Police Convoy.txt",
+            "Weapons Seized_ Blood Ravens' Smuggling Ring Dismantled After Deadly Shootout.txt",
+            "Baron’s Peak Shootout_ Dark Blade Collective Engages Rival Faction with Assault Rifles.txt"
+          ],
+          [
+            "Gun Violence Erupts as Dark Blade Collective Eliminates Rival Mercenaries.txt",
+            "Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt",
+            "Rivalries Turn Bloody as Sokovian Syndicate Wages War Over Territory.txt"
+          ],
+          [
+            "Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt",
+            "Guns and Bytes_ Crimson Talons' Cyberattack Ends in Armed Standoff.txt",
+            "Desert Eagle Found at Scene of Cartel-Ordered Hit on Law Enforcement Official.txt"
+          ],
+          [
+            "Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt",
+            "Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt",
+            "Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt"
+          ]
+        ],
+        "K3_noisy_similarity": 0.6027782294485304,
+        "K3_noisy_top_files": [
+          [
+            "Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt",
+            "Red Wolves Rampage_ Gang War in Vilkor Leaves 12 Dead.txt",
+            "Bribery and Bullets_ Corrupt Officials Tied to Silver Fangs Arms Deals.txt"
+          ],
+          [
+            "Drug Cartel's Hitmen Execute Rival Dealers in Ravenska Suburb.txt",
+            "Uzi Gunfire_ Nightshade Cartel's Deadly Retaliation for Seized Drugs.txt",
+            "Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt"
+          ],
+          [
+            "Port Shootout_ Nightshade Cartel Smugglers Clash with Law Enforcement.txt",
+            "Black Vipers' Deadly Precision_ Gunmen Kill Target in Front of Sokovia Parliament.txt",
+            "Baron’s Peak Shootout_ Dark Blade Collective Engages Rival Faction with Assault Rifles.txt"
+          ],
+          [
+            "Gun Violence Erupts as Dark Blade Collective Eliminates Rival Mercenaries.txt",
+            "Police Find Illegal Arms Cache Linked to Sokovian Syndicate in Novi Grad.txt",
+            "Rivalries Turn Bloody as Sokovian Syndicate Wages War Over Territory.txt"
+          ],
+          [
+            "Guns and Bytes_ Crimson Talons' Cyberattack Ends in Armed Standoff.txt",
+            "Shotgun Carnage_ Red Wolves Use Saiga-12 in Violent Heist.txt",
+            "Blackmail Plot Turns Deadly_ Black Vipers Engage in Gun Battle Over Leaked Documents.txt"
+          ],
+          [
+            "Armed Robbery at Roadblock_ Blood Ravens Hold Travelers Hostage at Gunpoint.txt",
+            "Deadly Drug Bust_ Cartel Gunmen Open Fire on Ravenska Police.txt",
+            "Armed Robbery at Industrial Plant_ Red Wolves Responsible for Fatal Shootout.txt"
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+Consensus Table for Chunk Size 200
+Rank  Model                     Selections
+----------------------------------------
+1     BGE-Large                 6
+2     MxBAI-Large               6
+3     Nomic-Embed               6
+4     Granite                   5
+5     E5-Large                  3
+6     Jina-Embeddings-V2        3
+7     Snowflake-Arctic          3
+8     All-MiniLM                2
+9     ACGE-Text                 1
+10    Qwen3-0.6B                1
+11    Qwen3-8B                  1
