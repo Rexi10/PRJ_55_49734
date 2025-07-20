@@ -1,0 +1,592 @@
+
+=== Overlap for Chunk Size 200 ===
+
+Query 1
+Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt: selected by 5 models -> BGE-Large, E5-Large, Granite, MxBAI-Large, Nomic-Embed
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 4 models -> All-MiniLM, MxBAI-Large, Nomic-Embed, Qwen3-8B
+Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt: selected by 3 models -> Granite, Jina-Embeddings-V2, Snowflake-Arctic
+A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt: selected by 2 models -> All-MiniLM, Qwen3-0.6B
+Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt: selected by 2 models -> BGE-Large, MxBAI-Large
+Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt: selected by 2 models -> ACGE-Text, Snowflake-Arctic
+A violência armada pica como lobos vermelhos da guerra com gangues industriais rivais.txt: selected by 1 models -> All-MiniLM
+Anel de tráfico de órgãos revelados_ lobos vermelhos ligados a assassinatos horríveis.txt: selected by 1 models -> E5-Large
+Cache de armas apreendido_ a operação de armas da irmandade de ferro interrompida.txt: selected by 1 models -> E5-Large
+Comércio ilegal de armas descobertas_ presas de prata usam funcionários corruptos para evitar a captura.txt: selected by 1 models -> ACGE-Text
+Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt: selected by 1 models -> Qwen3-0.6B
+Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt: selected by 1 models -> Jina-Embeddings-V2
+MASSIVE FIREFIGHT_ Silver Fangs defender o anel de contrabando na batalha da cidade.txt: selected by 1 models -> BGE-Large
+O crime tecnológico escalla_ garras carmesias usam armas para cobrir seus trilhos.txt: selected by 1 models -> Qwen3-0.6B
+O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt: selected by 1 models -> Granite
+Rifles de assalto e lançadores de foguetes_ Arsenal da Irmandade apreendido em RAID.txt: selected by 1 models -> Snowflake-Arctic
+Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt: selected by 1 models -> Qwen3-8B
+Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt: selected by 1 models -> Qwen3-8B
+Silver Fangs assaltando.txt: selected by 1 models -> ACGE-Text
+Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt: selected by 1 models -> Jina-Embeddings-V2
+Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt: selected by 1 models -> Nomic-Embed
+
+Query 2
+Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt: selected by 7 models -> All-MiniLM, BGE-Large, Granite, Jina-Embeddings-V2, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt: selected by 5 models -> BGE-Large, E5-Large, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt: selected by 3 models -> Granite, Nomic-Embed, Snowflake-Arctic
+Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt: selected by 3 models -> BGE-Large, E5-Large, MxBAI-Large
+Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt: selected by 3 models -> ACGE-Text, All-MiniLM, E5-Large
+Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt: selected by 3 models -> ACGE-Text, Granite, Qwen3-0.6B
+Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt: selected by 2 models -> All-MiniLM, Qwen3-8B
+Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt: selected by 2 models -> ACGE-Text, Jina-Embeddings-V2
+Assalto de ponta se torna mortal_ fantasmas sombras matam guardas em assalto a museu de arte.txt: selected by 1 models -> Qwen3-0.6B
+Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt: selected by 1 models -> Qwen3-0.6B
+Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt: selected by 1 models -> Qwen3-8B
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 1 models -> Qwen3-8B
+Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt: selected by 1 models -> Jina-Embeddings-V2
+
+Query 3
+Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt: selected by 6 models -> BGE-Large, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt: selected by 5 models -> E5-Large, Granite, Nomic-Embed, Qwen3-8B, Snowflake-Arctic
+Terror rural_ corvos de sangue usam armas de fogo na operação de tráfico de seres humanos.txt: selected by 4 models -> BGE-Large, Jina-Embeddings-V2, MxBAI-Large, Nomic-Embed
+Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt: selected by 3 models -> All-MiniLM, BGE-Large, MxBAI-Large
+Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt: selected by 2 models -> E5-Large, Snowflake-Arctic
+Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt: selected by 2 models -> Granite, Qwen3-0.6B
+Cache de armas apreendido_ a operação de armas da irmandade de ferro interrompida.txt: selected by 1 models -> Jina-Embeddings-V2
+Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt: selected by 1 models -> Qwen3-0.6B
+Execução em massa_ Nightshade Cartel silencia informantes em briga de drogas.txt: selected by 1 models -> All-MiniLM
+Gangues de motocicleta War_ Blood Ravens envolve motociclistas rivais em brutal batalha de armas.txt: selected by 1 models -> All-MiniLM
+Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt: selected by 1 models -> Qwen3-8B
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 1 models -> Qwen3-8B
+Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt: selected by 1 models -> ACGE-Text
+Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt: selected by 1 models -> Jina-Embeddings-V2
+Peak Shootout de Baron, Dark Blade Collective envolve a facção rival com rifles de assalto.txt: selected by 1 models -> ACGE-Text
+Tiro -tiros pesados ​​entram em erupção no ataque da Irmandade de Ferro à Facção Rival.txt: selected by 1 models -> ACGE-Text
+Tiroteio na rodovia_ sangue corans motocicletas gangues ataques policiais comboio.txt: selected by 1 models -> Qwen3-0.6B
+
+Query 4
+A polícia encontra um cache ilegal de armas ligado ao sindicato Sokovian em Novi graduado.txt: selected by 5 models -> BGE-Large, Granite, Jina-Embeddings-V2, MxBAI-Large, Nomic-Embed
+Executões submundo_ retaliação do sindicato contra a gangue rival.txt: selected by 3 models -> BGE-Large, MxBAI-Large, Nomic-Embed
+Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt: selected by 2 models -> Qwen3-0.6B, Snowflake-Arctic
+Glock 17 apreendido no busto de drogas do Sokovian Syndicate.txt: selected by 2 models -> E5-Large, MxBAI-Large
+Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt: selected by 2 models -> ACGE-Text, Snowflake-Arctic
+Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt: selected by 2 models -> Granite, Qwen3-0.6B
+Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt: selected by 2 models -> All-MiniLM, Qwen3-8B
+A aquisição brutal do sindicato - a violência de armas aumenta nas ruas de Sokovia.txt: selected by 1 models -> Snowflake-Arctic
+A extorsão se torna mortal_ violenta retenção dos lobos vermelhos sobre as empresas de Vilkor.txt: selected by 1 models -> Jina-Embeddings-V2
+Anel de tráfico de armas preso na rede de contrabando de irmandade revelado.txt: selected by 1 models -> All-MiniLM
+Armas e drogas - o império mortal do sindicato Sokoviano exposto.txt: selected by 1 models -> Nomic-Embed
+As rivalidades ficam sangrentas como salários do sindicato sokoviano sobre território.txt: selected by 1 models -> Granite
+Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt: selected by 1 models -> Qwen3-0.6B
+Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt: selected by 1 models -> Qwen3-8B
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 1 models -> Qwen3-8B
+Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt: selected by 1 models -> Jina-Embeddings-V2
+O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt: selected by 1 models -> BGE-Large
+Plot de assassinato_ oficial de alto escalão assassinado por hitmen do sindicato.txt: selected by 1 models -> E5-Large
+Rifles de assalto e lançadores de foguetes_ Arsenal da Irmandade apreendido em RAID.txt: selected by 1 models -> All-MiniLM
+Stealth and Sabotage_ Dark Blade Collective pego em tiroteio com forças de segurança.txt: selected by 1 models -> E5-Large
+Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt: selected by 1 models -> ACGE-Text
+Violência Mercenária _ Dark Blade Collective Arnes Down Police in Sokovia Raid.txt: selected by 1 models -> ACGE-Text
+
+Query 5
+O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt: selected by 5 models -> All-MiniLM, BGE-Large, Jina-Embeddings-V2, MxBAI-Large, Nomic-Embed
+Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt: selected by 4 models -> All-MiniLM, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt: selected by 3 models -> E5-Large, Qwen3-0.6B, Qwen3-8B
+A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt: selected by 2 models -> Qwen3-8B, Snowflake-Arctic
+Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt: selected by 2 models -> BGE-Large, Snowflake-Arctic
+Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt: selected by 2 models -> BGE-Large, MxBAI-Large
+A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt: selected by 1 models -> Qwen3-0.6B
+Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt: selected by 1 models -> ACGE-Text
+Comércio ilegal de armas descobertas_ presas de prata usam funcionários corruptos para evitar a captura.txt: selected by 1 models -> ACGE-Text
+Corrupção e tiros _ Vipers pretas atacam os detalhes de segurança do político rival.txt: selected by 1 models -> Granite
+Espionagem deu errado_ víboras negras usam armas em infiltração fracassada.txt: selected by 1 models -> Granite
+Execução em massa_ Nightshade Cartel silencia informantes em briga de drogas.txt: selected by 1 models -> E5-Large
+Hit political_ Black Vipers dispara legisladores em chantagem mortal.txt: selected by 1 models -> All-MiniLM
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 1 models -> Jina-Embeddings-V2
+Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt: selected by 1 models -> Nomic-Embed
+Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt: selected by 1 models -> ACGE-Text
+Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt: selected by 1 models -> Qwen3-0.6B
+Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt: selected by 1 models -> Qwen3-8B
+Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt: selected by 1 models -> E5-Large
+Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt: selected by 1 models -> Jina-Embeddings-V2
+Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt: selected by 1 models -> Granite
+
+Query 6
+O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt: selected by 9 models -> ACGE-Text, BGE-Large, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Qwen3-0.6B, Qwen3-8B, Snowflake-Arctic
+Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt: selected by 6 models -> All-MiniLM, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt: selected by 3 models -> All-MiniLM, BGE-Large, Nomic-Embed
+Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt: selected by 1 models -> Jina-Embeddings-V2
+Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt: selected by 1 models -> BGE-Large
+Assalto à mão armada em planta industrial_ lobos vermelhos responsáveis ​​pelo tiroteio fatal.txt: selected by 1 models -> E5-Large
+Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt: selected by 1 models -> Qwen3-0.6B
+Deadly Drug Bust_ Cartel Gunmen abriu fogo na polícia de Ravenska.txt: selected by 1 models -> All-MiniLM
+Firepower pesado_ Barrett M82 encontrado após o coletivo de lâmina escura atingida no líder político.txt: selected by 1 models -> Qwen3-0.6B
+Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt: selected by 1 models -> Granite
+Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt: selected by 1 models -> MxBAI-Large
+Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt: selected by 1 models -> Qwen3-8B
+Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt: selected by 1 models -> Snowflake-Arctic
+Mercenários de elite Strike_ Dark Blade Collective por trás do assassinato político.txt: selected by 1 models -> ACGE-Text
+RELATIONIAÇÃO VIOLENTE_ RED WOLSE SLISEIROS PROPRIENDOS DE PROFUNDOS RECUSING A PAGAR A PROTEÇÃO.txt: selected by 1 models -> Qwen3-8B
+Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt: selected by 1 models -> Jina-Embeddings-V2
+Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt: selected by 1 models -> ACGE-Text
+Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt: selected by 1 models -> Jina-Embeddings-V2
+
+=== Overlap for Chunk Size 300 ===
+
+Query 1
+O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt: selected by 4 models -> BGE-Large, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt: selected by 3 models -> E5-Large, Granite, MxBAI-Large
+A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt: selected by 2 models -> E5-Large, Qwen3-0.6B
+Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt: selected by 2 models -> All-MiniLM, Nomic-Embed
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 2 models -> Qwen3-0.6B, Qwen3-8B
+Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt: selected by 2 models -> BGE-Large, Nomic-Embed
+Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt: selected by 2 models -> BGE-Large, Snowflake-Arctic
+A extorsão se torna mortal_ violenta retenção dos lobos vermelhos sobre as empresas de Vilkor.txt: selected by 1 models -> Granite
+A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt: selected by 1 models -> Granite
+As rivalidades ficam sangrentas como salários do sindicato sokoviano sobre território.txt: selected by 1 models -> ACGE-Text
+Assalto à mão armada em planta industrial_ lobos vermelhos responsáveis ​​pelo tiroteio fatal.txt: selected by 1 models -> MxBAI-Large
+Cache de armas apreendido_ a operação de armas da irmandade de ferro interrompida.txt: selected by 1 models -> Snowflake-Arctic
+Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt: selected by 1 models -> ACGE-Text
+Comércio ilegal de armas descobertas_ presas de prata usam funcionários corruptos para evitar a captura.txt: selected by 1 models -> All-MiniLM
+Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt: selected by 1 models -> ACGE-Text
+Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt: selected by 1 models -> Qwen3-8B
+Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt: selected by 1 models -> Jina-Embeddings-V2
+Mercenários de elite Strike_ Dark Blade Collective por trás do assassinato político.txt: selected by 1 models -> All-MiniLM
+O assalto de alta tecnologia se torna mortal_ os guardas armados de prata Fangs se chocam com a polícia.txt: selected by 1 models -> E5-Large
+Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt: selected by 1 models -> Jina-Embeddings-V2
+Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt: selected by 1 models -> Qwen3-0.6B
+Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt: selected by 1 models -> Qwen3-8B
+Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt: selected by 1 models -> Jina-Embeddings-V2
+
+Query 2
+Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt: selected by 5 models -> BGE-Large, E5-Large, Granite, Qwen3-0.6B, Qwen3-8B
+Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt: selected by 4 models -> All-MiniLM, BGE-Large, Granite, MxBAI-Large
+Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt: selected by 4 models -> ACGE-Text, All-MiniLM, Nomic-Embed, Qwen3-8B
+Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt: selected by 4 models -> All-MiniLM, E5-Large, MxBAI-Large, Snowflake-Arctic
+Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt: selected by 4 models -> ACGE-Text, E5-Large, Nomic-Embed, Qwen3-0.6B
+Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt: selected by 3 models -> ACGE-Text, Granite, Snowflake-Arctic
+Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt: selected by 2 models -> BGE-Large, Nomic-Embed
+Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt: selected by 2 models -> Qwen3-0.6B, Snowflake-Arctic
+Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt: selected by 1 models -> Jina-Embeddings-V2
+Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt: selected by 1 models -> Qwen3-8B
+O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt: selected by 1 models -> MxBAI-Large
+Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt: selected by 1 models -> Jina-Embeddings-V2
+Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt: selected by 1 models -> Jina-Embeddings-V2
+
+Query 3
+Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt: selected by 6 models -> All-MiniLM, BGE-Large, Granite, MxBAI-Large, Nomic-Embed, Qwen3-8B
+Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt: selected by 6 models -> All-MiniLM, BGE-Large, E5-Large, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt: selected by 4 models -> All-MiniLM, E5-Large, Qwen3-0.6B, Qwen3-8B
+Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt: selected by 4 models -> Granite, Nomic-Embed, Qwen3-0.6B, Snowflake-Arctic
+Terror rural_ corvos de sangue usam armas de fogo na operação de tráfico de seres humanos.txt: selected by 3 models -> BGE-Large, Granite, MxBAI-Large
+Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt: selected by 2 models -> ACGE-Text, Jina-Embeddings-V2
+Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt: selected by 2 models -> E5-Large, Snowflake-Arctic
+Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt: selected by 1 models -> Jina-Embeddings-V2
+Gangue de hackers armados para os dentes_ garras carmesins usam armas para proteger operações cibernéticas.txt: selected by 1 models -> Jina-Embeddings-V2
+Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt: selected by 1 models -> Qwen3-8B
+Tiro -tiros pesados ​​entram em erupção no ataque da Irmandade de Ferro à Facção Rival.txt: selected by 1 models -> ACGE-Text
+Tiroteio na rodovia_ sangue corans motocicletas gangues ataques policiais comboio.txt: selected by 1 models -> Qwen3-0.6B
+Violência Mercenária _ Dark Blade Collective Arnes Down Police in Sokovia Raid.txt: selected by 1 models -> ACGE-Text
+
+Query 4
+Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt: selected by 7 models -> All-MiniLM, BGE-Large, E5-Large, MxBAI-Large, Nomic-Embed, Qwen3-8B, Snowflake-Arctic
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 3 models -> BGE-Large, MxBAI-Large, Qwen3-8B
+A aquisição brutal do sindicato - a violência de armas aumenta nas ruas de Sokovia.txt: selected by 2 models -> Granite, Snowflake-Arctic
+As rivalidades ficam sangrentas como salários do sindicato sokoviano sobre território.txt: selected by 2 models -> Granite, Qwen3-0.6B
+Assassinatos ligados ao cartel em Sokovia_ violência não controlada por violência.txt: selected by 2 models -> Qwen3-0.6B, Snowflake-Arctic
+Operação de heroína protegida pelo poder de fogo pesado do Cartel descoberto em RAID.txt: selected by 2 models -> BGE-Large, MxBAI-Large
+Anel de tráfico de armas preso na rede de contrabando de irmandade revelado.txt: selected by 1 models -> All-MiniLM
+Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt: selected by 1 models -> Nomic-Embed
+Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt: selected by 1 models -> Qwen3-0.6B
+Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt: selected by 1 models -> ACGE-Text
+Gangue de hackers armados para os dentes_ garras carmesins usam armas para proteger operações cibernéticas.txt: selected by 1 models -> Jina-Embeddings-V2
+Glock 17 apreendido no busto de drogas do Sokovian Syndicate.txt: selected by 1 models -> Nomic-Embed
+Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt: selected by 1 models -> ACGE-Text
+Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt: selected by 1 models -> ACGE-Text
+O tiroteio do Sokovian Syndicate sai de 5 mortos no jogo de deno.txt: selected by 1 models -> E5-Large
+Plot de assassinato_ oficial de alto escalão assassinado por hitmen do sindicato.txt: selected by 1 models -> Jina-Embeddings-V2
+Rifles de assalto e lançadores de foguetes_ Arsenal da Irmandade apreendido em RAID.txt: selected by 1 models -> All-MiniLM
+Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt: selected by 1 models -> Qwen3-8B
+Stealth and Sabotage_ Dark Blade Collective pego em tiroteio com forças de segurança.txt: selected by 1 models -> Granite
+Trafficing de armas_ presas de prata ligadas às vendas ilegais de armas em graduado Novi.txt: selected by 1 models -> E5-Large
+Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt: selected by 1 models -> Jina-Embeddings-V2
+
+Query 5
+A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt: selected by 9 models -> ACGE-Text, All-MiniLM, BGE-Large, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Qwen3-0.6B, Snowflake-Arctic
+Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt: selected by 3 models -> BGE-Large, MxBAI-Large, Nomic-Embed
+Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt: selected by 3 models -> E5-Large, Qwen3-0.6B, Qwen3-8B
+O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt: selected by 2 models -> BGE-Large, MxBAI-Large
+Pistola silenciada encontrada no cenário do assassinato do ministro de Black Vipers.txt: selected by 2 models -> Granite, Snowflake-Arctic
+Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt: selected by 2 models -> Nomic-Embed, Qwen3-8B
+Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt: selected by 2 models -> All-MiniLM, Snowflake-Arctic
+Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt: selected by 1 models -> Jina-Embeddings-V2
+As rivalidades ficam sangrentas como salários do sindicato sokoviano sobre território.txt: selected by 1 models -> Jina-Embeddings-V2
+Assassinatos ligados ao cartel em Sokovia_ violência não controlada por violência.txt: selected by 1 models -> Qwen3-8B
+Corrupção e tiros _ Vipers pretas atacam os detalhes de segurança do político rival.txt: selected by 1 models -> All-MiniLM
+Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt: selected by 1 models -> Qwen3-0.6B
+Hit political_ Black Vipers dispara legisladores em chantagem mortal.txt: selected by 1 models -> Granite
+Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt: selected by 1 models -> Jina-Embeddings-V2
+Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt: selected by 1 models -> E5-Large
+Shotgun Carnage_ Red Wolves Use Saiga-12 em assalto violento.txt: selected by 1 models -> ACGE-Text
+Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt: selected by 1 models -> ACGE-Text
+
+Query 6
+O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt: selected by 9 models -> ACGE-Text, BGE-Large, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Qwen3-0.6B, Qwen3-8B, Snowflake-Arctic
+Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt: selected by 8 models -> All-MiniLM, BGE-Large, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Qwen3-0.6B, Snowflake-Arctic
+Assalto à mão armada em planta industrial_ lobos vermelhos responsáveis ​​pelo tiroteio fatal.txt: selected by 2 models -> All-MiniLM, E5-Large
+Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt: selected by 2 models -> BGE-Large, MxBAI-Large
+Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt: selected by 2 models -> Jina-Embeddings-V2, Qwen3-0.6B
+Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt: selected by 2 models -> ACGE-Text, Jina-Embeddings-V2
+Anel de tráfico de armas preso na rede de contrabando de irmandade revelado.txt: selected by 1 models -> Qwen3-8B
+Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt: selected by 1 models -> Jina-Embeddings-V2
+Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt: selected by 1 models -> Granite
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 1 models -> Nomic-Embed
+Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt: selected by 1 models -> ACGE-Text
+Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt: selected by 1 models -> Snowflake-Arctic
+RELATIONIAÇÃO VIOLENTE_ RED WOLSE SLISEIROS PROPRIENDOS DE PROFUNDOS RECUSING A PAGAR A PROTEÇÃO.txt: selected by 1 models -> Qwen3-8B
+Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt: selected by 1 models -> All-MiniLM
+
+=== Overlap for Chunk Size 500 ===
+
+Query 1
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 6 models -> All-MiniLM, BGE-Large, Granite, MxBAI-Large, Nomic-Embed, Qwen3-8B
+A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt: selected by 2 models -> All-MiniLM, Qwen3-0.6B
+Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt: selected by 2 models -> BGE-Large, MxBAI-Large
+Firepower pesado_ Barrett M82 encontrado após o coletivo de lâmina escura atingida no líder político.txt: selected by 2 models -> Granite, MxBAI-Large
+Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt: selected by 2 models -> Jina-Embeddings-V2, Snowflake-Arctic
+O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt: selected by 2 models -> Granite, Snowflake-Arctic
+Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt: selected by 2 models -> ACGE-Text, Nomic-Embed
+Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt: selected by 1 models -> All-MiniLM
+Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt: selected by 1 models -> ACGE-Text
+Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt: selected by 1 models -> Nomic-Embed
+Bangreco nas ruas_ o assalto à mão armada dos lobos vermelhos se transforma em guerra.txt: selected by 1 models -> E5-Large
+Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt: selected by 1 models -> Qwen3-8B
+Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt: selected by 1 models -> Snowflake-Arctic
+Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt: selected by 1 models -> Qwen3-8B
+Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt: selected by 1 models -> Qwen3-0.6B
+Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt: selected by 1 models -> Jina-Embeddings-V2
+Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt: selected by 1 models -> E5-Large
+MASSIVE FIREFIGHT_ Silver Fangs defender o anel de contrabando na batalha da cidade.txt: selected by 1 models -> BGE-Large
+O crime tecnológico escalla_ garras carmesias usam armas para cobrir seus trilhos.txt: selected by 1 models -> Qwen3-0.6B
+O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt: selected by 1 models -> ACGE-Text
+Suborno e balas_ funcionários corruptos vinculados a ofertas de armas de prata Fangs.txt: selected by 1 models -> E5-Large
+Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt: selected by 1 models -> Jina-Embeddings-V2
+
+Query 2
+Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt: selected by 4 models -> ACGE-Text, All-MiniLM, BGE-Large, Granite
+Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt: selected by 4 models -> All-MiniLM, E5-Large, MxBAI-Large, Nomic-Embed
+Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt: selected by 4 models -> ACGE-Text, Granite, Qwen3-0.6B, Snowflake-Arctic
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 3 models -> BGE-Large, MxBAI-Large, Qwen3-8B
+Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt: selected by 2 models -> Granite, Snowflake-Arctic
+Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt: selected by 2 models -> E5-Large, Snowflake-Arctic
+Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt: selected by 2 models -> All-MiniLM, MxBAI-Large
+Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt: selected by 2 models -> ACGE-Text, Jina-Embeddings-V2
+As sombras fantasmas têm como alvo colecionadores ricos..txt: selected by 1 models -> E5-Large
+Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt: selected by 1 models -> BGE-Large
+Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt: selected by 1 models -> Qwen3-0.6B
+Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt: selected by 1 models -> Qwen3-8B
+Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt: selected by 1 models -> Qwen3-0.6B
+Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt: selected by 1 models -> Nomic-Embed
+Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt: selected by 1 models -> Jina-Embeddings-V2
+O assalto a joalheria termina em tiros_ fantasmas sombrios fogem com milhões.txt: selected by 1 models -> Qwen3-8B
+O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt: selected by 1 models -> Nomic-Embed
+Trafficing de armas_ presas de prata ligadas às vendas ilegais de armas em graduado Novi.txt: selected by 1 models -> Jina-Embeddings-V2
+
+Query 3
+Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt: selected by 5 models -> All-MiniLM, BGE-Large, E5-Large, MxBAI-Large, Qwen3-8B
+Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt: selected by 5 models -> All-MiniLM, BGE-Large, Granite, MxBAI-Large, Snowflake-Arctic
+Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt: selected by 4 models -> E5-Large, Granite, Nomic-Embed, Qwen3-0.6B
+Cache de armas apreendido_ a operação de armas da irmandade de ferro interrompida.txt: selected by 4 models -> All-MiniLM, Granite, Jina-Embeddings-V2, Nomic-Embed
+Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt: selected by 3 models -> E5-Large, Qwen3-0.6B, Snowflake-Arctic
+Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt: selected by 3 models -> BGE-Large, Nomic-Embed, Qwen3-8B
+Tiroteio na rodovia_ sangue corans motocicletas gangues ataques policiais comboio.txt: selected by 2 models -> MxBAI-Large, Qwen3-0.6B
+Assalto de ponta se torna mortal_ fantasmas sombras matam guardas em assalto a museu de arte.txt: selected by 1 models -> ACGE-Text
+Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt: selected by 1 models -> Snowflake-Arctic
+Executões submundo_ retaliação do sindicato contra a gangue rival.txt: selected by 1 models -> ACGE-Text
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 1 models -> Qwen3-8B
+Killers Covert_ Dark Blade Collective envolvido em emboscada mortal de comboio militar.txt: selected by 1 models -> Jina-Embeddings-V2
+Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt: selected by 1 models -> ACGE-Text
+Shotgun Carnage_ Red Wolves Use Saiga-12 em assalto violento.txt: selected by 1 models -> Jina-Embeddings-V2
+
+Query 4
+Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt: selected by 4 models -> ACGE-Text, Granite, Jina-Embeddings-V2, Nomic-Embed
+Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt: selected by 3 models -> ACGE-Text, Granite, Snowflake-Arctic
+Stealth and Sabotage_ Dark Blade Collective pego em tiroteio com forças de segurança.txt: selected by 3 models -> BGE-Large, E5-Large, MxBAI-Large
+A polícia encontra um cache ilegal de armas ligado ao sindicato Sokovian em Novi graduado.txt: selected by 2 models -> BGE-Large, MxBAI-Large
+Espionagem deu errado_ víboras negras usam armas em infiltração fracassada.txt: selected by 2 models -> MxBAI-Large, Nomic-Embed
+Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt: selected by 2 models -> Qwen3-0.6B, Snowflake-Arctic
+O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt: selected by 2 models -> BGE-Large, Nomic-Embed
+Trafficing de armas_ presas de prata ligadas às vendas ilegais de armas em graduado Novi.txt: selected by 2 models -> ACGE-Text, E5-Large
+A aquisição brutal do sindicato - a violência de armas aumenta nas ruas de Sokovia.txt: selected by 1 models -> Snowflake-Arctic
+A extorsão se torna mortal_ violenta retenção dos lobos vermelhos sobre as empresas de Vilkor.txt: selected by 1 models -> Jina-Embeddings-V2
+Anel de tráfico de armas preso na rede de contrabando de irmandade revelado.txt: selected by 1 models -> All-MiniLM
+Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt: selected by 1 models -> Qwen3-0.6B
+Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt: selected by 1 models -> Qwen3-8B
+Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt: selected by 1 models -> Qwen3-0.6B
+Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt: selected by 1 models -> Qwen3-8B
+Glock 17 apreendido no busto de drogas do Sokovian Syndicate.txt: selected by 1 models -> E5-Large
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 1 models -> Qwen3-8B
+Operação de heroína protegida pelo poder de fogo pesado do Cartel descoberto em RAID.txt: selected by 1 models -> Granite
+Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt: selected by 1 models -> All-MiniLM
+Rifles de assalto e lançadores de foguetes_ Arsenal da Irmandade apreendido em RAID.txt: selected by 1 models -> All-MiniLM
+Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt: selected by 1 models -> Jina-Embeddings-V2
+
+Query 5
+Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt: selected by 5 models -> All-MiniLM, BGE-Large, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt: selected by 3 models -> BGE-Large, MxBAI-Large, Nomic-Embed
+Hit political_ Black Vipers dispara legisladores em chantagem mortal.txt: selected by 3 models -> ACGE-Text, BGE-Large, MxBAI-Large
+Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt: selected by 3 models -> E5-Large, Qwen3-0.6B, Qwen3-8B
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 2 models -> Granite, Jina-Embeddings-V2
+MASSIVE FIREFIGHT_ Silver Fangs defender o anel de contrabando na batalha da cidade.txt: selected by 2 models -> Granite, Jina-Embeddings-V2
+Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt: selected by 2 models -> All-MiniLM, Snowflake-Arctic
+A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt: selected by 1 models -> Qwen3-0.6B
+Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt: selected by 1 models -> ACGE-Text
+Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt: selected by 1 models -> Qwen3-8B
+Corrupção e tiros _ Vipers pretas atacam os detalhes de segurança do político rival.txt: selected by 1 models -> All-MiniLM
+Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt: selected by 1 models -> Nomic-Embed
+Execução em massa_ Nightshade Cartel silencia informantes em briga de drogas.txt: selected by 1 models -> E5-Large
+Gangues de motocicleta War_ Blood Ravens envolve motociclistas rivais em brutal batalha de armas.txt: selected by 1 models -> Granite
+Pistola silenciada encontrada no cenário do assassinato do ministro de Black Vipers.txt: selected by 1 models -> Snowflake-Arctic
+Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt: selected by 1 models -> Qwen3-8B
+Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt: selected by 1 models -> E5-Large
+Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt: selected by 1 models -> Jina-Embeddings-V2
+Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt: selected by 1 models -> Qwen3-0.6B
+Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt: selected by 1 models -> ACGE-Text
+
+Query 6
+Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt: selected by 7 models -> ACGE-Text, All-MiniLM, E5-Large, Granite, MxBAI-Large, Nomic-Embed, Snowflake-Arctic
+Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt: selected by 3 models -> BGE-Large, MxBAI-Large, Qwen3-0.6B
+Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt: selected by 2 models -> BGE-Large, MxBAI-Large
+Assalto à mão armada em planta industrial_ lobos vermelhos responsáveis ​​pelo tiroteio fatal.txt: selected by 2 models -> E5-Large, Nomic-Embed
+Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt: selected by 2 models -> All-MiniLM, Granite
+Firepower pesado_ Barrett M82 encontrado após o coletivo de lâmina escura atingida no líder político.txt: selected by 2 models -> Nomic-Embed, Qwen3-0.6B
+Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt: selected by 2 models -> ACGE-Text, Jina-Embeddings-V2
+A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt: selected by 1 models -> Qwen3-8B
+Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt: selected by 1 models -> All-MiniLM
+Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt: selected by 1 models -> Qwen3-0.6B
+Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt: selected by 1 models -> E5-Large
+Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt: selected by 1 models -> Snowflake-Arctic
+Killers Covert_ Dark Blade Collective envolvido em emboscada mortal de comboio militar.txt: selected by 1 models -> Jina-Embeddings-V2
+Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt: selected by 1 models -> Qwen3-8B
+Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt: selected by 1 models -> Jina-Embeddings-V2
+Mercenários de elite Strike_ Dark Blade Collective por trás do assassinato político.txt: selected by 1 models -> ACGE-Text
+O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt: selected by 1 models -> Snowflake-Arctic
+Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt: selected by 1 models -> BGE-Large
+Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt: selected by 1 models -> Granite
+RELATIONIAÇÃO VIOLENTE_ RED WOLSE SLISEIROS PROPRIENDOS DE PROFUNDOS RECUSING A PAGAR A PROTEÇÃO.txt: selected by 1 models -> Qwen3-8B
+
+=== Per Model Selections ===
+
+All-MiniLM:
+  Query 1 (chunk_size_200): A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, A violência armada pica como lobos vermelhos da guerra com gangues industriais rivais.txt
+  Query 2 (chunk_size_200): Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt, Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt, Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt
+  Query 3 (chunk_size_200): Gangues de motocicleta War_ Blood Ravens envolve motociclistas rivais em brutal batalha de armas.txt, Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt, Execução em massa_ Nightshade Cartel silencia informantes em briga de drogas.txt
+  Query 4 (chunk_size_200): Anel de tráfico de armas preso na rede de contrabando de irmandade revelado.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Rifles de assalto e lançadores de foguetes_ Arsenal da Irmandade apreendido em RAID.txt
+  Query 5 (chunk_size_200): Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt, Hit political_ Black Vipers dispara legisladores em chantagem mortal.txt
+  Query 6 (chunk_size_200): Deadly Drug Bust_ Cartel Gunmen abriu fogo na polícia de Ravenska.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt
+  Query 1 (chunk_size_300): Comércio ilegal de armas descobertas_ presas de prata usam funcionários corruptos para evitar a captura.txt, Mercenários de elite Strike_ Dark Blade Collective por trás do assassinato político.txt, Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt
+  Query 2 (chunk_size_300): Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt, Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt, Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt
+  Query 3 (chunk_size_300): Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt, Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt
+  Query 4 (chunk_size_300): Anel de tráfico de armas preso na rede de contrabando de irmandade revelado.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Rifles de assalto e lançadores de foguetes_ Arsenal da Irmandade apreendido em RAID.txt
+  Query 5 (chunk_size_300): A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Corrupção e tiros _ Vipers pretas atacam os detalhes de segurança do político rival.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt
+  Query 6 (chunk_size_300): Assalto à mão armada em planta industrial_ lobos vermelhos responsáveis ​​pelo tiroteio fatal.txt, Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt
+  Query 1 (chunk_size_500): A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt
+  Query 2 (chunk_size_500): Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt, Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt
+  Query 3 (chunk_size_500): Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt, Cache de armas apreendido_ a operação de armas da irmandade de ferro interrompida.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt
+  Query 4 (chunk_size_500): Anel de tráfico de armas preso na rede de contrabando de irmandade revelado.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Rifles de assalto e lançadores de foguetes_ Arsenal da Irmandade apreendido em RAID.txt
+  Query 5 (chunk_size_500): Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt, Corrupção e tiros _ Vipers pretas atacam os detalhes de segurança do político rival.txt
+  Query 6 (chunk_size_500): Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt, Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt
+
+BGE-Large:
+  Query 1 (chunk_size_200): Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt, Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt, MASSIVE FIREFIGHT_ Silver Fangs defender o anel de contrabando na batalha da cidade.txt
+  Query 2 (chunk_size_200): Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt, Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt, Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt
+  Query 3 (chunk_size_200): Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt, Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt, Terror rural_ corvos de sangue usam armas de fogo na operação de tráfico de seres humanos.txt
+  Query 4 (chunk_size_200): A polícia encontra um cache ilegal de armas ligado ao sindicato Sokovian em Novi graduado.txt, Executões submundo_ retaliação do sindicato contra a gangue rival.txt, O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt
+  Query 5 (chunk_size_200): O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt, Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt, Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt
+  Query 6 (chunk_size_200): O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt, Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt
+  Query 1 (chunk_size_300): O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt, Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt
+  Query 2 (chunk_size_300): Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt, Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt, Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt
+  Query 3 (chunk_size_300): Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt, Terror rural_ corvos de sangue usam armas de fogo na operação de tráfico de seres humanos.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt
+  Query 4 (chunk_size_300): Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Operação de heroína protegida pelo poder de fogo pesado do Cartel descoberto em RAID.txt
+  Query 5 (chunk_size_300): A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt, Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt
+  Query 6 (chunk_size_300): Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt
+  Query 1 (chunk_size_500): Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt, MASSIVE FIREFIGHT_ Silver Fangs defender o anel de contrabando na batalha da cidade.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt
+  Query 2 (chunk_size_500): Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt
+  Query 3 (chunk_size_500): Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt, Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt
+  Query 4 (chunk_size_500): A polícia encontra um cache ilegal de armas ligado ao sindicato Sokovian em Novi graduado.txt, Stealth and Sabotage_ Dark Blade Collective pego em tiroteio com forças de segurança.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt
+  Query 5 (chunk_size_500): A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt, Hit political_ Black Vipers dispara legisladores em chantagem mortal.txt
+  Query 6 (chunk_size_500): Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt, Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt, Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt
+
+ACGE-Text:
+  Query 1 (chunk_size_200): Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt, Comércio ilegal de armas descobertas_ presas de prata usam funcionários corruptos para evitar a captura.txt, Silver Fangs assaltando.txt
+  Query 2 (chunk_size_200): Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt
+  Query 3 (chunk_size_200): Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt, Tiro -tiros pesados ​​entram em erupção no ataque da Irmandade de Ferro à Facção Rival.txt, Peak Shootout de Baron, Dark Blade Collective envolve a facção rival com rifles de assalto.txt
+  Query 4 (chunk_size_200): Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt, Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt, Violência Mercenária _ Dark Blade Collective Arnes Down Police in Sokovia Raid.txt
+  Query 5 (chunk_size_200): Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt, Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt, Comércio ilegal de armas descobertas_ presas de prata usam funcionários corruptos para evitar a captura.txt
+  Query 6 (chunk_size_200): O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Mercenários de elite Strike_ Dark Blade Collective por trás do assassinato político.txt, Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt
+  Query 1 (chunk_size_300): Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt, As rivalidades ficam sangrentas como salários do sindicato sokoviano sobre território.txt, Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt
+  Query 2 (chunk_size_300): Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt, Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt
+  Query 3 (chunk_size_300): Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt, Violência Mercenária _ Dark Blade Collective Arnes Down Police in Sokovia Raid.txt, Tiro -tiros pesados ​​entram em erupção no ataque da Irmandade de Ferro à Facção Rival.txt
+  Query 4 (chunk_size_300): Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt, Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt, Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt
+  Query 5 (chunk_size_300): A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt, Shotgun Carnage_ Red Wolves Use Saiga-12 em assalto violento.txt
+  Query 6 (chunk_size_300): O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt, Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt
+  Query 1 (chunk_size_500): O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt, Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt, Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt
+  Query 2 (chunk_size_500): Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt, Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt
+  Query 3 (chunk_size_500): Executões submundo_ retaliação do sindicato contra a gangue rival.txt, Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt, Assalto de ponta se torna mortal_ fantasmas sombras matam guardas em assalto a museu de arte.txt
+  Query 4 (chunk_size_500): Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt, Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt, Trafficing de armas_ presas de prata ligadas às vendas ilegais de armas em graduado Novi.txt
+  Query 5 (chunk_size_500): Hit political_ Black Vipers dispara legisladores em chantagem mortal.txt, Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt, Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt
+  Query 6 (chunk_size_500): Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Mercenários de elite Strike_ Dark Blade Collective por trás do assassinato político.txt
+
+Qwen3-0.6B:
+  Query 1 (chunk_size_200): O crime tecnológico escalla_ garras carmesias usam armas para cobrir seus trilhos.txt, Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt, A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt
+  Query 2 (chunk_size_200): Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Assalto de ponta se torna mortal_ fantasmas sombras matam guardas em assalto a museu de arte.txt
+  Query 3 (chunk_size_200): Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt, Tiroteio na rodovia_ sangue corans motocicletas gangues ataques policiais comboio.txt, Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt
+  Query 4 (chunk_size_200): Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt, Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt, Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt
+  Query 5 (chunk_size_200): Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt, A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt, Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt
+  Query 6 (chunk_size_200): O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt, Firepower pesado_ Barrett M82 encontrado após o coletivo de lâmina escura atingida no líder político.txt
+  Query 1 (chunk_size_300): Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt
+  Query 2 (chunk_size_300): Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt, Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt
+  Query 3 (chunk_size_300): Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt, Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt, Tiroteio na rodovia_ sangue corans motocicletas gangues ataques policiais comboio.txt
+  Query 4 (chunk_size_300): As rivalidades ficam sangrentas como salários do sindicato sokoviano sobre território.txt, Assassinatos ligados ao cartel em Sokovia_ violência não controlada por violência.txt, Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt
+  Query 5 (chunk_size_300): A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt
+  Query 6 (chunk_size_300): Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt
+  Query 1 (chunk_size_500): O crime tecnológico escalla_ garras carmesias usam armas para cobrir seus trilhos.txt, Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt, A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt
+  Query 2 (chunk_size_500): Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt, Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt
+  Query 3 (chunk_size_500): Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt, Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt, Tiroteio na rodovia_ sangue corans motocicletas gangues ataques policiais comboio.txt
+  Query 4 (chunk_size_500): Assalonas violentas_ garons carmesins Hack Bank e depois se envolve em batalha com a polícia.txt, Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt, Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt
+  Query 5 (chunk_size_500): Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt, A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt, Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt
+  Query 6 (chunk_size_500): Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt, Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt, Firepower pesado_ Barrett M82 encontrado após o coletivo de lâmina escura atingida no líder político.txt
+
+Qwen3-8B:
+  Query 1 (chunk_size_200): Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt, Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt
+  Query 2 (chunk_size_200): Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt
+  Query 3 (chunk_size_200): Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt, Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt
+  Query 4 (chunk_size_200): Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt
+  Query 5 (chunk_size_200): Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt, A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt
+  Query 6 (chunk_size_200): Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, RELATIONIAÇÃO VIOLENTE_ RED WOLSE SLISEIROS PROPRIENDOS DE PROFUNDOS RECUSING A PAGAR A PROTEÇÃO.txt
+  Query 1 (chunk_size_300): Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt
+  Query 2 (chunk_size_300): Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt, Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt
+  Query 3 (chunk_size_300): Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt, Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt, Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt
+  Query 4 (chunk_size_300): Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt
+  Query 5 (chunk_size_300): Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt, Assassinatos ligados ao cartel em Sokovia_ violência não controlada por violência.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt
+  Query 6 (chunk_size_300): Anel de tráfico de armas preso na rede de contrabando de irmandade revelado.txt, RELATIONIAÇÃO VIOLENTE_ RED WOLSE SLISEIROS PROPRIENDOS DE PROFUNDOS RECUSING A PAGAR A PROTEÇÃO.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt
+  Query 1 (chunk_size_500): Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt, Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt
+  Query 2 (chunk_size_500): Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt, O assalto a joalheria termina em tiros_ fantasmas sombrios fogem com milhões.txt
+  Query 3 (chunk_size_500): Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt, Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt
+  Query 4 (chunk_size_500): Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt, Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt
+  Query 5 (chunk_size_500): Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt, Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt, Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt
+  Query 6 (chunk_size_500): Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt, RELATIONIAÇÃO VIOLENTE_ RED WOLSE SLISEIROS PROPRIENDOS DE PROFUNDOS RECUSING A PAGAR A PROTEÇÃO.txt, A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt
+
+Granite:
+  Query 1 (chunk_size_200): Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt, Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt
+  Query 2 (chunk_size_200): Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt, Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt
+  Query 3 (chunk_size_200): Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt, Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt, Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt
+  Query 4 (chunk_size_200): Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt, A polícia encontra um cache ilegal de armas ligado ao sindicato Sokovian em Novi graduado.txt, As rivalidades ficam sangrentas como salários do sindicato sokoviano sobre território.txt
+  Query 5 (chunk_size_200): Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt, Espionagem deu errado_ víboras negras usam armas em infiltração fracassada.txt, Corrupção e tiros _ Vipers pretas atacam os detalhes de segurança do político rival.txt
+  Query 6 (chunk_size_200): O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt
+  Query 1 (chunk_size_300): A situação dos reféns termina em derramamento de sangue como lobos vermelhos desafiam as autoridades.txt, A extorsão se torna mortal_ violenta retenção dos lobos vermelhos sobre as empresas de Vilkor.txt, Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt
+  Query 2 (chunk_size_300): Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt, Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt, Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt
+  Query 3 (chunk_size_300): Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt, Terror rural_ corvos de sangue usam armas de fogo na operação de tráfico de seres humanos.txt, Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt
+  Query 4 (chunk_size_300): A aquisição brutal do sindicato - a violência de armas aumenta nas ruas de Sokovia.txt, As rivalidades ficam sangrentas como salários do sindicato sokoviano sobre território.txt, Stealth and Sabotage_ Dark Blade Collective pego em tiroteio com forças de segurança.txt
+  Query 5 (chunk_size_300): A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Pistola silenciada encontrada no cenário do assassinato do ministro de Black Vipers.txt, Hit political_ Black Vipers dispara legisladores em chantagem mortal.txt
+  Query 6 (chunk_size_300): Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt
+  Query 1 (chunk_size_500): O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Firepower pesado_ Barrett M82 encontrado após o coletivo de lâmina escura atingida no líder político.txt
+  Query 2 (chunk_size_500): Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt
+  Query 3 (chunk_size_500): Cache de armas apreendido_ a operação de armas da irmandade de ferro interrompida.txt, Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt, Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt
+  Query 4 (chunk_size_500): Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt, Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt, Operação de heroína protegida pelo poder de fogo pesado do Cartel descoberto em RAID.txt
+  Query 5 (chunk_size_500): Gangues de motocicleta War_ Blood Ravens envolve motociclistas rivais em brutal batalha de armas.txt, MASSIVE FIREFIGHT_ Silver Fangs defender o anel de contrabando na batalha da cidade.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt
+  Query 6 (chunk_size_500): Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt, Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt
+
+E5-Large:
+  Query 1 (chunk_size_200): Cache de armas apreendido_ a operação de armas da irmandade de ferro interrompida.txt, Anel de tráfico de órgãos revelados_ lobos vermelhos ligados a assassinatos horríveis.txt, Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt
+  Query 2 (chunk_size_200): Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt, Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt, Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt
+  Query 3 (chunk_size_200): Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt, Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt, Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt
+  Query 4 (chunk_size_200): Glock 17 apreendido no busto de drogas do Sokovian Syndicate.txt, Stealth and Sabotage_ Dark Blade Collective pego em tiroteio com forças de segurança.txt, Plot de assassinato_ oficial de alto escalão assassinado por hitmen do sindicato.txt
+  Query 5 (chunk_size_200): Execução em massa_ Nightshade Cartel silencia informantes em briga de drogas.txt, Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt, Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt
+  Query 6 (chunk_size_200): O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Assalto à mão armada em planta industrial_ lobos vermelhos responsáveis ​​pelo tiroteio fatal.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt
+  Query 1 (chunk_size_300): A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt, O assalto de alta tecnologia se torna mortal_ os guardas armados de prata Fangs se chocam com a polícia.txt
+  Query 2 (chunk_size_300): Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt, Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt
+  Query 3 (chunk_size_300): Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt, Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt, Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt
+  Query 4 (chunk_size_300): Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Trafficing de armas_ presas de prata ligadas às vendas ilegais de armas em graduado Novi.txt, O tiroteio do Sokovian Syndicate sai de 5 mortos no jogo de deno.txt
+  Query 5 (chunk_size_300): A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt
+  Query 6 (chunk_size_300): Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Assalto à mão armada em planta industrial_ lobos vermelhos responsáveis ​​pelo tiroteio fatal.txt
+  Query 1 (chunk_size_500): Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt, Suborno e balas_ funcionários corruptos vinculados a ofertas de armas de prata Fangs.txt, Bangreco nas ruas_ o assalto à mão armada dos lobos vermelhos se transforma em guerra.txt
+  Query 2 (chunk_size_500): Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt, As sombras fantasmas têm como alvo colecionadores ricos..txt, Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt
+  Query 3 (chunk_size_500): Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt, Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt
+  Query 4 (chunk_size_500): Stealth and Sabotage_ Dark Blade Collective pego em tiroteio com forças de segurança.txt, Glock 17 apreendido no busto de drogas do Sokovian Syndicate.txt, Trafficing de armas_ presas de prata ligadas às vendas ilegais de armas em graduado Novi.txt
+  Query 5 (chunk_size_500): Execução em massa_ Nightshade Cartel silencia informantes em briga de drogas.txt, Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt, Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt
+  Query 6 (chunk_size_500): Assalto à mão armada em planta industrial_ lobos vermelhos responsáveis ​​pelo tiroteio fatal.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt
+
+MxBAI-Large:
+  Query 1 (chunk_size_200): Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt, Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt
+  Query 2 (chunk_size_200): Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt, Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt, Glock silenciado encontrado em cena do último assalto de alto perfil de Ghost Shadows.txt
+  Query 3 (chunk_size_200): Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt, Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt, Terror rural_ corvos de sangue usam armas de fogo na operação de tráfico de seres humanos.txt
+  Query 4 (chunk_size_200): A polícia encontra um cache ilegal de armas ligado ao sindicato Sokovian em Novi graduado.txt, Executões submundo_ retaliação do sindicato contra a gangue rival.txt, Glock 17 apreendido no busto de drogas do Sokovian Syndicate.txt
+  Query 5 (chunk_size_200): O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt, Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt
+  Query 6 (chunk_size_200): O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt
+  Query 1 (chunk_size_300): O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt, Assalto à mão armada em planta industrial_ lobos vermelhos responsáveis ​​pelo tiroteio fatal.txt
+  Query 2 (chunk_size_300): Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt, Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt
+  Query 3 (chunk_size_300): Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt, Terror rural_ corvos de sangue usam armas de fogo na operação de tráfico de seres humanos.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt
+  Query 4 (chunk_size_300): Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Operação de heroína protegida pelo poder de fogo pesado do Cartel descoberto em RAID.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt
+  Query 5 (chunk_size_300): A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt, O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt
+  Query 6 (chunk_size_300): Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt
+  Query 1 (chunk_size_500): Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Firepower pesado_ Barrett M82 encontrado após o coletivo de lâmina escura atingida no líder político.txt
+  Query 2 (chunk_size_500): Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt
+  Query 3 (chunk_size_500): Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt, Tiroteio na rodovia_ sangue corans motocicletas gangues ataques policiais comboio.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt
+  Query 4 (chunk_size_500): A polícia encontra um cache ilegal de armas ligado ao sindicato Sokovian em Novi graduado.txt, Stealth and Sabotage_ Dark Blade Collective pego em tiroteio com forças de segurança.txt, Espionagem deu errado_ víboras negras usam armas em infiltração fracassada.txt
+  Query 5 (chunk_size_500): A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Hit political_ Black Vipers dispara legisladores em chantagem mortal.txt, Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt
+  Query 6 (chunk_size_500): Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt, Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt
+
+Nomic-Embed:
+  Query 1 (chunk_size_200): Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Crossfire_ Zakovian Exército confronta com irmandade armada em Vilkor.txt
+  Query 2 (chunk_size_200): Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt, Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt, Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt
+  Query 3 (chunk_size_200): Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt, Terror rural_ corvos de sangue usam armas de fogo na operação de tráfico de seres humanos.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt
+  Query 4 (chunk_size_200): A polícia encontra um cache ilegal de armas ligado ao sindicato Sokovian em Novi graduado.txt, Executões submundo_ retaliação do sindicato contra a gangue rival.txt, Armas e drogas - o império mortal do sindicato Sokoviano exposto.txt
+  Query 5 (chunk_size_200): O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt, Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt
+  Query 6 (chunk_size_200): O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt
+  Query 1 (chunk_size_300): O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt, Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt
+  Query 2 (chunk_size_300): Escape Deadly Fantast Shadows Gun Down Pursuers After Jewelry Heist.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt
+  Query 3 (chunk_size_300): Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt, Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt
+  Query 4 (chunk_size_300): Glock 17 apreendido no busto de drogas do Sokovian Syndicate.txt, Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt
+  Query 5 (chunk_size_300): A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt, Rota de heroína Narco Violence_ protegida pelas patrulhas armadas do Cartel.txt
+  Query 6 (chunk_size_300): Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt
+  Query 1 (chunk_size_500): Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt
+  Query 2 (chunk_size_500): Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt
+  Query 3 (chunk_size_500): Armas apreendidas_ anel de contrabando de sangue de sangue desmontado após tiroteio mortal.txt, Porto Shootout_ Nightshade Cartel Smugglers Clash com a aplicação da lei.txt, Cache de armas apreendido_ a operação de armas da irmandade de ferro interrompida.txt
+  Query 4 (chunk_size_500): Espionagem deu errado_ víboras negras usam armas em infiltração fracassada.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt
+  Query 5 (chunk_size_500): A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt
+  Query 6 (chunk_size_500): Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Firepower pesado_ Barrett M82 encontrado após o coletivo de lâmina escura atingida no líder político.txt, Assalto à mão armada em planta industrial_ lobos vermelhos responsáveis ​​pelo tiroteio fatal.txt
+
+Snowflake-Arctic:
+  Query 1 (chunk_size_200): Rifles de assalto e lançadores de foguetes_ Arsenal da Irmandade apreendido em RAID.txt, Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt, Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt
+  Query 2 (chunk_size_200): Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt, Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt, Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt
+  Query 3 (chunk_size_200): Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt, Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt
+  Query 4 (chunk_size_200): A aquisição brutal do sindicato - a violência de armas aumenta nas ruas de Sokovia.txt, Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt, Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt
+  Query 5 (chunk_size_200): Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt, A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt
+  Query 6 (chunk_size_200): O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt
+  Query 1 (chunk_size_300): Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Cache de armas apreendido_ a operação de armas da irmandade de ferro interrompida.txt
+  Query 2 (chunk_size_300): Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt, Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt, Heist de Museu_ Ghost Shadows Use armas de fogo para proteger Van Gogh em Raid noturno.txt
+  Query 3 (chunk_size_300): Shotgun Blasts_ Blood Ravens deixa a trilha de corpos no contrabando de disputa.txt, Emboscado na estrada de proteção violenta dos Ravens de Blood Ravens exposto.txt, Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt
+  Query 4 (chunk_size_300): Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Assassinatos ligados ao cartel em Sokovia_ violência não controlada por violência.txt, A aquisição brutal do sindicato - a violência de armas aumenta nas ruas de Sokovia.txt
+  Query 5 (chunk_size_300): A operação secreta termina em tiroteio como víboras negras exfiltrar agentes de inteligência.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Pistola silenciada encontrada no cenário do assassinato do ministro de Black Vipers.txt
+  Query 6 (chunk_size_300): Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt, Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt
+  Query 1 (chunk_size_500): Cybercriminals Gone Violent_ Grimson Talonns disparando o caminho para fora da operação de picada.txt, Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt
+  Query 2 (chunk_size_500): Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt, Roubo de arte deu errado_ sombras fantasmas matam guardas para escapar com pintura inestimável.txt, Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt
+  Query 3 (chunk_size_500): Território hostil_ corvos de sangue assumem o controle de rodovias rurais com poder de fogo.txt, Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt, Assalto à mão armada em roadblock_ ravens de sangue mantêm os viajantes reféns à mão armada.txt
+  Query 4 (chunk_size_500): A aquisição brutal do sindicato - a violência de armas aumenta nas ruas de Sokovia.txt, Intriga política_ víboras negras ligadas à violência armada no escândalo eleitoral da Sokovian.txt, Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt
+  Query 5 (chunk_size_500): Precision_nemen mortais de Black Vipers matam o alvo em frente ao Parlamento de Sokovia.txt, Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Pistola silenciada encontrada no cenário do assassinato do ministro de Black Vipers.txt
+  Query 6 (chunk_size_500): Shootout de alto risco_ a troca de informações de Vipers Negras Torna Violenta.txt, Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, O tiroteio de alta velocidade entra em erupção entre os corvos do sangue e a aplicação da lei.txt
+
+Jina-Embeddings-V2:
+  Query 1 (chunk_size_200): Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt, Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt, Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt
+  Query 2 (chunk_size_200): Arte Internacional Crime_ Ghost Shadows Shoot Guards em Bold Heist.txt, Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt, Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt
+  Query 3 (chunk_size_200): Cache de armas apreendido_ a operação de armas da irmandade de ferro interrompida.txt, Terror rural_ corvos de sangue usam armas de fogo na operação de tráfico de seres humanos.txt, Killers de precisão_ coletivo de lâmina escura ligada a tiroteios táticos no pico de Baron.txt
+  Query 4 (chunk_size_200): Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt, A polícia encontra um cache ilegal de armas ligado ao sindicato Sokovian em Novi graduado.txt, A extorsão se torna mortal_ violenta retenção dos lobos vermelhos sobre as empresas de Vilkor.txt
+  Query 5 (chunk_size_200): Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt, O enredo de chantagem fica mortal_ víbora preta se envolve em batalha de armas por documentos vazados.txt
+  Query 6 (chunk_size_200): Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt, Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt
+  Query 1 (chunk_size_300): Identidade forjada, o Operação de documentos de Silver Fangs, armas reais, termina no tiroteio.txt, Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt, Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt
+  Query 2 (chunk_size_300): Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt, Operação de contrabando brutal_ Blood Ravens armas pela Patrulha da Fronteira em Raid.txt, Cartel War_ rivais capturados em fogo cruzado de guerra de drogas no cartel.txt
+  Query 3 (chunk_size_300): Gangue de hackers armados para os dentes_ garras carmesins usam armas para proteger operações cibernéticas.txt, Break-in impecável Sombras fantasmas usam armas para silenciar a segurança em roubo de artefato.txt, Assalto militante no Peak_ Brotherhood de Baron tem como alvo o comboio militar.txt
+  Query 4 (chunk_size_300): Plot de assassinato_ oficial de alto escalão assassinado por hitmen do sindicato.txt, Uzi Gunfire_ Nightshade Retaliação mortal de Cartel por drogas apreendidas.txt, Gangue de hackers armados para os dentes_ garras carmesins usam armas para proteger operações cibernéticas.txt
+  Query 5 (chunk_size_300): As rivalidades ficam sangrentas como salários do sindicato sokoviano sobre território.txt, Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt, Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt
+  Query 6 (chunk_size_300): Ravenska Jewel Heist_ Ghost Shadows envolve a polícia em tiroteio mortal.txt, Armas e bytes_ Cyberattack de garras carmesins termina em impasse armado.txt, Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt
+  Query 1 (chunk_size_500): Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt, Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt, Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt
+  Query 2 (chunk_size_500): Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt, Lobos vermelhos Rampage_ Gangue War in Vilkor sai 12 Dead.txt, Trafficing de armas_ presas de prata ligadas às vendas ilegais de armas em graduado Novi.txt
+  Query 3 (chunk_size_500): Cache de armas apreendido_ a operação de armas da irmandade de ferro interrompida.txt, Killers Covert_ Dark Blade Collective envolvido em emboscada mortal de comboio militar.txt, Shotgun Carnage_ Red Wolves Use Saiga-12 em assalto violento.txt
+  Query 4 (chunk_size_500): Irmandade de Garra de Ferro_ armas de nível militar usado em assassinato político.txt, A extorsão se torna mortal_ violenta retenção dos lobos vermelhos sobre as empresas de Vilkor.txt, Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt
+  Query 5 (chunk_size_500): Hitmen Execution Rivals de Cartel de Drogas no subúrbio de Ravenska.txt, Tentativa de assassinato falha_ Dark Blade Collective Agridores capturados em fogo cruzado.txt, MASSIVE FIREFIGHT_ Silver Fangs defender o anel de contrabando na batalha da cidade.txt
+  Query 6 (chunk_size_500): Killers Covert_ Dark Blade Collective envolvido em emboscada mortal de comboio militar.txt, Massacre no port_ syndicate encomende fogo em disputa de contrabando.txt, Violência Explosiva_ Ataque da Irmandade de Clawas de Ferro à Facilidade do Governo.txt
